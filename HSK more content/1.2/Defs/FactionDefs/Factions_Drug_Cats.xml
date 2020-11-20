@@ -3,10 +3,10 @@
 
 	<FactionDef>
 		<defName>DrugCatsHMC</defName>
-		<label>Cats-Drugs</label>
+		<label>Evilous Cats-Drugs</label>
 		<description>This glorious people came to us from the distant depths of outer drug-space with clearly good intentions to do evil and bring injustice!</description>
-		<pawnSingular>cats-drugs</pawnSingular>
-		<pawnsPlural>catss-drugss</pawnsPlural>
+		<pawnSingular>evilous cats-drugs</pawnSingular>
+		<pawnsPlural>evilous catss-drugss</pawnsPlural>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxCountAtGameStart>2</maxCountAtGameStart>
