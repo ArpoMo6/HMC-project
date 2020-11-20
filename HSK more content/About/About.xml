@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>HSK more content</name>
+	<author>arpomo6</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>ArpoMo6.HMC.Project</packageId>
+	<description>
+(ENG)
+It is very recommended not to disable the following modifications: facial stuff, multi lang colorful traits. HMC can work without its well, but some red errors can appears.
+this mod do:
+- add new weapons and ammo (EMP-ammo included too!);
+- add a new traits (some of them may be dangerous!);
+- add new Sharknado (why? because I can.);
+- add ammo-unmaking (the game won't get any easier!);
+- add new high-tech norbal and evilous drug-cat factions (be ready!);
+- and more...
+
+(RUS)
+Настоятельно рекомендуется не выключать следующие модификации: facial stuff, multi lang colorful traits. HMC может работать без них, но без них могут возникать некоторые ошибки.
+Этот мод:
+- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
+- добавляет новые черты характера (некоторые из них могут быть опасны!);
+- добавляет Шаркнадо (why? because I can.);
+- добавляет разбор боеприпасов (игра от этого легче не станет!);
+- добавляет новые фракции хай-тек норбалов и злобных котиков с наркотиками (приготовьтесь!);
+- и ещё кое-что...
+	</description>
+	<modDependencies>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>CETeam.CombatExtended</li>
+		<li>skyarkhangel.HSK</li>
+		<li>killface.facialstuff</li>
+		<li>multilangcolorfultraits.pirateby</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>ArpoMo6.HMC.USSRWP</li>
+	</incompatibleWith>
+</ModMetaData>
