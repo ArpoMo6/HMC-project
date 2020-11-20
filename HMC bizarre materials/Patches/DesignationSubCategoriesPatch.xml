@@ -1,0 +1,11 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ConvectionalPower"]/defNames</xpath>
+		<value>
+			<li>SarcasmiumGenerator</li>
+			<li>EdritiumGenerator</li>
+		</value>
+	</Operation>
+
+</Patch>
