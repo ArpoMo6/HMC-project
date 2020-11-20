@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ConstructorCore"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FarmerCore"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MinerCore"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DoctorCore"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DiplomatCore"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AuxiliaryAI_Sharpshooter"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipBattle</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AuxiliaryAI_Commando"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipBattle</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AuxiliaryAI_Brawler"]/techHediffsTags</xpath>
+				<value>
+					<li>CatsDrugsChipBattle</li>
+					<li>CatsDrugsChipComrade</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

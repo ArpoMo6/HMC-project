@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Verse.ThingDef[defName="MeleeWeapon_GreatSword"]/weaponTags</xpath>
+				<value>
+					<li>CD_CMRD_HMC</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Verse.ThingDef[defName="MeleeWeapon_Sledgehammer"]/weaponTags</xpath>
+				<value>
+					<li>CD_CMRD_HMC</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RF_Gun_93R"]/weaponTags</xpath>
+				<value>
+					<li>CD_WRRR_HMC</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

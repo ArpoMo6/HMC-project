@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<MakeAmmo_Bolt_Emp.label>Сделать EMP-болт х50</MakeAmmo_Bolt_Emp.label>
+    <MakeAmmo_Bolt_Emp.description>Сделать EMP-болт х50.</MakeAmmo_Bolt_Emp.description>
+	<MakeAmmo_Bolt_Emp.jobString>Делает EMP-болт х50.</MakeAmmo_Bolt_Emp.jobString>
+
+	<!-- ==================== 12 Gauge ========================== -->
+
+	<MakeAmmo_12Gauge_DB.label>сделать Патрон 12 калибра (дыхание дракона) x40</MakeAmmo_12Gauge_DB.label>
+    <MakeAmmo_12Gauge_DB.description>Сделать 40 Патронов 12 калибра (дыхание дракона).</MakeAmmo_12Gauge_DB.description>
+	<MakeAmmo_12Gauge_DB.jobString>Делает Патрон 12 калибра (дыхание дракона).</MakeAmmo_12Gauge_DB.jobString>
+
+	<MakeAmmo_12Gauge_F.label>сделать Патрон 12 калибра (флешетта) x40</MakeAmmo_12Gauge_F.label>
+    <MakeAmmo_12Gauge_F.description>Сделать 40 Патронов 12 калибра (флешетта).</MakeAmmo_12Gauge_F.description>
+	<MakeAmmo_12Gauge_F.jobString>Делает Патрон 12 калибра (флешетта).</MakeAmmo_12Gauge_F.jobString>
+
+	<MakeAmmo_12Gauge_S.label>сделать Патрон 12 калибра (шрапнель) x40</MakeAmmo_12Gauge_S.label>
+    <MakeAmmo_12Gauge_S.description>Сделать 40 Патронов 12 калибра (шрапнель).</MakeAmmo_12Gauge_S.description>
+	<MakeAmmo_12Gauge_S.jobString>Делает Патрон 12 калибра (шрапнель).</MakeAmmo_12Gauge_S.jobString>
+
+	<!-- ==================== 5.56x45mm Nato ========================== -->
+
+	<MakeAmmo_556x45mmNATO_HE.label>сделать 5.56x45mm NATO (HE) картридж x80</MakeAmmo_556x45mmNATO_HE.label>
+	<MakeAmmo_556x45mmNATO_HE.description>Сделать 80 5.56x45mm NATO (HE) картриджей.</MakeAmmo_556x45mmNATO_HE.description>
+	<MakeAmmo_556x45mmNATO_HE.jobstring>Делает 5.56x45mm NATO (HE) картридж.</MakeAmmo_556x45mmNATO_HE.jobstring>
+
+	<!-- ==================== 9x39mm Soviet ========================== -->
+
+	<MakeAmmo_9x39mmSoviet_FMJ.label>Сделать 9x39 мм дозвуковых (СП-5) патронов x90</MakeAmmo_9x39mmSoviet_FMJ.label>
+    <MakeAmmo_9x39mmSoviet_FMJ.description>Сделать 9x39 мм дозвуковых (СП-5) патронов x90.</MakeAmmo_9x39mmSoviet_FMJ.description>
+	<MakeAmmo_9x39mmSoviet_FMJ.jobString>Делает 9x39 мм дозвуковых (СП-5) патронов x90.</MakeAmmo_9x39mmSoviet_FMJ.jobString>
+
+	<MakeAmmo_9x39mmSoviet_AP.label>Сделать 9x39 мм дозвуковых (СП-6) патронов x90</MakeAmmo_9x39mmSoviet_AP.label>
+    <MakeAmmo_9x39mmSoviet_AP.description>Сделать 9x39 мм дозвуковых (СП-6) патронов x90.</MakeAmmo_9x39mmSoviet_AP.description>
+	<MakeAmmo_9x39mmSoviet_AP.jobString>Делает 9x39 мм дозвуковых (СП-6) патронов x90.</MakeAmmo_9x39mmSoviet_AP.jobString>
+
+	<MakeAmmo_9x39mmSoviet_SH.label>Сделать 9x39 мм дозвуковых (SH) патронов x90</MakeAmmo_9x39mmSoviet_SH.label>
+    <MakeAmmo_9x39mmSoviet_SH.description>Сделать 9x39 мм дозвуковых (SH) патронов x90.</MakeAmmo_9x39mmSoviet_SH.description>
+	<MakeAmmo_9x39mmSoviet_SH.jobString>Делает 9x39 мм дозвуковых (SH) патронов x90.</MakeAmmo_9x39mmSoviet_SH.jobString>
+
+	<MakeAmmo_9x39mmSoviet_EMP.label>Сделать 9x39 мм дозвуковых (EMP) патронов x90</MakeAmmo_9x39mmSoviet_EMP.label>
+    <MakeAmmo_9x39mmSoviet_EMP.description>Сделать 9x39 мм дозвуковых (EMP) патронов x90.</MakeAmmo_9x39mmSoviet_EMP.description>
+	<MakeAmmo_9x39mmSoviet_EMP.jobString>Делает 9x39 мм дозвуковых (EMP) патронов x90.</MakeAmmo_9x39mmSoviet_EMP.jobString>
+
+	<!-- ==================== 5.45x39mm Soviet ========================== -->
+
+	<MakeAmmo_545x39mmSoviet_FMJ.label>Сделать 5.45x39 мм промежуточных (FMJ) патронов x80</MakeAmmo_545x39mmSoviet_FMJ.label>
+    <MakeAmmo_545x39mmSoviet_FMJ.description>Сделать 5.45x39 мм промежуточных (FMJ) патронов x80.</MakeAmmo_545x39mmSoviet_FMJ.description>
+	<MakeAmmo_545x39mmSoviet_FMJ.jobString>Делает 5.45x39 мм промежуточных (FMJ) патронов x80.</MakeAmmo_545x39mmSoviet_FMJ.jobString>
+
+	<MakeAmmo_545x39mmSoviet_AP.label>Сделать 5.45x39 мм промежуточных (AP) патронов x80</MakeAmmo_545x39mmSoviet_AP.label>
+    <MakeAmmo_545x39mmSoviet_AP.description>Сделать 5.45x39 мм промежуточных (AP) патронов x80.</MakeAmmo_545x39mmSoviet_AP.description>
+	<MakeAmmo_545x39mmSoviet_AP.jobString>Делает 5.45x39 мм промежуточных (AP) патронов x80.</MakeAmmo_545x39mmSoviet_AP.jobString>
+
+	<MakeAmmo_545x39mmSoviet_HP.label>Сделать 5.45x39 мм промежуточных (HP) патронов x80</MakeAmmo_545x39mmSoviet_HP.label>
+    <MakeAmmo_545x39mmSoviet_HP.description>Сделать 5.45x39 мм промежуточных (HP) патронов x80.</MakeAmmo_545x39mmSoviet_HP.description>
+	<MakeAmmo_545x39mmSoviet_HP.jobString>Делает 5.45x39 мм промежуточных (HP) патронов x80.</MakeAmmo_545x39mmSoviet_HP.jobString>
+
+	<!-- ==================== 7.62x54mmR ========================== -->
+
+	<MakeAmmo_762x54mmR_FMJ.label>Сделать 7.62x54 мм винтовочных (FMJ) патронов x60</MakeAmmo_762x54mmR_FMJ.label>
+    <MakeAmmo_762x54mmR_FMJ.description>Сделать 7.62x54 мм винтовочных (FMJ) патронов x60.</MakeAmmo_762x54mmR_FMJ.description>
+	<MakeAmmo_762x54mmR_FMJ.jobString>Делает 7.62x54 мм винтовочных (FMJ) патронов x60.</MakeAmmo_762x54mmR_FMJ.jobString>
+
+	<MakeAmmo_762x54mmR_AP.label>Сделать 7.62x54 мм винтовочных (AP) патронов x60</MakeAmmo_762x54mmR_AP.label>
+    <MakeAmmo_762x54mmR_AP.description>Сделать 7.62x54 мм винтовочных (AP) патронов x60.</MakeAmmo_762x54mmR_AP.description>
+	<MakeAmmo_762x54mmR_AP.jobString>Делает 7.62x54 мм винтовочных (AP) патронов x60.</MakeAmmo_762x54mmR_AP.jobString>
+
+	<MakeAmmo_762x54mmR_HP.label>Сделать 7.62x54 мм винтовочных (HP) патронов x60</MakeAmmo_762x54mmR_HP.label>
+    <MakeAmmo_762x54mmR_HP.description>Сделать 7.62x54 мм винтовочных (HP) патронов x60.</MakeAmmo_762x54mmR_HP.description>
+	<MakeAmmo_762x54mmR_HP.jobString>Делает 7.62x54 мм винтовочных (HP) патронов x60.</MakeAmmo_762x54mmR_HP.jobString>
+
+	<!-- ==================== 4.73x33mm ========================== -->
+
+	<MakeAmmo_473x33mmCaseless_FMJ.label>Сделать 4.73x33 мм безгильзовых (FMJ) патронов x96</MakeAmmo_473x33mmCaseless_FMJ.label>
+    <MakeAmmo_473x33mmCaseless_FMJ.description>Сделать 4.73x33 мм безгильзовых (FMJ) патронов x96.</MakeAmmo_473x33mmCaseless_FMJ.description>
+	<MakeAmmo_473x33mmCaseless_FMJ.jobString>Делает 4.73x33 мм безгильзовых (FMJ) патронов x96.</MakeAmmo_473x33mmCaseless_FMJ.jobString>
+
+	<MakeAmmo_473x33mmCaseless_AP.label>Сделать 4.73x33 мм безгильзовых (AP) патронов x96</MakeAmmo_473x33mmCaseless_AP.label>
+    <MakeAmmo_473x33mmCaseless_AP.description>Сделать 4.73x33 мм безгильзовых (AP) патронов x96.</MakeAmmo_473x33mmCaseless_AP.description>
+	<MakeAmmo_473x33mmCaseless_AP.jobString>Делает 4.73x33 мм безгильзовых (AP) патронов x96.</MakeAmmo_473x33mmCaseless_AP.jobString>
+
+	<MakeAmmo_473x33mmCaseless_HP.label>Сделать 4.73x33 мм безгильзовых (HP) патронов x96</MakeAmmo_473x33mmCaseless_HP.label>
+    <MakeAmmo_473x33mmCaseless_HP.description>Сделать 4.73x33 мм безгильзовых (HP) патронов x96.</MakeAmmo_473x33mmCaseless_HP.description>
+	<MakeAmmo_473x33mmCaseless_HP.jobString>Делает 4.73x33 мм безгильзовых (HP) патронов x96.</MakeAmmo_473x33mmCaseless_HP.jobString>
+
+	<MakeAmmo_473x33mmCaseless_EMP.label>Сделать 4.73x33 мм безгильзовых (EMP) патронов x96</MakeAmmo_473x33mmCaseless_EMP.label>
+    <MakeAmmo_473x33mmCaseless_EMP.description>Сделать 4.73x33 мм безгильзовых (EMP) патронов x96.</MakeAmmo_473x33mmCaseless_EMP.description>
+	<MakeAmmo_473x33mmCaseless_EMP.jobString>Делает 4.73x33 мм безгильзовых (EMP) патронов x96.</MakeAmmo_473x33mmCaseless_EMP.jobString>
+
+	<!-- ==================== 12.7x55mm ========================== -->
+
+	<MakeAmmo_127x55mmAR_FMJ.label>Сделать 12.7x55 мм крупнокалиберных (FMJ) патронов x60</MakeAmmo_127x55mmAR_FMJ.label>
+    <MakeAmmo_127x55mmAR_FMJ.description>Сделать 12.7x55 мм крупнокалиберных (FMJ) патронов x60.</MakeAmmo_127x55mmAR_FMJ.description>
+	<MakeAmmo_127x55mmAR_FMJ.jobString>Делает 12.7x55 мм крупнокалиберных (FMJ) патронов x60.</MakeAmmo_127x55mmAR_FMJ.jobString>
+
+	<MakeAmmo_127x55mmAR_API.label>Сделать 12.7x55 мм крупнокалиберных (AP-I) патронов x60</MakeAmmo_127x55mmAR_API.label>
+    <MakeAmmo_127x55mmAR_API.description>Сделать 12.7x55 мм крупнокалиберных (AP-I) патронов x60.</MakeAmmo_127x55mmAR_API.description>
+	<MakeAmmo_127x55mmAR_API.jobString>Делает 12.7x55 мм крупнокалиберных (AP-I) патронов x60.</MakeAmmo_127x55mmAR_API.jobString>
+
+	<MakeAmmo_127x55mmAR_Sabot.label>Сделать 12.7x55 мм крупнокалиберных (Sabot) патронов x60</MakeAmmo_127x55mmAR_Sabot.label>
+    <MakeAmmo_127x55mmAR_Sabot.description>Сделать 12.7x55 мм крупнокалиберных (Sabot) патронов x60.</MakeAmmo_127x55mmAR_Sabot.description>
+	<MakeAmmo_127x55mmAR_Sabot.jobString>Делает 12.7x55 мм крупнокалиберных (Sabot) патронов x60.</MakeAmmo_127x55mmAR_Sabot.jobString>
+
+	<MakeAmmo_127x55mmAR_HE.label>Сделать 12.7x55 мм крупнокалиберных (HE) патронов x60</MakeAmmo_127x55mmAR_HE.label>
+    <MakeAmmo_127x55mmAR_HE.description>Сделать 12.7x55 мм крупнокалиберных (HE) патронов x60.</MakeAmmo_127x55mmAR_HE.description>
+	<MakeAmmo_127x55mmAR_HE.jobString>Делает 12.7x55 мм крупнокалиберных (HE) патронов x60.</MakeAmmo_127x55mmAR_HE.jobString>
+
+	<!-- ==================== .338 Lapua Magnum ========================== -->
+
+	<MakeAmmo_338LM_FMJ.label>Сделать .338 Lapua Magnum (FMJ) патронов x50</MakeAmmo_338LM_FMJ.label>
+    <MakeAmmo_338LM_FMJ.description>Сделать .338 Lapua Magnum (FMJ) патронов x50.</MakeAmmo_338LM_FMJ.description>
+	<MakeAmmo_338LM_FMJ.jobString>Делает .338 Lapua Magnum (FMJ) патронов x50.</MakeAmmo_338LM_FMJ.jobString>
+
+	<MakeAmmo_338LM_AP.label>Сделать .338 Lapua Magnum (AP) патронов x50</MakeAmmo_338LM_AP.label>
+    <MakeAmmo_338LM_AP.description>Сделать .338 Lapua Magnum (AP) патронов x50.</MakeAmmo_338LM_AP.description>
+	<MakeAmmo_338LM_AP.jobString>Делает .338 Lapua Magnum (AP) патронов x50.</MakeAmmo_338LM_AP.jobString>
+
+	<MakeAmmo_338LM_HP.label>Сделать .338 Lapua Magnum (HP) патронов x50</MakeAmmo_338LM_HP.label>
+    <MakeAmmo_338LM_HP.description>Сделать .338 Lapua Magnum (HP) патронов x50.</MakeAmmo_338LM_HP.description>
+	<MakeAmmo_338LM_HP.jobString>Делает .338 Lapua Magnum (HP) патронов x50.</MakeAmmo_338LM_HP.jobString>
+
+	<MakeAmmo_338LM_EMP.label>Сделать .338 Lapua Magnum (EMP) патронов x50</MakeAmmo_338LM_EMP.label>
+    <MakeAmmo_338LM_EMP.description>Сделать .338 Lapua Magnum (EMP) патронов x50.</MakeAmmo_338LM_EMP.description>
+	<MakeAmmo_338LM_EMP.jobString>Делает .338 Lapua Magnum (EMP) патронов x50.</MakeAmmo_338LM_EMP.jobString>
+
+	<!-- ==================== .408 Cheyenne Tactical ========================== -->
+
+	<MakeAmmo_408CT_FMJ.label>Сделать .408 Chey Tac (FMJ) патронов x50</MakeAmmo_408CT_FMJ.label>
+    <MakeAmmo_408CT_FMJ.description>Сделать .408 Chey Tac (FMJ) патронов x50.</MakeAmmo_408CT_FMJ.description>
+	<MakeAmmo_408CT_FMJ.jobString>Делает .408 Chey Tac (FMJ) патронов x50.</MakeAmmo_408CT_FMJ.jobString>
+
+	<MakeAmmo_408CT_AP.label>Сделать .408 Chey Tac (AP) патронов x50</MakeAmmo_408CT_AP.label>
+    <MakeAmmo_408CT_AP.description>Сделать .408 Chey Tac (AP) патронов x50.</MakeAmmo_408CT_AP.description>
+	<MakeAmmo_408CT_AP.jobString>Делает .408 Chey Tac (AP) патронов x50.</MakeAmmo_408CT_AP.jobString>
+
+	<MakeAmmo_408CT_HP.label>Сделать .408 Chey Tac (HP) патронов x50</MakeAmmo_408CT_HP.label>
+    <MakeAmmo_408CT_HP.description>Сделать .408 Chey Tac (HP) патронов x50.</MakeAmmo_408CT_HP.description>
+	<MakeAmmo_408CT_HP.jobString>Делает .408 Chey Tac (HP) патронов x50.</MakeAmmo_408CT_HP.jobString>
+
+	<MakeAmmo_408CT_EMP.label>Сделать .408 Chey Tac (EMP) патронов x50</MakeAmmo_408CT_EMP.label>
+    <MakeAmmo_408CT_EMP.description>Сделать .408 Chey Tac (EMP) патронов x50.</MakeAmmo_408CT_EMP.description>
+	<MakeAmmo_408CT_EMP.jobString>Делает .408 Chey Tac (EMP) патронов x50.</MakeAmmo_408CT_EMP.jobString>
+
+	<!-- ==================== 7.62x25mm TT ========================== -->
+
+	<MakeAmmo_762x25mmTT_FMJ.label>Сделать 7.62x25mm TT (FMJ) патронов x90</MakeAmmo_762x25mmTT_FMJ.label>
+    <MakeAmmo_762x25mmTT_FMJ.description>Сделать 7.62x25mm TT (FMJ) патронов x90.</MakeAmmo_762x25mmTT_FMJ.description>
+	<MakeAmmo_762x25mmTT_FMJ.jobString>Делает 7.62x25mm TT (FMJ) патронов x90.</MakeAmmo_762x25mmTT_FMJ.jobString>
+
+	<MakeAmmo_762x25mmTT_AP.label>Сделать 7.62x25mm TT (AP) патронов x90</MakeAmmo_762x25mmTT_AP.label>
+    <MakeAmmo_762x25mmTT_AP.description>Сделать 7.62x25mm TT (AP) патронов x90.</MakeAmmo_762x25mmTT_AP.description>
+	<MakeAmmo_762x25mmTT_AP.jobString>Делает 7.62x25mm TT (AP) патронов x90.</MakeAmmo_762x25mmTT_AP.jobString>
+
+	<MakeAmmo_762x25mmTT_HP.label>Сделать 7.62x25mm TT (HP) патронов x90</MakeAmmo_762x25mmTT_HP.label>
+    <MakeAmmo_762x25mmTT_HP.description>Сделать 7.62x25mm TT (HP) патронов x90.</MakeAmmo_762x25mmTT_HP.description>
+	<MakeAmmo_762x25mmTT_HP.jobString>Делает 7.62x25mm TT (HP) патронов x90.</MakeAmmo_762x25mmTT_HP.jobString>
+
+	<MakeAmmo_762x25mmTT_API.label>Сделать 7.62x25mm TT (API) патронов x90</MakeAmmo_762x25mmTT_API.label>
+    <MakeAmmo_762x25mmTT_API.description>Сделать 7.62x25mm TT (API) патронов x90.</MakeAmmo_762x25mmTT_API.description>
+	<MakeAmmo_762x25mmTT_API.jobString>Делает 7.62x25mm TT (API) патронов x90.</MakeAmmo_762x25mmTT_API.jobString>
+
+	<!-- ==================== .40 Lobaev Whisper ========================== -->
+
+	<MakeAmmo_40LW_FMJ.label>Сделать .40 Lobaev Whisper (FMJ) патронов x50</MakeAmmo_40LW_FMJ.label>
+    <MakeAmmo_40LW_FMJ.description>Сделать .40 Lobaev Whisper (FMJ) патронов x50.</MakeAmmo_40LW_FMJ.description>
+	<MakeAmmo_40LW_FMJ.jobString>Делает .40 Lobaev Whisper (FMJ) патронов x50.</MakeAmmo_40LW_FMJ.jobString>
+
+	<MakeAmmo_40LW_EMP.label>Сделать .40 Lobaev Whisper (EMP) патронов x50</MakeAmmo_40LW_EMP.label>
+    <MakeAmmo_40LW_EMP.description>Сделать .40 Lobaev Whisper (EMP) патронов x50.</MakeAmmo_40LW_EMP.description>
+	<MakeAmmo_40LW_EMP.jobString>Делает .40 Lobaev Whisper (EMP) патронов x50.</MakeAmmo_40LW_EMP.jobString>
+
+	<MakeAmmo_40LW_DV.label>Сделать .40 Lobaev Whisper (DV) патронов x50</MakeAmmo_40LW_DV.label>
+    <MakeAmmo_40LW_DV.description>Сделать .40 Lobaev Whisper (DV) патронов x50.</MakeAmmo_40LW_DV.description>
+	<MakeAmmo_40LW_DV.jobString>Делает .40 Lobaev Whisper (DV) патронов x50.</MakeAmmo_40LW_DV.jobString>
+
+	<!-- ==================== 15x65mm Diffusing Charged ========================== -->
+
+	<MakeAmmo_15x65mmCharged_Slug.label>Сделать 15x65 мм энерго-боеприпас (Slug) x60</MakeAmmo_15x65mmCharged_Slug.label>
+    <MakeAmmo_15x65mmCharged_Slug.description>Сделать 15x65 мм энерго-боеприпас (Slug) x60.</MakeAmmo_15x65mmCharged_Slug.description>
+	<MakeAmmo_15x65mmCharged_Slug.jobString>Делает 15x65 мм энерго-боеприпас (Slug) x60.</MakeAmmo_15x65mmCharged_Slug.jobString>
+
+	<MakeAmmo_15x65mmCharged_Buck.label>Сделать 15x65 мм энерго-боеприпас (Buck) x60</MakeAmmo_15x65mmCharged_Buck.label>
+    <MakeAmmo_15x65mmCharged_Buck.description>Сделать 15x65 мм энерго-боеприпас (Buck) x60.</MakeAmmo_15x65mmCharged_Buck.description>
+	<MakeAmmo_15x65mmCharged_Buck.jobString>Делает 15x65 мм энерго-боеприпас (Buck) x60.</MakeAmmo_15x65mmCharged_Buck.jobString>
+
+	<!-- ==================== 6.7x29mm Magnetic ========================== -->
+
+	<MakeAmmo_67x29mm_AP.label>Сделать 6.7x29 мм магнитный-бронебойный (AP) x80</MakeAmmo_67x29mm_AP.label>
+    <MakeAmmo_67x29mm_AP.description>Сделать 6.7x29 мм магнитный-бронебойный (AP) x80.</MakeAmmo_67x29mm_AP.description>
+	<MakeAmmo_67x29mm_AP.jobString>Делает 6.7x29 мм магнитный-бронебойный (AP) x80.</MakeAmmo_67x29mm_AP.jobString>
+
+	<MakeAmmo_67x29mm_EMP.label>Сделать 6.7x29 мм электро-магнитный (EMP) x80</MakeAmmo_67x29mm_EMP.label>
+    <MakeAmmo_67x29mm_EMP.description>Сделать 6.7x29 мм электро-магнитный (EMP) x80.</MakeAmmo_67x29mm_EMP.description>
+	<MakeAmmo_67x29mm_EMP.jobString>Делает 6.7x29 мм электро-магнитный (EMP) x80.</MakeAmmo_67x29mm_EMP.jobString>
+
+	<!-- ==================== 12.7x108mm ========================== -->
+
+	<MakeAmmo_127x108mm_FMJ.label>Сделать 12.7x108 мм крупнокалиберных (FMJ) патронов x60</MakeAmmo_127x108mm_FMJ.label>
+    <MakeAmmo_127x108mm_FMJ.description>Сделать 12.7x108 мм крупнокалиберных (FMJ) патронов x60.</MakeAmmo_127x108mm_FMJ.description>
+	<MakeAmmo_127x108mm_FMJ.jobString>Делает 12.7x108 мм крупнокалиберных (FMJ) патронов x60.</MakeAmmo_127x108mm_FMJ.jobString>
+
+	<MakeAmmo_127x108mm_Incendiary.label>Сделать 12.7x108 мм крупнокалиберных (AP-I) патронов x60</MakeAmmo_127x108mm_Incendiary.label>
+    <MakeAmmo_127x108mm_Incendiary.description>Сделать 12.7x108 мм крупнокалиберных (AP-I) патронов x60.</MakeAmmo_127x108mm_Incendiary.description>
+	<MakeAmmo_127x108mm_Incendiary.jobString>Делает 12.7x108 мм крупнокалиберных (AP-I) патронов x60.</MakeAmmo_127x108mm_Incendiary.jobString>
+
+	<MakeAmmo_127x108mm_Sabot.label>Сделать 12.7x108 мм крупнокалиберных (Sabot) патронов x60</MakeAmmo_127x108mm_Sabot.label>
+    <MakeAmmo_127x108mm_Sabot.description>Сделать 12.7x108 мм крупнокалиберных (Sabot) патронов x60.</MakeAmmo_127x108mm_Sabot.description>
+	<MakeAmmo_127x108mm_Sabot.jobString>Делает 12.7x108 мм крупнокалиберных (Sabot) патронов x60.</MakeAmmo_127x108mm_Sabot.jobString>
+
+	<MakeAmmo_127x108mm_HE.label>Сделать 12.7x108 мм крупнокалиберных (HE) патронов x60</MakeAmmo_127x108mm_HE.label>
+    <MakeAmmo_127x108mm_HE.description>Сделать 12.7x108 мм крупнокалиберных (HE) патронов x60.</MakeAmmo_127x108mm_HE.description>
+	<MakeAmmo_127x108mm_HE.jobString>Делает 12.7x108 мм крупнокалиберных (HE) патронов x60.</MakeAmmo_127x108mm_HE.jobString>
+
+	<!-- ==================== .700 Nitro Express ========================== -->
+
+	<MakeAmmo_700NE_HP.label>Сделать .700 Nitro Express (HP) патронов x50</MakeAmmo_700NE_HP.label>
+    <MakeAmmo_700NE_HP.description>Сделать .700 Nitro Express (HP) патронов x50.</MakeAmmo_700NE_HP.description>
+	<MakeAmmo_700NE_HP.jobString>Делает .700 Nitro Express (HP) патронов x50.</MakeAmmo_700NE_HP.jobString>
+
+	<MakeAmmo_700NE_S.label>Сделать .700 Nitro Express (шрапнель) патронов x50</MakeAmmo_700NE_S.label>
+    <MakeAmmo_700NE_S.description>Сделать .700 Nitro Express (шрапнель) патронов x50.</MakeAmmo_700NE_S.description>
+	<MakeAmmo_700NE_S.jobString>Делает .700 Nitro Express (шрапнель) патронов x50.</MakeAmmo_700NE_S.jobString>
+
+</LanguageData>

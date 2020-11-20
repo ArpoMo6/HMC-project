@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Trait.ColorDef ParentName="ColorUnique">
+		<defName>clrMod_HMC_Conflict_Unique</defName>
+		<traits>
+			<li>HMC_Glasspawnon</li> <!-- стеклопешка / glasspawnon -->
+		</traits>
+	</Trait.ColorDef>
+
+</Defs>

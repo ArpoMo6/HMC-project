@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success></success>
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods><li>Core_SK</li></mods>
+			</li>
+	<!-- ========== Biomes ========== -->
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+			<value>
+				<Jackalope>0.2</Jackalope>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+			<value>
+				<Jackalope>0.2</Jackalope>
+				<LandShark>0.06</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.05</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+			<value>
+				<Jackalope>0.1</Jackalope>
+				<SnowJackalope>0.06</SnowJackalope>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+			<value>
+				<SnowJackalope>0.25</SnowJackalope>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+			<value>
+				<SnowJackalope>0.1</SnowJackalope>
+				<LandShark>0.04</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+			<value>
+				<SnowJackalope>0.3</SnowJackalope>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+			<value>
+				<SnowJackalope>0.35</SnowJackalope>
+				<LandShark>0.07</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="BorealArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.05</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="ColdBogArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.03</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="DesertArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.01</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TemperateArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.08</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TemperateSwampArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.09</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TropicalArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.1</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TropicalSwampArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.11</LandShark>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/BiomeDef[defName="TundraArchipelago"]/wildAnimals</xpath>
+			<value>
+				<LandShark>0.02</LandShark>
+			</value>
+		</li>
+
+		</operations>
+	</Operation>
+
+</Patch>    

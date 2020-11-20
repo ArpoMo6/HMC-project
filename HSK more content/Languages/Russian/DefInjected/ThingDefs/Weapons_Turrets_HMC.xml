@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<!-- ==================== Machine guns ========================== -->
+
+	<Gun_NSV_HMC.label>Орудие НСВ-12.7 «Утёс»</Gun_NSV_HMC.label> 
+	<Gun_NSV_HMC.description>Стационарный пулемет НСВ «Утёс» калибра 12.7×108 мм для турели. Есть возможность переноса на другую позицию.</Gun_NSV_HMC.description> 
+
+	<Gun_LWMMGmounted_HMC.label>Орудие LWMMG 338</Gun_LWMMGmounted_HMC.label> 
+	<Gun_LWMMGmounted_HMC.description>Стационарный пулемет LWMMG калибра .338 для турели. Есть возможность переноса на другую позицию.</Gun_LWMMGmounted_HMC.description> 
+
+</LanguageData>
