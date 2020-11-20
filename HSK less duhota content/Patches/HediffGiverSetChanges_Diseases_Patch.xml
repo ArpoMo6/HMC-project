@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Human"]/hediffGivers/li[hediff = "Flu"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Human"]/hediffGivers/li[hediff = "Plague"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Human"]/hediffGivers/li[hediff = "CommonCold"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Human"]/hediffGivers/li[hediff = "Measles"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Human"]/hediffGivers/li[hediff = "Coronavirus"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Animal"]/hediffGivers/li[diseaseDef = "Animal_Flu"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffGiverSetDef[defName = "Animal"]/hediffGivers/li[diseaseDef = "Animal_Plague"]/germDropRate</xpath>
+				<value>
+					<germDropRate>0</germDropRate>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

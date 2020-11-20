@@ -1,0 +1,10 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName = "ChunkSlagSteel"]</xpath>
+		<value>
+			<li Class="Skynet.SkynetRepairPartsExtension"/>
+		</value>
+	</Operation>
+
+</Patch>

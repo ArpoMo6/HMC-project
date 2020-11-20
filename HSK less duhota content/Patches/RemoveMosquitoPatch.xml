@@ -1,0 +1,369 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealArchipelago"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.12</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBogArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.05</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBogArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.05</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBogArchipelago"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.1</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "DesertArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "DesertArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "DesertArchipelago"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateArchipelago"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateArchipelago"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.24</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwampArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.1</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwampArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.1</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwampArchipelago"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.1</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwampArchipelago"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.16</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.02</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.02</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalArchipelago"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.02</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwampArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.12</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwampArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.12</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwampArchipelago"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.12</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TundraArchipelago"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TundraArchipelago"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TundraArchipelago"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.08</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealForest"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealForest"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealForest"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "BorealForest"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.16</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Tundra"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Tundra"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Tundra"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.08</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBog"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.05</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBog"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.02</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ColdBog"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.032</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "IceSheet"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "SeaIce"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.24</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwamp"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.1</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwamp"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.1</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwamp"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.1</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TemperateSwamp"]/wildAnimals/Fox_Red</xpath>
+				<value>
+					<Fox_Red>0.16</Fox_Red>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.05</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.05</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.05</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwamp"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.15</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwamp"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.15</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "TropicalSwamp"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.15</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals/Fox_Fennec</xpath>
+				<value>
+					<Fox_Fennec>0.15</Fox_Fennec>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Desert"]/wildAnimals/Mosquito</xpath>
+				<value>
+					<Mosquito>0.01</Mosquito>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Desert"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "Desert"]/wildAnimals/Fly</xpath>
+				<value>
+					<Fly>0.01</Fly>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/BiomeDef[defName = "ExtremeDesert"]/wildAnimals/Crashbug</xpath>
+				<value>
+					<Crashbug>0.01</Crashbug>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
