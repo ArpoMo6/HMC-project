@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>makefungicine</defName>
+		<label>craft fungicine</label>
+		<description>Crafts a medicine kit from herbal medicine and various other resources. Produces 1.</description>
+		<jobString>Crafting medicine.</jobString>
+		<workAmount>550</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GleamcapStem</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bandagekit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fungicine>1</Fungicine>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GleamcapStem</li>
+				<li>Bandagekit</li>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<researchPrerequisite>Fungiponics</researchPrerequisite>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+</Defs>

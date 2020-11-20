@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="SK_ResourceBase">
+    <defName>Leather_Shark</defName>
+    <label>shark leather</label>
+    <description>Thick blubbery shark leather. This thick skin insulates and protects very well.</description>
+    <graphicData>
+		<texPath>Things/Item/Resource/Leather</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+        <color>(90,121,162)</color>
+    </graphicData>
+    <statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<MarketValue>8.50</MarketValue>
+		<Flammability>0.6</Flammability>
+		<DeteriorationRate>0</DeteriorationRate>
+		<StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+		<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+		<StuffPower_Armor_Heat>0.7</StuffPower_Armor_Heat>
+		<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+		<Mass>0.03</Mass>
+		<Bulk>0.03</Bulk>
+    </statBases>
+    <stuffProps>
+	  <categories>
+			<li>Leathery</li>
+	  </categories>	
+      <color>(30,161,195)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+			<MaxHitPoints>1.8</MaxHitPoints>
+			<Beauty>2.0</Beauty>
+			<MoveSpeed>1</MoveSpeed>
+			<MarketValue>1.1</MarketValue>
+			<WorkToMake>1.8</WorkToMake>
+			<WorkToBuild>1.8</WorkToBuild>
+			<BedRestEffectiveness>0.96</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>1.27</ImmunityGainSpeedFactor>
+			<Mass>1.2</Mass>
+      </statFactors>
+    </stuffProps>
+		<thingCategories>
+			<li>Leathers</li>
+		</thingCategories>
+	<comps>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+	</comps>
+	<stackLimit>75</stackLimit>
+  </ThingDef>
+</Defs>
+  

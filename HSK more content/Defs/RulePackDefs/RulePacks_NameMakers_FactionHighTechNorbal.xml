@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerFactionHTNorbal</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[HTNornorbinks] of [HTNornorbinge]</li>
+	<li>HTNornorbinks->Zealots</li>
+	<li>HTNornorbinks->Disciples</li>
+	<li>HTNornorbinks->Throne</li>
+	<li>HTNornorbinks->Boxg</li>
+	<li>HTNornorbinks->Shrine</li>
+	<li>HTNornorbinks->Temple</li>
+	<li>HTNornorbinge->ginger</li>
+	<li>HTNornorbinge->DEM</li>
+	<li>HTNornorbinge->mightly ruler</li>
+	<li>HTNornorbinge->biped</li>
+	<li>HTNornorbinge->stuffiness</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

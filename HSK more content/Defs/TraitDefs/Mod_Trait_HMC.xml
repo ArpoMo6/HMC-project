@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Trait.ColorDef ParentName="ColorUnique">
+		<defName>clrMod_HMC_Unique</defName>
+		<traits>
+			<li>Efficaciousness</li> <!-- эффективность / efficaciousness -->
+			<li>Mastergourmet</li> <!-- мастер-кулинар / master gourmet -->
+			<li>Snipermasterrk</li> <!-- scharfschützenmeister / scharfschützenmeister -->
+			<li>HMC_IncombustibleEmber</li> <!-- негорящий уголек / incombustible ember -->
+		</traits>
+	</Trait.ColorDef>
+	
+	<Trait.ColorDef ParentName="ColorGood">
+		<defName>clrMod_HMC_Good</defName>
+		<traits>
+			<li>Huntman</li> <!-- лесной охотник / huntman -->
+			<li>GreaterBlacksmith</li> <!-- кузнец / blacksmith -->
+			<li>GreenThumbTwo</li> <!-- хороший садовник / green thumb -->
+			<li>StrongBack</li> <!-- тяжеловоз / strong back -->
+			<li>BlueNivaWorker</li> <!-- труженик голубой нивы / fisherman -->
+			<li>SleightOfHand</li> <!-- ловкость рук / sleight of hand -->
+			<li>AtelierTailor</li> <!-- швея ателье / atelier's tailor -->
+			<li>Collector</li> <!-- собиратель / collector -->
+		</traits>
+	</Trait.ColorDef>
+
+	<Trait.ColorDef ParentName="ColorNeutral">
+		<defName>clrMod_HMC_Neutral</defName>
+		<traits>
+			<li>Radiomechanician</li> <!-- радиомеханик / radiomechanician -->
+			<li>CloseCombatSpecialist</li> <!-- мастер ближнего боя / close combat specialist -->
+			<li>HMC_Architect</li> <!-- архитектор / architect -->
+			<li>HMC_SeekerOfDeepSense</li> <!-- искатель глубинного смысла / seeker of the deep sense -->
+		</traits>
+	</Trait.ColorDef>
+
+	<Trait.ColorDef ParentName="ColorBad">
+		<defName>clrMod_HMC_Bad</defName>
+		<traits>
+			<li>Morbid</li> <!-- мрачный / morbid -->
+			<li>CatInHead</li> <!-- мяуржимый / mewossessed -->
+		</traits>
+	</Trait.ColorDef>
+	
+	<Trait.ColorDef ParentName="ColorTerrible">
+		<defName>clrMod_HMC_Terrible</defName>
+		<traits>
+			<li>SuperCCleaner</li> <!-- уборщик / cleaner -->
+		</traits>
+	</Trait.ColorDef>
+	
+</Defs>

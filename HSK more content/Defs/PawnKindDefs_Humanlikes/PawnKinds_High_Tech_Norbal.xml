@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Norbal Bases -->
+	<PawnKindDef Name="HMCNorbalBase" Abstract="True">
+		<race>Norbal</race>
+		<defaultFactionType>NorbalHighTech</defaultFactionType>
+		<baseRecruitDifficulty>0.35</baseRecruitDifficulty>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.17</chemicalAddictionChance>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>MealJerky</invFoodDef>
+		<itemQuality>Normal</itemQuality>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
+		<gearHealthRange>
+			<min>1.0</min>
+			<max>2.0</max>
+		</gearHealthRange>
+	</PawnKindDef>
+	<!-- Warrior -->
+	<PawnKindDef ParentName="HMCNorbalBase">
+		<defName>HMCNorbalWarrior</defName>
+		<label>Warmonger</label>
+		<combatPower>400</combatPower>
+		<isFighter>true</isFighter>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>Norballo_Shirt</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>HMCNorbal</li>
+			<li>NorbsonalShield</li>
+			<li>WoodenShield</li>
+			<li>MedievalShield</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4600</min>
+			<max>6000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>HMCNorbalMelee</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>4000</min>
+			<max>6000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>1.0</techHediffsChance>
+	</PawnKindDef>
+
+	<!-- Destroyer -->
+	<PawnKindDef ParentName="HMCNorbalBase">
+		<defName>HMCNorbalDestroyer</defName>
+		<label>Thunderer</label>
+		<combatPower>425</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<apparelRequired>
+			<li>Norballo_Shirt</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>HMCNorbal</li>
+			<li>WoodenShield</li>
+			<li>MedievalShield</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>11</min>
+			<max>22</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Norbhammar</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>4000</min>
+			<max>6000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>1.0</techHediffsChance>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>8</min>
+					<max>11</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Skirmisher -->
+	<PawnKindDef ParentName="HMCNorbalBase">
+		<defName>HMCNorbalArcher</defName>
+		<label>Long bowman</label>
+		<combatPower>450</combatPower>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>Norballo_Shirt</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>HMCNorbal</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>3000</min>
+			<max>3500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>HMCNorbalRanged</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>4000</min>
+			<max>6000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>1.0</techHediffsChance>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>25</min>
+					<max>35</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.15</generateChance>
+						<sidearmMoney>
+							<min>0</min>
+							<max>50</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>Norbhammar</li>
+						</weaponTags>
+						<magazineCount>
+							<min>2</min>
+							<max>4</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Konungr -->
+	<PawnKindDef ParentName="HMCNorbalBase">
+		<defName>HMCNorbalGrandSage</defName>
+		<label>Konungr</label>
+		<combatPower>500</combatPower>
+		<factionLeader>true</factionLeader>
+		<itemQuality>Masterwork</itemQuality>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>80</maxGenerationAge>
+		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+		<gearHealthRange>
+			<min>1.8</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<apparelTags>
+			<li>HMCNorbal</li>
+			<li>NorbsonalShield</li>
+			<li>MedievalShield</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>50000</min>
+			<max>64000</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<weaponMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>HMCNorbalMelee</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>4000</min>
+			<max>6000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>1.0</techHediffsChance>
+	</PawnKindDef>
+
+</Defs>

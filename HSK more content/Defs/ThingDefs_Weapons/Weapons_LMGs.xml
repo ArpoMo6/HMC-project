@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- RPK-74M -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_RPK74M_HMC</defName>
+        <label>RPK-74M</label>
+        <description>Machine gun version of AK74M with an elongated barrel, bipod and four-row magazine with 60 rounds.</description>
+        <graphicData>
+            <texPath>Things/Weapons/RPK74M</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1820</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.074</ShotSpread>
+            <SwayFactor>1.39</SwayFactor>
+            <RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown>
+            <Bulk>11.7</Bulk>
+            <Mass>7.1</Mass>
+        </statBases>
+        <weaponTags>
+            <li>RF3</li>
+			<li>TierThreeRifle</li>
+            <li>MG1</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>BrotherhoodHeavy</li>
+            <li>SectarianHeavy</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_Suppressive</li>
+        </weaponTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.44</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
+                <warmupTime>1.15</warmupTime>
+                <range>50</range>
+                <burstShotCount>15</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>Shot_AN94</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>5</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>60</magazineSize>
+                <reloadTime>3.3</reloadTime>
+                <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>6</Weapon_Parts>
+            <Plastic>12</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- PKP Pecheneg -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_HMC_PKP</defName>
+        <label>PKP Pecheneg GPMG</label>
+        <description>A USSR general purpose machine gun. It has a 100 round magazine and fires in 20 round bursts. Not very accurate but good at providing suppressing fire.\nCaliber: 7.62x54mmR</description>
+        <graphicData>
+            <texPath>Things/Weapons/PKP_Pech</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <SightsEfficiency>1.00</SightsEfficiency>
+            <ShotSpread>0.12</ShotSpread>
+            <SwayFactor>1.4</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>16</Bulk>
+            <Mass>12</Mass>
+        </statBases>
+        <weaponTags>
+            <li>MG2</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>BrotherhoodHeavy</li>
+            <li>SectarianHeavy</li>
+            <li>SyndicateMachineGun</li>
+            <li>OrionHeavy</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_Suppressive</li>
+        </weaponTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.5</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+                <warmupTime>1.55</warmupTime>
+                <range>50</range>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <burstShotCount>20</burstShotCount>
+                <soundCast>Shot_HMC_PKP</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>10</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>100</magazineSize>
+                <reloadTime>7.00</reloadTime>
+                <ammoSet>AmmoSet_762x54mmR</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>9</Weapon_Parts>
+            <Plastic>20</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- MG3 -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_MG3_HMC</defName>
+        <label>MG3 GPMG</label>
+        <description>A general purpose machine gun. It has a 100 round magazine and fires in 23 round bursts. Not very accurate but good at providing suppressing fire.\nCaliber: 7.62x51mm NATO</description>
+        <graphicData>
+            <texPath>Things/Weapons/MG3</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>2250</MarketValue>
+            <SightsEfficiency>1.00</SightsEfficiency>
+            <ShotSpread>0.13</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <Bulk>17.5</Bulk>
+            <Mass>13.8</Mass>
+        </statBases>
+        <weaponTags>
+            <li>MG2</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>BrotherhoodHeavy</li>
+            <li>SectarianHeavy</li>
+            <li>SyndicateMachineGun</li>
+            <li>OrionHeavy</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_Suppressive</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.55</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+                <warmupTime>1.7</warmupTime>
+                <range>50</range>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <burstShotCount>23</burstShotCount>
+                <soundCast>Shot_MG3_HMC</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>11</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>100</magazineSize>
+                <reloadTime>8.00</reloadTime>
+                <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>10</Weapon_Parts>
+            <Plastic>18</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- 6P62 Machine Gun -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_6P62_HMC</defName>
+        <label>6P62 Machine Gun</label>
+        <description>Weapon of the ancient world. Experimental large-caliber magazine-fed light machine gun chambered for 12.7x108 mm. Designed to combat lightly armored targets, vehicles and low-flying hippos.</description>
+        <graphicData>
+            <texPath>Things/Weapons/6P62_GFL</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>2750</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.054</ShotSpread>
+            <SwayFactor>1.25</SwayFactor>
+            <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
+            <Bulk>12</Bulk>
+            <Mass>15</Mass>
+        </statBases>
+        <weaponTags>
+            <li>MG4</li>
+			<li>MG3</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>SyndicateMachineGun</li>
+			<li>SectarianHeavy</li>
+			<li>BrotherhoodHeavy</li>
+            <li>OrionHeavy</li>
+			<li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.45</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
+                <warmupTime>1.75</warmupTime>
+                <range>58</range>
+				<targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                <soundCast>Shot_NSV_HMC</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>14</magazineSize>
+                <reloadTime>3.9</reloadTime>
+                <ammoSet>AmmoSet_127x108mm</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+			<Plastic>4</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- LWMMG 338 GPMG -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_LWMMG_HMC</defName>
+        <label>LWMMG 338 GPMG</label>
+        <description>The Lightweight Medium Machine Gun</description>
+        <graphicData>
+            <texPath>Things/Weapons/LWMMG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>3000</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.1</ShotSpread>
+            <SwayFactor>1.55</SwayFactor>
+            <RangedWeapon_Cooldown>0.83</RangedWeapon_Cooldown>
+            <Bulk>17</Bulk>
+            <Mass>13.9</Mass>
+        </statBases>
+        <weaponTags>
+            <li>MG4</li>
+			<li>MG3</li>
+			<li>MG2</li>
+            <li>GunHeavy</li>
+            <li>MachineGun</li>
+            <li>SyndicateMachineGun</li>
+			<li>SectarianHeavy</li>
+			<li>BrotherhoodHeavy</li>
+            <li>OrionHeavy</li>
+			<li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+		<generateCommonality>0.25</generateCommonality>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.6</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_338LM_FMJ</defaultProjectile>
+                <warmupTime>1.76</warmupTime>
+                <range>55</range>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <burstShotCount>10</burstShotCount>
+                <soundCast>Shot_LWMMG_HMC</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>5</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>100</magazineSize>
+                <reloadTime>10.00</reloadTime>
+                <ammoSet>AmmoSet_338LM</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>10</Weapon_Parts>
+            <Plastic>22</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+</Defs>
