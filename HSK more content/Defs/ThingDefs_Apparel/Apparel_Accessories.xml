@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelIndustrialBase">
+		<defName>HMC_Exosuit</defName>
+		<label>Exosuit carcass</label>
+		<thingClass>CombatExtended.Apparel_VisibleAccessory</thingClass>
+		<description>A mighty carcass adapted to the needs of heavy weapons carriers. Also provides some protection and a little lightens the hard work.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Industrial/Exosuit/HMCExoSuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>110</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>5</Mass>
+			<Bulk>7.5</Bulk>
+			<WornBulk>2.5</WornBulk>
+			<EquipDelay>10.0</EquipDelay>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>1.0</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryWeight>20</CarryWeight>
+			<CarryingCapacity>20</CarryingCapacity>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<MeleeDodgeChance>-0.25</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<stuffCategories>
+			<li>SolidMetallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<AdvMechanism>2</AdvMechanism>
+			<ElectronicComponents>2</ElectronicComponents>
+			<Electronics>1</Electronics>
+		</costList>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>Things/Apparel/Industrial/Exosuit/HMCExoSuit</wornGraphicPath>
+		</apparel>
+		<thingCategories>
+			<li>SpecialApparelCat</li>
+		</thingCategories>
+		<generateAllowChance>0.8</generateAllowChance>
+	</ThingDef>
+
+</Defs>

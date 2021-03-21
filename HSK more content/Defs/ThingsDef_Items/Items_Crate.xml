@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- NSV-12.7 «Utyos» -->
+	<ThingDef ParentName="CrateBase">
+		<defName>NSV_Crate_HMC</defName>
+		<label>12.7x108mm NSV «Utyos» MG crate</label>
+		<description>Use this to build a 12.7x108mm NSV «Utyos» MG, a type of stationary manned turret.</description>
+		<graphicData>  
+			<texPath>Things/Item/Resource/WeaponCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>1</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>  
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>34</Mass>
+			<Bulk>38</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>WeaponCrate</li>
+		</thingCategories> 
+		<tradeTags>
+			<li>SimpleCrate</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- LWMMG-mounted -->
+	<ThingDef ParentName="CrateBase">
+		<defName>LWMMGmounted_Crate_HMC</defName>
+		<label>.338 LWMMG GPMG crate</label>
+		<description>Use this to build a .338 LWMMG GPMG, a type of stationary manned turret.</description>
+		<graphicData>  
+			<texPath>Things/Item/Resource/WeaponCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>1</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>  
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>25</Mass>
+			<Bulk>28.5</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>WeaponCrate</li>
+		</thingCategories> 
+		<tradeTags>
+			<li>SimpleCrate</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="CrateBase">
+		<defName>HMC_MicroTurret_Crate</defName>
+		<label>9x19mm micro-turret crate</label>
+		<description>Use this to build a sentry light turret, a type of stationary automatic turret. It requires power to function.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/WeaponCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>1</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>12.8</Mass>
+			<Bulk>16</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>WeaponCrate</li>
+		</thingCategories> 
+		<tradeTags>
+			<li>SimpleCrate</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Energy GPMG -->
+	<ThingDef ParentName="CrateBase">
+		<defName>EnergyGPMG_Crate_HMC</defName>
+		<label>6x24 Energy GPMG</label>
+		<description>Use this to build a 6x24 Energy GPMG, a type of stationary manned turret.</description>
+		<graphicData>  
+			<texPath>Things/Item/Resource/WeaponCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>1</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>3300</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>  
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>30</Mass>
+			<Bulk>48</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>WeaponCrate</li>
+		</thingCategories> 
+		<tradeTags>
+			<li>SimpleCrate</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

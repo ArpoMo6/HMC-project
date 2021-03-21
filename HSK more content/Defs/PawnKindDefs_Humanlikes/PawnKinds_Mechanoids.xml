@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Doomtipede -->
+	<PawnKindDef ParentName="SK_BaseMechanoidKind">
+		<defName>Mech_Doomtipede_HMC</defName>
+		<label>Doomtipede</label>
+		<race>Mech_Centipede</race>
+		<combatPower>999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/Centipede</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>
+			<min>8000</min>
+			<max>8000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>DDL_HMC</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>2</min>
+					<max>2</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+	<!-- Reaper -->
+	<PawnKindDef ParentName="SK_BaseMechanoidKind">
+		<defName>Mech_Reaper_HMC</defName>
+		<label>Reaper</label>
+		<race>Mech_Reaper_HMC</race>
+		<combatPower>530</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/Reaper</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.85</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>0~0</weaponMoney>
+		<defendPointRadius>0</defendPointRadius>
+	</PawnKindDef>
+</Defs>

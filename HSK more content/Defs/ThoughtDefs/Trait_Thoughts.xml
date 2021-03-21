@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>ColonistLeftUnburied_Morbid</defName>
+    <workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
+    <requiredTraits>
+      <li>Morbid</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>colonist left unburied</label>
+        <description>One of our own may be dead, but I find their corpse to be a nice reminder</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>DeadMansApparel_Morbid</defName>
+    <workerClass>ThoughtWorker_DeadMansApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>tainted {0}</label>
+        <description>I am wearing a piece of apparel that someone died in. Fascinating.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+			<li>
+				<label>tainted {0} (+1)</label>
+				<description>I am wearing two pieces of apparel that someone died in. It is actually kinda neat.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<li>
+				<label>tainted {0} (+2)</label>
+				<description>I am wearing three pieces of apparel that someone died in. I can still see the blood stains!</description>
+				<baseMoodEffect>11</baseMoodEffect>
+			</li>
+			<li>
+				<label>tainted {0} etc</label>
+				<description>I am wearing four or more pieces of apparel that someone died in. I wonder what they looked like when they died.</description>
+				<baseMoodEffect>14</baseMoodEffect>
+			</li>
+    </stages> 
+	<requiredTraits>
+      <li>Morbid</li>
+    </requiredTraits>
+  </ThoughtDef>
+</Defs>

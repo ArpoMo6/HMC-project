@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Iguf Bases -->
+	<PawnKindDef Name="HMCIgufBase" Abstract="True">
+		<race>Human</race>
+		<isFighter>true</isFighter>
+		<canBeSapper>true</canBeSapper>
+		<defaultFactionType>IgufHMC</defaultFactionType>
+		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Pirate</li>
+					<li>Outlander</li>
+					<li>Outsider</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<chemicalAddictionChance>0.1</chemicalAddictionChance>
+		<combatEnhancingDrugsChance>0.33</combatEnhancingDrugsChance>
+		<invNutrition>0.2</invNutrition>
+		<invFoodDef>Honey</invFoodDef>
+		<itemQuality>Normal</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>21</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<gearHealthRange>
+			<min>1</min>
+			<max>2</max>
+		</gearHealthRange>
+		<apparelColor>(211,232,253)</apparelColor>
+		<techHediffsRequired>
+			<li>DeathAcidifier</li>
+			<li>IgufFirmware</li>
+		</techHediffsRequired>
+	</PawnKindDef>
+
+	<!-- Ranger -->
+	<PawnKindDef ParentName="HMCIgufBase">
+		<defName>HMCIgufRanger</defName>
+		<label>Ranger</label>
+		<combatPower>725</combatPower>
+		<apparelMoney>
+			<min>35200</min>
+			<max>47600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>HMC_Iguf_Armour</li>
+			<li>HMC_Iguf_Helmet</li>
+			<li>Apparello_GSkinSpacer</li>
+			<li>Apparel_TacVest</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~14</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>10~14</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>10~14</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>HMCIguf</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4600</min>
+			<max>6000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>IgufRifle</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>5</min>
+					<max>7</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>1</generateChance>
+						<weaponTags>
+							<li>HMCIgufMelee</li>
+						</weaponTags>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Heavy -->
+	<PawnKindDef ParentName="HMCIgufBase">
+		<defName>HMCIgufHeavy</defName>
+		<label>Heavy</label>
+		<combatPower>750</combatPower>
+		<apparelMoney>
+			<min>35200</min>
+			<max>47600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>HMC_Iguf_Armour</li>
+			<li>HMC_Iguf_Helmet</li>
+			<li>Apparello_GSkinSpacer</li>
+			<li>Apparel_Backpack</li>
+			<li>Apparel_TacVest</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>HMCIguf</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4000</min>
+			<max>4500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>IgufMG</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>3</min>
+					<max>5</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Sniper -->
+	<PawnKindDef ParentName="HMCIgufBase">
+		<defName>HMCIgufSniper</defName>
+		<label>Sniper</label>
+		<combatPower>750</combatPower>
+		<apparelMoney>
+			<min>35200</min>
+			<max>47600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>HMC_Iguf_Armour</li>
+			<li>HMC_Iguf_Helmet</li>
+			<li>Apparello_GSkinSpacer</li>
+			<li>Apparel_Backpack</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~20</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>HMCIguf</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>3700</min>
+			<max>4600</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>IgufSniper</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>6</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Incendiary -->
+	<PawnKindDef ParentName="HMCIgufBase">
+		<defName>HMCIgufIncendiary</defName>
+		<label>Incendiary</label>
+		<combatPower>750</combatPower>
+		<apparelMoney>
+			<min>35200</min>
+			<max>47600</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>HMC_Iguf_Armour</li>
+			<li>HMC_Iguf_Bascinet</li>
+			<li>Apparello_GSkinSpacer</li>
+			<li>Apparel_Backpack</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~18</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>HMCIgufIncendiary</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>3000</min>
+			<max>4000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>IgufLaucnher</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>6</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<!-- Bot -->
+	<PawnKindDef ParentName="HMCIgufBase">
+		<defName>HMCIgufBot</defName>
+		<label>Bot</label>
+		<combatPower>775</combatPower>
+		<factionLeader>true</factionLeader>
+		<itemQuality>Masterwork</itemQuality>
+		<apparelMoney>
+			<min>56300</min>
+			<max>68900</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>HMC_Iguf_Armour</li>
+			<li>HMC_Iguf_Bascinet</li>
+			<li>Apparello_GSkinSpacer</li>
+			<li>Apparel_Backpack</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>11~19</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>HMCIgufIncendiary</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4500</min>
+			<max>5500</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>IgufRifle</li>
+			<li>IgufMG</li>
+			<li>IgufSniper</li>
+			<li>IgufLaucnher</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>8</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_XM25_HMC</defName>
+		<label>Build XM-25 CDTE</label>
+		<description>Builds the XM-25 Counter Defilade Target Engagement (CDTE) System</description>
+		<jobString>Building XM-25 CDTE.</jobString>
+		<workAmount>24000</workAmount>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_XM25_HMC>1</Gun_XM25_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentAdvanced</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>AdvWeaponCraftingWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>  
+
+</Defs>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo25x40mmGrenades</defName>
+		<label>25x40mm Grenade</label>
+		<parent>AmmoGrenades</parent>
+		<iconPath>UI/Icons/ThingCategories/Caliber25x40mm</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_25x40mmGrenade</defName>
+		<label>25x40mm Grenades</label>
+		<ammoTypes>
+			<Ammo_25x40mmGrenade_HE>Bullet_25x40mmGrenade_HE</Ammo_25x40mmGrenade_HE>
+			<Ammo_25x40mmGrenade_Incendiary>Bullet_25x40mmGrenade_Incendiary</Ammo_25x40mmGrenade_Incendiary>
+			<Ammo_25x40mmGrenade_EMP>Bullet_25x40mmGrenade_EMP</Ammo_25x40mmGrenade_EMP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="25x40mmGrenadeBase" ParentName="AmmoBase" Abstract="True">
+		<description>Low velocity grenade fired from handheld grenade launchers.</description>
+		<statBases>
+			<Mass>0.15</Mass>
+			<Bulk>0.2</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo25x40mmGrenades</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+		<cookOffFlashScale>20</cookOffFlashScale>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="25x40mmGrenadeBase">
+		<defName>Ammo_25x40mmGrenade_HE</defName>
+		<label>25x40mm grenade (HE)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncherSmall/HE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosionDamage>30</explosionDamage>
+				<explosionDamageDef>Bomb</explosionDamageDef>
+				<explosionRadius>1.5</explosionRadius>
+				<fragRange>4</fragRange>
+				<fragments>
+					<Fragment_GrenadeFrag>15</Fragment_GrenadeFrag>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="25x40mmGrenadeBase">
+		<defName>Ammo_25x40mmGrenade_Incendiary</defName>
+		<label>25x40mm grenade (I)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncherSmall/Incendiary</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeIncendiary</ammoClass>
+		<generateAllowChance>0.15</generateAllowChance>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosionDamage>10</explosionDamage>
+				<explosionDamageDef>Flame</explosionDamageDef>
+				<explosionRadius>1.5</explosionRadius>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="25x40mmGrenadeBase">
+		<defName>Ammo_25x40mmGrenade_EMP</defName>
+		<label>25x40mm grenade (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncherSmall/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<generateAllowChance>0</generateAllowChance>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosionDamage>15</explosionDamage>
+				<explosionDamageDef>EMP</explosionDamageDef>
+				<explosionRadius>2</explosionRadius>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base25x40mmGrenadeBullet" ParentName="SK_BaseBullet" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base25x40mmGrenadeBullet">
+		<defName>Bullet_25x40mmGrenade_HE</defName>
+		<label>25x40mm grenade (HE)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>1</explosionRadius>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosionDamage>25</explosionDamage>
+				<explosionDamageDef>Bomb</explosionDamageDef>
+				<explosionRadius>2</explosionRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+				<fragRange>4</fragRange>
+				<fragments>
+					<Fragment_GrenadeFrag>15</Fragment_GrenadeFrag>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base25x40mmGrenadeBullet">
+		<defName>Bullet_25x40mmGrenade_Incendiary</defName>
+		<label>25x40mm grenade (I)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>1.5</explosionRadius>
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.15</preExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosionDamage>5</explosionDamage>
+				<explosionDamageDef>Bomb</explosionDamageDef>
+				<explosionRadius>1</explosionRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base25x40mmGrenadeBullet">
+		<defName>Bullet_25x40mmGrenade_EMP</defName>
+		<label>25x40mm grenade (EMP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>2</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_25x40mmGrenade_HE</defName>
+		<label>make 25x40mm HE grenades x30</label>
+		<description>Craft 30 25x40mm HE grenades.</description>
+		<jobString>Making 25x40mm HE grenades.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>FSX</li>
+				<li>Powder</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_25x40mmGrenade_HE>30</Ammo_25x40mmGrenade_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_25x40mmGrenade_Incendiary</defName>
+		<label>make 25x40mm incendiary grenades x30</label>
+		<description>Craft 30 25x40mm incendiary grenades.</description>
+		<jobString>Making 25x40mm incendiary grenades.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+						<li>Napalm</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>FSX</li>
+				<li>Powder</li>
+				<li>Prometheum</li>
+				<li>Napalm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_25x40mmGrenade_Incendiary>30</Ammo_25x40mmGrenade_Incendiary>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_25x40mmGrenade_EMP</defName>
+		<label>make 25x40mm EMP grenades x30</label>
+		<description>Craft 30 25x40mm EMP grenades.</description>
+		<jobString>Making 25x40mm EMP grenades.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_25x40mmGrenade_EMP>30</Ammo_25x40mmGrenade_EMP>
+		</products>
+	</RecipeDef>
+
+</Defs>

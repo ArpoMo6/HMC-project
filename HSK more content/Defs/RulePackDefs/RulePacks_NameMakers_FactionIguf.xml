@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerFactionIguf</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[IgufNameOne] of [IgufNameTwo]</li>
+	<li>IgufNameOne->Castigators</li>
+	<li>IgufNameOne->Oppressors</li>
+	<li>IgufNameOne->Forfeiters</li>
+	<li>IgufNameOne->Schoolmasters</li>
+	<li>IgufNameOne->Conquerors</li>
+	<li>IgufNameTwo->Zeon</li>
+	<li>IgufNameTwo->ginger</li>
+	<li>IgufNameTwo->DEM</li>
+	<li>IgufNameTwo->mightly ruler</li>
+	<li>IgufNameTwo->biped</li>
+	<li>IgufNameTwo->streamlers</li>
+	<li>IgufNameTwo->boxesg</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

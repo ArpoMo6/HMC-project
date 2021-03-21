@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- NSV-12.7 «Utyos» -->
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>BuildNSV_Crate_HMC</defName>
+		<label>Build 12.7x108mm NSV «Utyos» MG crate</label>
+		<description>Use this to build a 12.7x108mm NSV «Utyos» MG, a type of stationary manned turret.</description>
+		<jobString>Building 12.7x108mm NSV «Utyos» MG crate.</jobString>
+		<workAmount>12000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				<categories>
+				<li>Metallic</li>
+                  </categories>
+				</filter>
+				<count>45</count>
+			</li>
+		</ingredients>
+		<products>
+			<NSV_Crate_HMC>1</NSV_Crate_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>Heavy_Component</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>GasOperation</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- LWMMG 338 -->
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>BuildLWMMG_Crate_HMC</defName>
+		<label>Build .338 LWMMG GPMG crate</label>
+		<description>Use this to build a .338 LWMMG GPMG, a type of stationary manned turret.</description>
+		<jobString>Building .338 LWMMG GPMG crate.</jobString>
+		<workAmount>12000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				<categories>
+				<li>Metallic</li>
+                  </categories>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<LWMMGmounted_Crate_HMC>1</LWMMGmounted_Crate_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>Heavy_Component</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>GasOperation</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Micro-Turret -->
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>HMC_BuildMicroTurret_Crate</defName>
+		<label>Build 9x19mm Micro-turret crate</label>
+		<description>Use this to build an automated sentry light turret, a type of stationary automatic turret. It requires power to function.</description>
+		<jobString>Building 9x19mm Micro-turret crate.</jobString>
+		<workAmount>8400</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <categories>
+					<li>SLDBar</li>
+                  </categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+				  <categories>
+					<li>HCMBar</li>
+                  </categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>SMG_Component</li>
+				<li>ElectronicComponents</li>
+				<li>Electronics</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>HCMBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Energy GPMG -->
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>BuildEnergyGPMG_Crate_HMC</defName>
+		<label>Build 6x24 Energy GPMG crate</label>
+		<description>Use this to build a 6x24 Energy GPMG, a type of stationary manned turret.</description>
+		<jobString>Building 6x24 Energy GPMG crate.</jobString>
+		<workAmount>24000</workAmount>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Charged_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<EnergyGPMG_Crate_HMC>1</EnergyGPMG_Crate_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>Heavy_Component</li>
+				<li>Charged_Component</li>
+			</thingDefs>
+			<categories>
+				<li>USLDBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>SK_MachiningIII</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

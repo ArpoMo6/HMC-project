@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_5mmVersatile</defName>
+		<label>5.45x39 / 5.56x45 mm</label>
+		<ammoTypes>
+			<Ammo_545x39mmSoviet_FMJ>Bullet_545x39mmSoviet_FMJ</Ammo_545x39mmSoviet_FMJ>
+			<Ammo_545x39mmSoviet_AP>Bullet_545x39mmSoviet_AP</Ammo_545x39mmSoviet_AP>
+			<Ammo_545x39mmSoviet_HP>Bullet_545x39mmSoviet_HP</Ammo_545x39mmSoviet_HP>
+			<Ammo_556x45mmNATO_FMJ>Bullet_556x45mmNATO_FMJ</Ammo_556x45mmNATO_FMJ>
+			<Ammo_556x45mmNATO_AP>Bullet_556x45mmNATO_AP</Ammo_556x45mmNATO_AP>
+			<Ammo_556x45mmNATO_HP>Bullet_556x45mmNATO_HP</Ammo_556x45mmNATO_HP>
+			<Ammo_556x45mmNATO_HE>Bullet_556x45mmNATO_HE</Ammo_556x45mmNATO_HE>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+</Defs>
