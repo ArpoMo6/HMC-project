@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- ====================== Armours ======================= -->
+	
+	<HMC_Iguf_Armour.label>Силовая броня И.Г.У.Ф.</HMC_Iguf_Armour.label>
+	<HMC_Iguf_Armour.description>Продвинутая ультратехническая броня с использованием высокотехнологичных материалов.</HMC_Iguf_Armour.description>
+	
+	<HMC_Iguf_Helmet.label>Силовой шлем И.Г.У.Ф.</HMC_Iguf_Helmet.label>
+	<HMC_Iguf_Helmet.description>Продвинутый ультратехнический шлем с использованием высокотехнологичных материалов.</HMC_Iguf_Helmet.description>
+	
+	<HMC_Iguf_Bascinet.label>Силовой бацинет И.Г.У.Ф.</HMC_Iguf_Bascinet.label>
+	<HMC_Iguf_Bascinet.description>Продвинутый ультратехнический бацинет с использованием высокотехнологичных материалов.</HMC_Iguf_Bascinet.description>
+
+</LanguageData>

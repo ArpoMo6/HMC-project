@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <UnmakeAmmo_NeolithicWooden.label>Разобрать деревянный снаряд х15</UnmakeAmmo_NeolithicWooden.label>
+    <UnmakeAmmo_NeolithicWooden.description>Разобрать деревянный снаряд х15.</UnmakeAmmo_NeolithicWooden.description>
+    <UnmakeAmmo_NeolithicWooden.jobString>Разбирает деревянный снаряд х15.</UnmakeAmmo_NeolithicWooden.jobString>
+
+    <UnmakeAmmo_NeolithicStony.label>Разобрать каменный снаряд х15</UnmakeAmmo_NeolithicStony.label>
+    <UnmakeAmmo_NeolithicStony.description>Разобрать каменный снаряд х15.</UnmakeAmmo_NeolithicStony.description>
+    <UnmakeAmmo_NeolithicStony.jobString>Разбирает каменный снаряд х15.</UnmakeAmmo_NeolithicStony.jobString>
+
+    <UnmakeAmmo_Caseless.label>Разобрать безгильзовый патрон х144</UnmakeAmmo_Caseless.label>
+    <UnmakeAmmo_Caseless.description>Разобрать безгильзовый патрон х144.</UnmakeAmmo_Caseless.description>
+    <UnmakeAmmo_Caseless.jobString>Разбирает безгильзовый патрон х144.</UnmakeAmmo_Caseless.jobString>
+
+    <UnmakeAmmo_Rifle_Intermediate.label>Разобрать промежуточный патрон х100</UnmakeAmmo_Rifle_Intermediate.label>
+    <UnmakeAmmo_Rifle_Intermediate.description>Разобрать промежуточный патрон х100.</UnmakeAmmo_Rifle_Intermediate.description>
+    <UnmakeAmmo_Rifle_Intermediate.jobString>Разбирает промежуточный патрон х100.</UnmakeAmmo_Rifle_Intermediate.jobString>
+
+    <UnmakeAmmo_Rifle.label>Разобрать винтовочный патрон х100</UnmakeAmmo_Rifle.label>
+    <UnmakeAmmo_Rifle.description>Разобрать винтовочный патрон х100.</UnmakeAmmo_Rifle.description>
+    <UnmakeAmmo_Rifle.jobString>Разбирает винтовочный патрон х100.</UnmakeAmmo_Rifle.jobString>
+
+    <UnmakeAmmo_Pistol.label>Разобрать пистолетный патрон х100</UnmakeAmmo_Pistol.label>
+    <UnmakeAmmo_Pistol.description>Разобрать пистолетный патрон х100.</UnmakeAmmo_Pistol.description>
+    <UnmakeAmmo_Pistol.jobString>Разбирает пистолетный патрон х100.</UnmakeAmmo_Pistol.jobString>
+
+    <UnmakeAmmo_Shotgun.label>Разобрать патрон дробовика х100</UnmakeAmmo_Shotgun.label>
+    <UnmakeAmmo_Shotgun.description>Разобрать патрон дробовика х100.</UnmakeAmmo_Shotgun.description>
+    <UnmakeAmmo_Shotgun.jobString>Разбирает патрон дробовика х100.</UnmakeAmmo_Shotgun.jobString>
+
+    <UnmakeAmmo_HighCaliber.label>Разобрать крупнокалиберный патрон х50</UnmakeAmmo_HighCaliber.label>
+    <UnmakeAmmo_HighCaliber.description>Разобрать крупнокалиберный патрон х50.</UnmakeAmmo_HighCaliber.description>
+    <UnmakeAmmo_HighCaliber.jobString>Разбирает крупнокалиберный патрон х50.</UnmakeAmmo_HighCaliber.jobString>
+
+    <UnmakeAmmo_Flamethrower.label>Разобрать боеприпасы огнемета х50</UnmakeAmmo_Flamethrower.label>
+    <UnmakeAmmo_Flamethrower.description>Разобрать боеприпасы огнемета х50.</UnmakeAmmo_Flamethrower.description>
+    <UnmakeAmmo_Flamethrower.jobString>Разбирает боеприпасы огнемета х50.</UnmakeAmmo_Flamethrower.jobString>
+
+    <UnmakeAmmo_Charged.label>Разобрать энергетическую ячейку х50</UnmakeAmmo_Charged.label>
+    <UnmakeAmmo_Charged.description>Разобрать энергетическую ячейку х50.</UnmakeAmmo_Charged.description>
+    <UnmakeAmmo_Charged.jobString>Разбирает энергетическую ячейку х50.</UnmakeAmmo_Charged.jobString>
+
+    <UnmakeAmmo_Plasma.label>Разобрать плазменную энергоячейку х50</UnmakeAmmo_Plasma.label>
+    <UnmakeAmmo_Plasma.description>Разобрать плазменную энергоячейку х50.</UnmakeAmmo_Plasma.description>
+    <UnmakeAmmo_Plasma.jobString>Разбирает плазменную энергоячейку х50.</UnmakeAmmo_Plasma.jobString>
+
+    <UnmakeAmmo_Blaster.label>Разобрать бластерную энергоячейку х50</UnmakeAmmo_Blaster.label>
+    <UnmakeAmmo_Blaster.description>Разобрать бластерную энергоячейку х50.</UnmakeAmmo_Blaster.description>
+    <UnmakeAmmo_Blaster.jobString>Разбирает бластерную энергоячейку х50.</UnmakeAmmo_Blaster.jobString>
+
+    <UnmakeAmmo_ChargedLaser.label>Разобрать лазерную энергоячейку х40</UnmakeAmmo_ChargedLaser.label>
+    <UnmakeAmmo_ChargedLaser.description>Разобрать лазерную энергоячейку х40.</UnmakeAmmo_ChargedLaser.description>
+    <UnmakeAmmo_ChargedLaser.jobString>Разбирает лазерную энергоячейку х40.</UnmakeAmmo_ChargedLaser.jobString>
+
+    <UnmakeAmmo_RailRay.label>Разобрать боеприпас рейлгана х30</UnmakeAmmo_RailRay.label>
+    <UnmakeAmmo_RailRay.description>Разобрать боеприпас рейлгана х30.</UnmakeAmmo_RailRay.description>
+    <UnmakeAmmo_RailRay.jobString>Разбирает боеприпас рейлгана х30.</UnmakeAmmo_RailRay.jobString>
+
+    <UnmakeAmmo_AmmoGrenade.label>Разобрать 30x29/40x46/25x40 мм гранату х30</UnmakeAmmo_AmmoGrenade.label>
+    <UnmakeAmmo_AmmoGrenade.description>Разобрать 30x29/40x46/25x40 мм гранату х30.</UnmakeAmmo_AmmoGrenade.description>
+    <UnmakeAmmo_AmmoGrenade.jobString>Разбирает 30x29/40x46/25x40 мм гранату х30.</UnmakeAmmo_AmmoGrenade.jobString>
+
+    <UnmakeAmmo_FuelCell.label>Разобрать 30x64 гранату х30</UnmakeAmmo_FuelCell.label>
+    <UnmakeAmmo_FuelCell.description>Разобрать 30x64 гранату х30.</UnmakeAmmo_FuelCell.description>
+    <UnmakeAmmo_FuelCell.jobString>Разбирает 30x64 гранату х30.</UnmakeAmmo_FuelCell.jobString>
+
+    <UnmakeAmmo_RPGsGrenade.label>Разобрать гранату РПГ х10</UnmakeAmmo_RPGsGrenade.label>
+    <UnmakeAmmo_RPGsGrenade.description>Разобрать гранату РПГ х10.</UnmakeAmmo_RPGsGrenade.description>
+    <UnmakeAmmo_RPGsGrenade.jobString>Разбирает гранату РПГ х10.</UnmakeAmmo_RPGsGrenade.jobString>
+
+    <UnmakeAmmo_MortarShell.label>Разобрать 81/90/120/155 мм снаряд х5</UnmakeAmmo_MortarShell.label>
+    <UnmakeAmmo_MortarShell.description>Разобрать 81/90/120/155 мм снаряд х5.</UnmakeAmmo_MortarShell.description>
+    <UnmakeAmmo_MortarShell.jobString>Разбирает 81/90/120/155 мм снаряд х5.</UnmakeAmmo_MortarShell.jobString>
+
+    <UnmakeAmmo_130mmRocketMissile.label>Разобрать 130 мм ракетный снаряд х5</UnmakeAmmo_130mmRocketMissile.label>
+    <UnmakeAmmo_130mmRocketMissile.description>Разобрать 130 мм ракетный снаряд х5.</UnmakeAmmo_130mmRocketMissile.description>
+    <UnmakeAmmo_130mmRocketMissile.jobString>Разбирает 130 мм ракетный снаряд х5.</UnmakeAmmo_130mmRocketMissile.jobString>
+
+    <UnmakeAmmo_Mag.label>Разобрать 6.27x29 мм магнитную болванку х50.</UnmakeAmmo_Mag.label>
+    <UnmakeAmmo_Mag.description>Разобрать 6.27x29 мм магнитную болванку х50.</UnmakeAmmo_Mag.description>
+    <UnmakeAmmo_Mag.jobString>Разбирает 6.27x29 мм магнитную болванку х50.</UnmakeAmmo_Mag.jobString>
+
+</LanguageData>

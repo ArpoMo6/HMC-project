@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace/recipes</xpath>
+				<value>
+					<li>InstallIgufFirmware</li>
+					<li>RemoveIgufFirmware</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/recipes</xpath>
+				<value>
+					<li>InstallDeathAcidifier</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

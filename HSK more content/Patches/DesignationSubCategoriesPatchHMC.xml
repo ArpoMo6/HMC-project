@@ -1,0 +1,33 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Machineguns"]/defNames</xpath>
+		<value>
+			<li>Turret_NSV_HMC</li>
+			<li>Turret_LWMMGmounted_HMC</li>
+			<li>Turret_EnergyGPMG_HMC</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lights"]/defNames</xpath>
+		<value>
+			<li>SilverGlowstoneLamp</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames</xpath>
+		<value>
+			<li>HMC_Turret_MicroTurret</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Containers"]/defNames</xpath>
+		<value>
+			<li>HMC_OneStackChest</li>
+		</value>
+	</Operation>
+
+</Patch>

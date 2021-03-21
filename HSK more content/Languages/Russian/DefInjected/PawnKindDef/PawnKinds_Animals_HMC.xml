@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Land Shark -->
+
+  <LandShark.label>сухопутная акула</LandShark.label>
+  <LandShark.description>...коробочка...вкусняшка...</LandShark.description>
+  <LandShark_Corpse.label>труп сухопутной акулы</LandShark_Corpse.label>
+  <LandShark_Corpse.description>Труп сухопутной акулы.</LandShark_Corpse.description>
+
+  <Jackalope.label>рогатый заяц</Jackalope.label>
+  <Jackalope.description>Странный вид кролика, скорее всего генетически измененный, с острыми рогами, растущими из черепа.</Jackalope.description>
+  <Jackalope_Corpse.label>труп рогатого зайца</Jackalope_Corpse.label>
+  <Jackalope_Corpse.description>Труп рогатого зайца.</Jackalope_Corpse.description>
+
+  <SnowJackalope.label>снежный рогатый заяц</SnowJackalope.label>
+  <SnowJackalope.description>Странный вид кролика, скорее всего генетически измененный, с острыми рогами, растущими из черепа.</SnowJackalope.description>
+  <SnowJackalope_Corpse.label>труп снежного рогатого зайца</SnowJackalope_Corpse.label>
+  <SnowJackalope_Corpse.description>Труп снежного рогатого зайца.</SnowJackalope_Corpse.description>
+
+</LanguageData>

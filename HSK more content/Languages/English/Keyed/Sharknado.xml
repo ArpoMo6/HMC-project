@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Sharknado.SettingName>Sharknado</Sharknado.SettingName>
+
+  <Sharknado.Cloudiness>Cloudiness</Sharknado.Cloudiness>
+  <Sharknado.CloudinessDescription>Changes of rain and slight drop in atmospheric sharks. The chance of a Sharknado occurring (default StormSpotted 1.5x)</Sharknado.CloudinessDescription>
+  <Sharknado.Cloudiness_ClearSkies>Clear Skies</Sharknado.Cloudiness_ClearSkies>
+  <Sharknado.Cloudiness_CloudyWithAChanceOfSharks>Cloudy with a Chance of Sharks</Sharknado.Cloudiness_CloudyWithAChanceOfSharks>
+  <Sharknado.Cloudiness_StormSpotted>Storm Spotted</Sharknado.Cloudiness_StormSpotted>
+  <Sharknado.Cloudiness_SharkFallExpected>Shark Fall Expected</Sharknado.Cloudiness_SharkFallExpected>
+  <Sharknado.Cloudiness_TwisterWithFins>Twister With Fins</Sharknado.Cloudiness_TwisterWithFins>
+
+  <Sharknado.SharkEnthusiasm>Airshark Enthusiasm</Sharknado.SharkEnthusiasm>
+  <Sharknado.SharkEnthusiasmDescription>Is that shark stearing that tornado? Multiplies the base damage of Sharknados (default A Little Hungry 1.5x)</Sharknado.SharkEnthusiasmDescription>
+  <Sharknado.SharkEnthusiasm_AlreadyFed>Already Fed</Sharknado.SharkEnthusiasm_AlreadyFed>
+  <Sharknado.SharkEnthusiasm_ALittleHungry>A Little Hungry</Sharknado.SharkEnthusiasm_ALittleHungry>
+  <Sharknado.SharkEnthusiasm_Unfed>Unfed</Sharknado.SharkEnthusiasm_Unfed>
+  <Sharknado.SharkEnthusiasm_Starved>Starved</Sharknado.SharkEnthusiasm_Starved>
+  
+  <Sharknado.SpawnTickRate>Falling Shark Rate</Sharknado.SpawnTickRate>
+  <Sharknado.SpawnTickRateDescription>Turns out sharks are dangerous after they fall out of the sky! Determines the rate at which sharks fall down to attack you (default Sharknado).</Sharknado.SpawnTickRateDescription>
+  <Sharknado.SpawnTickRate_AirSharksOnly>Air Sharks Only</Sharknado.SpawnTickRate_AirSharksOnly>
+  <Sharknado.SpawnTickRate_JustAFewSharks>Just a Few Sharks</Sharknado.SpawnTickRate_JustAFewSharks>
+  <Sharknado.SpawnTickRate_Sharknado>Sharknado</Sharknado.SpawnTickRate_Sharknado>
+  <Sharknado.SpawnTickRate_OhGodTheSharks>Oh God the Sharks!</Sharknado.SpawnTickRate_OhGodTheSharks>
+  <Sharknado.SpawnTickRate_SharknadoIsLife>Sharknado is Life</Sharknado.SpawnTickRate_SharknadoIsLife>
+
+  <Sharknado.TornadoCount>Sequel Choice</Sharknado.TornadoCount>
+  <Sharknado.TornadoCountDescription>There's always more of them! Determines the number of Sharknados per event (default Sharknado 1).</Sharknado.TornadoCountDescription>
+  <Sharknado.TornadoCount_Sharknado>Sharknado</Sharknado.TornadoCount_Sharknado>
+  <Sharknado.TornadoCount_Sharknado2TheSecondOne>Sharknado 2: The Second One</Sharknado.TornadoCount_Sharknado2TheSecondOne>
+  <Sharknado.TornadoCount_Sharknado3OhHellNo>Sharknado 3: Oh Hell No</Sharknado.TornadoCount_Sharknado3OhHellNo>
+  <Sharknado.TornadoCount_SharknadoThe4thAwakens>Sharknado: The 4th Awakens</Sharknado.TornadoCount_SharknadoThe4thAwakens>
+  <Sharknado.TornadoCount_Sharknado5GlobalSwarm>Sharknado 5: Global Swarm</Sharknado.TornadoCount_Sharknado5GlobalSwarm>
+  <Sharknado.TornadoCount_Sharknado6>Sharknado 6</Sharknado.TornadoCount_Sharknado6>
+</LanguageData>

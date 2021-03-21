@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Bionic parts -->
+
+	<IgufFirmware.label>прошивка И.Г.У.Ф.</IgufFirmware.label>
+	<IgufFirmware.description>Введение небольшого устройства в мозг, которое расширяет возможности его носителя.</IgufFirmware.description>
+	<IgufFirmware.labelNoun>прошивка И.Г.У.Ф.</IgufFirmware.labelNoun>
+
+</LanguageData>

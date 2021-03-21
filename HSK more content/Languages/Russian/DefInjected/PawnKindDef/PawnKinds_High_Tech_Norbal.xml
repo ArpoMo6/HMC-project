@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- High Tech Norbals -->
+
+  <HMCNorbalWarrior.label>воин Хайтек Норбалов из далекого Космоса</HMCNorbalWarrior.label>
+  <HMCNorbalWarrior.description>мощная полукосмическая боевая единица.</HMCNorbalWarrior.description>
+
+  <HMCNorbalDestroyer.label>разрушитель Хайтек Норбалов из далекого Космоса</HMCNorbalDestroyer.label>
+  <HMCNorbalDestroyer.description>мощная полукосмическая боевая единица.</HMCNorbalDestroyer.description>
+
+  <HMCNorbalArcher.label>лучник Хайтек Норбалов из далекого Космоса</HMCNorbalArcher.label>
+  <HMCNorbalArcher.description>мощная полукосмическая боевая единица.</HMCNorbalArcher.description>
+
+  <HMCNorbalGrandSage.label>старейшина Хайтек Норбалов из далекого Космоса</HMCNorbalGrandSage.label>
+  <HMCNorbalGrandSage.description>мощная и мудрая полукосмическая боевая единица.</HMCNorbalGrandSage.description>
+
+  <HMCNorbalBerserker.label>берсерк Хайтек Норбалов из далекого Космоса</HMCNorbalBerserker.label>
+  <HMCNorbalBerserker.description>мощная полукосмическая боевая единица.</HMCNorbalBerserker.description>
+
+  <HMCCyberNorbal.label>Кибер-Норбал из далекого Космоса</HMCCyberNorbal.label>
+  <HMCCyberNorbal.description>тяжелая полукосмическая боевая единица.</HMCCyberNorbal.description>
+
+</LanguageData>
