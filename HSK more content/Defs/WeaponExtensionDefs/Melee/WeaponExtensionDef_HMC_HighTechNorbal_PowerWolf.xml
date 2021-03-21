@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WeaponExtensionDef>
+    <weapon>HMC_HighTechNorbal_PowerWolf</weapon>
+    <attackAngleOffset IsNull="True" />
+    <weaponPositionOffset>
+      <x>0.3336478</x>
+      <y>0</y>
+      <z>0.2532075</z>
+    </weaponPositionOffset>
+    <aimedWeaponPositionOffset>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </aimedWeaponPositionOffset>
+    <firstHandPosition>
+      <x>-0.4</x>
+      <y>0.005</y>
+      <z>-0.34</z>
+    </firstHandPosition>
+    <secondHandPosition>
+      <x>-0.3522013</x>
+      <y>-0.005</y>
+      <z>-0.3699371</z>
+    </secondHandPosition>
+    <defName>WeaponExtensionDef_HMC_HighTechNorbal_PowerWolf</defName>
+    <label>WeaponExtensionDef_HMC_HighTechNorbal_PowerWolf</label>
+  </WeaponExtensionDef>
+</Defs>
