@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- ================== Cannon ================== -->
+
+	<ThingDef ParentName="BaseGun_Turret">
+		<defName>Gun_Cannon_HMC</defName>
+		<label>Cannon gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/CannonHMC/CannonHMC_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>A manned cannon which can throw shells over enemy's head.</description>
+		<soundInteract>Interaction_Cannon_HMC</soundInteract>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>600</MarketValue>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.25</ShotSpread>
+			<SwayFactor>1.1</SwayFactor>
+			<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_CannonBall_Solid_HMC</defaultProjectile>
+				<!--<forcedMissRadius>3</forcedMissRadius>-->
+				<circularError>1</circularError>
+				<warmupTime>3</warmupTime>
+				<minRange>5</minRange>
+				<range>75</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_Cannon_HMC</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>20</muzzleFlashScale>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>7.5</reloadTime>
+				<spawnUnloaded>true</spawnUnloaded>
+				<ammoSet>AmmoSet_CannonBall_HMC</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes" />
+		</comps>
+	</ThingDef>
+
+</Defs>

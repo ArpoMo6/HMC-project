@@ -15,4 +15,17 @@
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_9mmVersatile</defName>
+		<label>9x19 / 9x39 mm</label>
+		<ammoTypes>
+			<Ammo_9x19mmPara_FMJ>Bullet_9x19mmPara_FMJ</Ammo_9x19mmPara_FMJ>
+			<Ammo_9x19mmPara_AP>Bullet_9x19mmPara_AP</Ammo_9x19mmPara_AP>
+			<Ammo_9x19mmPara_HP>Bullet_9x19mmPara_HP</Ammo_9x19mmPara_HP>
+			<Ammo_9x39mmSoviet_FMJ>Bullet_9x39mmSoviet_FMJ</Ammo_9x39mmSoviet_FMJ>
+			<Ammo_9x39mmSoviet_AP>Bullet_9x39mmSoviet_AP</Ammo_9x39mmSoviet_AP>
+			<Ammo_9x39mmSoviet_EMP>Bullet_9x39mmSoviet_EMP</Ammo_9x39mmSoviet_EMP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
 </Defs>

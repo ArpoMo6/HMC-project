@@ -19,6 +19,7 @@
             <Bulk>7.4</Bulk>
             <Mass>6.4</Mass>
         </statBases>
+		<generateCommonality>0.6</generateCommonality>
         <weaponTags>
             <li>IgufLaucnher</li>
             <li>Glaunchers</li>

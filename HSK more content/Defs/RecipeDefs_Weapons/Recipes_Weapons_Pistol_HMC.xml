@@ -26,7 +26,7 @@
 						<li>Pistol_Component</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -39,7 +39,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentIndustrial</li>
+						<li>ComponentAdvanced</li>
 					</thingDefs>
 				</filter>
 				<count>12</count>
@@ -47,10 +47,10 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -69,10 +69,9 @@
 				<li>Heavy_Component</li>			
 				<li>Pistol_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentIndustrial</li>
+				<li>ComponentAdvanced</li>
 			</thingDefs>
 			<categories>
-				<li>SLDBar</li>
 				<li>USLDBar</li>
 				<li>Leathers</li>
 			</categories>
@@ -189,7 +188,7 @@
 						<li>Pistol_Component</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -342,7 +341,7 @@
 						<li>Pistol_Component</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>

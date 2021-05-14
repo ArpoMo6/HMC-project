@@ -145,17 +145,14 @@
 		<label>25x40mm grenade (I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<explosionRadius>1.5</explosionRadius>
-			<damageDef>PrometheumFlame</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>15</damageAmountBase>
 			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.15</preExplosionSpawnChance>
+			<preExplosionSpawnChance>0.33</preExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<explosionDamage>5</explosionDamage>
-				<explosionDamageDef>Bomb</explosionDamageDef>
-				<explosionRadius>1</explosionRadius>
 				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 			</li>
 		</comps>

@@ -20,7 +20,7 @@
             <Bulk>3.3</Bulk>
             <Mass>1.6</Mass>
         </statBases>
-		<generateCommonality>0.95</generateCommonality>
+		<generateCommonality>0.85</generateCommonality>
         <weaponTags>
             <li>HMCNoTags</li>
 			<li>CE_OneHandedWeapon</li>
@@ -82,7 +82,7 @@
             <Bulk>7.3</Bulk>
             <Mass>2.7</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>ST1</li>
             <li>Gun</li>
@@ -145,7 +145,7 @@
             <Bulk>10.4</Bulk>
             <Mass>4.4</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>ST3</li>
             <li>Gun</li>
@@ -212,7 +212,7 @@
             <Bulk>4.7</Bulk>
             <Mass>3.2</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>ADR3</li>
             <li>AdvancedGun</li>

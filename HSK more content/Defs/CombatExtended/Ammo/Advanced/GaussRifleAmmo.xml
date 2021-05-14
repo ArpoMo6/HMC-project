@@ -76,12 +76,12 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageAmountBase>45</damageAmountBase>
 			<speed>300</speed>
 			<secondaryDamage>
 				<li>
 					<def>EMP</def>
-					<amount>50</amount>
+					<amount>45</amount>
 				</li>
 			</secondaryDamage>
 			<!-- <armorPenetrationBase>2</armorPenetrationBase> -->

@@ -12,7 +12,7 @@
     </graphicData>
     <description>NSV-12.7 «Utyos» machine gun mounted on a tripod.</description>
     <statBases>
-      <MarketValue>2300</MarketValue>
+      <MarketValue>2000</MarketValue>
 		<SightsEfficiency>1.65</SightsEfficiency>
 		<ShotSpread>0.084</ShotSpread>
 		<SwayFactor>0.8</SwayFactor>
@@ -25,10 +25,10 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
         <warmupTime>1.25</warmupTime>
-        <range>62</range>
-		<minRange>2</minRange>
-		<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-		<burstShotCount>12</burstShotCount>
+        <range>71</range>
+		<minRange>3</minRange>
+		<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+		<burstShotCount>6</burstShotCount>
         <soundCast>Shot_NSV_HMC</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
@@ -42,7 +42,7 @@
 				<ammoSet>AmmoSet_127x108mm</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
-				<aimedBurstShotCount>4</aimedBurstShotCount>
+				<aimedBurstShotCount>3</aimedBurstShotCount>
 			</li>
 		</comps>
   </ThingDef>
