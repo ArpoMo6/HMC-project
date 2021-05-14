@@ -2,9 +2,31 @@
 
 <LanguageData>
 
-	<MakeAmmo_Bolt_Emp.label>Сделать EMP-болт х50</MakeAmmo_Bolt_Emp.label>
-    <MakeAmmo_Bolt_Emp.description>Сделать EMP-болт х50.</MakeAmmo_Bolt_Emp.description>
-	<MakeAmmo_Bolt_Emp.jobString>Делает EMP-болт х50.</MakeAmmo_Bolt_Emp.jobString>
+	<!-- ==================== Simple ========================== -->
+
+	<MakeAmmo_Bolt_EMP.label>Сделать EMP-болт х50</MakeAmmo_Bolt_EMP.label>
+    <MakeAmmo_Bolt_EMP.description>Сделать EMP-болт х50.</MakeAmmo_Bolt_EMP.description>
+	<MakeAmmo_Bolt_EMP.jobString>Делает EMP-болт х50.</MakeAmmo_Bolt_EMP.jobString>
+
+	<MakeBlackPowder.label>Сделать чёрный порох x10</MakeBlackPowder.label>
+    <MakeBlackPowder.description>Сделать чёрный порох x10. Не очень эффективный, но простой рецепт.</MakeBlackPowder.description>
+	<MakeBlackPowder.jobString>Делает чёрный порох x10.</MakeBlackPowder.jobString>
+
+	<MakeAmmo_CannonBall_Solid_HMC.label>Сделать пушечное ядро х10</MakeAmmo_CannonBall_Solid_HMC.label>
+    <MakeAmmo_CannonBall_Solid_HMC.description>Сделать пушечное ядро х10.</MakeAmmo_CannonBall_Solid_HMC.description>
+	<MakeAmmo_CannonBall_Solid_HMC.jobString>Делает пушечное ядро х10.</MakeAmmo_CannonBall_Solid_HMC.jobString>
+
+	<MakeAmmo_CannonBall_Explosive_HMC.label>Сделать взрывное пушечное ядро х10</MakeAmmo_CannonBall_Explosive_HMC.label>
+    <MakeAmmo_CannonBall_Explosive_HMC.description>Сделать взрывное пушечное ядро х10.</MakeAmmo_CannonBall_Explosive_HMC.description>
+	<MakeAmmo_CannonBall_Explosive_HMC.jobString>Делает взрывное пушечное ядро х10.</MakeAmmo_CannonBall_Explosive_HMC.jobString>
+
+	<MakeAmmo_CannonBall_Incendiary_HMC.label>Сделать зажигательное пушечное ядро х10</MakeAmmo_CannonBall_Incendiary_HMC.label>
+    <MakeAmmo_CannonBall_Incendiary_HMC.description>Сделать зажигательное пушечное ядро х10.</MakeAmmo_CannonBall_Incendiary_HMC.description>
+	<MakeAmmo_CannonBall_Incendiary_HMC.jobString>Делает зажигательное пушечное ядро х10.</MakeAmmo_CannonBall_Incendiary_HMC.jobString>
+
+	<MakeAmmo_CannonBall_Grape_HMC.label>Сделать пушечную картечь х10</MakeAmmo_CannonBall_Grape_HMC.label>
+    <MakeAmmo_CannonBall_Grape_HMC.description>Сделать пушечную картечь х10.</MakeAmmo_CannonBall_Grape_HMC.description>
+	<MakeAmmo_CannonBall_Grape_HMC.jobString>Делает пушечную картечь х10.</MakeAmmo_CannonBall_Grape_HMC.jobString>
 
 	<!-- ==================== 12 Gauge ========================== -->
 

@@ -28,10 +28,10 @@
 
 	<!-- ==================== EdritThor hammer ========================== -->
 
-	<Weapon_GrenadeEdritThor.label>Молот ЕдритТора</Weapon_GrenadeEdritThor.label>
+	<Weapon_GrenadeEdritThor.label>Молот едритТора</Weapon_GrenadeEdritThor.label>
 	<Weapon_GrenadeEdritThor.description>Высокотехнологичная энергетическая граната производства хайтек норбалов. Детальная проработка формы гранаты позволила упростить её транспортировку и хранение. Quadratisch, praktisch, gut.</Weapon_GrenadeEdritThor.description>
 
-	<Proj_GrenadeEdritThor.label>Молот ЕдритТора</Proj_GrenadeEdritThor.label>
+	<Proj_GrenadeEdritThor.label>Молот едритТора</Proj_GrenadeEdritThor.label>
 
 	<!-- ==================== Mechanoid ========================== -->
 

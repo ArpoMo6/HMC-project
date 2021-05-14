@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<!-- ==================== Cannons ========================== -->
+
+	<Cannon_HMC.label>Пушка</Cannon_HMC.label>
+	<Cannon_HMC.description>Управляемая пушка для забрасывания снарядов на головы врагов.\nНеобходим стрелок.\n\nПушка... они заряжают пушку, но зачем?</Cannon_HMC.description>
+
 	<!-- ==================== Machine guns ========================== -->
 
 	<Turret_NSV_HMC.label>Стационарный пулемёт НСВ-12.7 «Утёс»</Turret_NSV_HMC.label>

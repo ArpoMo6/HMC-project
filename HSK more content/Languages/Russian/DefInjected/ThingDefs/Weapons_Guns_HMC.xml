@@ -60,6 +60,9 @@
 	<Gun_VersatileCarbine_HMC.label>Универсальный 5 мм карабин</Gun_VersatileCarbine_HMC.label>
 	<Gun_VersatileCarbine_HMC.description>Оружие древнего мира. Универсальный карабин. Может использовать любые 5 мм боеприпасы.</Gun_VersatileCarbine_HMC.description>
 
+	<Gun_VTC9_HMC.label>Универсальный карабин VTC-9m</Gun_VTC9_HMC.label>
+	<Gun_VTC9_HMC.description>Оружие древнего мира. Универсальный тактический карабин. Может использовать любые 9 мм боеприпасы. Хорошо подходит для охоты, но из-за особенностей конструкции не может использовать особые боеприпасы (такие как SH или HESH).</Gun_VTC9_HMC.description>
+
 	<!-- ====================== Sniper Rifles ======================= -->	
 
 	<Gun_Vintorez.label>ВСС "Винторез"</Gun_Vintorez.label>
@@ -102,7 +105,7 @@
 	<Gun_R2Lance_HMC.description>Продвинутое оружие древнего мира. Могучая снайперская энерговинтовка с продольно-скользящим затвором. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции</Gun_R2Lance_HMC.description>
 
 	<Gun_Item62_HMC.label>Изделие 62</Gun_Item62_HMC.label>
-	<Gun_Item62_HMC.description>Продвинутое оружие древнего мира. Могучая снайперская гаусс-пушка. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции</Gun_Item62_HMC.description>
+	<Gun_Item62_HMC.description>Продвинутое оружие древнего мира. Могучая снайперская гаусс-пушка. Конструкция оружия позволяет вести точную стрельбу на сверхдальние дистанции</Gun_Item62_HMC.description>
 
 	<!-- ====================== Shotguns ======================= -->	
 	
@@ -137,7 +140,7 @@
 
 	<!-- ====================== SMGs ======================= -->	
 	
-	<RK_Gun_PP19Bizon.label>ПП-19 Бизон-2-07</RK_Gun_PP19Bizon.label>
+	<RK_Gun_PP19Bizon.label>Пистолет-пулемет ПП-19 Бизон-2-07</RK_Gun_PP19Bizon.label>
 	<RK_Gun_PP19Bizon.description>Оружие древнего мира. Пистолет-пулемёт с хорошими характеристиками и не менее хорошим размером магазина</RK_Gun_PP19Bizon.description>
 	
 	<Gun_Ppsh41_HMC.label>Пистолет-пулемет ППШ-41</Gun_Ppsh41_HMC.label>

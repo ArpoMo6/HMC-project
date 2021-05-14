@@ -30,4 +30,11 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_MedievalTurrets"]/defNames</xpath>
+		<value>
+			<li>Cannon_HMC</li>
+		</value>
+	</Operation>
+
 </Patch>
