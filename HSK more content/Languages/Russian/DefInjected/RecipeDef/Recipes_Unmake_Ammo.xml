@@ -10,6 +10,10 @@
     <UnmakeAmmo_NeolithicStony.description>Разобрать каменный снаряд х15.</UnmakeAmmo_NeolithicStony.description>
     <UnmakeAmmo_NeolithicStony.jobString>Разбирает каменный снаряд х15.</UnmakeAmmo_NeolithicStony.jobString>
 
+    <UnmakeAmmo_CannonBall.label>Разобрать пушечное ядро х20</UnmakeAmmo_CannonBall.label>
+    <UnmakeAmmo_CannonBall.description>Разобрать пушечное ядро х20.</UnmakeAmmo_CannonBall.description>
+    <UnmakeAmmo_CannonBall.jobString>Разбирает пушечное ядро х20.</UnmakeAmmo_CannonBall.jobString>
+
     <UnmakeAmmo_Caseless.label>Разобрать безгильзовый патрон х144</UnmakeAmmo_Caseless.label>
     <UnmakeAmmo_Caseless.description>Разобрать безгильзовый патрон х144.</UnmakeAmmo_Caseless.description>
     <UnmakeAmmo_Caseless.jobString>Разбирает безгильзовый патрон х144.</UnmakeAmmo_Caseless.jobString>

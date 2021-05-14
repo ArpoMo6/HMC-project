@@ -1,21 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Ionized_Slug.label>Ионизированный снаряд (Ion-Slug)</Ionized_Slug.label>
-	<Ionized_Slug.description>Спроектирован для борьбы с механоидами, создаёт сильный электрический импульс в месте столкновения и эффективно вырубает всю электронику.</Ionized_Slug.description> 
+	<BallSolid_HMC.label>пушечное ядро</BallSolid_HMC.label>
+	<BallSolid_HMC.labelShort>ядро</BallSolid_HMC.labelShort>
+	<BallSolid_HMC.description>Обычное металлическое ядро с пороховым зарядом.</BallSolid_HMC.description>
 
-	<Ionized_Buck.label>Ионизированная картечь (Ion-Buck)</Ionized_Buck.label>
-	<Ionized_Buck.description>Спроектирован для борьбы с механоидами, создаёт множество слабых электрических импульсов в месте столкновения и эффективно вырубает всю электронику.</Ionized_Buck.description> 
+	<BallExplosive_HMC.label>взрывное пушечное ядро</BallExplosive_HMC.label>
+	<BallExplosive_HMC.labelShort>взрывное ядро</BallExplosive_HMC.labelShort>
+	<BallExplosive_HMC.description>Металлическое ядро с большим пороховым зарядом.</BallExplosive_HMC.description>
 
-	<DragonsBreath.label>Дыхание дракона (DB)</DragonsBreath.label>
-	<DragonsBreath.labelShort>Дыхание дракона (DB)</DragonsBreath.labelShort>
-	<DragonsBreath.description>Наполненный множеством крошечных осколков прометеума, которые распространяются широким узором, поджигая все на своем Пути!</DragonsBreath.description> 
+	<BallIncendiary_HMC.label>зажигательное пушечное ядро</BallIncendiary_HMC.label>
+	<BallIncendiary_HMC.labelShort>зажигательное ядро</BallIncendiary_HMC.labelShort>
+	<BallIncendiary_HMC.description>Металлическое ядро с горящей жидкостью.</BallIncendiary_HMC.description>
 
-	<Flechette.label>Флешетта (F)</Flechette.label>
+	<BallGrape_HMC.label>пушечная картечь</BallGrape_HMC.label>
+	<BallGrape_HMC.labelShort>картечь</BallGrape_HMC.labelShort>
+	<BallGrape_HMC.description>Заряд металлических шариков.</BallGrape_HMC.description>
+
+	<Ionized_Slug.label>ионизированный снаряд (Ion-Slug)</Ionized_Slug.label>
+	<Ionized_Slug.description>Спроектирован для борьбы с механоидами, создаёт сильный электрический импульс в месте столкновения и эффективно вырубает всю электронику.</Ionized_Slug.description>
+
+	<Ionized_Buck.label>ионизированная картечь (Ion-Buck)</Ionized_Buck.label>
+	<Ionized_Buck.description>Спроектирован для борьбы с механоидами, создаёт множество слабых электрических импульсов в месте столкновения и эффективно вырубает всю электронику.</Ionized_Buck.description>
+
+	<DragonsBreath.label>дыхание дракона (DB)</DragonsBreath.label>
+	<DragonsBreath.labelShort>дыхание дракона (DB)</DragonsBreath.labelShort>
+	<DragonsBreath.description>Наполненный множеством крошечных осколков прометеума, которые распространяются широким узором, поджигая все на своем Пути!</DragonsBreath.description>
+
+	<Flechette.label>флешетта (F)</Flechette.label>
 	<Flechette.description>Множество крошечных стальных дротиков с большим потенциалом бронепробития.</Flechette.description>
 
-	<Shrapnel.label>Шрапнель (S)</Shrapnel.label>
-	<Shrapnel.labelShort>Шрапнель (S)</Shrapnel.labelShort>
+	<Shrapnel.label>шрапнель (S)</Shrapnel.label>
+	<Shrapnel.labelShort>шрапнель (S)</Shrapnel.labelShort>
 	<Shrapnel.description>Цельный снаряд, под завязку напичканный осколками и порохом.</Shrapnel.description>
 
 </LanguageData>

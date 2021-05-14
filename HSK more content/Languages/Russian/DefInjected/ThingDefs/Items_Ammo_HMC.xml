@@ -2,6 +2,11 @@
 
 <LanguageData>
 
+	<!-- ==================== Cannons ========================== -->
+
+	<Crate_Cannon_HMC.label>Детали пушки</Crate_Cannon_HMC.label> 
+	<Crate_Cannon_HMC.description>Детали для управляемой пушки.</Crate_Cannon_HMC.description>
+
 	<!-- ==================== Machine guns ========================== -->
 
 	<NSV_Crate_HMC.label>Детали стационарного пулемёта НСВ-12.7 «Утёс»</NSV_Crate_HMC.label> 

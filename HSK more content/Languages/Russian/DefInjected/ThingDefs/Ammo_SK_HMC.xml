@@ -2,10 +2,27 @@
 
 <LanguageData>
 	
-	<!-- ==================== bolts ========================== -->	
+	<!-- ==================== Simple ========================== -->	
 
-	<Ammo_Bolt_EMP.label>EMP-болт</Ammo_Bolt_EMP.label> 
+	<Ammo_Bolt_EMP.label>EMP-болт</Ammo_Bolt_EMP.label>
 	<Ammo_Bolt_EMP.description>Необычная стрела с миниатюрным генератором электромагнитного импульса.</Ammo_Bolt_EMP.description>
+	<Projectile_EMPBolt.label>EMP-болт</Projectile_EMPBolt.label>
+
+	<Ammo_CannonBall_Solid_HMC.label>Пушечное ядро</Ammo_CannonBall_Solid_HMC.label> 
+	<Ammo_CannonBall_Solid_HMC.description>Обычное металлическое ядро с пороховым зарядом.</Ammo_CannonBall_Solid_HMC.description>
+	<Bullet_CannonBall_Solid_HMC.label>ядро</Bullet_CannonBall_Solid_HMC.label>
+
+	<Ammo_CannonBall_Explosive_HMC.label>Взрывное пушечное ядро</Ammo_CannonBall_Explosive_HMC.label> 
+	<Ammo_CannonBall_Explosive_HMC.description>Металлическое ядро с большим пороховым зарядом.</Ammo_CannonBall_Explosive_HMC.description>
+	<Bullet_CannonBall_Explosive_HMC.label>взрывное ядро</Bullet_CannonBall_Explosive_HMC.label>
+
+	<Ammo_CannonBall_Incendiary_HMC.label>Зажигательное пушечное ядро</Ammo_CannonBall_Incendiary_HMC.label> 
+	<Ammo_CannonBall_Incendiary_HMC.description>Металлическое ядро с горящей жидкостью.</Ammo_CannonBall_Incendiary_HMC.description>
+	<Bullet_CannonBall_Incendiary_HMC.label>зажигательное ядро</Bullet_CannonBall_Incendiary_HMC.label>
+
+	<Ammo_CannonBall_Grape_HMC.label>Пушечная картечь</Ammo_CannonBall_Grape_HMC.label> 
+	<Ammo_CannonBall_Grape_HMC.description>Заряд металлических шариков.</Ammo_CannonBall_Grape_HMC.description>
+	<Bullet_CannonBall_Grape_HMC.label>картечь</Bullet_CannonBall_Grape_HMC.label>
 
 	<!-- ==================== 12 Gauge ========================== -->
 
@@ -241,6 +258,6 @@
 	<Ammo_GaussCharged.label>Боеприпасы гаусс-пушки</Ammo_GaussCharged.label>
 	<Ammo_GaussCharged.description>Боеприпасы гаусс-пушки</Ammo_GaussCharged.description>
 
-	<Bullet_GaussCharged.label>Снаряд гаусс-пушки</Bullet_GaussCharged.label>
+	<Bullet_GaussCharged.label>снаряд гаусс-пушки</Bullet_GaussCharged.label>
 
 </LanguageData>

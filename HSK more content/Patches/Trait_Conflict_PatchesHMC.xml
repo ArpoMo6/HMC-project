@@ -20,6 +20,7 @@
 		<xpath>Defs/TraitDef[defName = "Tough"]/conflictingTraits</xpath>
 		<value>
 			<li>HMC_Glasspawnon</li>
+			<li>GreenThumbTwo</li>
 		</value>
 	</Operation>
 
@@ -48,7 +49,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/TraitDef[defName="GreenThumbTwo"]/degreeDatas/li/statOffsets</xpath>
 			<value>
-				<TreeFellingSpeed>0.15</TreeFellingSpeed>
+				<TreeFellingSpeed>0.55</TreeFellingSpeed>
 			</value>
 		</match>
 	</Operation>

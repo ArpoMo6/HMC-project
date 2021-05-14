@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- black knight -->
+  <KingdomBlackKnight_HMC.label>чёрный рыцарь</KingdomBlackKnight_HMC.label>
+  <KingdomBlackKnight_HMC.labelPlural>чёрные рыцари</KingdomBlackKnight_HMC.labelPlural>
+  <KingdomBlackKnight_HMC.labelMale>чёрный рыцарь</KingdomBlackKnight_HMC.labelMale>
+  <KingdomBlackKnight_HMC.labelMalePlural>чёрные рыцари</KingdomBlackKnight_HMC.labelMalePlural>
+  <KingdomBlackKnight_HMC.labelFemale>чёрный рыцарь</KingdomBlackKnight_HMC.labelFemale>
+  <KingdomBlackKnight_HMC.labelFemalePlural>чёрные рыцари</KingdomBlackKnight_HMC.labelFemalePlural>
+
+</LanguageData>

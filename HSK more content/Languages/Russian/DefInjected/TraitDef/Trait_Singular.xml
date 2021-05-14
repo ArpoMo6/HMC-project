@@ -13,8 +13,8 @@
   <GreaterBlacksmith.degreeDatas.0.label>кузнец</GreaterBlacksmith.degreeDatas.0.label>
   <GreaterBlacksmith.degreeDatas.0.description>{PAWN_nameDef} - кузнец. Будучи кузнецом, {PAWN_pronoun} мечтает создавать легендарное оружие, но из-за ненадобности в оном большая часть работы - переплавка всякого хлама, который приносят с собой рейды.</GreaterBlacksmith.degreeDatas.0.description>
   
-  <GreenThumbTwo.degreeDatas.0.label>хороший садовник</GreenThumbTwo.degreeDatas.0.label>
-  <GreenThumbTwo.degreeDatas.0.description>[PAWN_nameDef] хороший садовник. [PAWN_pronoun] единственное желание это озеленить весь мир!</GreenThumbTwo.degreeDatas.0.description>
+  <GreenThumbTwo.degreeDatas.0.label>железный дровосек</GreenThumbTwo.degreeDatas.0.label>
+  <GreenThumbTwo.degreeDatas.0.description>[PAWN_nameDef] обладает твердой кожей и отличными навыками истребления деревьев. [PAWN_possessive] любимое дело – неторопливо нарезать позеленевших.</GreenThumbTwo.degreeDatas.0.description>
   
   <Efficaciousness.degreeDatas.0.label>эффективность</Efficaciousness.degreeDatas.0.label>
   <Efficaciousness.degreeDatas.0.description>{PAWN_nameDef} - само совершенство.</Efficaciousness.degreeDatas.0.description>

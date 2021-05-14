@@ -64,6 +64,10 @@
 	<Build_VersatileCarbine_HMC.description>Оружие древнего мира. Универсальный карабин. Может использовать любые 5 мм боеприпасы.</Build_VersatileCarbine_HMC.description>
 	<Build_VersatileCarbine_HMC.jobString>Собирает универсальный 5 мм карабин.</Build_VersatileCarbine_HMC.jobString>
 
+	<Build_VTC9_HMC.label>Собрать карабин VTC-9m</Build_VTC9_HMC.label>
+	<Build_VTC9_HMC.description>Оружие древнего мира. Универсальный тактический карабин. Может использовать любые 9 мм боеприпасы. Хорошо подходит для охоты, но из-за особенностей конструкции не может использовать особые боеприпасы (такие как SH или HESH).</Build_VTC9_HMC.description>
+	<Build_VTC9_HMC.jobString>Собирает карабин VTC-9m.</Build_VTC9_HMC.jobString>
+
 	<!-- ==================== Rifles ========================== -->
 
 	<BuildGun_Mosin.label>Собрать винтовку Мосина</BuildGun_Mosin.label>

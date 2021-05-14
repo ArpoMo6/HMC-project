@@ -373,7 +373,6 @@
 		<xpath>Defs/TraitDef[defName = "Dumb"]/conflictingTraits</xpath>
 		<value>
 			<li>Radiomechanician</li>
-			<li>GreenThumbTwo</li>
 			<li>Mastergourmet</li>
 		</value>
 	</Operation>
@@ -398,7 +397,6 @@
 		<xpath>Defs/TraitDef[defName = "Ignorant"]/conflictingTraits</xpath>
 		<value>
 			<li>Radiomechanician</li>
-			<li>GreenThumbTwo</li>
 			<li>Mastergourmet</li>
 		</value>
 	</Operation>
