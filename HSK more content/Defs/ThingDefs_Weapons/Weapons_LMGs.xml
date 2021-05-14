@@ -20,7 +20,7 @@
             <Bulk>11.7</Bulk>
             <Mass>7.1</Mass>
         </statBases>
-		<generateCommonality>0.95</generateCommonality>
+		<generateCommonality>0.85</generateCommonality>
         <weaponTags>
             <li>RF3</li>
 			<li>TierThreeRifle</li>
@@ -88,7 +88,7 @@
             <Bulk>15.5</Bulk>
             <Mass>9</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>MG2</li>
             <li>GunHeavy</li>
@@ -161,7 +161,7 @@
             <Bulk>16</Bulk>
             <Mass>12</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>MG2</li>
             <li>GunHeavy</li>
@@ -234,7 +234,7 @@
             <Bulk>17.5</Bulk>
             <Mass>13.8</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>MG2</li>
             <li>GunHeavy</li>
@@ -310,7 +310,7 @@
             <Bulk>12</Bulk>
             <Mass>15</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>MG4</li>
 			<li>MG3</li>

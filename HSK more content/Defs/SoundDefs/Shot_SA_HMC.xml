@@ -917,8 +917,8 @@
 	</li>
 	</subSounds>
 	</SoundDef>
-	<SoundDef>
 
+	<SoundDef>
     <defName>Interaction_Item62_HMC</defName>
     <context>MapOnly</context>
     <eventNames />
@@ -928,6 +928,59 @@
         <grains>
 		<li Class="AudioGrain_Clip">
 			<clipPath>Item62/Item62_Interact</clipPath>
+        </li>
+        </grains>
+        <volumeRange>
+			<min>40</min>
+			<max>60</max>
+        </volumeRange>
+        <pitchRange>
+			<min>0.9541177</min>
+			<max>1.068824</max>
+        </pitchRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+	</li>
+	</subSounds>
+	</SoundDef>
+
+	<!-- Cannon -->
+	<SoundDef>
+    <defName>Shot_Cannon_HMC</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+	<li>
+        <grains>
+		<li Class="AudioGrain_Clip">
+			<clipPath>CannonHMC/Shot</clipPath>
+        </li>
+        </grains>
+        <volumeRange>
+			<min>40</min>
+			<max>60</max>
+        </volumeRange>
+        <pitchRange>
+			<min>0.9541177</min>
+			<max>1.068824</max>
+        </pitchRange>
+        <repeatMode>NeverTwice</repeatMode>
+        <sustainLoop>False</sustainLoop>
+	</li>
+	</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+    <defName>Interaction_Cannon_HMC</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+	<li>
+        <grains>
+		<li Class="AudioGrain_Clip">
+			<clipPath>CannonHMC/Interact</clipPath>
         </li>
         </grains>
         <volumeRange>

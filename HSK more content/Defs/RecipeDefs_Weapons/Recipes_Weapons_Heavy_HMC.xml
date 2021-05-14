@@ -325,7 +325,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentIndustrial</li>
+						<li>ComponentAdvanced</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -362,7 +362,7 @@
 			<thingDefs>
 				<li>Heavy_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentIndustrial</li>
+				<li>ComponentAdvanced</li>
 				<li>Plastic</li>
 			</thingDefs>
 			<categories>
@@ -447,12 +447,12 @@
 		</recipeUsers>
 	</RecipeDef>
 
-    <!-- LWMMG 338 GPMG -->
+    <!-- Magnetic MG -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_Mag_MG_HMC</defName>
-		<label>Build Magnetic MG</label>
-		<description>The Lightweight Medium Machine Gun</description>
-		<jobString>Building LWMMG 338 GPMG.</jobString>
+		<label>Build magnetic MG</label>
+		<description>The lightweight magnetic MG</description>
+		<jobString>Building magnetic MG.</jobString>
 		<workAmount>27000</workAmount>
 		<skillRequirements>
 			<Crafting>15</Crafting>
@@ -493,7 +493,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>25</count>
@@ -506,6 +506,14 @@
 				</filter>
 				<count>25</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MagneticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
 		</ingredients>
 		<products>
 			<Mag_MG_HMC>1</Mag_MG_HMC>
@@ -515,16 +523,17 @@
 				<li>Heavy_Component</li>
 				<li>AdvRifle_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
 				<li>Plastic</li>
+				<li>MagneticMaterial</li>
 			</thingDefs>
 			<categories>
-				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
 	</RecipeDef>
 

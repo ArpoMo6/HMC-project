@@ -7,6 +7,7 @@
 		</recipeUsers>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<!-- <uiIconThing>Meat_Muffalo</uiIconThing> -->
 	</RecipeDef>
 
 	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
@@ -79,6 +80,41 @@
 		<recipeUsers Inherit="false">
 				<li>CraftingSpot</li>
 				<li>TableMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_CannonBall</defName>
+		<label>unmake cannon balls x20</label>
+		<description>Unmake cannon balls x20.</description>
+		<jobString>Unmaking cannon balls x20.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoCannonBalls_HMC</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AmmoCannonBalls_HMC</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Bronze>16</Bronze>
+			<LeadBar>4</LeadBar>
+			<Powder>2</Powder>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workAmount>900</workAmount>
+		<recipeUsers Inherit="false">
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
 		</recipeUsers>
 	</RecipeDef>
 

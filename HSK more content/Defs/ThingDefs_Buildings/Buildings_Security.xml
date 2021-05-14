@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--=============== Cannon ===============-->
+
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Cannon_HMC</defName>
+		<label>Cannon</label>
+		<graphicData>
+			<texPath>Things/Building/Security/CannonHMC/CannonHMC_Base</texPath>
+			<drawSize>(7,7)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/CannonHMC/CannonHMC</uiIconPath>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>300</Mass>
+			<Bulk>500</Bulk>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<description>A manned cannon which can throw shells over enemy's head.</description>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Crate_Cannon_HMC>1</Crate_Cannon_HMC>
+		</costList>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>5</specialDisplayRadius>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<building>
+			<turretGunDef>Gun_Cannon_HMC</turretGunDef>
+			<turretTopDrawSize>3.5</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery</li>
+				<li>Artillery_BaseDestroyer</li>
+			</buildingTags>
+		</building>
+		<size>(3,3)</size>
+		<minifiedDef>MinifiedCannon_HMC</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites><li>Smithing</li></researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
 	<!--=============== NSV-12.7 «Utyos» ===============-->
 
 	<ThingDef ParentName="TurretMannedBase">

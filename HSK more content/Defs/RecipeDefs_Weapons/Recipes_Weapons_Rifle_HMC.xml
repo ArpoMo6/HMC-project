@@ -1001,7 +1001,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>ComponentUltra</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -1031,7 +1031,7 @@
 				<li>Laser_Component</li>
 				<li>AdvRifle_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentSpacer</li>
+				<li>ComponentUltra</li>
 				<li>Plastic</li>
 			</thingDefs>
 			<categories>
@@ -1118,7 +1118,8 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>AdvWeaponCraftingWorkTable</li>
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
 	</RecipeDef>
 

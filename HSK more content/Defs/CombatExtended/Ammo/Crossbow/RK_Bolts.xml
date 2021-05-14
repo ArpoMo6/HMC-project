@@ -30,9 +30,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
 		<defName>MakeAmmo_Bolt_EMP</defName>
-		<label>make emp bolts x50</label>
-		<description>Craft 50 emp bolts.</description>
-		<jobString>Making emp bolts.</jobString>
+		<label>make EMP bolts x50</label>
+		<description>Craft 50 EMP bolts.</description>
+		<jobString>Making EMP bolts.</jobString>
 		<workAmount>2750</workAmount>
 		<ingredients>
 			<li>

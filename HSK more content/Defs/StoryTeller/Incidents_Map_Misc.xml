@@ -11,12 +11,12 @@
     <letterLabel>Sharknado</letterLabel>
     <letterText>A sharknado has formed!\n\nFlying sharks are sure to land!</letterText>
     <letterDef>ThreatSmall</letterDef>
-    <baseChance>0.1</baseChance>
-	<earliestDay>120</earliestDay>
-    <minRefireDays>60</minRefireDays>
+    <baseChance>0.05</baseChance>
+	<earliestDay>159</earliestDay>
+    <minRefireDays>123</minRefireDays>
     <minDifficulty>2</minDifficulty>
     <tale>Tornado</tale>
-	<minThreatPoints>3000</minThreatPoints>
+	<minThreatPoints>4500</minThreatPoints>
   </IncidentDef>
 
 </Defs>

@@ -12,15 +12,16 @@
 		<maxCountAtGameStart>1</maxCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>false</canStageAttacks>
-		<earliestRaidDays>285</earliestRaidDays>
+		<earliestRaidDays>330</earliestRaidDays>
+		<hidden>true</hidden>
 		<!-- <permanentEnemy>true</permanentEnemy> -->
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<raidCommonalityFromPointsCurve>
 			<points>
 				<li>(4000, 0)</li>
-				<li>(7500, 0.4)</li>
-				<li>(10000, 0.6)</li>
+				<li>(8000, 0.4)</li>
+				<li>(10500, 0.6)</li>
 				<li>(12000, 0.9)</li>
 				<li>(14000, 0.7)</li>
 			</points>

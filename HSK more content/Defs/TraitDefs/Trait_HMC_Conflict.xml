@@ -73,14 +73,17 @@
 		<commonality>0.5</commonality>
 		<degreeDatas>
 			<li>
-				<label>green thumb</label>
-				<description>[PAWN_nameDef] is a great gardener. The only thing [PAWN_pronoun] is a greener world.</description>
+				<label>tin man</label>
+				<description>[PAWN_nameDef] has robust skin and good tree destroy skills. The only thing [PAWN_possessive] is a cut the greenies slowly.</description>
 				<statOffsets>
-					<PlantWorkSpeed>0.20</PlantWorkSpeed>
-					<PlantHarvestYield>0.20</PlantHarvestYield>
+					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+					<MoveSpeed>0.9</MoveSpeed>
+				</statFactors>
 				<skillGains>
-					<li><key>Plants</key><value>2</value></li>
+					<li><key>Plants</key><value>4</value></li>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -92,9 +95,8 @@
 			<li>BrownThumb</li>
 			<li>Collector</li>
 			<li>Rockhound</li>
-			<li>Dumb</li>
-			<li>Ignorant</li>
 			<li>HMC_SeekerOfDeepSense</li>
+			<li>Tough</li>
 		</conflictingTraits>
 	</TraitDef>
 

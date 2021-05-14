@@ -20,18 +20,15 @@
             <Bulk>9.2</Bulk>
             <Mass>2.9</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.75</HuntingStealth>
 		</equippedStatOffsets>
         <weaponTags>
             <li>SNIP3</li>
             <li>SniperRifle</li>
-            <li>TierTwoSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
         </weaponTags>
         <thingCategories>
             <li>SRifles</li>
@@ -89,7 +86,7 @@
             <Bulk>8.5</Bulk>
             <Mass>4.6</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.50</HuntingStealth>
 		</equippedStatOffsets>
@@ -97,10 +94,8 @@
             <li>RF1</li>
             <li>SniperRifle</li>
             <li>TierOneRifle</li>
-            <li>TierTwoRifle</li>
             <li>TierOneSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_LT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>SRifles</li>
@@ -159,18 +154,15 @@
             <Bulk>10.7</Bulk>
             <Mass>8.5</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.75</HuntingStealth>
 		</equippedStatOffsets>
         <weaponTags>
             <li>SNIP3</li>
             <li>SniperRifle</li>
-            <li>TierTwoSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
 			<li>CD_SNP_HMC</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -227,7 +219,7 @@
             <Bulk>12.2</Bulk>
             <Mass>9.3</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.25</HuntingStealth>
 		</equippedStatOffsets>
@@ -236,8 +228,6 @@
             <li>SniperRifle</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
 			<li>CD_SNP_HMC</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -294,18 +284,15 @@
             <Bulk>11.3</Bulk>
             <Mass>8.2</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.25</HuntingStealth>
 		</equippedStatOffsets>
         <weaponTags>
             <li>SNIP3</li>
             <li>SniperRifle</li>
-            <li>TierTwoSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
 			<li>CD_SNP_HMC</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -363,7 +350,7 @@
             <Bulk>15.7</Bulk>
             <Mass>9.6</Mass>
         </statBases>
-		<generateCommonality>0.75</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.15</HuntingStealth>
 		</equippedStatOffsets>
@@ -374,8 +361,6 @@
             <li>TierFourSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <thingCategories>
@@ -432,7 +417,7 @@
             <Bulk>13.5</Bulk>
             <Mass>12.3</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.15</HuntingStealth>
 		</equippedStatOffsets>
@@ -443,8 +428,6 @@
             <li>TierFourSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <thingCategories>
@@ -491,15 +474,11 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <tradeTags>
-            <li>Exotic</li>
-        </tradeTags>
         <weaponTags>
             <li>SNIP2</li>
             <li>AdvancedGun</li>
             <li>TierTwoSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
 			<li>CD_SNP_HMC</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -515,7 +494,7 @@
             <Bulk>11.3</Bulk>
             <Mass>8.4</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
 			    <recoilAmount>1.32</recoilAmount>
@@ -568,11 +547,10 @@
             <Bulk>11.2</Bulk>
             <Mass>7.1</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>SNIP1</li>
             <li>SniperRifle</li>
-            <li>TierTwoSniper</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -608,7 +586,7 @@
         </smeltProducts>
     </Verse.ThingDef>
 
-    <!-- VIHLOP -->
+    <!-- DVL-10 M1 -->
     <ThingDef ParentName="BaseGun_LongBarreled">
         <defName>Gun_DVL10M1Saboteur</defName>
         <label>DVL-10 M1 «Saboteur» Sniper Rifle</label>
@@ -627,18 +605,15 @@
             <Bulk>10.0</Bulk>
             <Mass>4.8</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.85</HuntingStealth>
 		</equippedStatOffsets>
         <weaponTags>
             <li>SNIP3</li>
             <li>SniperRifle</li>
-            <li>TierTwoSniper</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_SNP_RF</li>
 			<li>CD_SNP_HMC</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -695,12 +670,12 @@
             <Bulk>17.4</Bulk>
             <Mass>15.2</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <thingCategories>
             <li>SRifles</li>
         </thingCategories>
         <weaponTags>
-            <li>SNIP1</li>
+            <li>SNIP3</li>
             <li>AdvancedGun</li>
             <li>TierThreeSniper</li>
             <li>CE_AI_Rifle</li>
@@ -757,7 +732,7 @@
             <Bulk>13.3</Bulk>
             <Mass>19.2</Mass>
         </statBases>
-		<generateCommonality>0.75</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.1</HuntingStealth>
 			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
@@ -767,7 +742,6 @@
             <li>SNIP4</li>
             <li>SniperRifle</li>
 			<li>AdvancedGun</li>
-			<li>TierThreeSniper</li>
             <li>TierFourSniper</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
@@ -800,7 +774,7 @@
         </comps>
         <smeltProducts>
             <AdvSniper_Component>1</AdvSniper_Component>
-            <Rifle_Component>1</Rifle_Component>
+            <Heavy_Component>1</Heavy_Component>
             <Weapon_Parts>3</Weapon_Parts>
 			<Plastic>11</Plastic>
         </smeltProducts>
@@ -890,7 +864,7 @@
             <Bulk>15</Bulk>
             <Mass>12</Mass>
         </statBases>
-		<generateCommonality>0.2</generateCommonality>
+		<generateCommonality>0.12</generateCommonality>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<techLevel>Spacer</techLevel>
         <weaponTags>

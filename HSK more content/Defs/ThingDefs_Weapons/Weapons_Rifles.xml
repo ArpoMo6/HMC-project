@@ -19,7 +19,7 @@
             <Bulk>10.0</Bulk>
             <Mass>4.50</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>RF1</li>
             <li>Gun</li>
@@ -79,16 +79,15 @@
             <Bulk>7.50</Bulk>
             <Mass>3.10</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<equippedStatOffsets>
 			<HuntingStealth>0.25</HuntingStealth>
 		</equippedStatOffsets>
         <weaponTags>
             <li>RF3</li>
             <li>AdvancedGun</li>
-            <li>TierTwoRifle</li>
+            <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -145,15 +144,12 @@
             <Bulk>8.20</Bulk>
             <Mass>4.50</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>AdvancedGun</li>
-            <li>TierThreeRifle</li>
-            <li>TierTwoRifle</li>
+            <li>TierFourRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
-            <li>HMC_IT_HV_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -211,14 +207,13 @@
             <Bulk>7.70</Bulk>
             <Mass>4.00</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>RF3</li>
             <li>AdvancedGun</li>
-            <li>TierTwoRifle</li>
+            <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <thingCategories>
@@ -277,13 +272,12 @@
             <Bulk>7.7</Bulk>
             <Mass>4.6</Mass>
         </statBases>
-		<generateCommonality>0.95</generateCommonality>
+		<generateCommonality>0.85</generateCommonality>
         <weaponTags>
             <li>RF3</li>
             <li>AdvancedGun</li>
-            <li>TierTwoRifle</li>
+            <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -341,15 +335,13 @@
             <Bulk>11.4</Bulk>
             <Mass>5.2</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>RF4</li>
 			<li>RF3</li>
             <li>AdvancedGun</li>
             <li>TierThreeRifle</li>
-            <li>TierTwoRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -407,13 +399,12 @@
             <Bulk>9.8</Bulk>
             <Mass>4.3</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>AdvancedGun</li>
             <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -476,14 +467,13 @@
             <Bulk>10.2</Bulk>
             <Mass>4.1</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>RF3</li>
             <li>AdvancedGun</li>
             <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -541,13 +531,12 @@
             <Bulk>10.3</Bulk>
             <Mass>4.34</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>AdvancedGun</li>
-            <li>TierThreeRifle</li>
+            <li>TierFourRifle</li>
             <li>CE_AI_Rifle</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Rifles</li>
@@ -605,12 +594,11 @@
             <Bulk>9.7</Bulk>
             <Mass>3.6</Mass>
         </statBases>
-		<generateCommonality>0.95</generateCommonality>
+		<generateCommonality>0.85</generateCommonality>
         <weaponTags>
-            <li>RF2</li>
+            <li>RF3</li>
             <li>AdvancedGun</li>
-            <li>TierTwoRifle</li>
-            <li>TierOneRifle</li>
+            <li>TierThreeRifle</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
         <thingCategories>
@@ -669,12 +657,11 @@
             <Bulk>9.4</Bulk>
             <Mass>3.35</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>RF3</li>
             <li>AdvancedGun</li>
             <li>TierThreeRifle</li>
-            <li>TierTwoRifle</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
         <thingCategories>
@@ -733,12 +720,11 @@
             <Bulk>10.5</Bulk>
             <Mass>4.7</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>RF4</li>
             <li>AdvancedGun</li>
-            <li>TierTwoRifle</li>
-            <li>TierThreeRifle</li>
+            <li>TierFourRifle</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
         <thingCategories>
@@ -796,7 +782,7 @@
             <Bulk>9.6</Bulk>
             <Mass>4.4</Mass>
         </statBases>
-		<generateCommonality>0.75</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
         <weaponTags>
             <li>ADR2</li>
             <li>AdvancedGun</li>
@@ -862,7 +848,7 @@
             <Bulk>8.7</Bulk>
             <Mass>4.0</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>ADR2</li>
 			<li>IgufRifle</li>

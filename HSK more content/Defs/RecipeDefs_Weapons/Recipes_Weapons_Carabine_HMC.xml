@@ -246,7 +246,7 @@
 		</recipeUsers>
 	</RecipeDef>
 
-    <!-- SKS -->
+    <!-- Versatile 5mm carbine -->
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_VersatileCarbine_HMC</defName>
 		<label>Build Versatile 5mm carbine</label>
@@ -301,6 +301,74 @@
 		</ingredients>
 		<products>
 			<Gun_VersatileCarbine_HMC>1</Gun_VersatileCarbine_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Leathers</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>WeaponCraftingWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+
+    <!-- Versatile 9mm carbine -->
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_VTC9_HMC</defName>
+		<label>Build VTC-9m carbine</label>
+		<description>Builds an ancient carabine. Can use any 9 mm ammo. Due to the design features it's can't use any special ammo (like SH or HESH)</description>
+		<jobString>Building VTC-9m carbine.</jobString>
+		<workAmount>13200</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_VTC9_HMC>1</Gun_VTC9_HMC>
 		</products>
 		<fixedIngredientFilter>
 			<categories>

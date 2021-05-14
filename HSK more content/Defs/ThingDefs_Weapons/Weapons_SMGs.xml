@@ -19,7 +19,7 @@
             <Bulk>9.1</Bulk>
             <Mass>6.0</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>SMG1</li>
             <li>Gun</li>
@@ -82,7 +82,7 @@
             <Bulk>6.5</Bulk>
             <Mass>4.3</Mass>
         </statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
         <weaponTags>
             <li>SMG2</li>
             <li>SMG3</li>
@@ -150,7 +150,7 @@
             <Bulk>5.9</Bulk>
             <Mass>4.0</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>SMG3</li>
             <li>AdvancedGun</li>
@@ -205,6 +205,7 @@
             <texPath>Things/Weapons/PlasmaSMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<soundInteract>InteractPlasma</soundInteract>
         <statBases>
             <MarketValue>2800</MarketValue>
             <SightsEfficiency>1.15</SightsEfficiency>
@@ -214,8 +215,7 @@
             <Bulk>10.0</Bulk>
             <Mass>3.30</Mass>
         </statBases>
-		<generateCommonality>0.95</generateCommonality>
-        <soundInteract>InteractPlasma</soundInteract>
+		<generateCommonality>0.85</generateCommonality>
         <tradeability>Sellable</tradeability>
         <weaponTags>
             <li>ADR2</li>

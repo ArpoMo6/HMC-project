@@ -19,7 +19,7 @@
 			<Bulk>3.40</Bulk>
 			<Mass>2.30</Mass>
 		</statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
 		<weaponTags>
 			<li>PT3</li>
 			<li>Gun</li>
@@ -87,7 +87,7 @@
 			<Bulk>3.70</Bulk>
 			<Mass>2.50</Mass>
 		</statBases>
-		<generateCommonality>0.9</generateCommonality>
+		<generateCommonality>0.8</generateCommonality>
 		<weaponTags>
 			<li>PT3</li>
 			<li>Gun</li>
@@ -164,7 +164,7 @@
 			<Bulk>2.0</Bulk>
 			<Mass>1.4</Mass>
 		</statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -216,7 +216,7 @@
 			<Bulk>1.83</Bulk>
 			<Mass>1.05</Mass>
 		</statBases>
-		<generateCommonality>0.95</generateCommonality>
+		<generateCommonality>0.85</generateCommonality>
 		<weaponTags>
 			<li>PT1</li>
 			<li>Gun</li>
@@ -289,7 +289,7 @@
 			<Bulk>2.5</Bulk>
 			<Mass>2.2</Mass>
 		</statBases>
-		<generateCommonality>0.75</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>

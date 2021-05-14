@@ -1,6 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Cannon -->
+	<RecipeDef ParentName="cratecraftbase">
+		<defName>Build_Cannon_Crate_HMC</defName>
+		<label>Build cannon crate</label>
+		<description>Use this to build a manned cannon which can throw shells over enemy's head.</description>
+		<jobString>Building cannon crate.</jobString>
+		<workAmount>15000</workAmount>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentMedieval</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<products>
+			<Crate_Cannon_HMC>1</Crate_Cannon_HMC>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+             </categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ComponentMedieval</li>
+				<li>Bronze</li>
+				<li>Plasteel</li>
+				<li>LeadBar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<researchPrerequisites><li>Smithing</li></researchPrerequisites>
+		<unfinishedThingDef>UnfinishedTurretMedieval</unfinishedThingDef>
+	</RecipeDef>
+
 	<!-- NSV-12.7 «Utyos» -->
 	<RecipeDef ParentName="cratecraftbase">
 		<defName>BuildNSV_Crate_HMC</defName>
@@ -30,9 +84,9 @@
 			</li>
 			<li>
 				<filter>
-				<categories>
-				<li>Metallic</li>
-                  </categories>
+					<categories>
+						<li>Metallic</li>
+					</categories>
 				</filter>
 				<count>45</count>
 			</li>
@@ -83,9 +137,9 @@
 			</li>
 			<li>
 				<filter>
-				<categories>
-				<li>Metallic</li>
-                  </categories>
+					<categories>
+						<li>Metallic</li>
+					</categories>
 				</filter>
 				<count>40</count>
 			</li>
@@ -136,17 +190,17 @@
 			</li>
 			<li>
 				<filter>
-				  <categories>
-					<li>SLDBar</li>
-                  </categories>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
 				</filter>
 				<count>10</count>
 			</li>
 			<li>
 				<filter>
-				  <categories>
-					<li>HCMBar</li>
-                  </categories>
+					<categories>
+						<li>HCMBar</li>
+					</categories>
 				</filter>
 				<count>10</count>
 			</li>
@@ -223,7 +277,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>40</count>

@@ -22,8 +22,8 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<gearHealthRange>
-			<min>0.75</min>
-			<max>1.25</max>
+			<min>0.7</min>
+			<max>1.2</max>
 		</gearHealthRange>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>
@@ -138,6 +138,7 @@
 		<apparelTags>
 			<li>CatsDrugsApparelHeavy</li>
 			<li>BallisticShield</li>
+			<li>MedievalShield</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>4000</min>
@@ -182,6 +183,7 @@
 		<apparelTags>
 			<li>CatsDrugsApparelHeavy</li>
 			<li>BallisticShield</li>
+			<li>MedievalShield</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>300</min>

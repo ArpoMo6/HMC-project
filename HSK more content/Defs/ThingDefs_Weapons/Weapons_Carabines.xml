@@ -20,7 +20,7 @@
             <Bulk>7.9</Bulk>
             <Mass>3.75</Mass>
         </statBases>
-		<generateCommonality>0.85</generateCommonality>
+		<generateCommonality>0.75</generateCommonality>
         <weaponTags>
             <li>RF1</li>
             <li>Gun</li>
@@ -84,7 +84,7 @@
             <Bulk>7.5</Bulk>
             <Mass>2.7</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>RF2</li>
             <li>Gun</li>
@@ -146,14 +146,13 @@
             <Bulk>9.7</Bulk>
             <Mass>5.1</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>ST3</li>
 			<li>ST2</li>
             <li>Gun</li>
             <li>TierTwoSMG</li>
 			<li>CE_AI_AssaultWeapon</li>
-            <li>RK_HT_RF</li>
         </weaponTags>
         <thingCategories>
             <li>Shotguns</li>
@@ -214,7 +213,7 @@
             <Bulk>10</Bulk>
             <Mass>8</Mass>
         </statBases>
-		<generateCommonality>0.75</generateCommonality>
+		<generateCommonality>0.65</generateCommonality>
         <weaponTags>
             <li>HMCNoTags</li>
         </weaponTags>
@@ -270,7 +269,7 @@
             <Bulk>10</Bulk>
             <Mass>3.6</Mass>
         </statBases>
-		<generateCommonality>0.8</generateCommonality>
+		<generateCommonality>0.55</generateCommonality>
         <weaponTags>
             <li>RF2</li>
             <li>Gun</li>
@@ -310,6 +309,68 @@
         <smeltProducts>
             <Rifle_Component>1</Rifle_Component>
             <Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- Versatile 9mm carbine -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_VTC9_HMC</defName>
+        <label>VTC-9m carbine</label>
+        <description>Ancient versatile tactical carbine. Can use any 9 mm ammo. Good for hunting. Due to the design features it's can't use any special ammo (like SH or HESH).</description>
+        <graphicData>
+            <texPath>Things/Weapons/VSC9</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>950</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.034</ShotSpread>
+            <SwayFactor>1.25</SwayFactor>
+            <RangedWeapon_Cooldown>0.47</RangedWeapon_Cooldown>
+            <Bulk>9.3</Bulk>
+            <Mass>3.25</Mass>
+        </statBases>
+		<generateCommonality>0.4</generateCommonality>
+		<equippedStatOffsets>
+			<HuntingStealth>0.50</HuntingStealth>
+		</equippedStatOffsets>
+        <weaponTags>
+            <li>RF2</li>
+            <li>Gun</li>
+            <li>TierTwoRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+                <warmupTime>0.28</warmupTime>
+                <range>36</range>
+                <soundCast>Shot_VSSP</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>15</magazineSize>
+                <reloadTime>3.25</reloadTime>
+                <ammoSet>AmmoSet_9mmVersatile</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>2</ComponentIndustrial>
         </smeltProducts>
     </ThingDef>
 </Defs>

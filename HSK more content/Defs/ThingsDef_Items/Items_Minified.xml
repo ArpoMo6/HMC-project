@@ -2,6 +2,15 @@
 <Defs>
 
 	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedCannon_HMC</defName>
+		<label>Cannon</label>
+		<statBases>
+			<Mass>30</Mass>
+			<Bulk>45</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedTurretBase">
 		<defName>MinifiedTurret_NSV_HMC</defName>
 		<label>NSV-12.7 «Utyos» machine gun</label>
 		<statBases>

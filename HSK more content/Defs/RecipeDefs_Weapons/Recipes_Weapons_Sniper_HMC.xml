@@ -206,7 +206,7 @@
 						<li>AdvRifle_Component</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -557,7 +557,7 @@
 						<li>AdvRifle_Component</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -994,7 +994,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Rifle_Component</li>
+						<li>Heavy_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1010,7 +1010,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentIndustrial</li>
+						<li>ComponentAdvanced</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1046,9 +1046,9 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AdvSniper_Component</li>
-				<li>Rifle_Component</li>
+				<li>Heavy_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentIndustrial</li>
+				<li>ComponentAdvanced</li>
 				<li>Plastic</li>
 			</thingDefs>
 			<categories>
@@ -1116,7 +1116,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>40</count>
@@ -1182,7 +1182,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>ComponentUltra</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -1197,8 +1197,32 @@
 			</li>
 			<li>
 				<filter>
+					<thingDefs>
+						<li>FerrosiliconAlloy</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AlnicoAlloy</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AlphaPoly</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>35</count>
@@ -1212,12 +1236,18 @@
 				<li>AdvSniper_Component</li>
 				<li>Charged_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentSpacer</li>
+				<li>ComponentUltra</li>
 				<li>Plastic</li>
+				<li>FerrosiliconAlloy</li>
+				<li>AlnicoAlloy</li>
+				<li>AlphaPoly</li>
 			</thingDefs>
 			<categories>
 				<li>USLDBar</li>
 			</categories>
+			<disallowedThingDefs>
+				<li>SteelBar</li>
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>MechWeaponCraftingWorkTable</li>

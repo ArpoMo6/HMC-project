@@ -22,10 +22,18 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -38,7 +46,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>35</count>
@@ -58,12 +66,12 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Launcher_Component</li>
+				<li>AdvRifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentAdvanced</li>
 				<li>Plastic</li>
 			</thingDefs>
 			<categories>
-				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
