@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedCannon_HMC</defName>
+		<label>Cannon</label>
+		<statBases>
+			<Mass>30</Mass>
+			<Bulk>45</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedTurret_NSV_HMC</defName>
+		<label>NSV-12.7 «Utyos» machine gun</label>
+		<statBases>
+			<Mass>34</Mass>
+			<Bulk>38</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedTurret_LWMMGmounted_HMC</defName>
+		<label>.338 LWMMG GPMG</label>
+		<statBases>
+			<Mass>25</Mass>
+			<Bulk>28.5</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedTurret_EnergyGPMG_HMC</defName>
+		<label>6x24 Energy GPMG</label>
+		<statBases>
+			<Mass>30</Mass>
+			<Bulk>48</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="HMC_MinifiedMicroTurretsBase" ParentName="MinifiedTurretBase" Abstract="True">
+		<statBases>
+			<Mass>12.8</Mass>
+			<Bulk>16</Bulk>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedTotem</defName>
+		<label>ancestor's totem</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretGun</defName>
+		<label>sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretGrenadeGun</defName>
+		<label>sentry grenade micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretShotgun</defName>
+		<label>sentry shotgun micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretSniper</defName>
+		<label>sentry sniper micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretAdvanced</defName>
+		<label>advanced sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretGrenadeAdvanced</defName>
+		<label>advanced grenade sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretAMR</defName>
+		<label>sentry AMR micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretCharged</defName>
+		<label>charged sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretMagnetic</defName>
+		<label>magnetic sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretBlaster</defName>
+		<label>blaster sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMicroTurretPlasma</defName>
+		<label>plasma sentry micro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurret</defName>
+		<label>sentry macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretMarksman</defName>
+		<label>sentry marksman macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretGrenade</defName>
+		<label>sentry grenade macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretShotgun</defName>
+		<label>sentry shotgun macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretCannon</defName>
+		<label>sentry cannon macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretPlasma</defName>
+		<label>sentry plasma macro-turret</label>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MinifiedMicroTurretsBase">
+		<defName>HMC_MinifiedMacroTurretRailgun</defName>
+		<label>sentry railgun macro-turret</label>
+	</ThingDef>
+
+</Defs>

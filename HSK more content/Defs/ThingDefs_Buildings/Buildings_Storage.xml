@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LWM_DeepStorage">
+		<defName>HMC_OneStackChest</defName>
+		<label>one stack chest</label>
+		<description>A very durable one stack chest. One chest to rule them all.</description>
+		<graphicData>
+			<texPath>Things/Building/Storage/OneStackChest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>20</pathCost>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MarketValue>200</MarketValue>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>1800</WorkToBuild>
+			<Beauty>0</Beauty>
+			<Bulk>40</Bulk>
+			<Mass>30</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Root</li>
+					</categories>
+					<disallowedCategories>
+						<li>Corpses</li>
+						<li>Chunks</li>
+						<li>StoneBlocks</li>
+					</disallowedCategories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<comps>
+			<li Class="LWM.DeepStorage.Properties">
+				<maxNumberStacks>1</maxNumberStacks>
+				<minTimeStoringTakes>40</minTimeStoringTakes>
+				<additionalTimeEachStack>15</additionalTimeEachStack>
+				<showContents>true</showContents>
+				<overlayType>SumOfItemsPerCell</overlayType>
+			</li>
+			<li Class="SK.CompProperties_ContainerBase">
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Storage_C1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

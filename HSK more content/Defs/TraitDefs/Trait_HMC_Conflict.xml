@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<TraitDef>
+		<defName>SuperCCleaner</defName>
+		<commonality>0.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>cleaner</label>
+				<description>{PAWN_nameDef} is object of love and applaud in any colony... applaud or be punished!</description>
+                <randomMentalState>Compulsion</randomMentalState>
+                <randomMentalStateMtbDaysMoodCurve>
+                    <points>
+                        <li>(0, 75)</li>
+                    </points>
+                </randomMentalStateMtbDaysMoodCurve>				
+				<statOffsets>
+					<HuntingStealth>-0.33</HuntingStealth>				
+					<ConstructionSpeed>-0.2</ConstructionSpeed>
+					<ConstructSuccessChance>-0.25</ConstructSuccessChance>
+					<MiningSpeed>-0.2</MiningSpeed>
+					<MiningYield>-0.25</MiningYield>					
+					<SmithingSpeed>-0.2</SmithingSpeed>
+					<ElectronicCraftingSpeed>-0.25</ElectronicCraftingSpeed>
+					<ResearchSpeed>-0.3</ResearchSpeed>					
+					<MoveSpeed>0.6</MoveSpeed>
+					<GeneralLaborSpeed>1.00</GeneralLaborSpeed>
+					<CleaningSpeed>1.00</CleaningSpeed>
+					<CollectingSpeed>1.00</CollectingSpeed>
+					<GermContainment>0.25</GermContainment>
+				</statOffsets>
+				<skillGains>
+					<li><key>Shooting</key><value>-4</value></li>
+					<li><key>Construction</key><value>-4</value></li>
+					<li><key>Mining</key><value>-4</value></li>
+					<li><key>Crafting</key><value>-4</value></li>
+					<li><key>Artistic</key><value>-4</value></li>
+					<li><key>Intellectual</key><value>-4</value></li>
+				</skillGains>				
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Hauling</li>
+			<li>Cleaning</li>
+			<li>ManualDumb</li>
+		</requiredWorkTags>		
+		<conflictingTraits>
+			<li>ShootingAccuracy</li>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+			<li>DIY</li>
+			<li>HMC_Architect</li>
+			<li>Rockhound</li>
+			<li>Collector</li>
+			<li>Gourmet</li>
+			<li>Mastergourmet</li>
+			<li>Aptitude</li>
+			<li>Medic</li>
+			<li>Radiomechanician</li>
+			<li>GreaterBlacksmith</li>
+			<li>AtelierTailor</li>			
+			<li>Inventor</li>
+			<li>ChaoticGenius</li>
+			<li>Morbid</li>
+			<li>CatInHead</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>GreenThumbTwo</defName>
+		<commonality>0.25</commonality>
+		<degreeDatas>
+			<li>
+				<label>tin man</label>
+				<description>[PAWN_nameDef] has robust skin and good tree destroy skills. The only thing [PAWN_possessive] is a cut the greenies slowly.</description>
+				<statOffsets>
+					<MoveSpeed>-0.05</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+					<MoveSpeed>0.9</MoveSpeed>
+				</statFactors>
+				<skillGains>
+					<li><key>Plants</key><value>4</value></li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>BrownThumb</li>
+			<li>Collector</li>
+			<li>Rockhound</li>
+			<li>HMC_SeekerOfDeepSense</li>
+			<li>Tough</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>SleightOfHand</defName>
+		<commonality>0.55</commonality>
+		<degreeDatas>
+			<li>
+				<label>sleight of hand</label>
+				<description>{PAWN_nameDef} favorite childhood amusements was visiting a suburban circus and his favorite circus act was bare hands juggling with enriched uranium! Of course, {PAWN_nameDef} never had uranium, but this did not prevent {PAWN_nameDef} from progresing skills in this direction!</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+					<GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+					<ReloadSpeed>0.5</ReloadSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualDumb</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AtelierTailor</defName>
+		<commonality>0.4</commonality>
+		<degreeDatas>
+			<li>
+				<label>atelier's tailor</label>
+				<description>Having been born into a family of tailors and seamstresses and having learned all the wisdom of this craft, {PAWN_nameDef} will be happy to solve your problems with the dismantling of corpse's clothes!</description>
+				<statOffsets>
+					<TailoringSpeed>0.30</TailoringSpeed>
+					<GeneralLaborSpeed>0.30</GeneralLaborSpeed>
+				</statOffsets>
+				<skillGains>
+					<li><key>Crafting</key><value>3</value></li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Aptitude</li>
+			<li>SuperCCleaner</li>
+			<li>Radiomechanician</li>
+			<li>GreaterBlacksmith</li>
+			<li>HMC_Architect</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</conflictingTraits>		
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Collector</defName>
+		<commonality>0.35</commonality>
+		<degreeDatas>
+			<li>
+				<label>collector</label>
+				<description>{PAWN_nameDef} a lover of digging in trash and weeds in search of something useful or valuable.</description>
+				<statOffsets>
+					<ForagedNutritionPerDay>0.5</ForagedNutritionPerDay>
+					<CollectingSpeed>0.25</CollectingSpeed>
+					<MiningYield>0.08</MiningYield>
+					<PlantHarvestYield>0.1</PlantHarvestYield>
+					<DrugHarvestYield>0.1</DrugHarvestYield>
+				</statOffsets>
+				<skillGains>
+					<li><key>Mining</key><value>2</value></li>
+					<li><key>Plants</key><value>1</value></li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Mining</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Huntman</li>
+			<li>Rockhound</li>
+			<li>SuperCCleaner</li>
+			<li>GreenThumbTwo</li>
+			<li>BrownThumb</li>
+			<li>Aptitude</li>
+			<li>HMC_Architect</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</conflictingTraits>		
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_Architect</defName>
+		<commonality>0.35</commonality>
+		<disabledWorkTags>Artistic</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>architect</label>
+				<description>Despite the proud title of creator of the beautiful and the great, {PAWN_nameDef} spent most part of life creating ideal box projects. Do not wait for anything beautiful from [PAWN_possessive].</description>
+				<statOffsets>
+					<ResearchSpeed>0.1</ResearchSpeed>
+					<GlobalLearningFactor>0.3</GlobalLearningFactor>
+				</statOffsets>
+				<skillGains>
+					<li><key>Construction</key><value>2</value></li>
+					<li><key>Intellectual</key><value>2</value></li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Huntman</li>
+			<li>Snipermasterrk</li>
+			<li>DIY</li>
+			<li>Rockhound</li>
+			<li>Collector</li>
+			<li>Mastergourmet</li>
+			<li>Aptitude</li>
+			<li>GreaterBlacksmith</li>
+			<li>Radiomechanician</li>
+			<li>AtelierTailor</li>
+			<li>Inventor</li>
+			<li>SuperCCleaner</li>
+			<li>HMC_SeekerOfDeepSense</li>
+			<li>HMC_IronFist</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_Glasspawnon</defName>
+		<commonality>0.07</commonality>
+		<degreeDatas>
+			<li>
+				<label>glasspawnon</label>
+				<description>Take care of {PAWN_possessive} ... please...</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<Suppressability>-0.2</Suppressability>
+					<WorkSpeedGlobal>0.55</WorkSpeedGlobal>
+					<PainShockThreshold>-0.1</PainShockThreshold>
+				</statOffsets>
+				<statFactors>
+					<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
+					<AimingAccuracy>1.25</AimingAccuracy>
+					<IncomingDamageFactor>1.6</IncomingDamageFactor>
+					<MoveSpeed>1.1</MoveSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Tough</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_WellEndowed</defName>
+		<commonality>0.15</commonality>
+		<degreeDatas>
+			<li>
+				<label>Well endowed</label>
+				<description>{PAWN_nameDef} has the ideal body; their supple thighs not only cause those around to drool profusely, but also serve to increase work stamina.</description>
+				<socialFightChanceFactor>0.95</socialFightChanceFactor>
+				<statOffsets>
+					<PawnBeauty>0.5</PawnBeauty>
+					<SocialImpact>0.05</SocialImpact>
+					<NegotiationAbility>0.05</NegotiationAbility>
+					<TradePriceImprovement>0.05</TradePriceImprovement>
+					<ArrestSuccessChance>0.05</ArrestSuccessChance>
+					<MoveSpeed>0.07</MoveSpeed>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+					<CarryWeight>4</CarryWeight>
+				</statOffsets>
+				<statFactors>
+					<Fertility MayRequire="Ludeon.RimWorld.Biotech">1.5</Fertility>
+				</statFactors>
+				<skillGains>
+					<li><key>Melee</key><value>1</value></li>
+					<li><key>Social</key><value>1</value></li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>HMC_NonWellEndowed</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_NonWellEndowed</defName>
+		<commonality>0.6</commonality>
+		<degreeDatas>
+			<li>
+				<label>broad bone</label>
+				<description>{PAWN_nameDef} has the non-ideal body; their supple thighs not cause those around to drool profusely and not serve to increase work stamina, but help to endure some more damage.</description>
+				<socialFightChanceFactor>1.1</socialFightChanceFactor>
+				<statOffsets>
+					<PawnBeauty>-0.5</PawnBeauty>
+					<SocialImpact>-0.05</SocialImpact>
+					<NegotiationAbility>-0.05</NegotiationAbility>
+					<TradePriceImprovement>-0.05</TradePriceImprovement>
+					<ArrestSuccessChance>-0.05</ArrestSuccessChance>
+					<MentalBreakThreshold>0.03</MentalBreakThreshold>
+					<MoveSpeed>-0.25</MoveSpeed>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+					<CarryingCapacity>25</CarryingCapacity>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+					<Mass>2</Mass>
+					<LeatherAmount>2</LeatherAmount>
+					<MeatAmount>2</MeatAmount>
+					<Fertility MayRequire="Ludeon.RimWorld.Biotech">0.5</Fertility>
+				</statFactors>
+				<skillGains>
+					<li><key>Melee</key><value>1</value></li>
+					<li><key>Social</key><value>-2</value></li>
+				</skillGains>
+				<hungerRateFactor>1.5</hungerRateFactor>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>HMC_WellEndowed</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_TouchOfNature</defName>
+		<commonality>0.2</commonality>
+		<degreeDatas>
+			<li>
+				<label>closeness to nature</label>
+				<description>{PAWN_nameDef} has a strong natural connection with nature. Secular life is alien to {PAWN_possessive}.</description>
+				<skillGains>
+					<li><key>Plants</key><value>2</value></li>
+					<li><key>Animals</key><value>2</value></li>
+					<li><key>Social</key><value>-4</value></li>
+				</skillGains>
+				<allowedMeditationFocusTypes><li>Natural</li></allowedMeditationFocusTypes>
+				<disallowedMeditationFocusTypes><li>Artistic</li><li>Dignified</li></disallowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_Lucks</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+		  <li>
+			<label>unlucky</label>
+			<description>A hard life, numerous drinking bouts and countless twisted little fingers - {PAWN_nameDef} has a truly spectacular failure, as if the deities themselves had cursed {PAWN_gender ? him : her}.\nThis trait has truly miraculous properties to meet the player's expectations regardless of his faith, alignment, shoe size, favorite football club and the number of turtles in {PAWN_gender ? his : her} aquarium (especially if there are zero).\n\n    Luck -50%</description>
+			<degree>-1</degree>
+			<socialFightChanceFactor>1.5</socialFightChanceFactor>
+			<commonality>0.5</commonality>
+		  </li>
+		  <li>
+			<label>lucky</label>
+			<description>With a carefree past, a fast-paced career and the pots of gold of numerous leprechauns – {PAWN_nameDef} has truly impressive luck, as if the deities themselves were blessing {PAWN_gender ? him : her} along the way.
+\nThis trait has truly miraculous properties to meet the player’s expectations, regardless of his faith, alignment and number of turtles in {PAWN_gender ? his : her} aquarium (especially if there are not zero).
+\n\n    Luck +50%</description>
+			<degree>1</degree>
+			<socialFightChanceFactor>0.5</socialFightChanceFactor>
+			<commonality>0.5</commonality>
+		  </li>    
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_Conservatism</defName>
+		<commonality>0.9</commonality>
+		<degreeDatas>
+		  <li>
+			<label>conservatism</label>
+			<description>“It was better before! We don’t need this communications console, pigeon mail is more reliable! Today’s Norbals are not at all the same, they are emaciated. But in our time...” – {PAWN_nameDef} does not trust any manifestations of novelty, preferring the old and proven time things, not forgetting to share your opinion with others.</description>
+			<degree>-1</degree>
+			<socialFightChanceFactor>1.25</socialFightChanceFactor>
+			<statOffsets>
+			  <MentalBreakThreshold>0.06</MentalBreakThreshold>
+			  <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			  <GlobalLearningFactor>-0.15</GlobalLearningFactor>
+			</statOffsets>
+			<statFactors>
+			  <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.25</CertaintyLossFactor>
+			  <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">2</SocialIdeoSpreadFrequencyFactor>
+			</statFactors>
+			<commonality>0.4</commonality>
+		  </li>
+		  <li>
+			<label>cynicism</label>
+			<description>{PAWN_nameDef} is disdainful of any dogmatic manifestations and {PAWN_possessive} does not care at all about the worldview of others. Without a twinge of conscience, {PAWN_gender ? he: she} will change his opinion to the dominant one in society in order to achieve his goals.</description>
+			<degree>1</degree>
+			<socialFightChanceFactor>1.12</socialFightChanceFactor>
+			<statOffsets>
+			  <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+			  <GeneralLaborSpeed>-0.05</GeneralLaborSpeed>
+			  <GlobalLearningFactor>0.1</GlobalLearningFactor>
+			</statOffsets>
+			<statFactors>
+			  <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">4</CertaintyLossFactor>
+			  <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</SocialIdeoSpreadFrequencyFactor>
+			</statFactors>
+			<commonality>0.5</commonality>
+		  </li>    
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Religious</li>
+			<li>Cultist</li>
+			<li>Fanatic</li>
+			<li>Naive</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_temperate</defName>
+		<commonality>0.7</commonality>
+		<degreeDatas>
+			<li>
+				<label>temperate</label>
+				<description>According to {PAWN_nameDef}, it's best to enjoy things in moderation.</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.015</MentalBreakThreshold>
+					<MoveSpeed>0.05</MoveSpeed>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+				</statOffsets>
+				<hungerRateFactor>0.8</hungerRateFactor>
+				<socialFightChanceFactor>0.8</socialFightChanceFactor>
+				<allowedMeditationFocusTypes>
+					<li>Minimal</li>
+				</allowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+		  <li>Gourmand</li>
+		  <li>EatingSpeed</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_stubborn</defName>
+		<commonality>0.9</commonality>
+		<degreeDatas>
+			<li>
+				<label>stubborn</label>
+				<description>{PAWN_nameDef} will stop at nothing. You should think twice before getting in {PAWN_gender ? his : her} way.</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.025</MentalBreakThreshold>
+					<Suppressability>-0.25</Suppressability>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+					<ConstructSuccessChance>-0.04</ConstructSuccessChance>
+					<GlobalLearningFactor>-0.05</GlobalLearningFactor>
+					<PainShockThreshold>0.03</PainShockThreshold>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.97</IncomingDamageFactor>
+				</statFactors>
+				<socialFightChanceFactor>1.15</socialFightChanceFactor>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_impatient</defName>
+		<commonality>0.7</commonality>
+		<degreeDatas>
+			<li>
+				<label>impatient</label>
+				<description>{PAWN_nameDef} thinks that most things should happen fast: ideally they should happen now!</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+					<Suppressability>-0.15</Suppressability>
+					<MoveSpeed>0.3</MoveSpeed>
+					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+					<GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+					<EatingSpeed>0.3</EatingSpeed>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<ReloadSpeed>0.3</ReloadSpeed>
+					<ShootingAccuracyPawn>-0.3</ShootingAccuracyPawn>
+					<MortarMissRadiusFactor>-0.3</MortarMissRadiusFactor>
+					<MeleeCritChance>0.3</MeleeCritChance>
+					<MeleeParryChance>-0.15</MeleeParryChance>
+					<MeleeDodgeChance>-0.15</MeleeDodgeChance>
+					<ConstructSuccessChance>-0.15</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>-0.15</FixBrokenDownBuildingSuccessChance>
+					<MedicalSurgerySuccessChance>-0.15</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>-0.15</MedicalTendQuality>
+					<FoodPoisonChance>0.15</FoodPoisonChance>
+					<ButcheryFleshEfficiency>-0.15</ButcheryFleshEfficiency>
+					<ButcheryMechanoidEfficiency>-0.15</ButcheryMechanoidEfficiency>
+					<MiningYield>-0.15</MiningYield>
+					<PlantHarvestYield>-0.15</PlantHarvestYield>
+					<TameAnimalChance>-0.15</TameAnimalChance>
+					<NegotiationAbility>-0.15</NegotiationAbility>
+					<SocialImpact>0.15</SocialImpact>
+					<ArrestSuccessChance>-0.15</ArrestSuccessChance>
+					<GlobalLearningFactor>-0.15</GlobalLearningFactor>
+					<GermContainment>-0.1</GermContainment>
+				</statOffsets>
+				<socialFightChanceFactor>1.15</socialFightChanceFactor>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Aptitude</li>
+			<li>Perfectionist</li>
+			<li>Efficaciousness</li>
+			<li>Snipermasterrk</li>
+			<li>ShootingAccuracy</li>
+			<li>HMC_analyst</li>
+		</conflictingTraits>
+	</TraitDef>
+
+</Defs>

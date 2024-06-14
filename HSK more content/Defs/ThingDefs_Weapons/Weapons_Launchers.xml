@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- XM-25 CDTE-->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_XM25_HMC</defName>
+        <label>XM-25 CDTE</label>
+        <description>Counter Defilade Target Engagement (CDTE) System.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XM25</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <statBases>
+            <MarketValue>2550</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.14</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+            <Bulk>7.4</Bulk>
+            <Mass>6.4</Mass>
+        </statBases>
+		<generateCommonality>0.6</generateCommonality>
+        <weaponTags>
+            <li>IgufLaucnher</li>
+            <li>Glaunchers</li>
+            <li>CE_AI_Rifle</li>
+            <li>CE_AI_Launcher</li>
+            <li>EliteGun</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Glaunchers</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+				<recoilAmount>1.2</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+				<circularError>0.25</circularError>
+                <defaultProjectile>Bullet_25x40mmGrenade_HE</defaultProjectile>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <ai_AvoidFriendlyFireRadius>2</ai_AvoidFriendlyFireRadius>
+				<minRange>2</minRange>
+                <warmupTime>1.15</warmupTime>
+                <burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <range>62</range>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+				<onlyManualCast>true</onlyManualCast>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+				<aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>6</magazineSize>
+                <reloadTime>4</reloadTime>
+                <ammoSet>AmmoSet_25x40mmGrenade</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Launcher_Component>1</Launcher_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
+</Defs>

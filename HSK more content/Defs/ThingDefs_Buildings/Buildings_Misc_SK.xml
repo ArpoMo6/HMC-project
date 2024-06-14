@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="FacilitiesBase">
+		<defName>HMC_Tribal_Facility</defName>
+		<label>tribal end table</label>
+		<description>A important place to store important documents about important experiments used for important research on important technologies. Increases research speed slightly when next to a tribal research bench.\n\nStacks to 3.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Facilities/EndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<fillPercent>0.2</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>240</WorkToBuild>
+			<Flammability>1</Flammability>
+			<Beauty>1</Beauty>
+			<Bulk>9</Bulk>
+			<Mass>6</Mass> 
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.01</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>3</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Accessory_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="FacilitiesBase">
+		<defName>HMC_CS_Tribal_Facility</defName>
+		<label>coldstone tribal end table</label>
+		<description>A important place to store important documents about important experiments used for important research on important technologies. Increases research speed slightly when next to a tribal research bench. A light coldstones breeze enhances this effect.\n\nStacks to 3.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Facilities/CSEndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<fillPercent>0.3</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<statBases>
+			<MaxHitPoints>55</MaxHitPoints>
+			<WorkToBuild>360</WorkToBuild>
+			<Flammability>1</Flammability>
+			<Beauty>1</Beauty>
+			<Bulk>12</Bulk>
+			<Mass>8</Mass> 
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+			<Coldstone>2</Coldstone>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.02</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>3</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(0,96,255,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ColdPusher">
+				<ColdPerSecond>-2</ColdPerSecond>
+				<ColdPushMinTemperature>18</ColdPushMinTemperature>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Accessory_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="FacilitiesBase">
+		<defName>HMC_GS_Tribal_Facility</defName>
+		<label>glowstone tribal end table</label>
+		<description>A important place to store important documents about important experiments used for important research on important technologies. Increases research speed slightly when next to a tribal research bench. Soft glowstones light enhances this effect.\n\nStacks to 3.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Facilities/GSEndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<fillPercent>0.3</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<statBases>
+			<MaxHitPoints>55</MaxHitPoints>
+			<WorkToBuild>360</WorkToBuild>
+			<Flammability>1</Flammability>
+			<Beauty>1</Beauty>
+			<Bulk>12</Bulk>
+			<Mass>8</Mass> 
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+			<Glowstone>2</Glowstone>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.03</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>3</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(180,173,150,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Accessory_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

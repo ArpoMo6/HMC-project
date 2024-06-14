@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Laser pistol -->
+	<ThingDef ParentName="BaseGun_ShortBarreled">
+		<defName>Laser_Pistol_HMC</defName>
+		<label>Laser pistol</label>
+		<description>The laser pistol relies on portable laser technology to provide a more powerful sidearm with quicker rate of fire at the cost of accuracy.</description>
+		<graphicData>
+			<texPath>Things/Weapons/XcomWeapons/XcomLP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractLaser</soundInteract>
+		<weaponTags>
+			<li>PT3</li>
+			<li>ADP2</li>
+			<li>Futuristic</li>
+            <li>AdvancedGun</li>			
+			<li>TierTwoPistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+			<li>HMC_HT_WPN</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Futuristic</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>1800</MarketValue>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>1.0</SwayFactor>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<Bulk>2.5</Bulk>
+			<Mass>2.2</Mass>
+			<WorkToMake>15000</WorkToMake>
+		</statBases>
+		<generateCommonality>0.5</generateCommonality>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>40</range>
+				<soundCast>Laser_Pistol</soundCast>
+				<soundAiming>Laser_Warmup</soundAiming>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>10</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_ChargedLaser</ammoSet>
+			</li>
+		</comps>
+		<smeltProducts>
+            <Laser_Component>1</Laser_Component>		
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<Plastic>5</Plastic>			
+		</smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>15</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>15</Plastic>
+		  <Weapon_Parts>5</Weapon_Parts>
+		  <ComponentAdvanced>8</ComponentAdvanced>
+		  <ComponentSpacer>5</ComponentSpacer>
+		  <Laser_Component>1</Laser_Component>
+		</costList>
+	</ThingDef>
+
+    <!-- Laser rifle -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Gun_LaserRifle</defName>
+        <label>laser rifle</label>
+        <description>The laser assault rifle optics technology offers a substantial increase in output over the conventional rifle. It shoots a single powerful laser beam with a rather accuracy and damage.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XcomWeapons/Laser_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractLaser</soundInteract>
+        <statBases>
+            <MarketValue>3500</MarketValue>
+            <SightsEfficiency>1.4</SightsEfficiency>
+            <ShotSpread>0.033</ShotSpread>
+            <SwayFactor>0.8</SwayFactor>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+            <Bulk>10</Bulk>
+            <Mass>7</Mass>
+			<WorkToMake>30000</WorkToMake>
+        </statBases>
+		<generateCommonality>0.3</generateCommonality>
+        <weaponTags>
+            <li>Futuristic</li>
+			<li>ASN1</li>
+			<li>ADR2</li>
+			<li>AdvancedGun</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_XcomLaser</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>60</range>
+                <soundCast>Laser_Rifle</soundCast>
+				<soundAiming>Laser_Warmup</soundAiming>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>15</magazineSize>
+                <reloadTime>3</reloadTime>
+                <ammoSet>AmmoSet_XcomLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>17</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>60</Plastic>
+		  <Weapon_Parts>10</Weapon_Parts>
+		  <ComponentAdvanced>15</ComponentAdvanced>
+		  <ComponentSpacer>20</ComponentSpacer>
+		  <Laser_Component>1</Laser_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- Laser sniper rifle -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Gun_LaserSniperRifle</defName>
+        <label>laser sniper rifle</label>
+        <description>The laser sniper rifle is an extremely capable weapon akin to a traditional sniper rifle which uses techniques of focusing an accelerated energy pulse through a narrow-field lens while still maintaining adequate energy efficiency and quicker rate of fire.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XcomWeapons/Laser_SniperRifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractLaser</soundInteract>
+        <statBases>
+            <MarketValue>4000</MarketValue>
+            <SightsEfficiency>2</SightsEfficiency>
+            <ShotSpread>0.008</ShotSpread>
+            <SwayFactor>0.6</SwayFactor>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+            <Bulk>15</Bulk>
+            <Mass>8.5</Mass>
+			<WorkToMake>36000</WorkToMake>
+        </statBases>
+		<generateCommonality>0.15</generateCommonality>
+		<equippedStatOffsets>
+			<HuntingStealth>0.25</HuntingStealth>
+		</equippedStatOffsets>
+        <weaponTags>
+            <li>Futuristic</li>
+			<li>IgufSniper</li>
+			<li>ASN3</li>
+			<li>AdvancedGun</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+		<equippedAngleOffset>45</equippedAngleOffset>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_XcomLaserLance</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>86</range>
+                <soundCast>Laser_SniperRifle</soundCast>
+				<soundAiming>Laser_LoudWarmup</soundAiming>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>5</magazineSize>
+                <reloadTime>4.5</reloadTime>
+                <ammoSet>AmmoSet_XcomLaserLance</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Laser_weapons_E</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>19</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>70</Plastic>
+		  <Weapon_Parts>15</Weapon_Parts>
+		  <ComponentAdvanced>20</ComponentAdvanced>
+		  <ComponentUltra>20</ComponentUltra>
+		  <Laser_Component>1</Laser_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- Scatter laser -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Gun_ScatterLaser</defName>
+        <label>scatter laser</label>
+        <description>The scatter laser fills the same tactical role as a traditional shotgun, but with a greater damage output. It relies on a modified prism to scatter the beam rather than focus it.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XcomWeapons/Laser_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractLaser</soundInteract>
+        <statBases>
+            <MarketValue>3800</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.11</ShotSpread>
+            <SwayFactor>0.95</SwayFactor>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+            <Bulk>6</Bulk>
+            <Mass>3</Mass>
+			<WorkToMake>33000</WorkToMake>
+        </statBases>
+		<generateCommonality>0.2</generateCommonality>
+        <weaponTags>
+            <li>ADS2</li>
+			<li>AdvancedGun</li>
+			<li>Futuristic</li>
+			<li>CE_AI_AssaultWeapon</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_XcomLaserScatter</defaultProjectile>
+                <warmupTime>1.25</warmupTime>
+                <range>24</range>
+                <soundCast>Laser_Shotgun</soundCast>
+				<soundAiming>Laser_LoudWarmup</soundAiming>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>FALSE</noSingleShot>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>10</magazineSize>
+                <reloadTime>2.75</reloadTime>
+                <ammoSet>AmmoSet_XcomLaserScatter</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Laser_weapons_E</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>18</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>45</Plastic>
+		  <Weapon_Parts>10</Weapon_Parts>
+		  <ComponentAdvanced>10</ComponentAdvanced>
+		  <ComponentUltra>10</ComponentUltra>
+		  <Laser_Component>1</Laser_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- Heavy laser -->
+    <ThingDef ParentName="BaseGun_Heavy">
+        <defName>HMC_Gun_HeavyLaser</defName>
+        <label>heavy laser</label>
+        <description>The heavy laser requires a supplementary power supply that makes it somewhat unwieldy in combat, but it is capable of dealing high amounts of damage.\n\nAlthough this variant still operates near the limit of what would ordinarily be considered "safe" operating temperatures, we believe it is stable enough at this point.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XcomWeapons/Laser_Cannon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractLaser</soundInteract>
+        <statBases>
+            <MarketValue>4000</MarketValue>
+            <SightsEfficiency>1.2</SightsEfficiency>
+            <ShotSpread>0.075</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <Bulk>20</Bulk>
+            <Mass>20</Mass>
+			<WorkToMake>36000</WorkToMake>
+        </statBases>
+		<generateCommonality>0.15</generateCommonality>
+        <weaponTags>
+            <li>ADR3</li>
+			<li>MG4</li>
+			<li>IgufMG</li>
+            <li>GunHeavy</li>
+			<li>AdvancedGun</li>
+			<li>Futuristic</li>
+            <li>SyndicateMachineGun</li>
+            <li>OrionHeavy</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_Suppressive</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.3</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>1.75</warmupTime>
+                <range>60</range>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <burstShotCount>20</burstShotCount>
+                <soundCast>Laser_Cannon</soundCast>
+				<soundAiming>Laser_Warmup</soundAiming>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>10</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>200</magazineSize>
+                <reloadTime>15</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Laser_weapons_E</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>19</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>90</Plastic>
+		  <Weapon_Parts>20</Weapon_Parts>
+		  <ComponentAdvanced>30</ComponentAdvanced>
+		  <ComponentUltra>15</ComponentUltra>
+		  <Laser_Component>1</Laser_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- Magnetic shotgun -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Gun_MagShotgun</defName>
+        <label>magnetic shotgun</label>
+        <description>Magnetic weapons technology will let us synthesize alloy fragments into a spray-style projectile, and our soldiers can use it to dramatic effect: the closer the better.</description>
+        <graphicData>
+            <texPath>Things/Weapons/XcomWeapons/Mag_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <statBases>
+            <MarketValue>2800</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.16</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+            <Bulk>7</Bulk>
+            <Mass>4.5</Mass>
+			<WorkToMake>27000</WorkToMake>
+        </statBases>
+		<generateCommonality>0.4</generateCommonality>
+        <weaponTags>
+            <li>ADS2</li>
+			<li>AdvancedGun</li>
+			<li>Futuristic</li>
+			<li>IgufShotgun</li>
+			<li>CE_AI_AssaultWeapon</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_12Mag_Buck</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>20</range>
+                <soundCast>Mag_Shotgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <noSingleShot>FALSE</noSingleShot>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>10</magazineSize>
+                <reloadTime>3.25</reloadTime>
+                <ammoSet>AmmoSet_12Mag</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <MagneticMaterial>4</MagneticMaterial>
+			<Shotgun_Component>1</Shotgun_Component>
+			<AdvRifle_Component>1</AdvRifle_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Components_D1</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>16</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <recipeUsers Inherit="False">
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>45</Plastic>
+		  <Weapon_Parts>15</Weapon_Parts>
+		  <MagneticMaterial>15</MagneticMaterial>
+		  <ComponentSpacer>15</ComponentSpacer>
+		  <AdvRifle_Component>1</AdvRifle_Component>
+		  <Shotgun_Component>1</Shotgun_Component>
+		</costList>
+    </ThingDef>
+
+</Defs>

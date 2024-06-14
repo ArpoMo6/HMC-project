@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<ThingDef ParentName="ApparelNeoliticBase">
+		<defName>HMC_Apparel_Tribal_LA</defName>
+		<label>Leather Armor</label>
+		<description>Flexible, medium-thickness leather armor made from squares of animal hide. Meant to be worn under a pelt cloak or parka, offers suitable protection for light combat without restricting movement.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Tribal/LeatherArmor/LeatherArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>		
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>95</costStuffCount>
+		<costList>
+			<ComponentMedieval>3</ComponentMedieval>
+		</costList>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<WorkToMake>4200</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Mass>0.8</Mass>
+			<Bulk>1.0</Bulk>
+			<WornBulk>0</WornBulk>
+			<EquipDelay>3.2</EquipDelay>
+            <Insulation_Cold>5</Insulation_Cold>
+            <StuffEffectMultiplierInsulation_Cold>0.38</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.38</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>2.4</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryBulk>4</CarryBulk>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.1</AimingDelayFactor>
+			<GermResistance>0.05</GermResistance>
+			<GermContainment>0.05</GermContainment>
+			<Suppressability>-0.1</Suppressability>
+		</equippedStatOffsets>
+		<generateCommonality>0.1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Tribal/LeatherArmor/LeatherArmor</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Norbal</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+		</apparel>
+<!-- 		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15,1)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(0.6,0.45,0.18,1)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.8,0.6,0.23,1)</only>
+				</li>
+			</options>
+		</colorGenerator> -->
+		<thingCategories>
+			<li>UrbanPantsCat</li>
+		</thingCategories>
+        <recipeMaker>
+            <researchPrerequisite>Apparel_A2</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+
+</Defs>

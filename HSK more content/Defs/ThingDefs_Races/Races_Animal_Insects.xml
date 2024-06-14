@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="SK_InsectThingBase">
+		<defName>Hiveguardsman</defName>
+		<label>hive guardsman</label>
+		<description>The hive guardsman is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long deadly ripper-blades make it deadly.</description>
+		<statBases>
+			<Mass>210</Mass>
+			<MoveSpeed>3.2</MoveSpeed>
+			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
+			<MarketValue>1500</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ArmorRating_Blunt>9</ArmorRating_Blunt>
+			<ArmorRating_Sharp>2.4</ArmorRating_Sharp>
+			<MeleeDodgeChance>0</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<Flammability>0.8</Flammability>
+			<SmokeSensitivity>0.4</SmokeSensitivity>
+			<ImmunityGainSpeed>5</ImmunityGainSpeed>
+			<PainShockThreshold>0.9</PainShockThreshold>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<armorPenetrationSharp>6.75</armorPenetrationSharp>
+				<armorPenetrationBlunt>11.25</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.4</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<armorPenetrationSharp>6</armorPenetrationSharp>
+				<armorPenetrationBlunt>12.75</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>3.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>16.5</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>5</shearIntervalDays>
+				<woolAmount>90</woolAmount>
+			</li>
+		</comps>
+		<butcherProducts>
+			<Chitin>38</Chitin>
+		</butcherProducts>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<baseHungerRate>0.9</baseHungerRate>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>5.1</baseHealthScale>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<wildness>0.9</wildness>
+			<lifeExpectancy>10</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalInsect</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Hiveguardsman</defName>
+		<label>hive guardsman</label>
+		<race>Hiveguardsman</race>
+		<combatPower>440</combatPower>
+		<canArriveManhunter>true</canArriveManhunter>
+		<ecoSystemWeight>1.2</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<graphicClass>SK.PawnGraphic</graphicClass>
+					<texPath>Things/Animal/Hiveguardsman/Hiveguardsman</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<graphicClass>SK.PawnGraphic</graphicClass>
+					<texPath>Things/Animal/Hiveguardsman/Hiveguardsman</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<graphicClass>SK.PawnGraphic</graphicClass>
+					<texPath>Things/Animal/Hiveguardsman/Hiveguardsman</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.7, 0.43)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li Class="SK.PawnGraphicExtension">
+				<colors>				
+					<li>(255,240,215)</li>
+					<!-- light beige -->
+					<li>(235,190,75)</li>
+					<!-- light red -->
+					<li>(225,225,225)</li>
+					<!-- light grey -->
+					<li>(180,180,180)</li>
+					<!-- medium grey -->
+					<li>(155,155,155)</li>
+					<!-- dark grey -->
+					<li>(90,90,90)</li>
+					<!-- dark -->
+				</colors>
+				<shaderType>Cutout</shaderType>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

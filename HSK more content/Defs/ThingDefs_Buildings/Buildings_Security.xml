@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Cannon ===============-->
+
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Cannon_HMC</defName>
+		<label>Cannon</label>
+		<graphicData>
+			<texPath>Things/Building/Security/CannonHMC/CannonHMC_Base</texPath>
+			<drawSize>(7,7)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/CannonHMC/CannonHMC</uiIconPath>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>300</Mass>
+			<Bulk>500</Bulk>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<description>A manned cannon which can throw shells over enemy's head.</description>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Crate_Cannon_HMC>1</Crate_Cannon_HMC>
+		</costList>
+		<designationCategory>Security</designationCategory>
+		<specialDisplayRadius>5</specialDisplayRadius>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<building>
+			<turretGunDef>Gun_Cannon_HMC</turretGunDef>
+			<turretTopDrawSize>3.5</turretTopDrawSize>
+			<buildingTags>
+				<li>Artillery</li>
+				<li>Artillery_BaseDestroyer</li>
+			</buildingTags>
+		</building>
+		<size>(3,3)</size>
+		<minifiedDef>MinifiedCannon_HMC</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites><li>Ballista_B1</li></researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!--=============== NSV-12.7 «Utyos» ===============-->
+
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_NSV_HMC</defName>
+		<label>12.7x108mm NSV «Utyos» MG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/NSV/NSV_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/NSV/NSV_Icon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>145</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>1400</WorkToBuild>
+			<Mass>35.5</Mass>
+			<Bulk>50</Bulk>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<description>NSV-12.7 «Utyos» high caliber machine gun mounted on a tripod.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<NSV_Crate_HMC>1</NSV_Crate_HMC>
+		</costList>
+		<building>
+			<turretGunDef>Gun_NSV_HMC</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_NSV_HMC</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!--=============== LWMMG-mounted ===============-->
+
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_LWMMGmounted_HMC</defName>
+		<label>.338 LWMMG GPMG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/LWMMG/LWMMG_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/LWMMG/LWMMG_Icon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>1300</WorkToBuild>
+			<Mass>26</Mass>
+			<Bulk>41</Bulk>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<description>LWMMG GPMG mounted on a tripod.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>65</costStuffCount>
+		<costList>
+			<LWMMGmounted_Crate_HMC>1</LWMMGmounted_Crate_HMC>
+		</costList>
+		<building>
+			<turretGunDef>Gun_LWMMGmounted_HMC</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_LWMMGmounted_HMC</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Heavy_turrets_C2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!--=============== Energy GPMG ===============-->
+
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_EnergyGPMG_HMC</defName>
+		<label>Energy GPMG</label>
+		<graphicData>
+			<texPath>Things/Building/Security/EnergyGPMG/EnergyGPMG_Base</texPath>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/EnergyGPMG/EnergyGPMG_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkToBuild>2600</WorkToBuild>
+			<Mass>30</Mass>
+			<Bulk>48</Bulk>
+		</statBases>
+		<techLevel>Ultra</techLevel>
+		<description>Energy GPMG mounted on a fourpod.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>85</costStuffCount>
+		<costList>
+			<EnergyGPMG_Crate_HMC>1</EnergyGPMG_Crate_HMC>
+		</costList>
+		<building>
+			<turretGunDef>Gun_EnergyGPMG_HMC</turretGunDef>
+			<turretTopDrawSize>4</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Security</designationCategory>
+		<minifiedDef>MinifiedTurret_EnergyGPMG_HMC</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- =====AI Micro turrets===== -->
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_HMCMicroTurrets</defName>
+		<label>micro turrets</label>
+		<description>micro turrets.</description>
+		<defNames>
+			<li>HMC_Turret_MicroTurret</li>
+			<li>HMC_Turret_MicroTurretGrenade</li>
+			<li>HMC_Turret_MicroTurretShotgun</li>
+			<li>HMC_Turret_MicroTurretSniper</li>
+			<li>Turret_MiniTurret</li>
+			<li>HMC_Turret_MicroTurretAdvanced</li>
+			<li>HMC_Turret_MicroTurretGrenadeAdvanced</li>
+			<li>HMC_Turret_MicroTurretAMR</li>
+			<li>HMC_Turret_MicroTurretCharged</li>
+			<li>HMC_Turret_MicroTurretMagnetic</li>
+			<li>HMC_Turret_MicroTurretBlaster</li>
+			<li>HMC_Turret_MicroTurretPlasma</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	<ThingDef Name="HMC_MicroTurretsBase" ParentName="TurretBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Building/Security/TurretImprovised</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.4,2.4)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/TurretImprovised_ico</uiIconPath>
+		<statBases>
+			<Flammability>1</Flammability>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>12.8</Mass>
+			<Bulk>16</Bulk>
+			<Beauty>-10</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>0.25</multiplier>
+			</li>
+			<li>
+				<damageDef>Thermobaric</damageDef>
+				<multiplier>0.3</multiplier>
+			</li>
+			<li>
+				<damageDef>Thump</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li>
+				<damageDef>PlasmaFlame</damageDef>
+				<multiplier>0.75</multiplier>
+			</li>
+		</damageMultipliers>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<designationCategory>Security</designationCategory>
+		<fillPercent>0.76</fillPercent>
+		<pathCost>25</pathCost>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_Totem</defName>
+		<label>ancestral totem</label>
+		<description>An ancestral controlled totem that automatically shoots arrow at nearby enemies. Requires human meat bloody sacrifice equivalent one human corpse to function.\nCaliber: arrows</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TotemTurret/TotemAutoTurret_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,1.8)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.45, 0.85, 0.45)</volume>
+				<offset>(0,0,-0.60)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/TotemTurret/TotemAutoTurret_Base</uiIconPath>
+		<statBases>
+			<Flammability>1</Flammability>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>24</Mass>
+			<Bulk>28</Bulk>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<size>(1,2)</size>
+		<costList Inherit="false">
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
+		<stuffCategories Inherit="false">
+			<li>WoodLogs</li>
+			<li>Stony</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_Totem</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+			<uninstallWork>180</uninstallWork>
+		</building>
+		<specialDisplayRadius>1.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedTotem</minifiedDef>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>RecurveBow</li>
+		</researchPrerequisites>
+		<comps>
+		  <li Class="CompProperties_Refuelable">
+			<fuelLabel>Shots until new sacrifice</fuelLabel>
+			<fuelGizmoLabel>Sacrifice points</fuelGizmoLabel>
+			<outOfFuelMessage>Cannot shoot: Needs new sacrifice</outOfFuelMessage>
+			<fuelFilter><thingDefs><li>Meat_Human</li></thingDefs></fuelFilter>
+			<fuelCapacity>140</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>0</initialFuelPercent>
+			<autoRefuelPercent>0.25</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>1</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Resource/MeatFoodRaw/Meat_Human/Meat_Human_a</fuelIconPath>
+		  </li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurret</defName>
+		<label>sentry micro-turret</label>
+		<description>An AI-controlled micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 350 W to function.\nCaliber: any pistol</description>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>350</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurret</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>1</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurrets_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretGrenade</defName>
+		<label>sentry grenade micro-turret</label>
+		<description>An AI-controlled micro-turret that automatically fires grenades at nearby enemies. Easily transportable. Requires 425 W to function.\nCaliber: 25x40mm Grenade</description>
+		<uiIconPath>Things/Building/Security/MicroTurrets/MicroTurretGrenade_ico</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>425</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Rifle_Component>1</Rifle_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretGrenade</turretGunDef>
+			<turretTopDrawSize>2.8</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>3.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretGrenadeGun</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsTwo_HMC</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretShotgun</defName>
+		<label>sentry shotgun micro-turret</label>
+		<description>An AI-controlled micro-turret that automatically fires .12 caliber at nearby enemies. Easily transportable. Requires 425 W to function.\nCaliber: 12 Gauge</description>
+		<uiIconPath>Things/Building/Security/MicroTurrets/MicroTurretShotgun_ico</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>425</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Shotgun_Component>1</Shotgun_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretShotgun</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>1</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretShotgun</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsTwo_HMC</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretSniper</defName>
+		<label>sentry sniper micro-turret</label>
+		<description>An AI-controlled micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 425 W to function.\nCaliber: .303 British / 7.62mm rifle</description>
+		<uiIconPath>Things/Building/Security/MicroTurrets/MicroTurretSniper_ico</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>425</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Sniper_Component>1</Sniper_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretSniper</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>3.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretSniper</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsTwo_HMC</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretAdvanced</defName>
+		<label>marksman sentry micro-turret</label>
+		<description>An AI-controlled advanced micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 600 W to function.\nCaliber: .338 Lapua Magnum</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SentryHeavyTurret_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/SentryHeavyTurret_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>600</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Electronics>1</Electronics>
+			<AdvRifle_Component>1</AdvRifle_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretAdvanced</turretGunDef>
+			<turretTopDrawSize>2.8</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>2.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretAdvanced</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsAdvanced_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretGrenadeAdvanced</defName>
+		<label>advanced grenade sentry micro-turret</label>
+		<description>An AI-controlled advanced micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 600 W to function.\nCaliber: 30x29 mm grenade</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SentryHeavyTurret_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MicroTurrets/MicroTurretGrenade_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>625</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Electronics>1</Electronics>
+			<Heavy_Component>1</Heavy_Component>
+			<AdvRifle_Component>1</AdvRifle_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretGrenadeAdvanced</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>2.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretGrenadeAdvanced</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsAdvancedTwo_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsBase">
+		<defName>HMC_Turret_MicroTurretAMR</defName>
+		<label>AMR sentry micro-turret</label>
+		<description>An AI-controlled advanced anti-materiel micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 600 W to function.\nCaliber: .408 CT, .50 BMG, 12.7x108mm</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SentryHeavyTurret_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/SentryHeavyTurret_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>1260</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>625</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Electronics>1</Electronics>
+			<AdvRifle_Component>1</AdvRifle_Component>
+			<Sniper_Component>1</Sniper_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretAMR</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>4</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretAMR</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsAdvancedTwo_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef Name="HMC_MicroTurretsHiTechBase" ParentName="HMC_MicroTurretsBase" Abstract="True">
+		<stuffCategories Inherit="false">
+			<li>SolidMetallic</li>
+		</stuffCategories>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsHiTechBase">
+		<defName>HMC_Turret_MicroTurretCharged</defName>
+		<label>charged sentry micro-turret</label>
+		<description>An AI-controlled charged micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 650 W to function.\nCaliber: 6x24mmCharged</description>
+		<graphicData>
+			<texPath>Things/Building/Security/BlasterTurret_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>Things/Building/Security/BlasterTurret_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>95</MaxHitPoints>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>650</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Charged_Component>1</Charged_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretCharged</turretGunDef>
+			<turretTopDrawSize>2.8</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>2</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretCharged</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsHiTech_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>13</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsHiTechBase">
+		<defName>HMC_Turret_MicroTurretMagnetic</defName>
+		<label>magnetic sentry micro-turret</label>
+		<description>An AI-controlled magnetic micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 675 W to function</description>
+		<graphicData>
+			<texPath>Things/Building/Security/PrecisionTurretBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>Things/Building/Security/PrecisionTurretGun_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>95</MaxHitPoints>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>675</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Microchips>1</Microchips>
+			<AdvRifle_Component>1</AdvRifle_Component>
+			<ComponentSpacer>1</ComponentSpacer>
+			<MagneticMaterial>1</MagneticMaterial>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretMagnetic</turretGunDef>
+			<turretTopDrawSize>2.4</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>2</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretMagnetic</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsHiTech_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>13</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsHiTechBase">
+		<defName>HMC_Turret_MicroTurretBlaster</defName>
+		<label>blaster sentry micro-turret</label>
+		<description>An AI-controlled blaster micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 675 W to function.\nCaliber: Charged Blaster bolt</description>
+		<graphicData>
+			<texPath>Things/Building/Security/PrecisionTurretBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>Things/Building/Security/PrecisionTurretGun_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>95</MaxHitPoints>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>675</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Plasma_Component>1</Plasma_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretBlaster</turretGunDef>
+			<turretTopDrawSize>2.8</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>2.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretBlaster</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsHiTech_HMC</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MicroTurretsHiTechBase">
+		<defName>HMC_Turret_MicroTurretPlasma</defName>
+		<label>plasma sentry micro-turret</label>
+		<description>An AI-controlled plasma micro-turret that automatically fires at nearby enemies. Easily transportable. Requires 675 W to function.\nCaliber: Charged Plasma bolt</description>
+		<graphicData>
+			<texPath>Things/Building/Security/MicroTurrets/MicroTurretHiTechBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.6,1.6)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.3,0.6,0.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>Things/Building/Security/MicroTurrets/MicroTurretHiTech_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>95</MaxHitPoints>
+			<WorkToBuild>1800</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>675</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Plasma_Component>1</Plasma_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MicroTurretPlasma</turretGunDef>
+			<turretTopDrawSize>1.6</turretTopDrawSize>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<specialDisplayRadius>1.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMicroTurretPlasma</minifiedDef>
+		<researchPrerequisites>
+			<li>MicroTurretsHiTech_HMC</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_HMCMacroTurrets</defName>
+		<label>macro turrets</label>
+		<description>macro turrets.</description>
+		<defNames>
+			<li>HMC_Turret_MacroTurret</li>
+			<li>HMC_Turret_MacroTurretMarksman</li>
+			<li>HMC_Turret_MacroTurretGrenade</li>
+			<li>HMC_Turret_MacroTurretShotgun</li>
+			<li>HMC_Turret_MacroTurretCannon</li>
+			<li>HMC_Turret_MacroTurretPlasma</li>
+			<li>HMC_Turret_MacroTurretRailgun</li>
+		</defNames>
+		<designationCategory>Security</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	<ThingDef Name="HMC_MacroTurretsBase" ParentName="HMC_MicroTurretsBase" Abstract="True">
+		<statBases>
+			<Flammability>1</Flammability>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>36</Mass>
+			<Bulk>50</Bulk>
+			<Beauty>-5</Beauty>
+		</statBases>
+		<costStuffCount>180</costStuffCount>
+		<size>(2,2)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurret</defName>
+		<label>sentry macro-turret</label>
+		<description>An AI-controlled macro-turret that automatically fires at nearby enemies. Requires 775 W to function.\nCaliber: .303 British / 7.62mm rifle</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/HMGT_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>775</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurret</turretGunDef>
+			<turretTopDrawSize>3.2</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<minifiedDef>HMC_MinifiedMacroTurret</minifiedDef>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretMarksman</defName>
+		<label>sentry marksman macro-turret</label>
+		<description>An AI-controlled marksman macro-turret that automatically fires at nearby enemies. Requires 800 W to function.\nCaliber: 14.5x114 mm</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/HST_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<Microchips>1</Microchips>
+			<AdvSniper_Component>1</AdvSniper_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretMarksman</turretGunDef>
+			<turretTopDrawSize>3.4</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<specialDisplayRadius>2.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMacroTurretMarksman</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D3</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretGrenade</defName>
+		<label>sentry grenade macro-turret</label>
+		<description>An AI-controlled grenade macro-turret that automatically fires at nearby enemies. Requires 800 W to function.\nCaliber: 40x46 mm grenade</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/GLT_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Launcher_Component>1</Launcher_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretGrenade</turretGunDef>
+			<turretTopDrawSize>3.6</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<specialDisplayRadius>3.5</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMacroTurretGrenade</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D3</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretShotgun</defName>
+		<label>sentry shotgun macro-turret</label>
+		<description>An AI-controlled shotgun macro-turret that automatically fires at nearby enemies. Requires 800 W to function.\nCaliber: 12 Gauge</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/SGT_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Shotgun_Component>1</Shotgun_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretShotgun</turretGunDef>
+			<turretTopDrawSize>3.6</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<minifiedDef>HMC_MinifiedMacroTurretShotgun</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D3</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretCannon</defName>
+		<label>sentry cannon macro-turret</label>
+		<description>An AI-controlled cannon macro-turret that automatically fires at nearby enemies. Requires 800 W to function.\nCaliber: 90mm cannon shells</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/GLT_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<Microchips>1</Microchips>
+			<Cannon_Component>1</Cannon_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretCannon</turretGunDef>
+			<turretTopDrawSize>4.8</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<minifiedDef>HMC_MinifiedMacroTurretCannon</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D3</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretPlasma</defName>
+		<label>sentry plasma macro-turret</label>
+		<description>An AI-controlled plasma macro-turret that automatically fires at nearby enemies. Requires 1100 W to function.\nCaliber: Charged Plasma bolt</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/Pulsemachinegunturret_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1100</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<BioMicrochips>1</BioMicrochips>
+			<Plasma_Component>1</Plasma_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretPlasma</turretGunDef>
+			<turretTopDrawSize>3.6</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<minifiedDef>HMC_MinifiedMacroTurretPlasma</minifiedDef>
+		<researchPrerequisites>
+			<li>MacroTurretsThree_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="HMC_MacroTurretsBase">
+		<defName>HMC_Turret_MacroTurretRailgun</defName>
+		<label>sentry railgun macro-turret</label>
+		<description>An AI-controlled railgun macro-turret that automatically fires at nearby enemies. Requires 1100 W to function.\nCaliber: 2x62mm Charged Rail Ray</description>
+		<graphicData>
+			<texPath>Things/Building/Security/TurretHeavy_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.0,2.0)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(1.5,0.35,1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/MacroTurrets/Sniperpulseturret_MenuIcon</uiIconPath>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1100</basePowerConsumption>
+			</li>
+		</comps>
+		<costList>
+			<HMC_MacroTurret_Crate>1</HMC_MacroTurret_Crate>
+			<BioMicrochips>1</BioMicrochips>
+			<AdvSniper_Component>1</AdvSniper_Component>
+			<Charged_Component>1</Charged_Component>
+		</costList>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>HMC_Gun_MacroTurretRailgun</turretGunDef>
+			<turretTopDrawSize>4.0</turretTopDrawSize>
+			<uninstallWork>600</uninstallWork>
+		</building>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<minifiedDef>HMC_MinifiedMacroTurretRailgun</minifiedDef>
+		<researchPrerequisites>
+			<li>MacroTurretsThree_HMC</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

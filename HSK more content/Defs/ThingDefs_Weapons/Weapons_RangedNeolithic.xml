@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- sling	-->
+	<ThingDef ParentName="RangedWeaponNeoliticBase">
+		<defName>HMC_Sling</defName>
+		<label>sling</label>
+		<description>A simple sling from leathery or fabric stuff. It was made with skill from primitive technology.\nIgnores shield belts.</description>
+		<graphicData>
+			<texPath>Things/Weapons/EarlyRanged/Sling</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Bow_Small</soundInteract>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+		</costList>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>1.25</ShotSpread>
+			<SwayFactor>1.5</SwayFactor>
+			<Bulk>1.5</Bulk>
+			<Mass>0.9</Mass>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<weaponTags>
+			<li>NeolithicRangedBasic</li>
+			<li>CE_Bow</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Neolithic</li>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<techLevel>Neolithic</techLevel>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_SlingBall_Stone</defaultProjectile>
+				<warmupTime>0.25</warmupTime>
+				<range>19.1</range>
+				<soundCast>ThrowGrenade</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<ammoSet>AmmoSet_SlingBall</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSnapshot>True</noSnapshot>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Craft_0</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>BowRanged</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

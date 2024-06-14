@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_LampBase">
+		<defName>SilverGlowstoneLamp</defName>
+		<label>silver deflector glowstone lamp</label>
+		<description>A beautiful lamp topped with glowstone, emitting reflected light from dozen of glowstones. People need light to move and work at full speed. Free source of light.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/SilverGlowstoneLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.1, 0.2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<rotatable>false</rotatable>
+		<pathCost>20</pathCost>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>HeavyMetallic</li>
+			<li>Precious</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<SilverBar>10</SilverBar>
+			<Glowstone>20</Glowstone>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<Beauty>11</Beauty>
+			<WorkToBuild>465</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>6</Mass>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(180,173,150,0)</glowColor>
+			</li>
+		</comps>
+		<building>
+			<uninstallWork>300</uninstallWork>
+		</building>
+		<researchPrerequisites>
+			<li>Light_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

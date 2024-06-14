@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_StoneBlocksBase">
+		<defName>HMC_BlocksConcrete</defName>
+		<label>concrete blocks</label>
+		<description>Blocks of solid concrete. A dull-looking rock that chips easily.</description>
+		<graphicData>
+			<color>(102,102,100)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<Mass>0.7</Mass>
+		</statBases>
+		<stuffProps>
+			<commonality>0.08</commonality>
+			<color>(102,102,100)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>concrete</stuffAdjective>
+			<statFactors>
+				<Beauty>0</Beauty>
+				<MarketValue>0.3</MarketValue>
+				<MaxHitPoints>1</MaxHitPoints>
+				<Mass>0.7</Mass>
+				<WorkToMake>2</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
+				<DoorOpenSpeed>0.6</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<RecipeDef ParentName="SK_MakeStoneBlocksBase">
+		<defName>HMC_Make_StoneBlocksConcrete</defName>
+		<label>Make Concrete Blocks</label>
+		<description>Make concrete into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ConcreteResource</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ConcreteResource</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<HMC_BlocksConcrete>30</HMC_BlocksConcrete>
+		</products>
+		<workAmount>1200</workAmount>
+		<targetCountAdjustment>30</targetCountAdjustment>
+		<researchPrerequisite>Concrete_C1</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

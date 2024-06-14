@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ========================== Rodentlike ============================ -->
+
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>HMC_beaver</defName>
+		<label>beaver</label>
+		<devNote>bobr-1</devNote>
+		<description>A common beaver.</description>
+		<statBases>
+			<Mass>5</Mass>
+			<MoveSpeed>4.10</MoveSpeed>
+			<ComfyTemperatureMin>-45</ComfyTemperatureMin>
+			<MarketValue>330</MarketValue>
+			<ImmunityGainSpeed>1.6</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.12</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<FilthRate>8</FilthRate>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>1.3</chanceFactor>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.4</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.29</baseBodySize>
+			<baseHungerRate>0.545</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<leatherDef>Leather_Light</leatherDef>
+			<foodType>DendrovoreAnimal, VegetarianRoughAnimal</foodType>
+			<wildness>0.64</wildness>
+			<trainability>Advanced</trainability>
+			<gestationPeriodDays>8.5</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.30</manhunterOnDamageChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>35</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Work</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Combat</li>
+			</untrainableTags>
+			<wildBiomes>
+				<Tundra>0.2</Tundra>
+				<BorealForest>0.4</BorealForest>
+				<ColdBog>0.8</ColdBog>
+				<TemperateForest>0.25</TemperateForest>
+				<TemperateSwamp>0.6</TemperateSwamp>
+				<BorealArchipelago>0.45</BorealArchipelago>
+				<ColdBogArchipelago>0.85</ColdBogArchipelago>
+				<TemperateArchipelago>0.3</TemperateArchipelago>
+				<TemperateSwampArchipelago>0.7</TemperateSwampArchipelago>
+				<TundraArchipelago>0.25</TundraArchipelago>
+				<HmcBambooGrove MayRequire="arpomo6.hmc.biomes">0.125</HmcBambooGrove>
+				<HmcRedwoodForest MayRequire="arpomo6.hmc.biomes">0.1</HmcRedwoodForest>
+			</wildBiomes>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>HMC_beaver</defName>
+		<label>beaver</label>
+		<race>HMC_beaver</race>
+		<combatPower>60</combatPower>
+		<canArriveManhunter>true</canArriveManhunter>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>3~9</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Bobr/Bobr</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Bobr/Dessicated_Bobr</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Bobr/Bobr</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Bobr/Dessicated_Bobr</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Bobr/Bobr</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.35, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.08)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Bobr/Dessicated_Bobr</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<modExtensions>
+			<li Class="SK.PawnGraphicExtension">
+				<colors>
+					<!-- Simple brown -->
+					<li>(255,255,255)</li>
+					<!-- Dark brown -->
+					<li>(175,170,165)</li>
+					<!-- Light brown -->
+					<li>(255,240,195)</li>
+					<!-- Woody -->
+					<li>(220,245,210)</li>
+					<!-- Red -->
+					<li>(235,185,140)</li>
+					<!-- Black -->
+					<li>(120,125,130)</li>
+				</colors>
+				<shaderType>Cutout</shaderType>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

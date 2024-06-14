@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- SKS -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_SKS</defName>
+        <label>SKS</label>
+        <description>Ancient carabine. Probably pulled from a basement somewhere. Good range, Good power, low rate of fire.</description>
+        <graphicData>
+            <texPath>Things/Weapons/SKS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>725</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.026</ShotSpread>
+            <SwayFactor>1.15</SwayFactor>
+            <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+            <Bulk>7.9</Bulk>
+            <Mass>3.75</Mass>
+        </statBases>
+		<generateCommonality>0.75</generateCommonality>
+        <weaponTags>
+            <li>RF1</li>
+            <li>Gun</li>
+            <li>SniperRifle</li>
+            <li>TierOneRifle</li>
+            <li>TierOneSniper</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.20</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>40</range>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>15</ticksBetweenBurstShots>				
+                <soundCast>Shot_SKS</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>1</aimedBurstShotCount>				
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>10</magazineSize>
+                <reloadTime>3.0</reloadTime>
+                <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>1</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+
+	<!-- AKS-74U -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_AKS74U</defName>
+        <label>AKS-74U</label>
+        <description>The AKS-74U short assault rifle (the "U" suffix means"Ukorochennyj" in Russian = "Shortened" in English) has been developed in the late 1970s from the  AKS-74 assault rifle. The AKS-74U was intended as a personal defense weapon for tank, gun, helicopter and other vehicle crews,and for the special operations forces. The AKS-74U has the size and effective range of a typical submachine gun, but has advantage of the assault rifle ammunition and magazines. Average damage and rate of fire, low range, poor accurracy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Gun_AKS74U</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1355</MarketValue>
+            <SightsEfficiency>1.0</SightsEfficiency>
+            <ShotSpread>0.057</ShotSpread>
+            <SwayFactor>1.27</SwayFactor>
+            <RangedWeapon_Cooldown>0.72</RangedWeapon_Cooldown>
+            <Bulk>7.5</Bulk>
+            <Mass>2.7</Mass>
+        </statBases>
+		<generateCommonality>0.7</generateCommonality>
+        <weaponTags>
+            <li>RF2</li>
+            <li>Gun</li>
+            <li>TierTwoRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.32</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
+                <warmupTime>0.71</warmupTime>
+                <range>36</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>ShotAKS74U</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>2.1</reloadTime>
+                <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- Saiga-12k -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_Saiga12k</defName>
+        <label>Saiga-12K</label>
+        <description>An semi-automatic shotgun. Burstfires, moderately accurate just under rifle range, and has high damage output.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Saiga12k</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <statBases>
+            <MarketValue>1250</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.2</ShotSpread>
+            <SwayFactor>1.8</SwayFactor>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+            <Bulk>9.7</Bulk>
+            <Mass>5.1</Mass>
+        </statBases>
+		<generateCommonality>0.7</generateCommonality>
+        <weaponTags>
+            <li>ST3</li>
+			<li>ST2</li>
+            <li>Gun</li>
+            <li>TierTwoSMG</li>
+			<li>CE_AI_AssaultWeapon</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Shotguns</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.43</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+                <warmupTime>1.2</warmupTime>
+                <range>17</range>
+				<targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <soundCast>Shot_Saiga12k</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>6</magazineSize>
+                <reloadTime>2.3</reloadTime>
+                <ammoSet>AmmoSet_12Gauge</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Shotgun_Component>1</Shotgun_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>3</Plastic>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- .700 Nitro Express rifle -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_700NE_HMC</defName>
+        <label>.700 Nitro Express rifle</label>
+        <description>Ancient high caliber hunting rifle. Bad range, accuracy, rate of fire but very very good power.</description>
+        <graphicData>
+            <texPath>Things/Weapons/700NE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1450</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.1</ShotSpread>
+            <SwayFactor>2</SwayFactor>
+            <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+            <Bulk>10</Bulk>
+            <Mass>8</Mass>
+        </statBases>
+		<generateCommonality>0.5</generateCommonality>
+        <weaponTags>
+            <li>HMCNoTags</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>2.1</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_700NE_HP</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>25</range>
+                <soundCast>Shot_M24SR</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>1</magazineSize>
+                <reloadTime>2.3</reloadTime>
+                <ammoSet>AmmoSet_700NE</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>3</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- Versatile 5mm carbine -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_VersatileCarbine_HMC</defName>
+        <label>Versatile 5mm carbine</label>
+        <description>Ancient carbine. Can use any 5 mm ammo. Medium range, power and rate of fire.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Carbine5mm</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>900</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>1.3</SwayFactor>
+            <RangedWeapon_Cooldown>0.52</RangedWeapon_Cooldown>
+            <Bulk>10</Bulk>
+            <Mass>3.6</Mass>
+        </statBases>
+		<generateCommonality>0.55</generateCommonality>
+        <weaponTags>
+            <li>RF2</li>
+            <li>Gun</li>
+            <li>TierTwoRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.33</warmupTime>
+                <range>40</range>
+                <soundCast>Shot_SKS</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>15</magazineSize>
+                <reloadTime>3.5</reloadTime>
+                <ammoSet>AmmoSet_5mmVersatile</ammoSet>
+            </li>
+        </comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.9</DrawSize>
+		  </li>
+		</modExtensions>
+        <smeltProducts>
+            <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+        </smeltProducts>
+    </ThingDef>
+
+    <!-- Versatile 9mm carbine -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_VTC9_HMC</defName>
+        <label>VTC-9m carbine</label>
+        <description>Ancient versatile tactical carbine. Can use any 9 mm ammo. Good for hunting. Due to the design features it's can't use any special ammo (like SH or HESH).</description>
+        <graphicData>
+            <texPath>Things/Weapons/VSC9</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>950</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.034</ShotSpread>
+            <SwayFactor>1.25</SwayFactor>
+            <RangedWeapon_Cooldown>0.47</RangedWeapon_Cooldown>
+            <Bulk>9.3</Bulk>
+            <Mass>3.25</Mass>
+        </statBases>
+		<generateCommonality>0.4</generateCommonality>
+		<equippedStatOffsets>
+			<HuntingStealth>0.50</HuntingStealth>
+		</equippedStatOffsets>
+        <weaponTags>
+            <li>RF2</li>
+            <li>Gun</li>
+            <li>TierTwoRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+                <warmupTime>0.28</warmupTime>
+                <range>36</range>
+                <soundCast>Shot_VSSP</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>15</magazineSize>
+                <reloadTime>3.25</reloadTime>
+                <ammoSet>AmmoSet_9mmVersatile</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </smeltProducts>
+    </ThingDef>
+
+	<!-- CK-901 -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_CK901_HMC</defName>
+        <label>Colt CK-901 Carbine</label>
+        <description>The Colt CK-901 is a direct-impingement AR-AK hybrid chambered in 7.62x39mm. High damage, good rate of fire, medium range and accurracy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/CK901</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1400</MarketValue>
+            <SightsEfficiency>1.03</SightsEfficiency>
+            <ShotSpread>0.066</ShotSpread>
+            <SwayFactor>1.21</SwayFactor>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <Bulk>10</Bulk>
+            <Mass>4.1</Mass>
+        </statBases>
+		<generateCommonality>0.6</generateCommonality>
+        <weaponTags>
+            <li>RF3</li>
+			<li>IndustrialGunAdvanced</li>
+            <li>TierThreeRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.42</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+                <warmupTime>0.65</warmupTime>
+                <range>43</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>Shot_CK901</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>2.25</reloadTime>
+                <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <AdvRifle_Component>1</AdvRifle_Component>
+            <Weapon_Parts>3</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+</Defs>
