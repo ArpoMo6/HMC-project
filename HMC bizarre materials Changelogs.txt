@@ -1,0 +1,17 @@
+– Changelogs "HMC bizarre materials" mod v0.20 (HSK, rimworld v1.4):
+
+1) from the modification "HMC bizarre materials" to "HSK more content" were moved: recipe for crafting prime meat and chebupeks.
+
+
+
+– Changelogs "HMC bizarre materials" mod v0.19 (HSK, rimworld v1.4):
+
+1) the recipe for smelting depleted uranium from uranium ore and edritium alloy has been adjusted, the yield of the alloy is now twice as high.
+
+
+
+– Changelogs "HMC bizarre materials" mod v0.18 (development branch HSK, rimworld v1.4):
+
+1) fixed "Could not resolve cross-reference: No RimWorld.StatDef named PlantSowingSpeed found to give to RimWorld.StatModifier (null stat)" bug caused by a recent update of the Survivle Tools Lite mod;
+
+2) fixed Duplicate XML LeatherAmount è leatherDef bugs caused by a recent update of some fishes xml files.
