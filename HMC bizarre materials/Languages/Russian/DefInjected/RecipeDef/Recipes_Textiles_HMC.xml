@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-
-	<MakeOpticweave.label>Сшить совткань</MakeOpticweave.label>
-	<MakeOpticweave.description>Сшить совткань из ткани, серебрянного сплава, непробиваемого стекла и смеси пасты. Производится 18.</MakeOpticweave.description>
-	<MakeOpticweave.jobString>шьет совткань.</MakeOpticweave.jobString>
-
-</LanguageData>
