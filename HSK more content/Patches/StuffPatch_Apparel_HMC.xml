@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HMC bizarre materials</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="HMC_Iguf_Armour" or defName="HMC_Iguf_Helmet" or defName="HMC_Iguf_Bascinet" or defName="IgufFirmware"]/costList/AlphaPoly</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HMC_Iguf_Armour"]/costList/BetaPoly</xpath>
+					<value>
+						<GammaPoly>40</GammaPoly>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HMC_Iguf_Helmet"]/costList/BetaPoly</xpath>
+					<value>
+						<GammaPoly>13</GammaPoly>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HMC_Iguf_Bascinet"]/costList/BetaPoly</xpath>
+					<value>
+						<GammaPoly>21</GammaPoly>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="IgufFirmware"]/costList/BetaPoly</xpath>
+					<value>
+						<GammaPoly>2</GammaPoly>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

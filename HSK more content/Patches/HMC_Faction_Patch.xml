@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="MedievalKingdom"]/pawnGroupMakers/li[1]/options</xpath>
+				<value>
+					<KingdomBlackKnight_HMC>5</KingdomBlackKnight_HMC>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers/li[1]</xpath>
+				<value>
+					<commonality>100</commonality>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Insectoid"]/pawnGroupMakers</xpath>
+				<value>
+					<li>
+						<kindDef>Combat</kindDef>
+						<commonality>15</commonality>
+						<disallowedStrategies>
+							<li>ImmediateAttackSappers</li>	
+						</disallowedStrategies>
+						<options>
+							<Antis>75</Antis>
+							<Gnawler>30</Gnawler>
+							<HMC_Bubble>20</HMC_Bubble>
+						</options>
+					</li>
+					<li>
+						<kindDef>Combat</kindDef>
+						<commonality>10</commonality>
+						<disallowedStrategies>
+							<li>ImmediateAttackSappers</li>	
+						</disallowedStrategies>
+						<options>
+							<HMC_Bubble>100</HMC_Bubble>
+						</options>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

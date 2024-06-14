@@ -1,0 +1,10 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="GrillFishCampfire" or defName="GrillFishCampfireBulk"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>Corpse_LandShark</li>
+		</value>
+	</Operation>
+
+</Patch>

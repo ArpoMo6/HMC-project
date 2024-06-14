@@ -1,0 +1,49 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_Bolt"]/ammoTypes</xpath>
+		<value>
+			<Ammo_Bolt_EMP>Projectile_EMPBolt</Ammo_Bolt_EMP>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_556x45mmNATO"]/ammoTypes</xpath>
+		<value>
+			<Ammo_556x45mmNATO_HE_HMC>Bullet_556x45mmNATO_HE_HMC</Ammo_556x45mmNATO_HE_HMC>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_12Gauge"]/ammoTypes</xpath>
+		<value>
+			<Ammo_12Gauge_DB>Bullet_12Gauge_DB</Ammo_12Gauge_DB>
+			<Ammo_12Gauge_F>Bullet_12Gauge_F</Ammo_12Gauge_F>
+			<Ammo_12Gauge_S>Bullet_12Gauge_S</Ammo_12Gauge_S>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_90mmCannonShell"]/ammoTypes</xpath>
+		<value>
+			<Ammo_90mmCannonShell_Grape>Bullet_90mmCannonShell_Grape</Ammo_90mmCannonShell_Grape>
+			<Ammo_90mmCannonShell_Plasma>Bullet_90mmCannonShell_Plasma</Ammo_90mmCannonShell_Plasma>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_120mmCannonShell"]/ammoTypes</xpath>
+		<value>
+			<Ammo_120mmCannonShell_Grape>Bullet_120mmCannonShell_Grape</Ammo_120mmCannonShell_Grape>
+			<Ammo_120mmCannonShell_Plasma>Bullet_120mmCannonShell_Plasma</Ammo_120mmCannonShell_Plasma>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_155mmHowitzerShell"]/ammoTypes</xpath>
+		<value>
+			<Ammo_155mmHowitzerShell_Plasma>Bullet_155mmHowitzerShell_Plasma</Ammo_155mmHowitzerShell_Plasma>
+		</value>
+	</Operation>
+
+</Patch>

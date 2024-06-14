@@ -1,0 +1,36 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DamageDef[@Name="PlasmaDamageBase"]/buildingDamageFactor</xpath>
+		<value>
+			<buildingDamageFactor>2.15</buildingDamageFactor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DamageDef[defName="Thermobaric"]/buildingDamageFactorImpassable</xpath>
+		<value>
+			<buildingDamageFactorImpassable>2.0</buildingDamageFactorImpassable>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/DamageDef[defName="Thermobaric"]/buildingDamageFactorPassable</xpath>
+		<value>
+			<buildingDamageFactorPassable>2.0</buildingDamageFactorPassable>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/DamageDef[defName="Bomb"]/buildingDamageFactorImpassable</xpath>
+        <value>
+            <buildingDamageFactorImpassable>1.6</buildingDamageFactorImpassable>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/DamageDef[defName="Bomb"]/buildingDamageFactorPassable</xpath>
+        <value>
+            <buildingDamageFactorPassable>1.6</buildingDamageFactorPassable>
+        </value>
+    </Operation>
+
+</Patch>

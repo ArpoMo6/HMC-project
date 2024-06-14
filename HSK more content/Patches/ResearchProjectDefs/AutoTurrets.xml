@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>MicroTurretsAdvancedTwo_HMC</li>
+						<li>Electronics_D1</li>
+						<li>Sniper_rifles_D1</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="GunTurrets"]/label</xpath>
+				<value>
+					<label>Macro-turrets I</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D2"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>GunTurrets</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D2"]/label</xpath>
+				<value>
+					<label>Other autoturret stuff</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D2"]/researchViewY</xpath>
+				<value>
+					<researchViewY>35.00</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D3"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+						<li>GunTurrets</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D3"]/label</xpath>
+				<value>
+					<label>Macro-turrets II</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="Autoturrets_D3"]/researchViewX</xpath>
+				<value>
+					<researchViewX>19.00</researchViewX>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

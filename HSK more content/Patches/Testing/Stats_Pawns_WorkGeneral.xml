@@ -1,0 +1,41 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/StatDef[defName="PlantHarvestYield"]/maxValue</xpath>
+		<value>
+			<maxValue>4</maxValue>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/StatDef[defName="DrugHarvestYield"]/maxValue</xpath>
+		<value>
+			<maxValue>4</maxValue>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/StatDef[defName="MiningYield"]/maxValue</xpath>
+		<value>
+			<maxValue>4</maxValue>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Survival Tools Lite</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/StatDef[defName="MiningYieldDigging"]/maxValue</xpath>
+					<value>
+						<maxValue>4</maxValue>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

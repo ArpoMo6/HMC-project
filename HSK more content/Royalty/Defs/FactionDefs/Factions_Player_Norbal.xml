@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="SK_PlayerFactionBase">
+		<defName>PlayerColony_NorbaliusMechanicus_HMC</defName>
+		<label>Norbalius mechanicus</label>
+		<description>A colony of recently-arrived off-worlders.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Norbalperson_HMC</basicMemberKind>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionEmpire</factionNameMaker>
+		<settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
+		<melaninRange>0~1</melaninRange>
+		<allowedCultures>
+			<li>NorbaliusMechanicusCulture_HMC</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>ImperialCommon</li>
+					<li>ImperialFighter</li>
+					<li>ImperialRoyal</li>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Synthread</li>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+				<li>SteelBar</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Androids</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="InstallArchotechArm"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>AndroidShoulder</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="InstallDeathAcidifier"]/appliedOnFixedBodyParts</xpath>
+					<value>
+						<li>AndroidThorax</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/recipes</xpath>
+					<value>
+						<li>InstallDeathAcidifier</li>
+						<li>InstallArchotechArm</li>
+						<li>InstallIgufFirmware</li>
+						<li>RemoveIgufFirmware</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+				<value>
+					<li>InstallIgufFirmware</li>
+					<li>RemoveIgufFirmware</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

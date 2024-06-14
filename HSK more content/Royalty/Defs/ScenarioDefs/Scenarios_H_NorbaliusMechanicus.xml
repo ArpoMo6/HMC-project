@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>NorbaliusMechanicus_HMC</defName>
+		<label>Legation</label>
+		<description>You were sent on a diplomatic mission to the ancient civilization of some android fanatics. The purpose of the mission was to settle various territorial and religious disputes in the west-east of our country, as well as to open an embassy in their capital. The mission was of extremely high value and the most powerful diplomatic weapon of the highest value in the cosmopolitan market was put into action - a spicy smoked two-leg leg of a thousand years in the best ginger smoothie. Victory will be ours!\n\nAt least we thought so ... No one would have thought that these tin cans would not like our delicacy of the highest grade! We tried to escape their wrath, but our ship was hit by their strange installation and we had to land on the nearest planet.\n\nRace by default: the greatest race in the history of rimworld.\n\nP.S. there are no good fighters of your, but you possess the secret knowledge of creating the simplest automatic defense.</description>
+		<scenario>
+			<summary>Two survivors on an unknown planet after the failure of a legation.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony_NorbaliusMechanicus_HMC</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+<!-- 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>2</pawnCount>
+					<pawnChoiceCount>4</pawnChoiceCount>
+				</li>
+ -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+				  <def>ConfigurePawnsKindDefs</def>
+				  <pawnChoiceCount>4</pawnChoiceCount>
+				  <leftBehindPawnKind>Norbalperson_HMC</leftBehindPawnKind>
+				  <kindCounts>
+					<li>
+					  <kindDef>Norbalperson_HMC</kindDef>
+					  <count>2</count>
+					  <requiredAtStart>true</requiredAtStart>
+					</li>
+				  </kindCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<visible>false</visible>
+					<method>DropPods</method>
+				</li>
+
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>MicroTurrets_HMC</project>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>CryptosleepSickness</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>1~1</severityRange>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PsychiteTea</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineUltratech</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Leather_Human</thingDef>
+					<count>130</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DeployableTentBig</thingDef>
+					<stuff>Synthread</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>HMC_Turret_MicroTurret</thingDef>
+					<count>2</count>
+					<stuff>TitaniumBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>UnstablePowerCell</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WeaponCraftingWorkTable</thingDef>
+					<stuff>TitaniumBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>BiofuelRefinery</thingDef>
+					<stuff>NickelBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TableElectronics</thingDef>
+					<stuff>CopperBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Throne</thingDef>
+					<stuff>LeadBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_9x19mmPara_FMJ</thingDef>
+					<count>600</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_ShieldBelt</thingDef>
+					<count>2</count>
+					<stuff>TitaniumBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Monkeywrench</thingDef>
+					<count>2</count>
+					<stuff>TitaniumBar</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PsychicAmplifier</thingDef>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>150</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Meat_Human</thingDef>
+					<count>5000</count>
+				</li>
+
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipChunk</thingDef>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipMechChunk</thingDef>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodPlank</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>BlocksLimestone</thingDef>
+					<count>30</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparello_Hood"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Carbon_overalls"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+					<li>CatsDrugsApparelHeavy</li>
+					<li>CatsDrugsApparelComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+					<li>CatsDrugsApparelHeavy</li>
+					<li>CatsDrugsApparelComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparello_Snipeglove"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparello_Spboots"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CE_Apparel_TacVest"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelLight</li>
+					<li>CatsDrugsApparelHeavy</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Gauntlets"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelHeavy</li>
+					<li>CatsDrugsApparelComrade</li>
+					<li>KotRBPlateArmour</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Boots_Steel_Plated"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelHeavy</li>
+					<li>CatsDrugsApparelComrade</li>
+					<li>KotRBPlateArmour</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparello_Tricorn"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Apparel_SimpleHelmet"]/apparel/tags</xpath>
+				<value>
+					<li>CatsDrugsApparelComrade</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Cloaked_Hauberk" or defName="MedievalArmor_PlateArmor" or defName="Apparel_PlateArmor" or defName="MedievalTimes_Hauberk" or defName="CE_Apparel_TribalBackpack"]/apparel/tags</xpath>
+				<value>
+					<li>KotRBPlateArmour</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

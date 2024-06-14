@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_303British_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket303HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_303British_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing303HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_303British_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint303HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x51mmNATO_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket76251HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x51mmNATO_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing76251HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x51mmNATO_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint76251HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_9x19mmPara_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket919HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_9x19mmPara_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing919HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_9x19mmPara_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint919HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_45ACP_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket45HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_45ACP_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing45HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_45ACP_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint45HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_50BMG_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket50BMGHMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_50BMG_Incendiary"]/ammoClass</xpath>
+				<value>
+					<ammoClass>IncendiaryAP50BMGHMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_50BMG_Sabot"]/ammoClass</xpath>
+				<value>
+					<ammoClass>Sabot50BMGHMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_50BMG_HE"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ExplosiveAP50BMGHMC</ammoClass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

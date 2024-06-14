@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="NavalGunTurretGun" or defName="Turret_SentryRocketLauncher"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>Autoturrets_D2</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="BuildSentryTurret_Crate" or defName="BuildSentryRocketLauncher_Crate" or defName="BuildNavalGunTurret_Crate"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Autoturrets_D2</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

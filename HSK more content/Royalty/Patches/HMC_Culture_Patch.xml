@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/CultureDef[defName="NorbaliusMechanicusCulture_HMC" or defName="IgufCulture_HMC"]/pawnNameMaker</xpath>
+				<value>
+					<pawnNameMaker>NamerPersonSophian</pawnNameMaker>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/CultureDef[defName="NorbaliusMechanicusCulture_HMC" or defName="IgufCulture_HMC"]/pawnNameMakerFemale</xpath>
+				<value>
+					<pawnNameMakerFemale>NamerPersonSophianFemale</pawnNameMakerFemale>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

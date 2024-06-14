@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Turret_MiniTurret"]</xpath>
+				<value>
+					<ThingDef ParentName="HMC_MicroTurretsBase">
+						<defName>Turret_MiniTurret</defName>
+						<label>LMG sentry micro-turret</label>
+						<graphicData>
+							<texPath>Things/Building/Security/TurretImprovised</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>(3,3)</drawSize>
+							<damageData>
+								<rect>(0.2,0.2,0.6,0.6)</rect>
+							</damageData>
+							<shadowData>
+								<volume>(0.27,0.25,0.27)</volume>
+								<offset>(0,0,0)</offset>
+							</shadowData>
+						</graphicData>
+						<uiIconPath>Things/Building/Security/TurretImprovised_ico</uiIconPath>
+						<statBases>
+							<MaxHitPoints>90</MaxHitPoints>
+							<WorkToBuild>1200</WorkToBuild>
+						</statBases>
+						<comps>
+							<li Class="CompProperties_Power">
+								<compClass>CompPowerTrader</compClass>
+								<basePowerConsumption>600</basePowerConsumption>
+							</li>
+						</comps>
+						<description>An AI-controlled advanced micro-turret that automatically fires at nearby enemies. Requires 600 W to function.\nCaliber: 5.56x45mm NATO</description>
+						<costList>
+							<HMC_MicroTurret_Crate>1</HMC_MicroTurret_Crate>
+							<Electronics>1</Electronics>
+							<AdvRifle_Component>1</AdvRifle_Component>
+						</costList>
+						<designationCategory>Security</designationCategory>
+						<building>
+							<ai_combatDangerous>false</ai_combatDangerous>
+							<turretGunDef>Gun_MiniTurret</turretGunDef>
+							<turretTopDrawSize>4</turretTopDrawSize>
+							<uninstallWork>30</uninstallWork>
+						</building>
+						<designationHotKey>Misc1</designationHotKey>
+						<tradeTags>
+							<li>CE_Turret</li>
+						</tradeTags>
+						<minifiedDef>MinifiedTurretGun</minifiedDef>
+						<researchPrerequisites>
+							<li>MicroTurretsAdvanced_HMC</li>
+						</researchPrerequisites>
+						<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+					</ThingDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames/li[text()="Turret_MiniTurret"]</xpath>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>

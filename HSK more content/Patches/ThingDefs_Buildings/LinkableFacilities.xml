@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PrimitiveResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>HMC_Tribal_Facility</li>
+					<li>HMC_CS_Tribal_Facility</li>
+					<li>HMC_GS_Tribal_Facility</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

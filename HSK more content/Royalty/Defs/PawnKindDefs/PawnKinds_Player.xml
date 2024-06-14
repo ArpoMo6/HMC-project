@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+		<defName>Norbalperson_HMC</defName>
+		<label>Norbal-diplomatist.</label>
+		<race>Norbal</race>
+		<defaultFactionType>PlayerColony_NorbaliusMechanicus_HMC</defaultFactionType>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>61</maxGenerationAge>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<requiredTag>RoyalRobe</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<requiredTag>BestowerHood</requiredTag>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<requiredTag>RoyalTier2</requiredTag>
+			</li>
+		</specificApparelRequirements>
+		<apparelColor>(12,114,12)</apparelColor>
+		<backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>0~0</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>0~0</range>
+			</li>
+		</skills>
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			<HMC_HightechNorbal MayRequire="Ludeon.RimWorld.Biotech">999</HMC_HightechNorbal>
+		  </xenotypeChances>
+		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<disallowedTraits>
+			<li>Brawler</li>
+			<li>ShootingAccuracy</li>
+			<li>Reaver</li>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+			<li>HMC_IronFist</li>
+		</disallowedTraits>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>2~3</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

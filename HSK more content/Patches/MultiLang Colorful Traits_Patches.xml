@@ -1,0 +1,81 @@
+﻿<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MultiLang Colorful Traits</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		  <success>Normal</success>
+		  <operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Unique"]/traits</xpath>
+				<value>
+					<li>Efficaciousness</li>
+					<li>Mastergourmet</li>
+					<li>Snipermasterrk</li>
+					<li>HMC_IncombustibleEmber</li>
+					<li>HMC_Glasspawnon</li>
+					<li>HMC_WellEndowed</li>
+					<li>HMC_TouchOfNature</li>
+					<li>HMC_Barin</li>
+					<li>HMC_jack_of_all_trades</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Good"]/traits</xpath>
+				<value>
+					<li>Huntman</li>
+					<li>GreaterBlacksmith</li>
+					<li>GreenThumbTwo</li>
+					<li>StrongBack</li>
+					<li>BlueNivaWorker</li>
+					<li>SleightOfHand</li>
+					<li>AtelierTailor</li>
+					<li>Collector</li>
+					<li>HMC_3Dgenius</li>
+					<li>Medic#3</li>
+					<li>HMC_Lucks#1</li>
+					<li>HMC_ambidextrous</li>
+					<li>HMC_temperate</li>
+					<li>HMC_pacifism</li>
+					<li>HMC_artillerist</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Neutral"]/traits</xpath>
+				<value>
+					<li>Radiomechanician</li>
+					<li>CloseCombatSpecialist</li>
+					<li>HMC_Architect</li>
+					<li>HMC_SeekerOfDeepSense</li>
+					<li>HMC_IronFist</li>
+					<li>Neurotic#-1</li>
+					<li>Neurotic#-2</li>
+					<li>HMC_Conservatism#1</li>
+					<li>HMC_vietsensuality</li>
+					<li>HMC_analyst</li>
+					<li>HMC_stubborn</li>
+					<li>HMC_impatient</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Bad"]/traits</xpath>
+				<value>
+					<li>Morbid</li>
+					<li>CatInHead</li>
+					<li>HMC_NonWellEndowed</li>
+					<li>HMC_Conservatism#-1</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/Trait.ColorDef[defName="clrMod_SK_Terrible"]/traits</xpath>
+				<value>
+					<li>SuperCCleaner</li>
+					<li>HMC_3Dinsanity</li>
+					<li>HMC_Lucks#-1</li>
+					<li>Neurotic#3</li>
+				</value>
+			</li>
+		  </operations>
+		</match>
+	</Operation>
+</Patch>

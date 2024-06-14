@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ScenarioDef[defName="LostTribe" or defName="BloodthirstyTribe"]/scenario/parts</xpath>
+				<value>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>HMC_Sling</thingDef>
+						<stuff>Leather_Patch</stuff>
+						<count>1</count>
+					</li>
+					<li Class="ScenPart_StartingThing_Defined">
+						<def>StartingThing_Defined</def>
+						<thingDef>Ammo_SlingBall_Stone</thingDef>
+						<count>60</count>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

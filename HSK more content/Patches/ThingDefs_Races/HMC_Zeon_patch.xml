@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Mech_Zeon"]/statBases</xpath>
+				<value>
+					<statBases>
+						<Mass>1000</Mass>
+						<MarketValue>50000</MarketValue>
+						<MoveSpeed>4.45</MoveSpeed>
+						<PsychicSensitivity>0</PsychicSensitivity>
+						<ToxicResistance>1</ToxicResistance>
+						<Flammability>0</Flammability>
+						<ComfyTemperatureMin>-178</ComfyTemperatureMin>
+						<ComfyTemperatureMax>1500</ComfyTemperatureMax>
+						<ArmorRating_Blunt>50</ArmorRating_Blunt>
+						<ArmorRating_Sharp>17.5</ArmorRating_Sharp>
+						<MeatAmount>0</MeatAmount>
+						<AimingDelayFactor>0.20</AimingDelayFactor>
+						<LeatherAmount>0</LeatherAmount>
+						<CarryWeight>350</CarryWeight>
+						<CarryBulk>280</CarryBulk>
+						<MeleeDodgeChance>0.25</MeleeDodgeChance>
+						<MeleeCritChance>0.3</MeleeCritChance>
+						<MeleeParryChance>0.2</MeleeParryChance>
+						<SmokeSensitivity>0</SmokeSensitivity>
+						<MaxHitPoints>1000</MaxHitPoints>
+						<AimingAccuracy>1.2</AimingAccuracy>
+						<ShootingAccuracyPawn>1.9</ShootingAccuracyPawn>
+						<NightVisionEfficiency>1</NightVisionEfficiency>
+					</statBases>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

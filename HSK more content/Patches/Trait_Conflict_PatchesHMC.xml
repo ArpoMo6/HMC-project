@@ -1,0 +1,83 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Tough"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Tough"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Tough"]/conflictingTraits</xpath>
+		<value>
+			<li>HMC_Glasspawnon</li>
+			<li>GreenThumbTwo</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="HMC_TouchOfNature"]/degreeDatas/li</xpath>
+			<value>
+				<statOffsets>
+					<MeditationFocusGain>0.15</MeditationFocusGain>
+					<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+				</statOffsets>
+				<statFactors>
+					<PsychicEntropyGain>0.8</PsychicEntropyGain>
+				</statFactors>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Survival Tools Lite</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="GreenThumbTwo"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<TreeFellingSpeed>0.55</TreeFellingSpeed>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Survival Tools Lite</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Collector"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<PlantHarvestingSpeed>0.23</PlantHarvestingSpeed>
+				<TreeFellingSpeed>0.18</TreeFellingSpeed>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="HMC_Architect"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+				<ConstructionResearchSpeed>0.25</ConstructionResearchSpeed>
+				<CraftingResearchSpeed>0.15</CraftingResearchSpeed>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

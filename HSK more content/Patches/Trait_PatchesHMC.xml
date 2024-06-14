@@ -1,0 +1,622 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>FacialStuff</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/TraitDef[defName="CatInHead"]/degreeDatas/li/randomMentalState</xpath>
+					<value>
+						<randomMentalState>Possessed</randomMentalState>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "ShootingAccuracy"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "ShootingAccuracy"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "ShootingAccuracy"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Wimp"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Wimp"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Wimp"]/conflictingTraits</xpath>
+		<value>
+			<li>GreaterBlacksmith</li>
+			<li>StrongBack</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "DIY"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "DIY"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "DIY"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>GreaterBlacksmith</li>
+			<li>HMC_Architect</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Rockhound"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Rockhound"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Rockhound"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>GreenThumbTwo</li>
+			<li>Collector</li>
+			<li>HMC_Architect</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Gourmet"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Gourmet"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Gourmet"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>Radiomechanician</li>
+			<li>Mastergourmet</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Aptitude"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Aptitude"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Aptitude"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>Radiomechanician</li>
+			<li>HMC_Architect</li>
+			<li>GreaterBlacksmith</li>
+			<li>AtelierTailor</li>
+			<li>Efficaciousness</li>
+			<li>Collector</li>
+			<li>Mastergourmet</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Medic"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Medic"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Medic"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Inventor"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Inventor"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Inventor"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>Huntman</li>
+			<li>Radiomechanician</li>
+			<li>GreaterBlacksmith</li>
+			<li>HMC_Architect</li>
+			<li>HMC_SeekerOfDeepSense</li>
+			<li>HMC_IronFist</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "ChaoticGenius"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "ChaoticGenius"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "ChaoticGenius"]/conflictingTraits</xpath>
+		<value>
+			<li>SuperCCleaner</li>
+			<li>Huntman</li>
+			<li>GreaterBlacksmith</li>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Brawler"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Brawler"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Brawler"]/conflictingTraits</xpath>
+		<value>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Reaver"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Reaver"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Reaver"]/conflictingTraits</xpath>
+		<value>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Naive"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Naive"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Naive"]/conflictingTraits</xpath>
+		<value>
+			<li>Huntman</li>
+			<li>CloseCombatSpecialist</li>
+			<li>Snipermasterrk</li>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Butcher"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Butcher"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Butcher"]/conflictingTraits</xpath>
+		<value>
+			<li>Radiomechanician</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Dumb"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Dumb"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Dumb"]/conflictingTraits</xpath>
+		<value>
+			<li>Radiomechanician</li>
+			<li>Mastergourmet</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Ignorant"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Ignorant"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Ignorant"]/conflictingTraits</xpath>
+		<value>
+			<li>Radiomechanician</li>
+			<li>Mastergourmet</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "BrownThumb"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "BrownThumb"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "BrownThumb"]/conflictingTraits</xpath>
+		<value>
+			<li>GreenThumbTwo</li>
+			<li>Collector</li>
+			<li>HMC_SeekerOfDeepSense</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Industriousness"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Industriousness"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Industriousness"]/conflictingTraits</xpath>
+		<value>
+			<li>Efficaciousness</li>			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Perfectionist"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Perfectionist"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Perfectionist"]/conflictingTraits</xpath>
+		<value>
+			<li>Efficaciousness</li>			
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Pyrophobia"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Pyrophobia"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Pyrophobia"]/conflictingTraits</xpath>
+		<value>
+			<li>HMC_IncombustibleEmber</li>			
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TraitDef[defName = "Pyromaniac"]/conflictingTraits</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraitDef[defName = "Pyromaniac"]</xpath>
+				<value>
+					<conflictingTraits/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraitDef[defName = "Pyromaniac"]/conflictingTraits</xpath>
+		<value>
+			<li>HMC_IncombustibleEmber</li>			
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName = "ColonistLeftUnburied"]/nullifyingTraits</xpath>
+        <value>
+		    <li>Morbid</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
+        <value>
+		    <li>Morbid</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+        <value>
+		    <li>Morbid</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName = "DeadMansApparel"]/nullifyingTraits</xpath>
+        <value>
+		    <li>Morbid</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName = "HumanLeatherApparelSad"]/nullifyingTraits</xpath>
+        <value>
+		    <li>Morbid</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName = "Medic"]/degreeDatas</xpath>
+        <value>
+			<li>
+				<label>shwoilled medic</label>
+				<description>{PAWN_nameDef} seems to have a knack for medical work. Patients in {PAWN_possessive} care will likely fare well.</description>
+				<commonality>0</commonality>
+				<degree>3</degree>
+				<statOffsets>
+					<MedicalSurgerySuccessChance>0.3</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.3</MedicalTendQuality>
+					<GermContainment>0.2</GermContainment>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Medicine</key>
+						<value>3</value>
+					</li>
+				</skillGains>
+			</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName = "Neurotic"]/degreeDatas</xpath>
+        <value>
+		  <li>
+			<label>asthenicity</label>
+			<description>Due to prolonged psychological stress, {PAWN_nameDef} nervous system is not able to perform its functions fully, which has a catastrophic effect on {PAWN_possessive} productivity, sleep, health, learning ability, nervous system and proneness to conflicts.</description>
+			<commonality>0.15</commonality>
+			<marketValueFactorOffset>-0.5</marketValueFactorOffset>
+			<degree>3</degree>
+			<socialFightChanceFactor>1.1</socialFightChanceFactor>
+			<statOffsets>
+			  <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+			  <MentalBreakThreshold>0.1</MentalBreakThreshold>
+			  <RestRateMultiplier>-0.15</RestRateMultiplier>
+			  <GlobalLearningFactor>-0.1</GlobalLearningFactor>
+			</statOffsets>
+			<hungerRateFactor>1.15</hungerRateFactor>
+		  </li>
+		  <li>
+			<label>phlegmaticity</label>
+			<description>{PAWN_nameDef} likes to do everything slowly, which is why she works less than others. This approach is not very productive, however, it has a positive effect on his nervous system and proneness to conflicts.</description>
+			<commonality>0.75</commonality>
+			<degree>-1</degree>
+			<socialFightChanceFactor>0.75</socialFightChanceFactor>
+			<statOffsets>
+			  <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+			  <MentalBreakThreshold>-0.11</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+		  <li>
+			<label>atonicity</label>
+			<description>{PAWN_nameDef} does not worry about anything at all and does not force himself to work with any diligence, which is bad for {PAWN_possessive} productivity, but great for the nervous system and proneness to conflicts.</description>
+			<commonality>0.5</commonality>
+			<degree>-2</degree>
+			<socialFightChanceFactor>0.5</socialFightChanceFactor>
+			<statOffsets>
+			  <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+			  <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+			</statOffsets>
+		  </li>
+        </value>
+    </Operation>
+
+</Patch>

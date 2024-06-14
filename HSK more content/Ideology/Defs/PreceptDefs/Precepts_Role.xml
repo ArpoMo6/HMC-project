@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PreceptDef ParentName="PreceptRoleMultiBase">
+    <defName>HMC_IdeoRole_CookingSpecialist</defName>
+    <label>cooking specialist</label>
+    <description>A special ideoligious status focusing on planting to the exclusion of all else. This specialized role gives increased sowing and harvesting efficiency, and the ability to boost the farming speed of nearby allies. Holders of this role will refuse to perform some non-plants-related work.</description>
+    <iconPath>UI/Roles/HMCSpecialistCooking</iconPath>
+    <nameMaker>HMC_NamerRoleCookingSpecialist</nameMaker>
+    <roleRequirements>
+      <li Class="RoleRequirement_MinSkillAny">
+        <skills>
+          <Cooking>6</Cooking>
+        </skills>
+      </li>
+    </roleRequirements>
+    <roleRequiredWorkTags>
+      <li>Cooking</li>
+    </roleRequiredWorkTags>
+    <roleTags><li>ProductionSpecialist</li></roleTags>
+    <requiredMemes>
+      <li>Cannibal</li>
+      <li>HAR_Xenophobia</li>
+    </requiredMemes>
+    <roleEffects>
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>CookSpeed</statDef>
+        <modifier>0.25</modifier>
+      </li>
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>ButcheryFleshSpeed</statDef>
+        <modifier>0.25</modifier>
+      </li>
+      <li Class="RoleEffect_PawnStatOffset">
+        <statDef>ButcheryFleshEfficiency</statDef>
+        <modifier>0.25</modifier>
+      </li>
+      <li Class="RoleEffect_PawnStatFactor">
+        <statDef>FoodPoisonChance</statDef>
+        <modifier>0</modifier>
+      </li>
+    </roleEffects>
+    <grantedAbilities>
+    </grantedAbilities>
+    <displayOrderInImpact>2</displayOrderInImpact>
+    <roleDisabledWorkTags>
+      <li>Animals</li>
+      <li>Crafting</li>
+      <li>PlantWork</li>
+      <li>Constructing</li>
+      <li>Mining</li>
+      <li>Hunting</li>
+      <li>Shooting</li>
+    </roleDisabledWorkTags>
+    <roleApparelRequirements>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>Apparello_Chefhat</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </roleApparelRequirements>
+  </PreceptDef>
+
+</Defs>
