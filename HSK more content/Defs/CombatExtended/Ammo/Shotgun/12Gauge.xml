@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+		<defName>Ammo_12Gauge_DB</defName>
+		<label>12 gauge shell (dragons breath)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Breath</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.4</MarketValue>
+		</statBases>
+		<ammoClass>DragonsBreath</ammoClass>
+		<cookOffProjectile>Bullet_12Gauge_DB</cookOffProjectile>
+		<generateAllowChance>0.1</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+		<defName>Ammo_12Gauge_F</defName>
+		<label>12 gauge shell (flechette)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Flechette</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+		</statBases>
+		<ammoClass>Flechette</ammoClass>
+		<cookOffProjectile>Bullet_12Gauge_F</cookOffProjectile>
+		<generateAllowChance>0.2</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+		<defName>Ammo_12Gauge_S</defName>
+		<label>12 gauge shell (shrapnel)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Flechette</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.25</MarketValue>
+		</statBases>
+		<ammoClass>Shrapnel</ammoClass>
+		<cookOffProjectile>Bullet_12Gauge_S</cookOffProjectile>
+		<generateAllowChance>0.15</generateAllowChance>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">
+		<defName>Bullet_12Gauge_DB</defName>
+		<label>dragons breath shard</label>
+		<graphicData>
+			<texPath>Things/Projectile/DragonsBreathShard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>2</damageAmountBase>
+			<pelletCount>13</pelletCount>
+			<damageDef>PrometheumFlame</damageDef>
+			<!-- <armorPenetrationBase>0.1</armorPenetrationBase> -->
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<spreadMult>60.4</spreadMult>
+			<speed>50</speed>
+		</projectile>
+	</ThingDef>
+
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">
+		<defName>Bullet_12Gauge_F</defName>
+		<label>steel dart</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_SteelDart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>4</damageAmountBase>
+			<pelletCount>18</pelletCount>
+			<spreadMult>22.8</spreadMult>
+			<!-- <armorPenetrationBase>0.59</armorPenetrationBase> -->
+			<armorPenetrationSharp>11</armorPenetrationSharp>
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">
+		<defName>Bullet_12Gauge_S</defName>
+		<label>shrapnel</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<damageDef>Bomb</damageDef>
+			<explosionRadius>1.5</explosionRadius>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<!-- <armorPenetrationBase>1</armorPenetrationBase> -->
+			<armorPenetrationSharp>99</armorPenetrationSharp>
+			<armorPenetrationBlunt>99</armorPenetrationBlunt>
+			<speed>60</speed>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>1</Fragment_Large>
+					<Fragment_GrenadeFrag>3</Fragment_GrenadeFrag>
+					<Fragment_Small>8</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeShotgunShell">
+		<defName>MakeAmmo_12Gauge_DB</defName>
+		<label>make 12 gauge (dragons breath) shell x40</label>
+		<description>Craft 40 12 gauge (dragons breath) shells.</description>
+		<jobString>Making 12 gauge (dragons breath) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Prometheum</li>
+						<li>Napalm</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Prometheum</li>
+				<li>Napalm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_DB>40</Ammo_12Gauge_DB>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>GasOperation</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeShotgunShell">
+		<defName>MakeAmmo_12Gauge_F</defName>
+		<label>make 12 gauge (Flechette) shell x40</label>
+		<description>Craft 40 12 gauge (Flechette) shells.</description>
+		<jobString>Making 12 gauge (Flechette) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_F>40</Ammo_12Gauge_F>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>GasOperation</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeShotgunShell">
+		<defName>MakeAmmo_12Gauge_S</defName>
+		<label>make 12 gauge (shrapnel) shell x40</label>
+		<description>Craft 40 12 gauge (shrapnel) shells.</description>
+		<jobString>Making 12 gauge (shrapnel) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_12Gauge_S>40</Ammo_12Gauge_S>
+		</products>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>GasOperation</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

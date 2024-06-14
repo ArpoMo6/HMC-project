@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="AmmoRecipeUnmakeAmmo" ParentName="AmmoRecipeBase" Abstract="true">
+		<recipeUsers Inherit="false">
+			<li>AmmoBench</li>
+		</recipeUsers>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<!-- <uiIconThing>Meat_Muffalo</uiIconThing> -->
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_NeolithicWooden</defName>
+		<label>unmake x15 wooden stuff</label>
+		<description>Unmake out 15 wooden stuff.</description>
+		<jobString>Unmaking 15 wooden stuff.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoArrows</li>
+						<li>AmmoDarts</li>
+						<li>AmmoBalistaBolts</li>
+						<li>AmmoBolts</li>
+						<li MayRequire="ViTech.MedievalOverhaul">AmmoLightBolts</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AmmoArrows</li>
+				<li>AmmoDarts</li>
+				<li>AmmoBalistaBolts</li>
+				<li>AmmoBolts</li>
+				<li MayRequire="ViTech.MedievalOverhaul">AmmoLightBolts</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>1</WoodLog>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workAmount>200</workAmount>
+		<recipeUsers Inherit="false">
+			<li>CraftingSpot</li>
+			<li>TableMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_NeolithicStony</defName>
+		<label>unmake x15 stony stuff</label>
+		<description>Unmake out 15 stony stuff.</description>
+		<jobString>Unmaking 15 stony stuff.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoExplosiveBalls</li>
+						<li MayRequire="ViTech.MedievalOverhaul">AmmoCannonballSmall</li>
+						<li MayRequire="ViTech.MedievalOverhaul">AmmoTsarGrapeshot</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AmmoExplosiveBalls</li>
+				<li MayRequire="ViTech.MedievalOverhaul">AmmoCannonballSmall</li>
+				<li MayRequire="ViTech.MedievalOverhaul">AmmoTsarGrapeshot</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<CrushedStone>10</CrushedStone>
+			<SandResource>50</SandResource>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workAmount>500</workAmount>
+		<recipeUsers Inherit="false">
+			<li>CraftingSpot</li>
+			<li>TableMachining</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_CannonBall</defName>
+		<label>unmake cannon balls and preindustrial shells x20</label>
+		<description>Unmake cannon balls and preindustrial shells x20.</description>
+		<jobString>Unmaking cannon balls and preindustrial shells x20.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoCannonBalls_HMC</li>
+						<li MayRequire="ViTech.MedievalOverhaul">Ammo3inCannon</li>
+						<li MayRequire="ViTech.MedievalOverhaul">Ammo200Pounder</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AmmoCannonBalls_HMC</li>
+				<li MayRequire="ViTech.MedievalOverhaul">Ammo3inCannon</li>
+				<li MayRequire="ViTech.MedievalOverhaul">Ammo200Pounder</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Bronze>16</Bronze>
+			<LeadBar>4</LeadBar>
+			<Powder>2</Powder>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workAmount>900</workAmount>
+		<recipeUsers Inherit="false">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Caseless</defName>
+		<label>unmake caseless cartridge x144</label>
+		<description>Unmake out 144 caseless cartridges.</description>
+		<jobString>Unmaking 144 caseless cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo473x33mmCaseless</li>
+					</categories>
+				</filter>
+				<count>144</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Ammo473x33mmCaseless</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>2</Powder>
+			<Plastic>3</Plastic>
+			<Plasteel>4</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workAmount>650</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Rifle_Intermediate</defName>
+		<label>unmake rifle intermediate cartridge x100</label>
+		<description>Unmake 100 rifle intermediate cartridges.</description>
+		<jobString>Unmaking 100 rifle intermediate cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo556x45mmNATO</li>
+						<li>Ammo762x39mmSoviet</li>
+						<li>Ammo545x39mmSoviet</li>
+						<li>Ammo9x39mmSoviet</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Ammo556x45mmNATO</li>
+				<li>Ammo762x39mmSoviet</li>
+				<li>Ammo545x39mmSoviet</li>
+				<li>Ammo9x39mmSoviet</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>2</Powder>
+			<CopperBar>1</CopperBar>
+			<LeadBar>2</LeadBar>
+			<Plasteel>3</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Rifle</defName>
+		<label>unmake rifle cartridge x100</label>
+		<description>Unmake out 100 rifle cartridges.</description>
+		<jobString>Unmaking 100 rifle cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo303British</li>
+						<li>Ammo762x54mmR</li>
+						<li>Ammo762x51mmNATO</li>
+						<li>Ammo127x55mmAR</li>
+						<li>Ammo338LM</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Ammo303British</li>
+				<li>Ammo762x54mmR</li>
+				<li>Ammo762x51mmNATO</li>
+				<li>Ammo127x55mmAR</li>
+				<li>Ammo338LM</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>3</Powder>
+			<CopperBar>3</CopperBar>
+			<LeadBar>4</LeadBar>
+			<Plasteel>7</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workAmount>550</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Pistol</defName>
+		<label>unmake pistol cartridge x100</label>
+		<description>Unmake 100 pistol cartridges.</description>
+		<jobString>Unmaking 100 pistol cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo9x19mmPara</li>
+						<li>Ammo45ACP</li>
+						<li>Ammo762x25mmTT</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo9x19mmPara</li>
+					<li>Ammo45ACP</li>
+					<li>Ammo762x25mmTT</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>1</Powder>
+			<CopperBar>1</CopperBar>
+			<LeadBar>1</LeadBar>
+			<Plasteel>2</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workAmount>400</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Shotgun</defName>
+		<label>unmake shotgun cartridge x100</label>
+		<description>Unmake 100 shotgun cartridges.</description>
+		<jobString>Unmaking 100 shotgun cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo12Gauge</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo12Gauge</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>3</Powder>
+			<CopperBar>4</CopperBar>
+			<LeadBar>6</LeadBar>
+			<Plasteel>9</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_HighCaliber</defName>
+		<label>unmake high caliber cartridge x50</label>
+		<description>Unmake 50 high caliber cartridges.</description>
+		<jobString>Unmaking 50 high caliber cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo145x114mm</li>
+						<li>Ammo20x102mm</li>
+						<li>Ammo30x173mm</li>
+						<li>Ammo50BMG</li>
+						<li>Ammo408CT</li>
+						<li>Ammo127x108mm</li>
+						<li>Ammo700NE</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo145x114mm</li>
+					<li>Ammo20x102mm</li>
+					<li>Ammo30x173mm</li>
+					<li>Ammo50BMG</li>
+					<li>Ammo408CT</li>
+					<li>Ammo127x108mm</li>
+					<li>Ammo700NE</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>4</Powder>
+			<CopperBar>4</CopperBar>
+			<LeadBar>4</LeadBar>
+			<Plasteel>8</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workAmount>700</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Flamethrower</defName>
+		<label>unmake x50 flamethrower fuel</label>
+		<description>Unmake out 50 flamethrower fuel.</description>
+		<jobString>Unmaking 50 flamethrower fuel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoFlamethrower</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>AmmoFlamethrower</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Prometheum>2</Prometheum>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workAmount>750</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_AmmoGrenade</defName>
+		<label>unmake ammo grenade cartridge x30</label>
+		<description>Unmake 30 ammo grenade cartridge.</description>
+		<jobString>Unmaking 30 ammo grenade cartridge.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo30x29mmGrenades</li>
+						<li>Ammo40x46mmGrenades</li>
+						<li>Ammo25x40mmGrenades</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo30x29mmGrenades</li>
+					<li>Ammo40x46mmGrenades</li>
+					<li>Ammo25x40mmGrenades</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>3</Powder>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Mag</defName>
+		<label>unmake magnetic cartridge x50</label>
+		<description>Unmake 50 cartridges.</description>
+		<jobString>Unmaking 50 cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo67x29mm</li>
+						<li>Ammo12Mag</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo67x29mm</li>
+					<li>Ammo12Mag</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ElectronicComponents>1</ElectronicComponents>
+			<TitaniumBar>5</TitaniumBar>
+			<Plasteel>5</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<workAmount>900</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Charged</defName>
+		<label>unmake charged cartridge x50</label>
+		<description>Unmake 50 charged cartridges.</description>
+		<jobString>Unmaking 50 charged cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo6x24mmCharged</li>
+						<li>Ammo12x64mmCharged</li>
+						<li>Ammo15x65mmDiffusingCharged</li>
+						<li>AmmoGaussCharged</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo6x24mmCharged</li>
+					<li>Ammo12x64mmCharged</li>
+					<li>Ammo15x65mmDiffusingCharged</li>
+					<li>AmmoGaussCharged</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<MagneticMaterial>1</MagneticMaterial>
+			<TitaniumBar>4</TitaniumBar>
+			<Plasteel>7</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workAmount>1000</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Plasma</defName>
+		<label>unmake plasma cartridge x50</label>
+		<description>Unmake 50 plasma cartridges.</description>
+		<jobString>Unmaking 50 plasma cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoPlasmaBolt</li>
+						<li>AmmoPlasmaPelletBolt</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>AmmoPlasmaBolt</li>
+					<li>AmmoPlasmaPelletBolt</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<BiosyntheticMaterial>1</BiosyntheticMaterial>
+			<TitaniumBar>4</TitaniumBar>
+			<Plasteel>7</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workAmount>1000</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_Blaster</defName>
+		<label>unmake blaster cartridge x50</label>
+		<description>Unmake 50 blaster cartridges.</description>
+		<jobString>Unmaking 50 blaster cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoBlasterBolt</li>
+						<li>AmmoBlasterPelletBolt</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>AmmoBlasterBolt</li>
+					<li>AmmoBlasterPelletBolt</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<MagneticMaterial>1</MagneticMaterial>
+			<BiosyntheticMaterial>1</BiosyntheticMaterial>			
+			<TitaniumBar>4</TitaniumBar>
+			<Plasteel>7</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<workAmount>1100</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_ChargedLaser</defName>
+		<label>unmake charged laser cartridge x40</label>
+		<description>Unmake 40 charged laser cartridges.</description>
+		<jobString>Unmaking 40 charged laser cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoLaser</li>
+					</categories>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>AmmoLaser</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Hexcell>1</Hexcell>
+			<TitaniumBar>3</TitaniumBar>
+			<Plasteel>15</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>1300</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_RailRay</defName>
+		<label>unmake railray cartridge x30</label>
+		<description>Unmake 30 railray cartridges.</description>
+		<jobString>Unmaking 30 railray cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoRailRay</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>AmmoRailRay</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Hexcell>1</Hexcell>
+			<MagneticMaterial>1</MagneticMaterial>
+			<TitaniumBar>8</TitaniumBar>
+			<Plasteel>17</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>13</Crafting>
+		</skillRequirements>
+		<workAmount>1400</workAmount>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_FuelCell</defName>
+		<label>unmake ammo 30x64 fuel cell x30</label>
+		<description>Unmake 30 ammo 30x64 fuel cell.</description>
+		<jobString>Unmaking 30 ammo 30x64 fuel cell.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo30x64mmFuelCell</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo30x64mmFuelCell</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>6</Powder>
+			<Plasteel>24</Plasteel>
+		</products>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<workAmount>900</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_RPGsGrenade</defName>
+		<label>unmake ammo RPG grenade x10</label>
+		<description>Unmake 10 ammo RPG grenade.</description>
+		<jobString>Unmaking 10 ammo RPG grenade.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>AmmoM72LAW</li>
+						<li>AmmoRPG7Grenades</li>
+						<li>AmmoSPG9Rockets</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>AmmoM72LAW</li>
+					<li>AmmoRPG7Grenades</li>
+					<li>AmmoSPG9Rockets</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>10</Powder>
+			<CopperBar>8</CopperBar>
+			<LeadBar>8</LeadBar>
+			<Plasteel>24</Plasteel>
+			<ElectronicComponents>1</ElectronicComponents>
+		</products>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<workAmount>925</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_MortarShell</defName>
+		<label>unmake ammo shell x5</label>
+		<description>Unmake 5 ammo shell.</description>
+		<jobString>Unmaking 5 ammo shell.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo81mmMortarShells</li>
+						<li>Ammo90mmCannonShells</li>
+						<li>Ammo120mmCannonShells</li>
+						<li>Ammo155mmHowitzerShells</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo81mmMortarShells</li>
+					<li>Ammo90mmCannonShells</li>
+					<li>Ammo120mmCannonShells</li>
+					<li>Ammo155mmHowitzerShells</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Powder>4</Powder>
+			<CopperBar>5</CopperBar>
+			<LeadBar>8</LeadBar>
+			<Plasteel>13</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>950</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_130mmRocketMissile</defName>
+		<label>unmake ammo 130mm rocket missile x5</label>
+		<description>Unmake 5 130mm rocket missile.</description>
+		<jobString>Unmaking 5 130mm rocket missile.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo130mmRocketMissiles</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo130mmRocketMissiles</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Napalm>4</Napalm>
+			<Chemfuel>16</Chemfuel>
+			<CopperBar>4</CopperBar>
+			<LeadBar>7</LeadBar>
+			<Plasteel>20</Plasteel>
+			<Electronics>1</Electronics>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>975</workAmount>
+	</RecipeDef>
+
+	<RecipeDef MayRequire="ViTech.MedievalOverhaul" ParentName="AmmoRecipeUnmakeAmmo">
+		<defName>UnmakeAmmo_VilePreindustrial</defName>
+		<label>unmake preindustrial ammo x50</label>
+		<description>Unmake preindustrial ammo x50.</description>
+		<jobString>Unmaking preindustrial ammo x50.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Ammo69Musket</li>
+						<li>AmmoMinieBall</li>
+						<li>Ammo5070Govt</li>
+						<li>Ammo44Rimfire</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+					<li>Ammo69Musket</li>
+					<li>AmmoMinieBall</li>
+					<li>Ammo5070Govt</li>
+					<li>Ammo44Rimfire</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Bronze>2</Bronze>
+			<LeadBar>1</LeadBar>
+			<Powder>1</Powder>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+
+</Defs>

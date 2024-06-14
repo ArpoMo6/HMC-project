@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="SK_HumanFactionBase">
+		<defName>HMC_KotRB</defName>
+		<label>Knights of the round barrel</label>
+		<pawnSingular>knight</pawnSingular>
+		<pawnsPlural>knights</pawnsPlural>
+		<categoryTag>Medieval</categoryTag>
+		<listOrderPriority>24</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<mustStartOneEnemy>true</mustStartOneEnemy>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<autoFlee>true</autoFlee>
+		<leaderTitle>Holy Knight</leaderTitle>
+		<earliestRaidDays>180</earliestRaidDays>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+		<factionIconPath>UI/Icons/Factions/KotRB</factionIconPath>	
+		<factionNameMaker>NamerFactionKotRB</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<colorSpectrum>
+			<li>(0.64, 0.42, 0.36)</li>
+			<li>(0.47, 0.5, 0.91)</li>
+		</colorSpectrum>	
+		<techLevel>Medieval</techLevel>
+		<naturalEnemy>true</naturalEnemy>
+		<allowedCultures>
+			<li>Corporatocracy</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
+		<structureMemeWeights>
+			<Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.4</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>ImperialCommon</li>
+					<li>ImperialFighter</li>
+					<li>ImperialRoyal</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Pirate</li>
+				</categories>
+				<commonality>0.1</commonality>
+			</li>
+		</backstoryFilters>	
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			<HMC_Teljor MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Teljor>
+		  </xenotypeChances>
+		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<caravanTraderKinds>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>Caravan_Neolithic_WarMerchant</li>
+			<li>Caravan_Neolithic_Slaver</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Neolithic_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Neolithic_Standard</li>
+		</baseTraderKinds>
+		<fixedLeaderKinds>
+			<li>KingdomHessian</li>
+		</fixedLeaderKinds>
+		<allowedArrivalTemperatureRange>-35~40</allowedArrivalTemperatureRange>
+		<raidLootMaker>MedievalRaidLootMaker</raidLootMaker>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+				<li>(1000, 0)</li>
+				<li>(2000, 0.25)</li>
+				<li>(3000, 0.5)</li>
+				<li>(4000, 1.0)</li>
+				<li>(8000, 2.0)</li>
+				<li>(9000, 0.7)</li>
+				<li>(11000, 0.4)</li>
+				<li>(15000, 0.2)</li>
+				<li>(20000, 0.1)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+				<li>(1000, 0)</li>
+				<li>(2000, 150)</li>
+				<li>(3000, 225)</li>
+				<li>(6000, 250)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>WoolMuffalo</li>
+				<li>WoolDromedary</li>
+				<li>WoolAlpaca</li>
+				<li>HempCloth</li>
+				<li>WoolSheep</li>
+				<li>CopperBar</li>
+				<li>Bronze</li>
+				<li>Plasteel</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">Kartonium</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">Edritium</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">Allalloy</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">PlaPlasteel</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">CastIronium</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights -->
+				<kindDef>Combat</kindDef>
+				<commonality>51</commonality>
+				<options>
+					<HMC_KotRB_Squire>11</HMC_KotRB_Squire>
+					<HMC_KotRB_Breacher>10</HMC_KotRB_Breacher>
+					<HMC_KotRB_Cannoner>2</HMC_KotRB_Cannoner>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+					<HMC_KotRB_Holy_Knight>1</HMC_KotRB_Holy_Knight>
+				</options>
+			</li>
+			<li>
+				<!-- More cannoners fights -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<HMC_KotRB_Squire>11</HMC_KotRB_Squire>
+					<HMC_KotRB_Breacher>10</HMC_KotRB_Breacher>
+					<HMC_KotRB_Cannoner>10</HMC_KotRB_Cannoner>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+					<HMC_KotRB_Holy_Knight>1</HMC_KotRB_Holy_Knight>
+				</options>
+			</li>
+			<li>
+				<!-- Squire and Knights -->
+				<kindDef>Combat</kindDef>
+				<commonality>14</commonality>
+				<options>
+					<HMC_KotRB_Squire>11</HMC_KotRB_Squire>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+					<HMC_KotRB_Holy_Knight>1</HMC_KotRB_Holy_Knight>
+				</options>
+			</li>
+			<li>
+				<!-- Squire only -->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<HMC_KotRB_Squire>10</HMC_KotRB_Squire>
+				</options>
+			</li>
+			<li>
+				<!-- Cannoners only -->
+				<kindDef>Combat</kindDef>
+				<commonality>5</commonality>
+				<options>
+					<HMC_KotRB_Cannoner>10</HMC_KotRB_Cannoner>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<HMC_KotRB_Squire>11</HMC_KotRB_Squire>
+					<HMC_KotRB_Breacher>2</HMC_KotRB_Breacher>
+					<HMC_KotRB_Cannoner>2</HMC_KotRB_Cannoner>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+					<HMC_KotRB_Holy_Knight>1</HMC_KotRB_Holy_Knight>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<KingdomTrader>1</KingdomTrader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>3</Dromedary>
+					<Rhinoceros>2</Rhinoceros>
+					<Elephant>2</Elephant>
+					<Megabadger>1</Megabadger>
+					<Horse_Wooly>5</Horse_Wooly>
+					<Rhino_Wooly>2</Rhino_Wooly>
+					<Horse>7</Horse>
+					<Buffalo>4</Buffalo>
+					<Bear_Grizzly>2</Bear_Grizzly>
+					<Bear_Polar>1</Bear_Polar>
+					<Mammoth>2</Mammoth>
+				</carriers>
+				<guards>
+					<HMC_KotRB_Squire>10</HMC_KotRB_Squire>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<HMC_KotRB_Squire>10</HMC_KotRB_Squire>
+					<HMC_KotRB_Breacher>2</HMC_KotRB_Breacher>
+					<HMC_KotRB_Cannoner>10</HMC_KotRB_Cannoner>
+					<HMC_KotRB_Knight>10</HMC_KotRB_Knight>
+					<HMC_KotRB_Holy_Knight>1</HMC_KotRB_Holy_Knight>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>45</configurationListOrderPriority>
+	</FactionDef>
+
+	<ThingSetMakerDef>
+		<defName>MedievalRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>Gold</li>
+						<li>ComponentMedieval</li>
+						<li>HerbMedicine</li>
+						<li>SmokeleafJoint</li>
+						<li>Berserk_herb</li>
+						<li>Beer</li>
+						<li>Pemmican</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
+</Defs>

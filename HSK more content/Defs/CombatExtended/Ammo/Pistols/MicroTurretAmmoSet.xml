@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_MicroTurret_HMC</defName>
+		<label>9x19mm Para / .45 ACP / 7.62x25mm TT</label>
+		<ammoTypes>
+			<Ammo_9x19mmPara_FMJ>Bullet_9x19mmPara_FMJ</Ammo_9x19mmPara_FMJ>
+			<Ammo_9x19mmPara_AP>Bullet_9x19mmPara_AP</Ammo_9x19mmPara_AP>
+			<Ammo_9x19mmPara_HP>Bullet_9x19mmPara_HP</Ammo_9x19mmPara_HP>
+			<Ammo_45ACP_FMJ>Bullet_45ACP_FMJ</Ammo_45ACP_FMJ>
+			<Ammo_45ACP_AP>Bullet_45ACP_AP</Ammo_45ACP_AP>
+			<Ammo_45ACP_HP>Bullet_45ACP_HP</Ammo_45ACP_HP>
+			<Ammo_762x25mmTT_FMJ>Bullet_762x25mmTT_FMJ</Ammo_762x25mmTT_FMJ>
+			<Ammo_762x25mmTT_AP>Bullet_762x25mmTT_AP</Ammo_762x25mmTT_AP>
+			<Ammo_762x25mmTT_HP>Bullet_762x25mmTT_HP</Ammo_762x25mmTT_HP>
+			<Ammo_762x25mmTT_API>Bullet_762x25mmTT_API</Ammo_762x25mmTT_API>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_MicroTurretSniper_HMC</defName>
+		<label>.303 British / 7.62 mm rifle</label>
+		<ammoTypes>
+			<Ammo_303British_FMJ>Bullet_303British_FMJ</Ammo_303British_FMJ>
+			<Ammo_303British_AP>Bullet_303British_AP</Ammo_303British_AP>
+			<Ammo_303British_HP>Bullet_303British_HP</Ammo_303British_HP>
+			<Ammo_762x51mmNATO_FMJ>Bullet_762x51mmNATO_FMJ</Ammo_762x51mmNATO_FMJ>
+			<Ammo_762x51mmNATO_AP>Bullet_762x51mmNATO_AP</Ammo_762x51mmNATO_AP>
+			<Ammo_762x51mmNATO_HP>Bullet_762x51mmNATO_HP</Ammo_762x51mmNATO_HP>
+			<Ammo_762x54mmR_FMJ>Bullet_762x54mmR_FMJ</Ammo_762x54mmR_FMJ>
+			<Ammo_762x54mmR_AP>Bullet_762x54mmR_AP</Ammo_762x54mmR_AP>
+			<Ammo_762x54mmR_HP>Bullet_762x54mmR_HP</Ammo_762x54mmR_HP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_MicroTurretAMR_HMC</defName>
+		<label>.408 CT / .50 BMG / 12.7x108mm</label>
+		<ammoTypes>
+			<Ammo_408CT_FMJ>Bullet_408CT_FMJ</Ammo_408CT_FMJ>
+			<Ammo_408CT_AP>Bullet_408CT_AP</Ammo_408CT_AP>
+			<Ammo_408CT_HP>Bullet_408CT_HP</Ammo_408CT_HP>
+			<Ammo_408CT_EMP>Bullet_408CT_EMP</Ammo_408CT_EMP>
+			<Ammo_50BMG_FMJ>Bullet_50BMG_FMJ</Ammo_50BMG_FMJ>
+			<Ammo_50BMG_Sabot>Bullet_50BMG_Sabot</Ammo_50BMG_Sabot>
+			<Ammo_50BMG_HE>Bullet_50BMG_HE</Ammo_50BMG_HE>
+			<Ammo_50BMG_Incendiary>Bullet_50BMG_Incendiary</Ammo_50BMG_Incendiary>
+			<Ammo_127x108mm_FMJ>Bullet_127x108mm_FMJ</Ammo_127x108mm_FMJ>
+			<Ammo_127x108mm_Sabot>Bullet_127x108mm_Sabot</Ammo_127x108mm_Sabot>
+			<Ammo_127x108mm_HE>Bullet_127x108mm_HE</Ammo_127x108mm_HE>
+			<Ammo_127x108mm_Incendiary>Bullet_127x108mm_Incendiary</Ammo_127x108mm_Incendiary>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+</Defs>

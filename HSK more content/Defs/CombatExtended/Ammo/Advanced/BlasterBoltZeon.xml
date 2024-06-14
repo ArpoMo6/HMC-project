@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_BlasterBoltZeon</defName>
+		<label>Zeon's blaster bolt</label>
+		<ammoTypes>
+			<Ammo_BlasterBoltZeon>Bullet_BlasterZeon</Ammo_BlasterBoltZeon>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SpacerSmallAmmoBase">
+		<defName>Ammo_BlasterBoltZeon</defName>
+		<label>Zeon's blaster bolt</label>
+		<tradeTags Inherit="false">
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoBlasterBolt</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Ammo/Charged/LargeConc</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<Mass>0.01</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tradeability>None</tradeability>
+		<ammoClass>ChargedAP</ammoClass>
+		<thingSetMakerTags Inherit="false">
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.7</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.01</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SK_BaseBullet">
+		<defName>Bullet_BlasterZeon</defName>
+		<label>Zeon's blaster bolt</label>
+		<graphicData>
+			<texPath>Things/Building/Security/PrecisionShell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4142</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Optic</damageDef>
+			<damageAmountBase>13</damageAmountBase>
+			<armorPenetrationSharp>30</armorPenetrationSharp>
+			<armorPenetrationBlunt>8.4</armorPenetrationBlunt>
+			<speed>145</speed>
+			<secondaryDamage>
+				<li>
+					<def>EMP</def>
+					<amount>6</amount>
+				</li>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>4</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+</Defs>

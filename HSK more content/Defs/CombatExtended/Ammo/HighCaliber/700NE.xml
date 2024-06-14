@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo700NE</defName>
+		<label>.700 Nitro Express</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberLongRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_700NE</defName>
+		<label>.700 Nitro Express</label>
+		<ammoTypes>
+			<Ammo_700NE_HP>Bullet_700NE_HP</Ammo_700NE_HP>
+			<Ammo_700NE_S>Bullet_700NE_S</Ammo_700NE_S>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="700NEBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Large .700 cal. Nitro Express bullet used with extremal hunting rifles.</description>
+		<statBases>
+			<Mass>0.1</Mass>
+			<Bulk>0.08</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo700NE</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.01</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="700NEBase">
+		<defName>Ammo_700NE_HP</defName>
+		<label>.700 Nitro Express cartridge (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/LongRifle/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_700NE_HP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="700NEBase">
+		<defName>Ammo_700NE_S</defName>
+		<label>.700 Nitro Express cartridge (shrapnel)</label>
+		<graphicData>
+			<texPath>Things/Ammo/LongRifle/S</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+		</statBases>
+		<ammoClass>Shrapnel</ammoClass>
+		<cookOffProjectile>Bullet_700NE_S</cookOffProjectile>
+		<generateAllowChance>0.1</generateAllowChance>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base700NEBullet" ParentName="SK_BaseBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>110</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base700NEBullet">
+		<defName>Bullet_700NE_HP</defName>
+		<label>.700 Nitro Express bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>68</damageAmountBase>
+			<!-- <armorPenetrationBase>0.4</armorPenetrationBase> -->
+			<armorPenetrationSharp>7</armorPenetrationSharp>
+			<armorPenetrationBlunt>700</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Beanbag</def>
+					<amount>12</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base700NEBullet">
+		<defName>Bullet_700NE_S</defName>
+		<label>.700 Nitro Express bullet (shrapnel)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>34</damageAmountBase>
+			<damageDef>Bomb</damageDef>
+			<explosionRadius>2.5</explosionRadius>
+			<!-- <armorPenetrationBase>0.4</armorPenetrationBase> -->
+			<armorPenetrationSharp>999</armorPenetrationSharp>
+			<armorPenetrationBlunt>999</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Beanbag</def>
+					<amount>9</amount>
+				</li>
+			</secondaryDamage>
+			<speed>80</speed>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Shell>2</Fragment_Shell>
+					<Fragment_Large>12</Fragment_Large>
+					<Fragment_GrenadeFrag>5</Fragment_GrenadeFrag>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_700NE_HP</defName>
+		<label>make .700 Nitro Express (HP) cartridge x50</label>
+		<description>Craft 50 .700 Nitro Express (HP) cartridges.</description>
+		<jobString>Making .700 Nitro Express (HP) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>14</count>
+			</li>			
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_700NE_HP>50</Ammo_700NE_HP>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_700NE_S</defName>
+		<label>make .700 Nitro Express (S) cartridge x50</label>
+		<description>Craft 50 .700 Nitro Express (S) cartridges.</description>
+		<jobString>Making .700 Nitro Express (S) cartridges.</jobString>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>14</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_700NE_S>50</Ammo_700NE_S>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

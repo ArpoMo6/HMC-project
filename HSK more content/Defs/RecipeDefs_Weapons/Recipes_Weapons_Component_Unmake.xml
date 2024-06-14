@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="AmmoRecipeUnmakeWepComp" ParentName="AmmoRecipeBase" Abstract="true">
+		<recipeUsers Inherit="false">
+			<li>WeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_SimplestComponent</defName>
+		<label>unmake weapon parts or pistol components x2</label>
+		<description>Unmake simplest stuff x2.</description>
+		<jobString>Unmaking simplest stuff x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+						<li>Pistol_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>Pistol_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>8</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Mechanism>1</Mechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workAmount>1080</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_SimpleComponent</defName>
+		<label>unmake standart weapon components x2</label>
+		<description>Unmake standart weapon components x2.</description>
+		<jobString>Unmaking standart weapon components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+						<li>Shotgun_Component</li>
+						<li>Rifle_Component</li>
+						<li>Sniper_Component</li>
+						<li>Heavy_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Shotgun_Component</li>
+				<li>Rifle_Component</li>
+				<li>Sniper_Component</li>
+				<li>Heavy_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+			<CopperBar>10</CopperBar>
+			<Wire>10</Wire>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workAmount>1500</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_AdvComponent</defName>
+		<label>unmake advanced weapon components x2</label>
+		<description>Unmake advanced weapon components x2.</description>
+		<jobString>Unmaking advanced weapon components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+						<li>AdvSniper_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>AdvSniper_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Mechanism>4</Mechanism>
+			<CopperBar>12</CopperBar>
+			<Wire>15</Wire>
+			<SyntheticFibers>8</SyntheticFibers>
+			<Plastic>20</Plastic>
+			<Rubber>20</Rubber>
+			<AdvMechanism>3</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<workAmount>1800</workAmount>
+		<recipeUsers Inherit="false"><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_SuperHeavyComponent</defName>
+		<label>unmake super heavy components x2</label>
+		<description>Unmake super heavy components x2.</description>
+		<jobString>Unmaking super heavy components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Launcher_Component</li>
+						<li>Cannon_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Launcher_Component</li>
+				<li>Cannon_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plasteel>60</Plasteel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<Mechanism>8</Mechanism>
+			<CopperBar>20</CopperBar>
+			<Wire>20</Wire>
+			<AdvMechanism>3</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>2220</workAmount>
+		<recipeUsers Inherit="false"><li>AdvWeaponCraftingWorkTable</li></recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_ChargedComponent</defName>
+		<label>unmake charged components x2</label>
+		<description>Unmake charged components x2.</description>
+		<jobString>Unmaking charged components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Charged_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Charged_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TitaniumBar>12</TitaniumBar>
+			<CupronickelAlloy>24</CupronickelAlloy>
+			<MagneticMaterial>3</MagneticMaterial>
+			<AdvMechanism>2</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>13</Crafting>
+		</skillRequirements>
+		<workAmount>2040</workAmount>
+		<recipeUsers Inherit="false"><li>AdvToolBench</li><li>MechWeaponCraftingWorkTable</li></recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_PlasmaComponent</defName>
+		<label>unmake plasma components x2</label>
+		<description>Unmake plasma components x2.</description>
+		<jobString>Unmaking plasma components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasma_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasma_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TitaniumBar>24</TitaniumBar>
+			<CupronickelAlloy>12</CupronickelAlloy>
+			<BiosyntheticMaterial>4</BiosyntheticMaterial>
+			<Microchips>1</Microchips>
+		</products>
+		<skillRequirements>
+			<Crafting>13</Crafting>
+		</skillRequirements>
+		<workAmount>2040</workAmount>
+		<recipeUsers Inherit="false"><li>MechWeaponCraftingWorkTable</li></recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeWepComp">
+		<defName>Unmake_LaserComponent</defName>
+		<label>unmake laser components x2</label>
+		<description>Unmake laser components x2.</description>
+		<jobString>Unmaking laser components x2.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Laser_Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Laser_Component</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TitaniumBar>24</TitaniumBar>
+			<CupronickelAlloy>12</CupronickelAlloy>
+			<MagneticMaterial>6</MagneticMaterial>
+			<Microchips>1</Microchips>
+		</products>
+		<skillRequirements>
+			<Crafting>13</Crafting>
+		</skillRequirements>
+		<workAmount>2040</workAmount>
+		<recipeUsers Inherit="false"><li>MechWeaponCraftingWorkTable</li></recipeUsers>
+	</RecipeDef>
+
+</Defs>

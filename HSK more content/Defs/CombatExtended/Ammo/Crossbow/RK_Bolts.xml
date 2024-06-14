@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBoltBase">
+		<defName>Ammo_Bolt_EMP</defName>
+		<label>EMP bolt</label>
+		<description>Simple arrow with EMP bolt.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Arrow/Emp</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.35</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<generateAllowChance>0.25</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBoltProjectile">
+		<defName>Projectile_EMPBolt</defName>
+		<label>EMP bolt</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<damageDef>EMP</damageDef>
+			<!-- <armorPenetrationBase>0.36</armorPenetrationBase> -->
+			<armorPenetrationSharp>3.2</armorPenetrationSharp>
+			<armorPenetrationBlunt>5.24</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_Bolt_EMP</defName>
+		<label>make EMP bolts x50</label>
+		<description>Craft 50 EMP bolts.</description>
+		<jobString>Making EMP bolts.</jobString>
+		<workAmount>2750</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wooden</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+				<li>Metallic</li>
+			</categories>
+			<thingDefs>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolt_EMP>50</Ammo_Bolt_EMP>
+		</products>
+	</RecipeDef>
+
+</Defs>

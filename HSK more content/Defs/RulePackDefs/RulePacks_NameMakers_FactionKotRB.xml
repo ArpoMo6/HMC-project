@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerFactionKotRB</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[KotRBNameOne] [KotRBNameTwo]</li>
+	<li>KotRBNameOne->Round</li>
+	<li>KotRBNameOne->Saint</li>
+	<li>KotRBNameOne->Cannoner</li>
+	<li>KotRBNameOne->Crafty</li>
+	<li>KotRBNameOne->Faithful</li>
+	<li>KotRBNameOne->Sharp</li>
+	<li>KotRBNameTwo->colonies</li>
+	<li>KotRBNameTwo->barrels</li>
+	<li>KotRBNameTwo->knights</li>
+	<li>KotRBNameTwo->lights</li>
+	<li>KotRBNameTwo->paladins</li>
+	<li>KotRBNameTwo->fanatics</li>
+	<li>KotRBNameTwo->barons</li>
+	<li>KotRBNameTwo->ears</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

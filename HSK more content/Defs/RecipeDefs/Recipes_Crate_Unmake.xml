@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="AmmoRecipeUnmakeCrate" ParentName="AmmoRecipeBase" Abstract="true">
+		<recipeUsers Inherit="false">
+			<li>HeavyArmsBench</li>
+		</recipeUsers>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_MedievalCrate</defName>
+		<label>unmake parts of medieval armament</label>
+		<description>Unmake parts of medieval armament.</description>
+		<jobString>Unmaking parts of medieval armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Balista_Crate</li>
+						<li>Catapult_Crate</li>
+						<li>Crate_Cannon_HMC</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Balista_Crate</li>
+				<li>Catapult_Crate</li>
+				<li>Crate_Cannon_HMC</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>40</WoodLog>
+			<Bronze>15</Bronze>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workAmount>3000</workAmount>
+		<recipeUsers Inherit="false">
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedTurretMedieval</unfinishedThingDef>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_LightMGCrate</defName>
+		<label>unmake parts of light MG armament</label>
+		<description>Unmake parts of light MG armament. In the process, the main component is also disassembled.</description>
+		<jobString>Unmaking parts of light MG armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>M240B_Crate</li>
+						<li>MinigunTurret_Crate</li>
+						<li>LWMMGmounted_Crate_HMC</li>
+						<li>MGTurret_Crate</li>
+						<li>NSV_Crate_HMC</li>
+						<li>KPV_Crate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>M240B_Crate</li>
+				<li>MinigunTurret_Crate</li>
+				<li>LWMMGmounted_Crate_HMC</li>
+				<li>MGTurret_Crate</li>
+				<li>NSV_Crate_HMC</li>
+				<li>KPV_Crate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Weapon_Parts>6</Weapon_Parts>
+			<Plasteel>30</Plasteel>
+			<AluminiumBar>5</AluminiumBar>
+			<Wire>5</Wire>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Mechanism>1</Mechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workAmount>3600</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_HeavyMGCrate</defName>
+		<label>unmake parts of heavy MG armament</label>
+		<description>Unmake parts of heavy MG armament. In the process, the main component is also disassembled.</description>
+		<jobString>Unmaking parts of heavy MG armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Oerlikonautocannon_Crate</li>
+						<li>VulcanCannon_Crate</li>
+						<li>Avenger_Crate</li>
+						<li>AGSturret_Crate</li>
+						<li>AGCturret_Crate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Oerlikonautocannon_Crate</li>
+				<li>VulcanCannon_Crate</li>
+				<li>Avenger_Crate</li>
+				<li>AGSturret_Crate</li>
+				<li>AGCturret_Crate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Weapon_Parts>12</Weapon_Parts>
+			<Rubber>15</Rubber>
+			<Plasteel>60</Plasteel>
+			<AluminiumBar>10</AluminiumBar>
+			<Wire>10</Wire>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>3</Mechanism>
+			<AdvMechanism>1</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>4200</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_LightMortarCrate</defName>
+		<label>unmake parts of light mortar armament</label>
+		<description>Unmake parts of light mortar armament. In the process, the main component is also disassembled.</description>
+		<jobString>Unmaking parts of light mortar armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mortar_Crate</li>
+						<li>TOW_Crate</li>
+						<li>LightMissileSystem_Crate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mortar_Crate</li>
+				<li>TOW_Crate</li>
+				<li>LightMissileSystem_Crate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Weapon_Parts>8</Weapon_Parts>
+			<Plasteel>50</Plasteel>
+			<AluminiumBar>10</AluminiumBar>
+			<Wire>10</Wire>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>3</Mechanism>
+			<AdvMechanism>1</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<workAmount>3900</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_HeavyMortarCrate</defName>
+		<label>unmake parts of heavy mortar armament</label>
+		<description>Unmake parts of heavy mortar armament. In the process, the main component is also disassembled.</description>
+		<jobString>Unmaking parts of heavy mortar armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FlakTurret_Crate</li>
+						<li>CannonTurret_Crate</li>
+						<li>HowitzerTurret_Crate</li>
+						<li>MediumMissileSystem_Crate</li>
+						<li>RocketLauncher_Crate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FlakTurret_Crate</li>
+				<li>CannonTurret_Crate</li>
+				<li>HowitzerTurret_Crate</li>
+				<li>MediumMissileSystem_Crate</li>
+				<li>RocketLauncher_Crate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Weapon_Parts>12</Weapon_Parts>
+			<Rubber>15</Rubber>
+			<Plasteel>80</Plasteel>
+			<AluminiumBar>20</AluminiumBar>
+			<Wire>20</Wire>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Mechanism>6</Mechanism>
+			<AdvMechanism>2</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<workAmount>4500</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_SentryTurretCrate</defName>
+		<label>unmake parts of sentry armament</label>
+		<description>Unmake parts of sentry armament. In the process, the main component is also disassembled.</description>
+		<jobString>Unmaking parts of sentry armament.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HMC_MicroTurret_Crate</li>
+						<li>SentryTurret_Crate</li>
+						<li>HMC_MacroTurret_Crate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HMC_MicroTurret_Crate</li>
+				<li>SentryTurret_Crate</li>
+				<li>HMC_MacroTurret_Crate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Weapon_Parts>2</Weapon_Parts>
+			<Plasteel>10</Plasteel>
+			<CopperBar>10</CopperBar>
+			<ElectronicComponents>2</ElectronicComponents>
+		</products>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<workAmount>6000</workAmount>
+		<recipeUsers>
+			<li>WeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<researchPrerequisite>MicroTurrets_HMC</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

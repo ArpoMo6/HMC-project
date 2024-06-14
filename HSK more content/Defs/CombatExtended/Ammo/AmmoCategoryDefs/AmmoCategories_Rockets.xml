@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>RocketGrape</defName>
+    <label>grape</label>
+    <labelShort>grape</labelShort>
+    <description>Little tungsten balls with some gunpowder.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>RocketPlasma</defName>
+    <label>plasma</label>
+    <labelShort>plasma</labelShort>
+    <description>Plasma cannon chell.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+</Defs>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="IndustrialBase">
+		<defName>MicroTurrets_HMC</defName>
+		<label>Micro turrets I</label>
+		<description>auto pew-pew</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>Machining</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>38.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="IndustrialBase">
+		<defName>MicroTurretsTwo_HMC</defName>
+		<label>Micro turrets II</label>
+		<description>auto pew-pew II</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroTurrets_HMC</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>38.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="IndustrialBase">
+		<defName>MicroTurretsAdvanced_HMC</defName>
+		<label>Micro turrets I</label>
+		<description>auto pew-pew</description>
+		<baseCost>1250</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroTurretsTwo_HMC</li>
+			<li>Turrets_31</li>
+		</prerequisites>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>38.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="IndustrialBase">
+		<defName>MicroTurretsAdvancedTwo_HMC</defName>
+		<label>Micro turrets II</label>
+		<description>auto pew-pew II</description>
+		<baseCost>1250</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroTurretsAdvanced_HMC</li>
+		</prerequisites>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>38.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="HitechMultiBase">
+		<defName>MicroTurretsHiTech_HMC</defName>
+		<label>High tech micro turrets</label>
+		<description>high tech auto pew-pew</description>
+		<baseCost>1750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MicroTurretsAdvancedTwo_HMC</li>
+			<li>ChargedShot</li>
+		</prerequisites>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>38.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="HitechLabStationBase">
+		<defName>MacroTurretsThree_HMC</defName>
+		<label>Macro turrets III</label>
+		<description>high tech super auto pew-pew</description>
+		<baseCost>2250</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Autoturrets_D3</li>
+			<li>Components_D3</li>
+			<li>Laser_weapons_D</li>
+			<li>Plasma_weapons_D</li>
+			<li>Charge_weapons_D</li>
+		</prerequisites>
+		<researchViewX>21.00</researchViewX>
+		<researchViewY>36.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo473x33mmCaseless</defName>
+		<label>4.73x33mm Caseless</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+	
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_473x33mmCaseless</defName>
+		<label>4.73x33mm Caseless</label>
+		<ammoTypes>
+			<Ammo_473x33mmCaseless_FMJ>Bullet_473x33mmCaseless_FMJ</Ammo_473x33mmCaseless_FMJ>
+			<Ammo_473x33mmCaseless_AP>Bullet_473x33mmCaseless_AP</Ammo_473x33mmCaseless_AP>
+			<Ammo_473x33mmCaseless_HP>Bullet_473x33mmCaseless_HP</Ammo_473x33mmCaseless_HP>
+			<Ammo_473x33mmCaseless_EMP>Bullet_473x33mmCaseless_EMP</Ammo_473x33mmCaseless_EMP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+	
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="473x33mmCaselessBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Caseless bullet with a solid propellant enveloping the bullet.</description>
+		<statBases>
+			<Mass>0.005</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo473x33mmCaseless</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.45</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.01</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="473x33mmCaselessBase">
+		<defName>Ammo_473x33mmCaseless_FMJ</defName>
+		<label>4.73x33mm Caseless cartridge (FMJ)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/FMJ</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<ammoClass>FullMetalJacket</ammoClass>
+		<cookOffProjectile>Bullet_473x33mmCaseless_FMJ</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="473x33mmCaselessBase">
+		<defName>Ammo_473x33mmCaseless_AP</defName>
+		<label>4.73x33mm Caseless cartridge (AP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/AP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+		</statBases>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<generateAllowChance>0.7</generateAllowChance>
+		<cookOffProjectile>Bullet_473x33mmCaseless_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="473x33mmCaselessBase">
+		<defName>Ammo_473x33mmCaseless_HP</defName>
+		<label>4.73x33mm Caseless cartridge (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.6</MarketValue>
+		</statBases>
+		<ammoClass>HollowPoint</ammoClass>
+		<generateAllowChance>0.35</generateAllowChance>
+		<cookOffProjectile>Bullet_473x33mmCaseless_HP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="473x33mmCaselessBase">
+		<defName>Ammo_473x33mmCaseless_EMP</defName>
+		<label>4.73x33mm Caseless cartridge (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<generateAllowChance>0.25</generateAllowChance>
+		<cookOffProjectile>Bullet_473x33mmCaseless_EMP</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+	
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base473x33mmCaselessBullet" ParentName="SK_BaseBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>233</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base473x33mmCaselessBullet">
+		<defName>Bullet_473x33mmCaseless_FMJ</defName>
+		<label>4.73mm Caseless bullet (FMJ)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>8</damageAmountBase>
+			<!-- <armorPenetrationBase>0.64</armorPenetrationBase> -->
+			<armorPenetrationSharp>12.4</armorPenetrationSharp>
+			<armorPenetrationBlunt>61.4</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base473x33mmCaselessBullet">
+		<defName>Bullet_473x33mmCaseless_AP</defName>
+		<label>4.73mm Caseless bullet (AP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>7</damageAmountBase>
+			<!-- <armorPenetrationBase>0.86</armorPenetrationBase> -->
+			<armorPenetrationSharp>19.9</armorPenetrationSharp>
+			<armorPenetrationBlunt>61.4</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base473x33mmCaselessBullet">
+		<defName>Bullet_473x33mmCaseless_HP</defName>
+		<label>4.73mm Caseless bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>11</damageAmountBase>
+			<!-- <armorPenetrationBase>0.53</armorPenetrationBase> -->
+			<armorPenetrationSharp>7.3</armorPenetrationSharp>
+			<armorPenetrationBlunt>61.4</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base473x33mmCaselessBullet">
+		<defName>Bullet_473x33mmCaseless_EMP</defName>
+		<label>4.73mm Caseless bullet (EMP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>4</damageAmountBase>
+			<!-- <armorPenetrationBase>0.71</armorPenetrationBase> -->
+			<armorPenetrationSharp>13.7</armorPenetrationSharp>
+			<armorPenetrationBlunt>61.4</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>EMP</def>
+					<amount>5</amount>
+				</li>
+			</secondaryDamage>			
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_473x33mmCaseless_FMJ</defName>
+		<label>make 4.73x33mm Caseless (FMJ) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (FMJ) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_FMJ>96</Ammo_473x33mmCaseless_FMJ>
+		</products>
+		<workAmount>1800</workAmount>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_473x33mmCaseless_AP</defName>
+		<label>make 4.73x33mm Caseless (AP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (AP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDHBar</li>
+						<li>Ceramic</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+				<li>Ceramic</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_AP>96</Ammo_473x33mmCaseless_AP>
+		</products>
+		<workAmount>2200</workAmount>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_473x33mmCaseless_HP</defName>
+		<label>make 4.73x33mm Caseless (HP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (HP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HeavyBar</li>
+					</categories>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HeavyBar</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>HeavyBar</li>
+			</categories>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Powder</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_HP>96</Ammo_473x33mmCaseless_HP>
+		</products>
+		<workAmount>2400</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeRifle">
+		<defName>MakeAmmo_473x33mmCaseless_EMP</defName>
+		<label>make 4.73x33mm Caseless (EMP) cartridge x96</label>
+		<description>Craft 96 4.73x33mm Caseless (EMP) cartridges.</description>
+		<jobString>Making 4.73x33mm Caseless (EMP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>Plastic</li>
+				<li>ElectronicComponents</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_473x33mmCaseless_EMP>96</Ammo_473x33mmCaseless_EMP>
+		</products>
+		<workAmount>2700</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

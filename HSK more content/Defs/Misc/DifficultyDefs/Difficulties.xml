@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DifficultyDef>
+		<defName>True_Hell_HMC</defName>
+		<label>☠☠ True Hell</label>
+		<description>ATTENTION!\n\nThis difficulty for average A16 HSK version enjoyers, masochists and other people with non-standard perception of tastes.\n\nIt is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons, retirees, weak leaders and streamers.\n\nAnd only the Abyss from Abyss mod is more difficult than this one...</description>
+		<!-- <drawColor>(1,0.08,0.08)</drawColor> -->
+		<difficulty>8</difficulty>
+		<threatScale>2.8</threatScale>
+		<adaptationEffectFactor>0.35</adaptationEffectFactor>
+		<colonistMoodOffset>-11</colonistMoodOffset>
+		<tradePriceFactorLoss>0.45</tradePriceFactorLoss>
+		<cropYieldFactor>0.75</cropYieldFactor>
+		<mineYieldFactor>0.75</mineYieldFactor>
+		<butcherYieldFactor>0.65</butcherYieldFactor>
+		<researchSpeedFactor>0.75</researchSpeedFactor>
+		<diseaseIntervalFactor>0.85</diseaseIntervalFactor>
+		<enemyReproductionRateFactor>1.05</enemyReproductionRateFactor>
+		<playerPawnInfectionChanceFactor>1.15</playerPawnInfectionChanceFactor>
+		<deepDrillInfestationChanceFactor>1.35</deepDrillInfestationChanceFactor>
+		<wastepackInfestationChanceFactor>2.2</wastepackInfestationChanceFactor>
+		<foodPoisonChanceFactor>1.25</foodPoisonChanceFactor>
+		<maintenanceCostFactor>1</maintenanceCostFactor>
+		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
+		<scariaRotChance>0.87</scariaRotChance> <!-- calculated from difficulty 3 and threatScale -->
+	</DifficultyDef>
+
+</Defs>

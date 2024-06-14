@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>ShotAKS74U</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>AKS74U</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>20</min>        
+					<max>21</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.97</min>        
+					<max>1.03</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+  <SoundDef>
+    <defName>HMC_TurretHit</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>PortalTurret/Hit</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>6.956522</min>        
+          <max>22.82609</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9152174</min>        
+          <max>1.084783</max>
+        </pitchRange>      
+        <repeatMode>Any</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

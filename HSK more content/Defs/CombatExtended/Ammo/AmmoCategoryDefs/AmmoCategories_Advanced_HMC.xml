@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>Ionized_Slug</defName>
+    <label>ion charge slug</label>
+    <labelShort>ion slug</labelShort>
+    <description>Designed to combat mechanoids, the round creates an electrical current on impact, disrupting electronic systems temporarily.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>Ionized_Buck</defName>
+    <label>ion charge buck</label>
+    <labelShort>ion buck</labelShort>
+    <description>Designed to combat mechanoids, the round creates an electrical current on impact, disrupting electronic systems temporarily.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+</Defs>

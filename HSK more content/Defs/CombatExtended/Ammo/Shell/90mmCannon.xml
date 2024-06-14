@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="90mmCannonShellBase">
+		<defName>Ammo_90mmCannonShell_Grape</defName>
+		<label>90mm cannon shell (Grape)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Grape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>30</Mass>
+			<MarketValue>130</MarketValue>
+		</statBases>
+		<ammoClass>RocketGrape</ammoClass>
+		<generateAllowChance>0.025</generateAllowChance>
+		<detonateProjectile>Bullet_90mmCannonShell_HEAT</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="90mmCannonShellBase">
+		<defName>Ammo_90mmCannonShell_Plasma</defName>
+		<label>90mm cannon shell (Plasma)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Plasma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>18</Mass>
+			<MarketValue>160</MarketValue>
+		</statBases>
+		<ammoClass>RocketPlasma</ammoClass>
+		<generateAllowChance>0.01</generateAllowChance>
+		<detonateProjectile>Bullet_90mmCannonShell_Plasma</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Base90mmCannonGrape" ParentName="SK_BaseBullet" Abstract="true">
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>235</speed>
+			<dropsCasings>false</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base90mmCannonGrape">
+		<defName>Bullet_90mmCannonShell_Grape</defName>
+		<label>90mm cannon shell (Grape)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>11</damageAmountBase>
+			<pelletCount>860</pelletCount>
+			<spreadMult>17.4</spreadMult>
+			<!-- <gravityFactor>4</gravityFactor> -->
+			<armorPenetrationSharp>11.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>40</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base90mmCannonShell">
+		<defName>Bullet_90mmCannonShell_Plasma</defName>
+		<label>90mm cannon shell (Plasma)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/Plasma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>PlasmaFlame</damageDef>
+			<damageAmountBase>280</damageAmountBase>
+			<explosionRadius>5.8</explosionRadius>
+			<soundExplode>Explosion_PlasmaEXP</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_90mmCannonShell_Grape</defName>
+		<label>make 90mm Grape cannon shells x1</label>
+		<description>Craft 90mm Grape cannon shells.</description>
+		<jobString>Making 90mm Grape cannon shells.</jobString>
+		<workAmount>1200</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tungsten</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>ComponentAdvanced</li>
+				<li>Tungsten</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_90mmCannonShell_Grape>1</Ammo_90mmCannonShell_Grape>
+		</products>
+		<researchPrerequisite>Range_C2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_90mmCannonShell_Plasma</defName>
+		<label>make 90mm Plasma cannon shells x1</label>
+		<description>Craft 90mm Plasma cannon shells.</description>
+		<jobString>Making 90mm Plasma cannon shells.</jobString>
+		<workAmount>1500</workAmount>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>17</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>BiosyntheticMaterial</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_90mmCannonShell_Plasma>1</Ammo_90mmCannonShell_Plasma>
+		</products>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

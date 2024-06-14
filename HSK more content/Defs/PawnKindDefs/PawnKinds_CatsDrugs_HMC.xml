@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Cats Drugs Bases -->
+	<PawnKindDef Name="HMCCatsDrugsBase" Abstract="True">
+		<race>Alien_Orassan</race>
+		<defaultFactionType>DrugCatsHMC</defaultFactionType>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Orassan</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<chemicalAddictionChance>1</chemicalAddictionChance>
+		<combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>MealJerky</invFoodDef>
+		<itemQuality>Normal</itemQuality>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>50</maxGenerationAge>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.2</max>
+		</gearHealthRange>
+		<isFighter>true</isFighter>
+		<canBeSapper>true</canBeSapper>
+		<techHediffsMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</techHediffsMoney>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMaxAmount>1</techHediffsMaxAmount>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>8~15</initialResistanceRange>
+		<disallowedTraits>
+			<li>Nudist</li>
+		</disallowedTraits>
+	</PawnKindDef>
+
+	<!-- Comrade -->
+	<PawnKindDef ParentName="HMCCatsDrugsBase">
+		<defName>CatsDrugs_Comrade_HMC</defName>
+		<label>Drug comrade</label>
+		<combatPower>275</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<apparelMoney>
+			<min>12600</min>
+			<max>18800</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~8</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>6~8</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>6~8</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>CatsDrugsApparelComrade</li>
+			<li>NorbsonalShield</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>2500</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CD_CMRD_HMC</li>
+		</weaponTags>
+		<techHediffsTags>
+			<li>CatsDrugsChipComrade</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<!-- Sniper -->
+	<PawnKindDef ParentName="HMCCatsDrugsBase">
+		<defName>CatsDrugs_Sniper_HMC</defName>
+		<label>Drug sniper</label>
+		<combatPower>330</combatPower>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>9~12</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>CatsDrugsApparelLight</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4600</min>
+			<max>6000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CD_SNP_HMC</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>5</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+		<techHediffsTags>
+			<li>CatsDrugsChipBattle</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<!-- Warrior -->
+	<PawnKindDef ParentName="HMCCatsDrugsBase">
+		<defName>CatsDrugs_Warrior_HMC</defName>
+		<label>Drug warrior</label>
+		<combatPower>330</combatPower>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~10</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>6~11</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>CatsDrugsApparelHeavy</li>
+			<li>BallisticShield</li>
+			<li>MedievalShield</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>4000</min>
+			<max>5000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CD_WRRR_HMC</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>5</min>
+					<max>6</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+		<techHediffsTags>
+			<li>CatsDrugsChipBattle</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<!-- Demoman -->
+	<PawnKindDef ParentName="HMCCatsDrugsBase">
+		<defName>CatsDrugs_Demoman_HMC</defName>
+		<label>Drug demoman</label>
+		<combatPower>355</combatPower>
+		<apparelMoney>
+			<min>25200</min>
+			<max>37600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~9</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>7~10</range>
+			</li>
+		</skills>
+		<apparelTags>
+			<li>CatsDrugsApparelHeavy</li>
+			<li>BallisticShield</li>
+			<li>MedievalShield</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>400</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>GrenadeTierTwo</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>9</min>
+					<max>18</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.15</generateChance>
+						<sidearmMoney>
+							<min>0</min>
+							<max>50</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierTwo</li>
+						</weaponTags>
+						<magazineCount>
+							<min>2</min>
+							<max>3</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		<techHediffsTags>
+			<li>CatsDrugsChipBattle</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<!-- Elder -->
+	<PawnKindDef ParentName="HMCCatsDrugsBase">
+		<defName>CatsDrugs_Elder_HMC</defName>
+		<label>Elder</label>
+		<combatPower>380</combatPower>
+		<factionLeader>true</factionLeader>
+		<itemQuality>Masterwork</itemQuality>
+		<minGenerationAge>35</minGenerationAge>
+		<maxGenerationAge>70</maxGenerationAge>
+		<gearHealthRange>
+			<min>1.0</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<apparelTags>
+			<li>CatsDrugsApparelLight</li>
+			<li>CatsDrugsApparelHeavy</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>50000</min>
+			<max>64000</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~20</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>8~16</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>9~18</range>
+			</li>
+		</skills>
+		<weaponMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>SNIP4</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>6</min>
+					<max>7</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+		<techHediffsTags>
+			<li>CatsDrugsChipBattle</li>
+		</techHediffsTags>
+	</PawnKindDef>
+
+</Defs>

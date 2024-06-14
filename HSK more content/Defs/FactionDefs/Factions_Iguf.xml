@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="SK_HumanFactionBase">
+		<defName>IgufHMC</defName>
+		<label>I.G.U.F.</label>
+		<description>An idealistic ultratech faction of oppressors of all living things. It was created on the basis of an ancient ultra-technological honey club after a tragic fall from an invasion of mystical winged bombers.</description>
+		<pawnSingular>I.G.U.F.</pawnSingular>
+		<pawnsPlural>I.G.U.F.s</pawnsPlural>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>109</configurationListOrderPriority>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canStageAttacks>false</canStageAttacks>
+		<earliestRaidDays>570</earliestRaidDays>
+		<hidden>true</hidden>
+		<naturalEnemy>true</naturalEnemy>
+		<canSiege>true</canSiege>
+		<autoFlee>false</autoFlee>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(4000, 0)</li>
+				<li>(7000, 0)</li>
+				<li>(14000, 0.3)</li>
+				<li>(15250, 0.6)</li>
+				<li>(16500, 0.9)</li>
+				<li>(20000, 1.15)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,500)</li>
+				<li>(11000, 765)</li>
+				<li>(14500, 790)</li>
+				<li>(17000, 815)</li>
+				<li>(20000, 840)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<raidLootMaker>IgufRaidLootMaker</raidLootMaker>
+		<melaninRange>0~0.4</melaninRange>
+		<factionIconPath>UI/Icons/Factions/Iguf</factionIconPath>
+		<colorSpectrum>
+			<li>(1, 0, 0)</li>
+		</colorSpectrum>
+		<allowedCultures>
+			<li>Corporatocracy</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		</disallowedMemes>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_KeepNames</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+		</disallowedPrecepts>
+		<structureMemeWeights>
+			<Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">0</Structure_Animist>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">11</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<factionNameMaker>NamerFactionIguf</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Pirate</li>
+					<li>Outlander</li>
+					<li>Outsider</li>
+					<li>ImperialCommon</li>
+					<li>ImperialFighter</li>
+					<li>ImperialRoyal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<leaderTitle>Bot</leaderTitle>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-100~90</allowedArrivalTemperatureRange>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>AlphaPoly</li>
+				<li>StelliteAlloy</li>
+				<li>TitaniumBar</li>
+				<li>Hyperweave</li>
+				<li MayRequire="ArpoMo6.HMC.bizmat">GammaPoly</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<HMCIgufRanger>10</HMCIgufRanger>
+					<HMCIgufHeavy>5</HMCIgufHeavy>
+					<HMCIgufSniper>5</HMCIgufSniper>
+					<HMCIgufIncendiary>6</HMCIgufIncendiary>
+					<HMCIgufBot>1</HMCIgufBot>
+				</options>
+			</li>
+			<li>
+				<!-- Heavy weapon only -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<HMCIgufHeavy>9</HMCIgufHeavy>
+					<HMCIgufIncendiary>10</HMCIgufIncendiary>
+					<HMCIgufBot>1</HMCIgufBot>
+				</options>
+			</li>
+			<li>
+				<!-- Rangers only -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<HMCIgufRanger>10</HMCIgufRanger>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<HMCIgufRanger>5</HMCIgufRanger>
+					<HMCIgufHeavy>8</HMCIgufHeavy>
+					<HMCIgufSniper>10</HMCIgufSniper>
+					<HMCIgufIncendiary>10</HMCIgufIncendiary>
+					<HMCIgufBot>2</HMCIgufBot>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<HMCIgufRanger>5</HMCIgufRanger>
+					<HMCIgufHeavy>8</HMCIgufHeavy>
+					<HMCIgufSniper>10</HMCIgufSniper>
+					<HMCIgufIncendiary>10</HMCIgufIncendiary>
+					<HMCIgufBot>2</HMCIgufBot>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+	</FactionDef>
+  <ThingSetMakerDef>
+    <defName>IgufRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+			<li>Honey</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+</Defs>
