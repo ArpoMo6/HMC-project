@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ==================== 15x65mm Diffusing Charged ========================== -->
+	
+	<Ammo_15x65mmDiffusingCharged_Slug.label>15x65 мм (Slug)</Ammo_15x65mmDiffusingCharged_Slug.label>
+	<Ammo_15x65mmDiffusingCharged_Slug.description>15x65 мм - снарядный боеприпас, разработанный роем механоидов. \nСнаряд этого патрона наряду с кинетическим воздействием наносит урон как потоком заряженных частиц, так и микро-взрывом.</Ammo_15x65mmDiffusingCharged_Slug.description>
+	
+	
+	<Bullet_15x65mmDiffusingCharged_Slug.label>15x65 мм энерго-снаряд</Bullet_15x65mmDiffusingCharged_Slug.label>
+	
+	<Ammo_15x65mmDiffusingCharged_Buck.label>15x65 мм (Buck)</Ammo_15x65mmDiffusingCharged_Buck.label>
+	<Ammo_15x65mmDiffusingCharged_Buck.description>15x65 мм - картечный боеприпас, разработанный роем механоидов. \nКартечь этого патрона наряду с кинетическим воздействием наносит урон потоком заряженных частиц.</Ammo_15x65mmDiffusingCharged_Buck.description>
+	
+	
+	<Bullet_15x65mmDiffusingCharged_Buck.label>15x65 мм энерго-картечь</Bullet_15x65mmDiffusingCharged_Buck.label>
+
+	<!-- ==================== 6.7x29 mm Magnetic ========================== -->
+
+	<Ammo_67x29mm_AP.label>6.7x29 мм (AP)</Ammo_67x29mm_AP.label>
+	<Ammo_67x29mm_AP.description>Пулеобразная металлическая болванка, используемая в качестве снарядов для магнитных винтовок.</Ammo_67x29mm_AP.description>
+
+	<Ammo_67x29mm_EMP.label>6.7x29 мм (EMP)</Ammo_67x29mm_EMP.label>
+	<Ammo_67x29mm_EMP.description>Пулеобразная металлическая болванка, используемая в качестве снарядов для магнитных винтовок.</Ammo_67x29mm_EMP.description>
+
+	<Ammo_12Mag_Buck.label>.12 магнитный (Buck)</Ammo_12Mag_Buck.label>
+	<Ammo_12Mag_Buck.description>Специальные магнитные боеприпасы, которые рассыпаются в процессе стрельбы на множество маленьких осколков, образуя аналог картечи дробовиков.</Ammo_12Mag_Buck.description>
+
+	<Ammo_12Mag_ElectroSlug.label>.12 магнитный (EMP)</Ammo_12Mag_ElectroSlug.label>
+	<Ammo_12Mag_ElectroSlug.description>Специальные магнитные пулеобразные боеприпасы, которые при столкновении создают мощный EMP-импульс.</Ammo_12Mag_ElectroSlug.description>
+
+	<Bullet_67x29mm_AP.label>6.7x29 мм болванка (AP)</Bullet_67x29mm_AP.label>
+	<Bullet_67x29mm_EMP.label>6.7x29 мм болванка (EMP)</Bullet_67x29mm_EMP.label>
+	<Bullet_12Mag_Buck.label>.12 магнитный (Buck)</Bullet_12Mag_Buck.label>
+	<Bullet_12Mag_ElectroSlug.label>.12 магнитный (EMP)</Bullet_12Mag_ElectroSlug.label>
+
+	<!-- ==================== EdritThor hammer ========================== -->
+
+	<Weapon_GrenadeEdritThor.label>Молот едритТора</Weapon_GrenadeEdritThor.label>
+	<Weapon_GrenadeEdritThor.description>Высокотехнологичная энергетическая граната производства хайтек норбалов. Детальная проработка формы гранаты позволила упростить её транспортировку и хранение. Quadratisch, praktisch, gut.</Weapon_GrenadeEdritThor.description>
+
+	<Proj_GrenadeEdritThor.label>Молот едритТора</Proj_GrenadeEdritThor.label>
+
+	<!-- ==================== Mechanoid ========================== -->
+
+	<Ammo_110x384mmDoom_Thermobaric.label>110x384 мм (Thermobaric)</Ammo_110x384mmDoom_Thermobaric.label>
+	<Ammo_110x384mmDoom_Thermobaric.description>Чрезвычайно мощный боеприпас для создания мини-армагеддонов. Используется в орудии судного дня.</Ammo_110x384mmDoom_Thermobaric.description>
+
+	<Bullet_110x384mmDoom_Thermobaric.label>110x384 мм (Thermobaric)</Bullet_110x384mmDoom_Thermobaric.label>
+
+	<!-- ==================== Gauss ammo ========================== -->
+
+	<Ammo_GaussCharged.label>Боеприпасы гаусс-пушки</Ammo_GaussCharged.label>
+	<Ammo_GaussCharged.description>Боеприпасы гаусс-пушки</Ammo_GaussCharged.description>
+
+	<Bullet_GaussCharged.label>снаряд гаусс-пушки</Bullet_GaussCharged.label>
+
+</LanguageData>

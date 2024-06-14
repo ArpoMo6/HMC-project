@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LandShark.label>сухопутная акула</LandShark.label>
+  <LandShark.labelPlural>сухопутные акулы</LandShark.labelPlural>
+  <LandShark.labelMale>сухопутная акула</LandShark.labelMale>
+  <LandShark.labelMalePlural>сухопутные акулы</LandShark.labelMalePlural>
+  <LandShark.labelFemale>сухопутная акула</LandShark.labelFemale>
+  <LandShark.labelFemalePlural>сухопутные акулы</LandShark.labelFemalePlural>
+
+  <Jackalope.label>рогатый заяц</Jackalope.label>
+  <Jackalope.labelPlural>рогатые зайцы</Jackalope.labelPlural>
+  <Jackalope.labelMale>рогатый заяц</Jackalope.labelMale>
+  <Jackalope.labelMalePlural>рогатые зайцы</Jackalope.labelMalePlural>
+  <Jackalope.labelFemale>рогатая зайчиха</Jackalope.labelFemale>
+  <Jackalope.labelFemalePlural>рогатые зайчихи</Jackalope.labelFemalePlural>
+
+  <SnowJackalope.label>снежный рогатый заяц</SnowJackalope.label>
+  <SnowJackalope.labelPlural>снежные рогатые зайцы</SnowJackalope.labelPlural>
+  <SnowJackalope.labelMale>снежный рогатый заяц</SnowJackalope.labelMale>
+  <SnowJackalope.labelMalePlural>снежные рогатые зайцы</SnowJackalope.labelMalePlural>
+  <SnowJackalope.labelFemale>снежная рогатая зайчиха</SnowJackalope.labelFemale>
+  <SnowJackalope.labelFemalePlural>снежные рогатые зайчихи</SnowJackalope.labelFemalePlural>
+
+  <Hiveguardsman.label>гвардеец улья</Hiveguardsman.label>
+  <Hiveguardsman.labelPlural>гвардейцы улья</Hiveguardsman.labelPlural>
+  <Hiveguardsman.labelMale>гвардеец улья</Hiveguardsman.labelMale>
+  <Hiveguardsman.labelMalePlural>гвардейцы улья</Hiveguardsman.labelMalePlural>
+  <Hiveguardsman.labelFemale>гвардеец улья</Hiveguardsman.labelFemale>
+  <Hiveguardsman.labelFemalePlural>гвардейцы улья</Hiveguardsman.labelFemalePlural>
+  
+  <HMC_beaver.label>бобр</HMC_beaver.label>
+  <HMC_beaver.labelFemale>бобриха</HMC_beaver.labelFemale>
+  <HMC_beaver.labelPlural>бобры</HMC_beaver.labelPlural>
+  <HMC_beaver.lifeStages.0.label>бобрёнок</HMC_beaver.lifeStages.0.label>
+  <HMC_beaver.lifeStages.1.label>молодой бобр</HMC_beaver.lifeStages.1.label>
+  <HMC_beaver.lifeStages.1.labelFemale>молодая бобриха</HMC_beaver.lifeStages.1.labelFemale>
+  
+</LanguageData>

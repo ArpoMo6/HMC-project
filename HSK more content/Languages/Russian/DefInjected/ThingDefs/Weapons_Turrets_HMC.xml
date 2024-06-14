@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<!-- ==================== Cannons ========================== -->
+
+	<Gun_Cannon_HMC.label>Орудие пушки</Gun_Cannon_HMC.label>
+	<Gun_Cannon_HMC.description>Орудие управляемой пушки для забрасывания снарядов на головы врагов.</Gun_Cannon_HMC.description>
+
+	<!-- ==================== Machine guns ========================== -->
+
+	<Gun_NSV_HMC.label>Орудие НСВ-12.7 «Утёс»</Gun_NSV_HMC.label>
+	<Gun_NSV_HMC.description>Стационарный пулемет НСВ «Утёс» калибра 12.7×108 мм для турели.</Gun_NSV_HMC.description>
+
+	<Gun_LWMMGmounted_HMC.label>Орудие LWMMG 338</Gun_LWMMGmounted_HMC.label>
+	<Gun_LWMMGmounted_HMC.description>Стационарный пулемет LWMMG калибра .338 для турели.</Gun_LWMMGmounted_HMC.description>
+
+	<Gun_EnergyGPMG_HMC.label>Орудие единого энергопулемета</Gun_EnergyGPMG_HMC.label>
+	<Gun_EnergyGPMG_HMC.description>Стационарный единый энергопулемет калибра 6x24 мм.</Gun_EnergyGPMG_HMC.description>
+
+	<!-- ==================== Totems ========================== -->
+
+	<HMC_Gun_Totem.label>Метательная система тотема</HMC_Gun_Totem.label>
+	<HMC_Gun_Totem.description>Загадочное устройство, автоматически выплевывающее стрелы во врагов. Управляется духами ваших предков.</HMC_Gun_Totem.description>
+
+	<!-- ==================== Sentry turrets ========================== -->
+
+	<HMC_Gun_MicroTurret.label>Орудие микро-турели</HMC_Gun_MicroTurret.label>
+	<HMC_Gun_MicroTurret.description>Стационарный микро-пулемет для автотурели. Использует: любые пистолетные боеприпасы.</HMC_Gun_MicroTurret.description>
+
+	<HMC_Gun_MicroTurretGrenade.label>Гранатомет микро-турели</HMC_Gun_MicroTurretGrenade.label>
+	<HMC_Gun_MicroTurretGrenade.description>Стационарный микро-гранатомет для автотурели. Использует: 25x40 мм гранаты.</HMC_Gun_MicroTurretGrenade.description>
+
+	<HMC_Gun_MicroTurretShotgun.label>Дробовик микро-турели</HMC_Gun_MicroTurretShotgun.label>
+	<HMC_Gun_MicroTurretShotgun.description>Стационарный микро-дробовик для автотурели. Использует: боеприпасы дробовика.</HMC_Gun_MicroTurretShotgun.description>
+
+	<HMC_Gun_MicroTurretSniper.label>Винтовка микро-турели</HMC_Gun_MicroTurretSniper.label>
+	<HMC_Gun_MicroTurretSniper.description>Стационарная микро-винтовка для автотурели. Использует: .303 British / 7.62 мм винтовочные боеприпасы.</HMC_Gun_MicroTurretSniper.description>
+
+	<HMC_Gun_MicroTurretAdvanced.label>Орудие марксманской микро-турели</HMC_Gun_MicroTurretAdvanced.label>
+	<HMC_Gun_MicroTurretAdvanced.description>Стационарная микро-винтовка для продвинутой автотурели. Использует: .338 Lapua Magnum боеприпасы.</HMC_Gun_MicroTurretAdvanced.description>
+
+	<HMC_Gun_MicroTurretGrenadeAdvanced.label>Продвинутый гранатомет микро-турели</HMC_Gun_MicroTurretGrenadeAdvanced.label>
+	<HMC_Gun_MicroTurretGrenadeAdvanced.description>Стационарный микро-гранатомет для продвинутой автотурели. Использует: 30x29 мм гранаты.</HMC_Gun_MicroTurretGrenadeAdvanced.description>
+
+	<HMC_Gun_MicroTurretAMR.label>КСВ продвинутой микро-турели</HMC_Gun_MicroTurretAMR.label>
+	<HMC_Gun_MicroTurretAMR.description>Стационарная КСВ для продвинутой автотурели. Использует: .408 CT / .50 BMG / 12.7x108мм боеприпасы.</HMC_Gun_MicroTurretAMR.description>
+
+	<HMC_Gun_MicroTurretCharged.label>Орудие энергетической микро-турели</HMC_Gun_MicroTurretCharged.label>
+	<HMC_Gun_MicroTurretCharged.description>Стационарная микро-винтовка для энергетической автотурели. Использует: 6x24 мм боеприпасы.</HMC_Gun_MicroTurretCharged.description>
+
+	<HMC_Gun_MicroTurretMagnetic.label>Орудие магнитной микро-турели</HMC_Gun_MicroTurretMagnetic.label>
+	<HMC_Gun_MicroTurretMagnetic.description>Стационарная микро-винтовка для магнитной автотурели.</HMC_Gun_MicroTurretMagnetic.description>
+
+	<HMC_Gun_MicroTurretBlaster.label>Орудие бластерной микро-турели</HMC_Gun_MicroTurretBlaster.label>
+	<HMC_Gun_MicroTurretBlaster.description>Стационарная микро-винтовка для бластерной автотурели. Использует: Бластерная энергоячейка Бронебойная боеприпасы.</HMC_Gun_MicroTurretBlaster.description>
+
+	<HMC_Gun_MicroTurretPlasma.label>Орудие плазменной микро-турели</HMC_Gun_MicroTurretPlasma.label>
+	<HMC_Gun_MicroTurretPlasma.description>Стационарная микро-винтовка для плазменной автотурели. Использует: Плазменная энергоячейка.</HMC_Gun_MicroTurretPlasma.description>
+
+	<HMC_Gun_MacroTurret.label>Орудие макро-турели</HMC_Gun_MacroTurret.label>
+	<HMC_Gun_MacroTurret.description>Стационарный макро-пулемет для тяжелой автотурели. Использует: .303 British / 7.62 мм винтовочные боеприпасы.</HMC_Gun_MacroTurret.description>
+
+	<HMC_Gun_MacroTurretMarksman.label>Орудие марксманской макро-турели</HMC_Gun_MacroTurretMarksman.label>
+	<HMC_Gun_MacroTurretMarksman.description>Стационарная макро-винтовка для тяжелой автотурели. Использует: 14.5х114 мм боеприпасы.</HMC_Gun_MacroTurretMarksman.description>
+
+	<HMC_Gun_MacroTurretGrenade.label>Гранатомет макро-турели</HMC_Gun_MacroTurretGrenade.label>
+	<HMC_Gun_MacroTurretGrenade.description>Стационарный макро-гранатомет для тяжелой автотурели. Использует: 40x46 мм гранаты.</HMC_Gun_MacroTurretGrenade.description>
+
+	<HMC_Gun_MacroTurretShotgun.label>Дробовик макро-турели</HMC_Gun_MacroTurretShotgun.label>
+	<HMC_Gun_MacroTurretShotgun.description>Стационарный макро-дробовик для тяжелой автотурели. Использует: боеприпасы дробовика.</HMC_Gun_MacroTurretShotgun.description>
+
+	<HMC_Gun_MacroTurretCannon.label>90 мм пушка макро-турели</HMC_Gun_MacroTurretCannon.label>
+	<HMC_Gun_MacroTurretCannon.description>Стационарная 90 мм пушка для тяжелой автотурели. Использует: 90 мм артиллерийский снаряд.</HMC_Gun_MacroTurretCannon.description>
+
+	<HMC_Gun_MacroTurretPlasma.label>Плазмер макро-турели</HMC_Gun_MacroTurretPlasma.label>
+	<HMC_Gun_MacroTurretPlasma.description>Стационарный макро-плазмер для тяжелой автотурели. Использует: Плазменная энергоячейка.</HMC_Gun_MacroTurretPlasma.description>
+
+	<HMC_Gun_MacroTurretRailgun.label>Рельсотрон макро-турели</HMC_Gun_MacroTurretRailgun.label>
+	<HMC_Gun_MacroTurretRailgun.description>Стационарный рельсотрон для тяжелой автотурели. Использует: боеприпасы рейлгана.</HMC_Gun_MacroTurretRailgun.description>
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- I.G.U.F. -->
+
+  <HMCIgufRanger.label>Рейнжер И.Г.У.Ф.</HMCIgufRanger.label>
+  <HMCIgufRanger.description>Рейнжер.</HMCIgufRanger.description>
+
+  <HMCIgufHeavy.label>Подавитель И.Г.У.Ф.</HMCIgufHeavy.label>
+  <HMCIgufHeavy.description>Подавитель.</HMCIgufHeavy.description>
+
+  <HMCIgufSniper.label>Снайпер И.Г.У.Ф.</HMCIgufSniper.label>
+  <HMCIgufSniper.description>Снайпер.</HMCIgufSniper.description>
+
+  <HMCIgufIncendiary.label>Поджигатель И.Г.У.Ф.</HMCIgufIncendiary.label>
+  <HMCIgufIncendiary.description>Поджигатель.</HMCIgufIncendiary.description>
+
+  <HMCIgufBot.label>Бот И.Г.У.Ф.</HMCIgufBot.label>
+  <HMCIgufBot.description>Бот.</HMCIgufBot.description>
+
+</LanguageData>

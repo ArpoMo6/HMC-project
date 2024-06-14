@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: beaver -->
+  <HMC_beaver.label>бобр</HMC_beaver.label>
+  <!-- EN: A common beaver. -->
+  <HMC_beaver.description>Бобр обыкновенный.</HMC_beaver.description>
+  <!-- EN: left claw -->
+  <HMC_beaver.tools.left_claw.label>левая лапа</HMC_beaver.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <HMC_beaver.tools.right_claw.label>правая лапа</HMC_beaver.tools.right_claw.label>
+  <!-- EN: head -->
+  <HMC_beaver.tools.head.label>голова</HMC_beaver.tools.head.label>
+
+</LanguageData>

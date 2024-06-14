@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<StoneSlingBall_HMC.label>каменный снаряд пращи</StoneSlingBall_HMC.label>
+	<StoneSlingBall_HMC.labelShort>камень</StoneSlingBall_HMC.labelShort>
+	<StoneSlingBall_HMC.description>Обыкновенные камни, которые можно метать с помощью пращи.</StoneSlingBall_HMC.description>
+
+	<MetallicSlingBall_HMC.label>металлический снаряд пращи</MetallicSlingBall_HMC.label>
+	<MetallicSlingBall_HMC.labelShort>железка</MetallicSlingBall_HMC.labelShort>
+	<MetallicSlingBall_HMC.description>Обыкновенные железки, которые можно метать с помощью пращи.</MetallicSlingBall_HMC.description>
+
+	<BallSolid_HMC.label>пушечное ядро</BallSolid_HMC.label>
+	<BallSolid_HMC.labelShort>ядро</BallSolid_HMC.labelShort>
+	<BallSolid_HMC.description>Обычное металлическое ядро с пороховым зарядом.</BallSolid_HMC.description>
+
+	<BallExplosive_HMC.label>взрывное пушечное ядро</BallExplosive_HMC.label>
+	<BallExplosive_HMC.labelShort>взрывное ядро</BallExplosive_HMC.labelShort>
+	<BallExplosive_HMC.description>Металлическое ядро с большим пороховым зарядом.</BallExplosive_HMC.description>
+
+	<BallIncendiary_HMC.label>зажигательное пушечное ядро</BallIncendiary_HMC.label>
+	<BallIncendiary_HMC.labelShort>зажигательное ядро</BallIncendiary_HMC.labelShort>
+	<BallIncendiary_HMC.description>Металлическое ядро с горящей жидкостью.</BallIncendiary_HMC.description>
+
+	<BallGrape_HMC.label>пушечная картечь</BallGrape_HMC.label>
+	<BallGrape_HMC.labelShort>картечь</BallGrape_HMC.labelShort>
+	<BallGrape_HMC.description>Заряд металлических шариков.</BallGrape_HMC.description>
+
+	<RocketGrape.label>картечь</RocketGrape.label>
+	<RocketGrape.labelShort>картечь</RocketGrape.labelShort>
+	<RocketGrape.description>Заряд вольфрамовых шариков.</RocketGrape.description>
+
+	<RocketPlasma.label>плазма</RocketPlasma.label>
+	<RocketPlasma.labelShort>плазма</RocketPlasma.labelShort>
+	<RocketPlasma.description>Заряд плазмы.</RocketPlasma.description>
+
+	<Ionized_Slug.label>ионизированный снаряд (Ion-Slug)</Ionized_Slug.label>
+	<Ionized_Slug.description>Спроектирован для борьбы с механоидами, создаёт сильный электрический импульс в месте столкновения и эффективно вырубает всю электронику.</Ionized_Slug.description>
+
+	<Ionized_Buck.label>ионизированная картечь (Ion-Buck)</Ionized_Buck.label>
+	<Ionized_Buck.description>Спроектирован для борьбы с механоидами, создаёт множество слабых электрических импульсов в месте столкновения и эффективно вырубает всю электронику.</Ionized_Buck.description>
+
+	<DragonsBreath.label>дыхание дракона (DB)</DragonsBreath.label>
+	<DragonsBreath.labelShort>дыхание дракона (DB)</DragonsBreath.labelShort>
+	<DragonsBreath.description>Наполненный множеством крошечных осколков прометеума, которые распространяются широким узором, поджигая все на своем Пути!</DragonsBreath.description>
+
+	<Flechette.label>флешетта (F)</Flechette.label>
+	<Flechette.description>Множество крошечных стальных дротиков с большим потенциалом бронепробития.</Flechette.description>
+
+	<Shrapnel.label>шрапнель (S)</Shrapnel.label>
+	<Shrapnel.labelShort>шрапнель (S)</Shrapnel.labelShort>
+	<Shrapnel.description>Цельный снаряд, под завязку напичканный осколками и порохом.</Shrapnel.description>
+
+	<FullMetalJacket76251HMC.label>Оболочечный (FMJ) (7.62x51)</FullMetalJacket76251HMC.label>
+	<FullMetalJacket76251HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76251HMC.description>
+
+	<ArmorPiercing76251HMC.label>Бронебойный (AP) (7.62x51)</ArmorPiercing76251HMC.label>
+	<ArmorPiercing76251HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76251HMC.description>
+
+	<HollowPoint76251HMC.label>Экспансивный (HP) (7.62x51)</HollowPoint76251HMC.label>
+	<HollowPoint76251HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76251HMC.description>
+
+	<FullMetalJacket76254HMC.label>Оболочечный (FMJ) (7.62x54)</FullMetalJacket76254HMC.label>
+	<FullMetalJacket76254HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76254HMC.description>
+
+	<ArmorPiercing76254HMC.label>Бронебойный (AP) (7.62x54)</ArmorPiercing76254HMC.label>
+	<ArmorPiercing76254HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76254HMC.description>
+
+	<HollowPoint76254HMC.label>Экспансивный (HP) (7.62x54)</HollowPoint76254HMC.label>
+	<HollowPoint76254HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76254HMC.description>
+
+	<FullMetalJacket303HMC.label>Оболочечный (FMJ) (.303)</FullMetalJacket303HMC.label>
+	<FullMetalJacket303HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket303HMC.description>
+
+	<ArmorPiercing303HMC.label>Бронебойный (AP) (.303)</ArmorPiercing303HMC.label>
+	<ArmorPiercing303HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing303HMC.description>
+
+	<HollowPoint303HMC.label>Экспансивный (HP) (.303)</HollowPoint303HMC.label>
+	<HollowPoint303HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint303HMC.description>
+
+	<FullMetalJacket76225HMC.label>Оболочечный (FMJ) (7.62x25)</FullMetalJacket76225HMC.label>
+	<FullMetalJacket76225HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76225HMC.description>
+
+	<ArmorPiercing76225HMC.label>Бронебойный (AP) (7.62x25)</ArmorPiercing76225HMC.label>
+	<ArmorPiercing76225HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76225HMC.description>
+
+	<HollowPoint76225HMC.label>Экспансивный (HP) (7.62x25)</HollowPoint76225HMC.label>
+	<HollowPoint76225HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76225HMC.description>
+
+	<IncendiaryAP76225HMC.label>Зажигательно-бронебойный (AP-I) (7.62x25)</IncendiaryAP76225HMC.label>
+	<IncendiaryAP76225HMC.description>Зажигательный боеприпас, содержащий рецептуру для воспламенения легкогорючих материалов и объектов.</IncendiaryAP76225HMC.description>
+
+	<FullMetalJacket919HMC.label>Оболочечный (FMJ) (9x19)</FullMetalJacket919HMC.label>
+	<FullMetalJacket919HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket919HMC.description>
+
+	<ArmorPiercing919HMC.label>Бронебойный (AP) (9x19)</ArmorPiercing919HMC.label>
+	<ArmorPiercing919HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing919HMC.description>
+
+	<HollowPoint919HMC.label>Экспансивный (HP) (9x19)</HollowPoint919HMC.label>
+	<HollowPoint919HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint919HMC.description>
+
+	<FullMetalJacket45HMC.label>Оболочечный (FMJ) (.45)</FullMetalJacket45HMC.label>
+	<FullMetalJacket45HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket45HMC.description>
+
+	<ArmorPiercing45HMC.label>Бронебойный (AP) (.45)</ArmorPiercing45HMC.label>
+	<ArmorPiercing45HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing45HMC.description>
+
+	<HollowPoint45HMC.label>Экспансивный (HP) (.45)</HollowPoint45HMC.label>
+	<HollowPoint45HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint45HMC.description>
+
+	<FullMetalJacket408CTHMC.label>Оболочечный (FMJ) (.408 Chey Tac)</FullMetalJacket408CTHMC.label>
+	<FullMetalJacket408CTHMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket408CTHMC.description>
+
+	<ArmorPiercing408CTHMC.label>Бронебойный (AP) (.408 Chey Tac)</ArmorPiercing408CTHMC.label>
+	<ArmorPiercing408CTHMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing408CTHMC.description>
+
+	<HollowPoint408CTHMC.label>Экспансивный (HP) (.408 Chey Tac)</HollowPoint408CTHMC.label>
+	<HollowPoint408CTHMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint408CTHMC.description>
+
+	<EMP408CTHMC.label>Электромагнитный (EMP) (.408 Chey Tac)</EMP408CTHMC.label>
+	<EMP408CTHMC.description>Снаряд несёт с собой огромный электростатический заряд, хорошо применим против различных электронных угроз.</EMP408CTHMC.description>
+
+	<FullMetalJacket50BMGHMC.label>Оболочечный (FMJ) (.50 BMG)</FullMetalJacket50BMGHMC.label>
+	<FullMetalJacket50BMGHMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket50BMGHMC.description>
+
+	<IncendiaryAP50BMGHMC.label>Зажигательно-бронебойный (AP-I) (.50 BMG)</IncendiaryAP50BMGHMC.label>
+	<IncendiaryAP50BMGHMC.description>Зажигательный боеприпас, содержащий рецептуру для воспламенения легкогорючих материалов и объектов.</IncendiaryAP50BMGHMC.description>
+
+	<Sabot50BMGHMC.label>Подкалиберный (Sabot) (.50 BMG)</Sabot50BMGHMC.label> 
+	<Sabot50BMGHMC.description>Боеприпасы, диаметр боевой части (сердечника) которых меньше диаметра ствола. Чаще всего используются для борьбы с бронированными целями. Увеличение бронепробиваемости по сравнению с обычными калиберными бронебойными боеприпасами происходит за счет увеличения начальной скорости боеприпасов и удельного давления в процессе пробития брони.</Sabot50BMGHMC.description>
+
+	<ExplosiveAP50BMGHMC.label>Бронебойно-фугасный (HESH) (.50 BMG)</ExplosiveAP50BMGHMC.label>
+	<ExplosiveAP50BMGHMC.description>Боеприпас с взрывной сердцевиной, детонирующий при контакте с целью.</ExplosiveAP50BMGHMC.description>
+
+	<FullMetalJacket127HMC.label>Оболочечный (FMJ) (12.7x108мм)</FullMetalJacket127HMC.label>
+	<FullMetalJacket127HMC.labelShort>FMJ (12.7x108мм)</FullMetalJacket127HMC.labelShort>
+	<FullMetalJacket127HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket127HMC.description>
+
+	<IncendiaryAP127HMC.label>Зажигательно-бронебойный (AP-I) (12.7x108мм)</IncendiaryAP127HMC.label>
+	<IncendiaryAP127HMC.labelShort>AP-I (12.7x108мм)</IncendiaryAP127HMC.labelShort>
+	<IncendiaryAP127HMC.description>Зажигательный боеприпас, содержащий рецептуру для воспламенения легкогорючих материалов и объектов.</IncendiaryAP127HMC.description>
+
+	<Sabot127HMC.label>Подкалиберный (Sabot) (12.7x108мм)</Sabot127HMC.label>
+	<Sabot127HMC.labelShort>Sabot (12.7x108мм)</Sabot127HMC.labelShort>
+	<Sabot127HMC.description>Боеприпасы, диаметр боевой части (сердечника) которых меньше диаметра ствола. Чаще всего используются для борьбы с бронированными целями. Увеличение бронепробиваемости по сравнению с обычными калиберными бронебойными боеприпасами происходит за счет увеличения начальной скорости боеприпасов и удельного давления в процессе пробития брони.</Sabot127HMC.description>
+
+	<ExplosiveAP127HMC.label>Бронебойно-фугасный (HESH) (12.7x108мм)</ExplosiveAP127HMC.label>
+	<ExplosiveAP127HMC.labelShort>AP-HE (12.7x108мм)</ExplosiveAP127HMC.labelShort>
+	<ExplosiveAP127HMC.description>Боеприпас с взрывной сердцевиной, детонирующий при контакте с целью.</ExplosiveAP127HMC.description>
+
+</LanguageData>

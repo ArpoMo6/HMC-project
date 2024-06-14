@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ==================== Cannons ========================== -->
+
+	<Cannon_HMC.label>Пушка</Cannon_HMC.label>
+	<Cannon_HMC.description>Управляемая пушка для забрасывания снарядов на головы врагов.\nНеобходим стрелок.\n\nПушка... они заряжают пушку, но зачем?</Cannon_HMC.description>
+
+	<!-- ==================== Machine guns ========================== -->
+
+	<Turret_NSV_HMC.label>Стационарный пулемёт НСВ-12.7 «Утёс»</Turret_NSV_HMC.label>
+	<Turret_NSV_HMC.description>Крупнокалиберный пулемет на треноге.\nНеобходим стрелок.\n\nИспользует: 12.7x108 мм боеприпасы.</Turret_NSV_HMC.description>
+
+	<Turret_LWMMGmounted_HMC.label>Стационарный пулемёт LWMMG 338</Turret_LWMMGmounted_HMC.label>
+	<Turret_LWMMGmounted_HMC.description>Единый пулемет на треноге.\nНеобходим стрелок.\n\nИспользует: .338 боеприпасы.</Turret_LWMMGmounted_HMC.description>
+
+	<Turret_EnergyGPMG_HMC.label>Единый энергопулемёт</Turret_EnergyGPMG_HMC.label>
+	<Turret_EnergyGPMG_HMC.description>Единый пулемет на четыреноге.\nНеобходим стрелок.\n\nИспользует: 6x24 мм боеприпасы.</Turret_EnergyGPMG_HMC.description>
+
+	<!-- ==================== Totems ========================== -->
+
+	<HMC_Turret_Totem.label>Тотем предков</HMC_Turret_Totem.label>
+	<HMC_Turret_Totem.description>Тотем, управляемый духами предков. Автоматически выплевывает стрелы в ближайших врагов. Для работы требуется кровавая жертва плотью гуманоида, эквивалентная одному человеческому трупу.\n\nИспользует: Стрелы.</HMC_Turret_Totem.description>
+	<HMC_Turret_Totem.comps.CompRefuelable.fuelLabel>Выстрелов до новой жертвы</HMC_Turret_Totem.comps.CompRefuelable.fuelLabel>
+	<HMC_Turret_Totem.comps.CompRefuelable.fuelGizmoLabel>Сила жертвоприношения</HMC_Turret_Totem.comps.CompRefuelable.fuelGizmoLabel>
+	<HMC_Turret_Totem.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется новая жертва</HMC_Turret_Totem.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- ==================== Sentry turrets ========================== -->
+
+	<HMC_Turret_MicroTurret.label>Микро-турель</HMC_Turret_MicroTurret.label>
+	<HMC_Turret_MicroTurret.description>Небольшая переносимая автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: любые пистолетные боеприпасы.</HMC_Turret_MicroTurret.description>
+
+	<HMC_Turret_MicroTurretGrenade.label>Гранатометная микро-турель</HMC_Turret_MicroTurretGrenade.label>
+	<HMC_Turret_MicroTurretGrenade.description>Небольшая переносимая автоматическая гранатометная турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: 25x40 мм гранаты.</HMC_Turret_MicroTurretGrenade.description>
+
+	<HMC_Turret_MicroTurretShotgun.label>Микро-турель-дробовик</HMC_Turret_MicroTurretShotgun.label>
+	<HMC_Turret_MicroTurretShotgun.description>Небольшая переносимая автоматическая турель-дробовик. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: боеприпасы дробовика.</HMC_Turret_MicroTurretShotgun.description>
+
+	<HMC_Turret_MicroTurretSniper.label>Снайперская микро-турель</HMC_Turret_MicroTurretSniper.label>
+	<HMC_Turret_MicroTurretSniper.description>Небольшая переносимая автоматическая турель-снайпер. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: .303 British / 7.62 мм винтовочные боеприпасы.</HMC_Turret_MicroTurretSniper.description>
+
+	<Turret_MiniTurret.label>Пулеметная микро-турель</Turret_MiniTurret.label>
+	<Turret_MiniTurret.description>Небольшая переносимая продвинутая автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: 5.56x45 NATO боеприпасы.</Turret_MiniTurret.description>
+
+	<HMC_Turret_MicroTurretAdvanced.label>Марксманская микро-турель</HMC_Turret_MicroTurretAdvanced.label>
+	<HMC_Turret_MicroTurretAdvanced.description>Небольшая переносимая продвинутая автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: .338 Lapua Magnum боеприпасы.</HMC_Turret_MicroTurretAdvanced.description>
+
+	<HMC_Turret_MicroTurretGrenadeAdvanced.label>Продв гранатометная микро-турель</HMC_Turret_MicroTurretGrenadeAdvanced.label>
+	<HMC_Turret_MicroTurretGrenadeAdvanced.description>Небольшая переносимая продвинутая автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: 30x29 мм гранаты.</HMC_Turret_MicroTurretGrenadeAdvanced.description>
+
+	<HMC_Turret_MicroTurretAMR.label>Микро-турель с КСВ</HMC_Turret_MicroTurretAMR.label>
+	<HMC_Turret_MicroTurretAMR.description>Небольшая переносимая продвинутая автоматическая турель с крупнкалиберной снайперской винтовкой (КСВ). Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: .408 CT / .50 BMG / 12.7x108мм боеприпасы.</HMC_Turret_MicroTurretAMR.description>
+
+	<HMC_Turret_MicroTurretCharged.label>Энергетическая микро-турель</HMC_Turret_MicroTurretCharged.label>
+	<HMC_Turret_MicroTurretCharged.description>Небольшая переносимая энергетическая автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: 6x24 мм боеприпасы.</HMC_Turret_MicroTurretCharged.description>
+
+	<HMC_Turret_MicroTurretMagnetic.label>Магнитная микро-турель</HMC_Turret_MicroTurretMagnetic.label>
+	<HMC_Turret_MicroTurretMagnetic.description>Небольшая переносимая магнитная автоматическая турель. Легкотранспортируема. При повреждении может взорваться.</HMC_Turret_MicroTurretMagnetic.description>
+
+	<HMC_Turret_MicroTurretBlaster.label>Бластерная микро-турель</HMC_Turret_MicroTurretBlaster.label>
+	<HMC_Turret_MicroTurretBlaster.description>Небольшая переносимая бластерная автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: бластерная энергоячейка бронебойная.</HMC_Turret_MicroTurretBlaster.description>
+
+	<HMC_Turret_MicroTurretPlasma.label>Плазменная микро-турель</HMC_Turret_MicroTurretPlasma.label>
+	<HMC_Turret_MicroTurretPlasma.description>Небольшая переносимая плазменная автоматическая турель. Легкотранспортируема. При повреждении может взорваться.\n\nИспользует: плазменная энергоячейка.</HMC_Turret_MicroTurretPlasma.description>
+
+	<HMC_Turret_MacroTurret.label>Макро-турель</HMC_Turret_MacroTurret.label>
+	<HMC_Turret_MacroTurret.description>Большая переносимая автоматическая турель. При повреждении может взорваться.\n\nИспользует: .303 British / 7.62 мм винтовочные боеприпасы.</HMC_Turret_MacroTurret.description>
+
+	<HMC_Turret_MacroTurretMarksman.label>Марксманская макро-турель</HMC_Turret_MacroTurretMarksman.label>
+	<HMC_Turret_MacroTurretMarksman.description>Большая переносимая марксманская автоматическая турель. При повреждении может взорваться.\n\nИспользует: 14.5х114 мм боеприпасы.</HMC_Turret_MacroTurretMarksman.description>
+
+	<HMC_Turret_MacroTurretGrenade.label>Гранатометная макро-турель</HMC_Turret_MacroTurretGrenade.label>
+	<HMC_Turret_MacroTurretGrenade.description>Большая переносимая гранатометная автоматическая турель. При повреждении может взорваться.\n\nИспользует: 40x46 мм гранаты.</HMC_Turret_MacroTurretGrenade.description>
+
+	<HMC_Turret_MacroTurretShotgun.label>Макро-турель-дробовик</HMC_Turret_MacroTurretShotgun.label>
+	<HMC_Turret_MacroTurretShotgun.description>Большая переносимая автоматическая турель-дробовик. При повреждении может взорваться.\n\nИспользует: боеприпасы дробовика.</HMC_Turret_MacroTurretShotgun.description>
+
+	<HMC_Turret_MacroTurretCannon.label>Пушечная макро-турель</HMC_Turret_MacroTurretCannon.label>
+	<HMC_Turret_MacroTurretCannon.description>Большая переносимая автоматическая пушечная турель. При повреждении может взорваться.\n\nИспользует: 90 мм артиллерийский снаряд.</HMC_Turret_MacroTurretCannon.description>
+
+	<HMC_Turret_MacroTurretPlasma.label>Плазменная макро-турель</HMC_Turret_MacroTurretPlasma.label>
+	<HMC_Turret_MacroTurretPlasma.description>Большая переносимая автоматическая плазменная турель. При повреждении может взорваться.\n\nИспользует: плазменная энергоячейка.</HMC_Turret_MacroTurretPlasma.description>
+
+	<HMC_Turret_MacroTurretRailgun.label>Рельсотронная макро-турель</HMC_Turret_MacroTurretRailgun.label>
+	<HMC_Turret_MacroTurretRailgun.description>Большая переносимая автоматическая турель с рельсотронной пушкой. При повреждении может взорваться.\n\nИспользует: боеприпасы рейлгана.</HMC_Turret_MacroTurretRailgun.description>
+
+</LanguageData>

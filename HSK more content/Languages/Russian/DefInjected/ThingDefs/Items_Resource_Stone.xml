@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HMC_BlocksConcrete.label>бетонные блоки</HMC_BlocksConcrete.label>
+  <HMC_BlocksConcrete.description>Блоки твердого бетона. Скучно выглядящий камень, который очень легко крошится. Не очень прочный и красивый, но постройки возводить из него намного приятнее, чем из других камней.</HMC_BlocksConcrete.description>
+  <HMC_BlocksConcrete.stuffProps.stuffAdjective>бетона</HMC_BlocksConcrete.stuffProps.stuffAdjective>
+
+</LanguageData>

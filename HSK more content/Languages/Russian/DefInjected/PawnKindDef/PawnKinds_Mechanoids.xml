@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Reaper -->
+  <Mech_Reaper_HMC.label>Рипер</Mech_Reaper_HMC.label>
+  <Mech_Reaper_HMC.labelPlural>Риперы</Mech_Reaper_HMC.labelPlural>
+  <Mech_Reaper_HMC.labelMale>Рипер</Mech_Reaper_HMC.labelMale>
+  <Mech_Reaper_HMC.labelMalePlural>Риперы</Mech_Reaper_HMC.labelMalePlural>
+  <Mech_Reaper_HMC.labelFemale>Рипер</Mech_Reaper_HMC.labelFemale>
+  <Mech_Reaper_HMC.labelFemalePlural>Риперы</Mech_Reaper_HMC.labelFemalePlural>
+
+  <!-- Doomtipede -->
+  <Mech_Doomtipede_HMC.label>Думтипеда</Mech_Doomtipede_HMC.label>
+  <Mech_Doomtipede_HMC.labelPlural>Думтипеды</Mech_Doomtipede_HMC.labelPlural>
+  <Mech_Doomtipede_HMC.labelMale>Думтипеда</Mech_Doomtipede_HMC.labelMale>
+  <Mech_Doomtipede_HMC.labelMalePlural>Думтипеды</Mech_Doomtipede_HMC.labelMalePlural>
+  <Mech_Doomtipede_HMC.labelFemale>Думтипеда</Mech_Doomtipede_HMC.labelFemale>
+  <Mech_Doomtipede_HMC.labelFemalePlural>Думтипеды</Mech_Doomtipede_HMC.labelFemalePlural>
+
+  <!-- Carpenter -->
+  <Mech_Carpenter_HMC.label>Карпентер</Mech_Carpenter_HMC.label>
+  <Mech_Carpenter_HMC.labelPlural>Карпентеры</Mech_Carpenter_HMC.labelPlural>
+  <Mech_Carpenter_HMC.labelMale>Карпентер</Mech_Carpenter_HMC.labelMale>
+  <Mech_Carpenter_HMC.labelMalePlural>Карпентеры</Mech_Carpenter_HMC.labelMalePlural>
+  <Mech_Carpenter_HMC.labelFemale>Карпентер</Mech_Carpenter_HMC.labelFemale>
+  <Mech_Carpenter_HMC.labelFemalePlural>Карпентеры</Mech_Carpenter_HMC.labelFemalePlural>
+
+</LanguageData>

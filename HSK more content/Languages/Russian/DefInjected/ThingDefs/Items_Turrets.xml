@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<MinifiedCannon_HMC.label>Пушка</MinifiedCannon_HMC.label>
+	<MinifiedTurret_NSV_HMC.label>Стационарный пулемет НСВ «Утёс» калибра 12.7x108 мм</MinifiedTurret_NSV_HMC.label>
+	<MinifiedTurret_LWMMGmounted_HMC.label>Стационарный пулемет LWMMG калибра .338</MinifiedTurret_LWMMGmounted_HMC.label>
+	<HMC_MinifiedMicroTurretGun.label>Автоматическая микро-турель</HMC_MinifiedMicroTurretGun.label>
+	<MinifiedTurret_EnergyGPMG_HMC.label>Единый энергопулемет калибра 6x24 мм</MinifiedTurret_EnergyGPMG_HMC.label>
+
+</LanguageData>

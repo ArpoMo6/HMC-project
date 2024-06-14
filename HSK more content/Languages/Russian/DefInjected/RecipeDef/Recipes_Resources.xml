@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HMC_Make_StoneBlocksConcrete.label>изготовить бетонные блоки</HMC_Make_StoneBlocksConcrete.label>
+  <HMC_Make_StoneBlocksConcrete.description>Изготовить блоки из бетона.</HMC_Make_StoneBlocksConcrete.description>
+  <HMC_Make_StoneBlocksConcrete.jobString>Изготавливает блоки из бетона</HMC_Make_StoneBlocksConcrete.jobString>
+
+</Defs>

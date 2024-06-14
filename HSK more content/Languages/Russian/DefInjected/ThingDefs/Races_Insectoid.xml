@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<HMC_Bubble.label>Бубл</HMC_Bubble.label>
+	<HMC_Bubble.description>Бесшумный сталкер и безжалостный шарообразный инсектоид. Они были выведены специально для борьбы с вторжениями механоидов, но это не делает их менее опасными для людей. Они полностью социальны и не могут размножаться в одиночку.\n\nМожет прыгать.\nВзрывается после смерти.\n\nХудожник: Cosmochrpshk</HMC_Bubble.description>
+	<Corpse_HMC_Bubble.label>труп бубла</Corpse_HMC_Bubble.label>
+	<Corpse_HMC_Bubble.description>Труп бубла.</Corpse_HMC_Bubble.description>
+
+</LanguageData>

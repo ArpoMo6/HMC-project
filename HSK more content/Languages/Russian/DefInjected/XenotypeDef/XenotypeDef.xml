@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <HMC_Teljor.label>Телжор</HMC_Teljor.label>
+  <HMC_Teljor.description>Телжоры - это подраса высоких, изящных существ, обитающих в густых лесах и глубоких пещерах. Были выведены случайно во время экспериментов над норбалами-гемофагами и обладают частью их способностей. Довольно кровожадны по своей природе, но к друзьям относятся очень добродушно.</HMC_Teljor.description>
+  <HMC_Teljor.descriptionShort>Телжоры - это подраса высоких, изящных существ, обитающих в густых лесах и глубоких пещерах. Умеют прыгать, плеваться пеной и хорошо ориентироваться в темноте.</HMC_Teljor.descriptionShort>
+
+  <HMC_Homunculus.label>Гомункулус</HMC_Homunculus.label>
+  <HMC_Homunculus.description>Гомункулус – генетически выведенный мутант некими безумными и любящими покутить мохнатыми учеными. Цель выведения неизвестна, получившийся экземпляр крайне нестабилен генетически, но все же обладает некоторым потенциалом для выживания и даже размножения.</HMC_Homunculus.description>
+  <HMC_Homunculus.descriptionShort>Творение злобных котиков с наркотиками.</HMC_Homunculus.descriptionShort>
+
+  <HMC_HightechNorbal.label>Хайтек Норбал</HMC_HightechNorbal.label>
+  <HMC_HightechNorbal.description>Хайтек Норбалы - славный народец пришел к нам из далеких глубин космоса с явно добрыми намерениями причинять добро и наносить справедливость!</HMC_HightechNorbal.description>
+  <HMC_HightechNorbal.descriptionShort>Хайтек Норбалы - славный народец пришел к нам из далеких глубин космоса с явно добрыми намерениями причинять добро и наносить справедливость!</HMC_HightechNorbal.descriptionShort>
+
+</LanguageData>

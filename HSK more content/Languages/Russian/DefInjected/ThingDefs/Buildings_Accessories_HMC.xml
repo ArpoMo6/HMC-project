@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SilverGlowstoneLamp.label>Среброкаменная лампа</SilverGlowstoneLamp.label>
+	<SilverGlowstoneLamp.description>Разновидность светокаменной лампы с использованием специальной технологии нанесения светоотражающего серебра. Яркость и цвет немного отличаются.</SilverGlowstoneLamp.description>
+
+	<HMC_OneStackChest.label>Единый сундук</HMC_OneStackChest.label>
+	<HMC_OneStackChest.description>Очень прочный сундук для хранения единственного содержимого. Создается с использованием нанобронированных едритополинорбальных волокон. Один сундук, чтоб править всеми.</HMC_OneStackChest.description>
+
+	<HMC_Tribal_Facility.label>Приставная тумба</HMC_Tribal_Facility.label>
+	<HMC_Tribal_Facility.description>Простенькое место для хранения заметок и результатов экспериментов. Незначительно увеличивает скорость исследования, если установить рядом с примитивным научным столом.\n\nСтакается до 3. Стакается с другими приставными столиками.</HMC_Tribal_Facility.description>
+
+	<HMC_CS_Tribal_Facility.label>Приставная тумба с хладокамнем</HMC_CS_Tribal_Facility.label>
+	<HMC_CS_Tribal_Facility.description>Простенькое место для хранения заметок и результатов экспериментов. Незначительно увеличивает скорость исследования, если установить рядом с примитивным научным столом. Легкий хладокамневый бриз усиливает этот эффект.\n\nСтакается до 3. Стакается с другими приставными столиками.</HMC_CS_Tribal_Facility.description>
+
+	<HMC_GS_Tribal_Facility.label>Приставная тумба со светокамнем</HMC_GS_Tribal_Facility.label>
+	<HMC_GS_Tribal_Facility.description>Простенькое место для хранения заметок и результатов экспериментов. Незначительно увеличивает скорость исследования, если установить рядом с примитивным научным столом. Мягкий светокамневый свет усиливает этот эффект.\n\nСтакается до 3. Стакается с другими приставными столиками.</HMC_GS_Tribal_Facility.description>
+
+</LanguageData>

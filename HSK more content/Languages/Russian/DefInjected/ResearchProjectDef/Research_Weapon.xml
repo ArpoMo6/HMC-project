@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MicroTurrets_HMC.label>Микро-турели I</MicroTurrets_HMC.label>
+    <MicroTurrets_HMC.description>Открывает доступ к созданию простых микро-турелей (авто-пиу-пиу!)</MicroTurrets_HMC.description>
+
+    <MicroTurretsTwo_HMC.label>Микро-турели II</MicroTurretsTwo_HMC.label>
+    <MicroTurretsTwo_HMC.description>Расширяет арсенал простых микро-турелей (авто-пиу-пиу!!)</MicroTurretsTwo_HMC.description>
+
+    <MicroTurretsAdvanced_HMC.label>Продв. микро-турели I</MicroTurretsAdvanced_HMC.label>
+    <MicroTurretsAdvanced_HMC.description>Расширяет арсенал микро-турелей продвинутыми версиями</MicroTurretsAdvanced_HMC.description>
+
+    <MicroTurretsAdvancedTwo_HMC.label>Продв. микро-турели II</MicroTurretsAdvancedTwo_HMC.label>
+    <MicroTurretsAdvancedTwo_HMC.description>Расширяет арсенал продвинутых микро-турелей</MicroTurretsAdvancedTwo_HMC.description>
+
+    <MicroTurretsHiTech_HMC.label>Высокотехнологичные микро-турели</MicroTurretsHiTech_HMC.label>
+    <MicroTurretsHiTech_HMC.description>Открывает доступ к созданию высокотехнологичных микро-турелей (хайтек авто-пиу-пиу!!!)</MicroTurretsHiTech_HMC.description>
+
+	<GunTurrets.label>Макро-турели I</GunTurrets.label>
+	<GunTurrets.description>Открывает доступ к созданию простых, но грозных автоматических турелей.</GunTurrets.description>
+
+	<Autoturrets_D2.label>Прочие автотурели</Autoturrets_D2.label>
+	<Autoturrets_D2.description>Неактуальный хлам.</Autoturrets_D2.description>
+
+	<Autoturrets_D3.label>Макро-турели II</Autoturrets_D3.label>
+	<Autoturrets_D3.description>Расширяет арсенал макро-турелей.</Autoturrets_D3.description>
+
+	<MacroTurretsThree_HMC.label>Макро-турели III</MacroTurretsThree_HMC.label>
+	<MacroTurretsThree_HMC.description>Расширяет арсенал макро-турелей высокотехнологичными их версиями.</MacroTurretsThree_HMC.description>
+
+</LanguageData>

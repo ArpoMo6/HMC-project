@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <HMC_NamerRoleCookingSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->повар</li>
+    <li>r_roleName->кашевар</li>
+    <li>r_roleName->Рамзи</li>
+	<li>r_roleName->норбалльери</li>
+    <li>firstPart->спрашива</li>
+	<li>firstPart->греча</li>
+	<li>firstPart->картоха</li>
+	<li>firstPart->пицца</li>
+	<li>firstPart->имбире</li>
+	<li>firstPart->двуножко</li>
+    <li>firstPart->вари</li>
+    <li>firstPart->паста</li>
+	<li>firstPart->меню</li>
+  </HMC_NamerRoleCookingSpecialist.rulePack.rulesStrings>
+  
+</LanguageData>

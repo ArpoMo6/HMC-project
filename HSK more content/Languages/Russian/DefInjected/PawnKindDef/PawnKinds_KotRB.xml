@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Knights of the Round Barrel -->
+
+  <HMC_KotRB_Squire.label>оруженосец Круглого Ствола</HMC_KotRB_Squire.label>
+  <HMC_KotRB_Squire.description>добрая средневековая боевая единица.</HMC_KotRB_Squire.description>
+
+  <HMC_KotRB_Breacher.label>разрушитель Круглого Ствола</HMC_KotRB_Breacher.label>
+  <HMC_KotRB_Breacher.description>хитрая средневековая боевая единица.</HMC_KotRB_Breacher.description>
+
+  <HMC_KotRB_Knight.label>рыцарь Круглого Ствола</HMC_KotRB_Knight.label>
+  <HMC_KotRB_Knight.description>стойкая средневековая боевая единица.</HMC_KotRB_Knight.description>
+
+  <HMC_KotRB_Cannoner.label>пушкарь Круглого Ствола</HMC_KotRB_Cannoner.label>
+  <HMC_KotRB_Cannoner.description>взрывная средневековая боевая единица.</HMC_KotRB_Cannoner.description>
+
+  <HMC_KotRB_Holy_Knight.label>святой рыцарь Круглого Ствола</HMC_KotRB_Holy_Knight.label>
+  <HMC_KotRB_Holy_Knight.description>мудрая средневековая боевая единица.</HMC_KotRB_Holy_Knight.description>
+
+</LanguageData>

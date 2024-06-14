@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<!-- ==================== Cannons ========================== -->
+
+	<Build_Cannon_Crate_HMC.label>Сделать детали пушки</Build_Cannon_Crate_HMC.label> 
+	<Build_Cannon_Crate_HMC.description>Сделать детали для постройки управляемой пушки.</Build_Cannon_Crate_HMC.description>
+	<Build_Cannon_Crate_HMC.jobString>Делает детали пушки.</Build_Cannon_Crate_HMC.jobString>
+
+	<!-- ==================== Machine guns ========================== -->
+
+	<BuildNSV_Crate_HMC.label>Сделать детали пулемёта НСВ-12.7 «Утёс»</BuildNSV_Crate_HMC.label> 
+	<BuildNSV_Crate_HMC.description>Сделать детали для постройки стационарного пулемёта НСВ-12.7 «Утёс».</BuildNSV_Crate_HMC.description>
+	<BuildNSV_Crate_HMC.jobString>Делает детали НСВ-12.7 «Утёс».</BuildNSV_Crate_HMC.jobString>
+
+	<BuildLWMMG_Crate_HMC.label>Сделать детали пулемёта LWMMG 338</BuildLWMMG_Crate_HMC.label> 
+	<BuildLWMMG_Crate_HMC.description>Сделать детали для постройки стационарного пулемёта LWMMG 338.</BuildLWMMG_Crate_HMC.description>
+	<BuildLWMMG_Crate_HMC.jobString>Делает детали LWMMG 338.</BuildLWMMG_Crate_HMC.jobString>
+
+	<HMC_BuildMicroTurret_Crate.label>Сделать детали микро-турели</HMC_BuildMicroTurret_Crate.label> 
+	<HMC_BuildMicroTurret_Crate.description>Сделать детали для автоматической микро-турели.</HMC_BuildMicroTurret_Crate.description>
+	<HMC_BuildMicroTurret_Crate.jobString>Делает детали микро-турели.</HMC_BuildMicroTurret_Crate.jobString>
+
+	<HMC_BuildMacroTurret_Crate.label>Сделать детали макро-турели</HMC_BuildMacroTurret_Crate.label> 
+	<HMC_BuildMacroTurret_Crate.description>Сделать детали для автоматической макро-турели.</HMC_BuildMacroTurret_Crate.description>
+	<HMC_BuildMacroTurret_Crate.jobString>Делает детали макро-турели.</HMC_BuildMacroTurret_Crate.jobString>
+
+	<BuildEnergyGPMG_Crate_HMC.label>Сделать детали единого энергопулемёта</BuildEnergyGPMG_Crate_HMC.label> 
+	<BuildEnergyGPMG_Crate_HMC.description>Сделать детали для постройки детали единого энергопулемёта 6x24 мм.</BuildEnergyGPMG_Crate_HMC.description>
+	<BuildEnergyGPMG_Crate_HMC.jobString>Делает детали единого энергопулемёта.</BuildEnergyGPMG_Crate_HMC.jobString>
+
+ </LanguageData>

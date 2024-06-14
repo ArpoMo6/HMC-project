@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<!-- ==================== Pistols ========================== -->
+	
+	<BuildGreaterDesertEagleGun.label>Собрать пустынный арёль</BuildGreaterDesertEagleGun.label>
+	<BuildGreaterDesertEagleGun.description>Модификация легендарного пистолета .50 BMG калибра вместо стандартного .50 AE. В результате такой модификации точность и прицельная дальность стрельбы несколько пострадали, но вот если попадет... \n\nИспользует боеприпасы: .50 BMG</BuildGreaterDesertEagleGun.description>
+	<BuildGreaterDesertEagleGun.jobString>Собирает пустынный арёль.</BuildGreaterDesertEagleGun.jobString>
+
+	<Build_Gun_RSH12s.label>Собрать РШ-12</Build_Gun_RSH12s.label>
+	<Build_Gun_RSH12s.description>Оружие древнего мира. Габаритный револьвер крупного калибра. \n\nИспользует боеприпасы: 12.7x55 мм СЦ-130</Build_Gun_RSH12s.description>
+	<Build_Gun_RSH12s.jobString>Собирает РШ-12.</Build_Gun_RSH12s.jobString>
+
+	<BuildRF_Gun_EP.label>Собрать энергопистолет R1 Pricker</BuildRF_Gun_EP.label>
+	<BuildRF_Gun_EP.description>Продвинутый пистолет. Высокая точность, скорострельность, дальность (для пистолета) стрельбы.\n\nИспользует боеприпасы: 6x24 мм энерго-боеприпас</BuildRF_Gun_EP.description>
+	<BuildRF_Gun_EP.jobString>Собирает R1 Pricker.</BuildRF_Gun_EP.jobString>
+
+	<Build_Gun_TT33_HMC.label>Собрать пистолет ТТ-33</Build_Gun_TT33_HMC.label>
+	<Build_Gun_TT33_HMC.description>Древний образец пистолета со сбалансированными характеристиками.\n\nИспользует боеприпасы: 7.62x25 мм TT</Build_Gun_TT33_HMC.description>
+	<Build_Gun_TT33_HMC.jobString>Собирает пистолет ТТ-33.</Build_Gun_TT33_HMC.jobString>
+
+	<Build_Laser_Pistol_HMC.label>Собрать лазерный пистолет</Build_Laser_Pistol_HMC.label>
+	<Build_Laser_Pistol_HMC.description>Продвинутый пистолет. Высокая точность, дальность (для пистолета) стрельбы и низкая отдача, но низкая скорострельность.</Build_Laser_Pistol_HMC.description>
+	<Build_Laser_Pistol_HMC.jobString>Собирает лазерный пистолет.</Build_Laser_Pistol_HMC.jobString>
+
+	<!-- ==================== SMGs ========================== -->
+	
+	<BuildGunPP19Bizon.label>Собрать ПП-19 Бизон-2-07</BuildGunPP19Bizon.label>
+	<BuildGunPP19Bizon.description>Оружие древнего мира. Пистолет-пулемёт с хорошими характеристиками и не менее хорошим размером магазина</BuildGunPP19Bizon.description>
+	<BuildGunPP19Bizon.jobString>Собирает ПП-19 Бизон-2-07.</BuildGunPP19Bizon.jobString>
+	
+	<Build_Gun_Ppsh41_HMC.label>Собрать ППШ-41</Build_Gun_Ppsh41_HMC.label>
+	<Build_Gun_Ppsh41_HMC.description>Оружие древнего мира. Очень старый образец пистолета-пулемета. Время не пощадило его. Все характеристики оружия снижены. \n\nИспользует боеприпасы: 7.62x25 мм TT</Build_Gun_Ppsh41_HMC.description>
+	<Build_Gun_Ppsh41_HMC.jobString>Собирает ППШ-41.</Build_Gun_Ppsh41_HMC.jobString>
+	
+	<Build_HMC_SR3vikhr.label>Собрать СР-3 Вихорь</Build_HMC_SR3vikhr.label>
+	<Build_HMC_SR3vikhr.description>Оружие древнего мира с любопытной конструкцией и типом патронов. Большой размер магазина и высокая скорострельность оправдывают его прозвище.\n\nИспользует боеприпасы: 9x39 мм</Build_HMC_SR3vikhr.description>
+	<Build_HMC_SR3vikhr.jobString>Собирает СР-3 Вихорь.</Build_HMC_SR3vikhr.jobString>
+	
+	<BuildPetuch90SMG.label>Собрать ПП Петуч-90</BuildPetuch90SMG.label>
+	<BuildPetuch90SMG.description>Оружие древнего мира с любопытной конструкцией и типом патронов. Большой размер магазина и огромная скорострельность, но посредственная точность.\n\nИспользует боеприпасы: 4.73x33 мм</BuildPetuch90SMG.description>
+	<BuildPetuch90SMG.jobString>Собирает ПП Петуч-90.</BuildPetuch90SMG.jobString>
+	
+	<BuildHMCPlasmaSMG.label>Собрать Плазмер C4 PrismWarlock</BuildHMCPlasmaSMG.label>
+	<BuildHMCPlasmaSMG.description>Плазмо-бластер компактных размеров, высокая скорострельность, но посредственная точность.\n\nИспользует боеприпасы: Плазменная энергоячейка</BuildHMCPlasmaSMG.description>
+	<BuildHMCPlasmaSMG.jobString>Собирает Плазмер C4 PrismWarlock.</BuildHMCPlasmaSMG.jobString>
+
+	<!-- ==================== Carabines ========================== -->
+	
+	<BuildGun_AKS74U.label>Собрать АКС-74У</BuildGun_AKS74U.label>
+	<BuildGun_AKS74U.description>Укороченная модификация автомата АК74.\n\nИспользует боеприпасы: 5.45x39mm</BuildGun_AKS74U.description>
+	<BuildGun_AKS74U.jobString>Собирает АКС-74У.</BuildGun_AKS74U.jobString>
+
+	<BuildGun_SKS.label>Собрать СКС</BuildGun_SKS.label>
+	<BuildGun_SKS.description>Карабин. Остался с древних времён на военных складах. Хорошая дальность, хорошая мощность, низкая скорострельность.\n\nИспользует боеприпасы: 7.62x39 мм</BuildGun_SKS.description>
+	<BuildGun_SKS.jobString>Собирает СКС.</BuildGun_SKS.jobString>
+
+	<BuildSaiga12kShotgun.label>Собрать Сайга-12К</BuildSaiga12kShotgun.label>
+	<BuildSaiga12kShotgun.description>Оружие древнего мира, укороченное гладкоствольное ружьё/гладкоствольный карабин.\n\nИспользует боеприпасы: .12 патрон</BuildSaiga12kShotgun.description>
+	<BuildSaiga12kShotgun.jobString>Собирает Сайга-12К.</BuildSaiga12kShotgun.jobString>
+
+	<BuildGun_700NE_HMC.label>Собрать штуцер .700 Nitro Express</BuildGun_700NE_HMC.label>
+	<BuildGun_700NE_HMC.description>Оружие древнего мира. Крупнокалиберное охотничье ружье для отстрела слонов и низколетящих гиппопотамусов.</BuildGun_700NE_HMC.description>
+	<BuildGun_700NE_HMC.jobString>Собирает штуцер .700 NE.</BuildGun_700NE_HMC.jobString>
+
+	<Build_VersatileCarbine_HMC.label>Собрать универсальный 5 мм карабин</Build_VersatileCarbine_HMC.label>
+	<Build_VersatileCarbine_HMC.description>Оружие древнего мира. Универсальный карабин. Может использовать любые 5 мм боеприпасы.</Build_VersatileCarbine_HMC.description>
+	<Build_VersatileCarbine_HMC.jobString>Собирает универсальный 5 мм карабин.</Build_VersatileCarbine_HMC.jobString>
+
+	<Build_VTC9_HMC.label>Собрать карабин VTC-9m</Build_VTC9_HMC.label>
+	<Build_VTC9_HMC.description>Оружие древнего мира. Универсальный тактический карабин. Может использовать любые 9 мм боеприпасы. Хорошо подходит для охоты, но из-за особенностей конструкции не может использовать особые боеприпасы (такие как SH или HESH).</Build_VTC9_HMC.description>
+	<Build_VTC9_HMC.jobString>Собирает карабин VTC-9m.</Build_VTC9_HMC.jobString>
+
+	<Build_CK901_HMC.label>Собрать карабин Colt CK-901</Build_CK901_HMC.label>
+	<Build_CK901_HMC.description>Оружие древнего мира. Разновидность винтовок типа AR, представленная в виде гибрида AR-AK. Высокий урон и скорострельность, средняя точность и дальность стрельбы.\n\nИспользует боеприпасы: 7.62x39 мм</Build_CK901_HMC.description>
+	<Build_CK901_HMC.jobString>Собирает карабин Colt CK-901.</Build_CK901_HMC.jobString>
+
+	<!-- ==================== Rifles ========================== -->
+
+	<BuildGun_Mosin.label>Собрать винтовку Мосина</BuildGun_Mosin.label>
+	<BuildGun_Mosin.description>Винтовка с затвором. Осталась с древних времён на военных складах. Хорошая дальность, хорошая мощность, низкая скорострельность.\n\nИспользует боеприпасы: 7.62x54 мм R</BuildGun_Mosin.description>
+	<BuildGun_Mosin.jobString>Собирает винтовку Мосина.</BuildGun_Mosin.jobString>
+
+	<Build_AVT40gun.label>Собрать АВТ-40</Build_AVT40gun.label>
+	<Build_AVT40gun.description>Древняя автоматическая винтовка. Осталась с древних времён на военных складах. Хорошая дальность мощность и скорострельность.\n\nИспользует боеприпасы: 7.62x54 мм R</Build_AVT40gun.description>
+	<Build_AVT40gun.jobString>Собирает АВТ-40.</Build_AVT40gun.jobString>
+
+	<BuildGroza.label>Собрать ОЦ-14 Гроза-4</BuildGroza.label>
+	<BuildGroza.description>Компактный штурмовой стрелковый/гранатометный комплекс, выполненный по схеме булл-пап.\n\nИспользует боеприпасы: 9x39 мм</BuildGroza.description>
+	<BuildGroza.jobString>Собирает ОЦ-14 Гроза-4.</BuildGroza.jobString>
+
+	<BuildAbakan.label>Собрать АН-94 Абакан</BuildAbakan.label>
+	<BuildAbakan.description>Оружие древнего мира. Обладает неплохими параметрами и уникальным режимом стрельбы.\n\nИспользует боеприпасы: 5.45x39 мм</BuildAbakan.description>
+	<BuildAbakan.jobString>Собирает АН-94 Абакан.</BuildAbakan.jobString>
+
+	<BuildL85A2Rifle.label>Собрать L85A2</BuildL85A2Rifle.label>
+	<BuildL85A2Rifle.description>Оружие древнего мира. Обладает неплохими параметрами и высокой точностью одиночных выстрелов и коротких очередей.\n\nИспользует боеприпасы: 5.56x45 мм</BuildL85A2Rifle.description>
+	<BuildL85A2Rifle.jobString>Собирает L85A2.</BuildL85A2Rifle.jobString>
+
+	<BuildG11GFLver.label>Собрать G11</BuildG11GFLver.label>
+	<BuildG11GFLver.description>Оружие древнего мира с любопытной конструкцией и типом патронов. Большой размер магазина, высокая точность и скорострельность.\n\nИспользует боеприпасы: 4.73x33 мм</BuildG11GFLver.description>
+	<BuildG11GFLver.jobString>Собирает G11.</BuildG11GFLver.jobString>
+
+	<BuildShak12Ash.label>Собрать АШ-12</BuildShak12Ash.label>
+	<BuildShak12Ash.description>Огнестрельное крупнокалиберное оружие древнего мира.\n\nИспользует боеприпасы: 12.7x55 мм СЦ-130</BuildShak12Ash.description>
+	<BuildShak12Ash.jobString>Собирает АШ-12.</BuildShak12Ash.jobString>
+
+	<BuildAEK971R.label>Собрать АЕК-971</BuildAEK971R.label>
+	<BuildAEK971R.description>Оружие древнего мира. Сбаланисрованная автоматика винтовки обеспечивает высокую точность стрельбы очередями.\n\nИспользует боеприпасы: 5.45x39 мм</BuildAEK971R.description>
+	<BuildAEK971R.jobString>Собирает АЕК-971.</BuildAEK971R.jobString>
+
+	<BuildAEK973_HMC.label>Собрать АЕК-973</BuildAEK973_HMC.label>
+	<BuildAEK973_HMC.description>Оружие древнего мира. Сбаланисрованная автоматика винтовки обеспечивает высокую точность стрельбы очередями.\n\nИспользует боеприпасы: 7.62x39 мм</BuildAEK973_HMC.description>
+	<BuildAEK973_HMC.jobString>Собирает АЕК-973.</BuildAEK973_HMC.jobString>
+
+	<BuildAK312R.label>Собрать АК-312</BuildAK312R.label>
+	<BuildAK312R.description>Оружие древнего мира. Модификация АК-308 под патрон 7.62х54 мм R (.312 калибр).</BuildAK312R.description>
+	<BuildAK312R.jobString>Собирает АК-312.</BuildAK312R.jobString>
+
+	<BuildSA58_HMC.label>Собрать DSA SA58</BuildSA58_HMC.label>
+	<BuildSA58_HMC.description>Оружие древнего мира. Осталась с древних времён на старых военных складах в большом количестве и нередко встречается в мире Римворлда на сегодняшний день.\n\nИспользует боеприпасы: 7.62x51 мм</BuildSA58_HMC.description>
+	<BuildSA58_HMC.jobString>Собирает DSA SA58.</BuildSA58_HMC.jobString>
+
+	<BuildAK74M_HMC.label>Собрать АК74М</BuildAK74M_HMC.label>
+	<BuildAK74M_HMC.description>Оружие древнего мира. Осталась с древних времён на военных складах. Обыкновенная автоматическая винтовка с отводом пороховых газов и длинным ходом поршня.\n\nИспользует боеприпасы: 5.45x39 мм</BuildAK74M_HMC.description>
+	<BuildAK74M_HMC.jobString>Собирает АК74М.</BuildAK74M_HMC.jobString>
+
+	<BuildAK19_HMC.label>Собрать АК-19</BuildAK19_HMC.label>
+	<BuildAK19_HMC.description>Оружие древнего мира. Осталась с древних времён на военных складах в большом количестве и теперь повсеместно встречается в мире Римворлда. Довольно легкая для своих габаритов.</BuildAK19_HMC.description>
+	<BuildAK19_HMC.jobString>Собирает АК-19.</BuildAK19_HMC.jobString>
+
+	<Build_AK2077_HMC.label>Собрать АК-2077</Build_AK2077_HMC.label>
+	<Build_AK2077_HMC.description>Продвинутое оружие древнего мира. С виду обыкновенная автоматическая винтовка с отводом пороховых газов и длинным ходом поршня, а на деле – высокоточная и смертоносная лазерная хай-тек винтовка.\n\nИспользует боеприпасы: лазерная энергоячейка</Build_AK2077_HMC.description>
+	<Build_AK2077_HMC.jobString>Собирает АК-2077.</Build_AK2077_HMC.jobString>
+
+	<Build_Mag_Rifle_HMC.label>Собрать Магнитную винтовку</Build_Mag_Rifle_HMC.label>
+	<Build_Mag_Rifle_HMC.description>Продвинутое оружие древнего мира. Необыкновенная высокоточная винтовка, способная пробить практически любую броню.</Build_Mag_Rifle_HMC.description>
+	<Build_Mag_Rifle_HMC.jobString>Собирает магнитную винтовку.</Build_Mag_Rifle_HMC.jobString>
+
+	<!-- ==================== Shotguns ========================== -->
+
+	<BuildSawofShotgun.label>Собрать обрез двустволки</BuildSawofShotgun.label>
+	<BuildSawofShotgun.description>Обрез загадочного двуствольного ружья неизвестного происхождения.\n\nИспользует боеприпасы: .12 патрон</BuildSawofShotgun.description>
+	<BuildSawofShotgun.jobString>Собирает обрез двустволки.</BuildSawofShotgun.jobString>
+
+	<BuildDvustvolka.label>Собрать дедушкино ружьё</BuildDvustvolka.label>
+	<BuildDvustvolka.description>Старое дедушкино ружьё.\n\nИспользует боеприпасы: .12 патрон</BuildDvustvolka.description>
+	<BuildDvustvolka.jobString>Собирает дедушкино ружьё.</BuildDvustvolka.jobString>
+
+	<BuildSpas12HMC.label>Собрать Sps-12\20</BuildSpas12HMC.label>
+	<BuildSpas12HMC.description>Оружие древнего мира. Модификация автоматического дробовика.\n\nИспользует боеприпасы: .12 патрон</BuildSpas12HMC.description>
+	<BuildSpas12HMC.jobString>Собирает Sps-12\20.</BuildSpas12HMC.jobString>
+
+	<Build_HMC_TozHighTech.label>Собрать дедушкино энергоружьё</Build_HMC_TozHighTech.label>
+	<Build_HMC_TozHighTech.description>Старое дедушкино энергоружьё.\n\nИспользует боеприпасы: 15x65 мм энерго-боеприпас</Build_HMC_TozHighTech.description>
+	<Build_HMC_TozHighTech.jobString>Собирает дедушкино энергоружьё.</Build_HMC_TozHighTech.jobString>
+
+	<!-- ==================== Sniper Rifles ========================== -->
+
+	<BuildVintorezRifle.label>Собрать ВСС "Винторез"</BuildVintorezRifle.label>
+	<BuildVintorezRifle.description>Снайперская винтовка ВСС Винторез сил специального назначения.\n\nИспользует боеприпасы: 9x39mm</BuildVintorezRifle.description>
+	<BuildVintorezRifle.jobString>Собирает ВСС "Винторез".</BuildVintorezRifle.jobString>
+
+	<BuildGvozdorezRifle.label>Собрать ВССП "Гвоздорез"</BuildGvozdorezRifle.label>
+	<BuildGvozdorezRifle.description>Винтовка снайперская специальная профотошенная Гвоздорез сил абузного назначения.\n\nИспользует боеприпасы: 7.62x25 мм TT</BuildGvozdorezRifle.description>
+	<BuildGvozdorezRifle.jobString>Собирает ВССП "Гвоздорез".</BuildGvozdorezRifle.jobString>
+
+	<Build_Gun_VSSK.label>Собрать ВССК "Выхлоп"</Build_Gun_VSSK.label>
+	<Build_Gun_VSSK.description>Винтовка снайперская специальная крупнокалиберная.\n\nИспользует боеприпасы: 12.7x55 мм СЦ-130</Build_Gun_VSSK.description>
+	<Build_Gun_VSSK.jobString>Собирает ВССК "Выхлоп".</Build_Gun_VSSK.jobString>
+
+	<Build_RK_Gun_SVCH.label>Собрать СВЧ</Build_RK_Gun_SVCH.label>
+	<Build_RK_Gun_SVCH.description>Оружие древнего мира. С виду стандартная ничем не примечательная полуавтоматическая снайперская винтовка под стандартный винтовочный патрон. \n\nИспользует боеприпасы: 7.62x54 мм R</Build_RK_Gun_SVCH.description>
+	<Build_RK_Gun_SVCH.jobString>Собирает СВЧ.</Build_RK_Gun_SVCH.jobString>
+
+	<Build_RK_Gun_SVD.label>Собрать СВД</Build_RK_Gun_SVD.label>
+	<Build_RK_Gun_SVD.description>Оружие древнего мира. Старая, но все ещё достаточно эффективная полуавтоматическая снайперская винтовка. \n\nИспользует боеприпасы: 7.62x54 мм R</Build_RK_Gun_SVD.description>
+	<Build_RK_Gun_SVD.jobString>Собирает СВД.</Build_RK_Gun_SVD.jobString>
+
+	<Build_HMC_Gun_M24SR.label>Собрать M24A3</Build_HMC_Gun_M24SR.label>
+	<Build_HMC_Gun_M24SR.description>Оружие древнего мира. Старая, но все ещё работоспособная снайперская винтовка с продольно-скользящим затвором. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции. \n\nИспользует боеприпасы: .338 Lapua Magnum</Build_HMC_Gun_M24SR.description>
+	<Build_HMC_Gun_M24SR.jobString>Собирает M24A3.</Build_HMC_Gun_M24SR.jobString>
+
+	<Build_HMC_Gun_SV98SR.label>Собрать СВ-98</Build_HMC_Gun_SV98SR.label>
+	<Build_HMC_Gun_SV98SR.description>Оружие древнего мира. Старая, но все ещё работоспособная снайперская винтовка с продольно-скользящим затвором. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции. \n\nИспользует боеприпасы: .338 Lapua Magnum</Build_HMC_Gun_SV98SR.description>
+	<Build_HMC_Gun_SV98SR.jobString>Собирает СВ-98.</Build_HMC_Gun_SV98SR.jobString>
+
+	<Build_HMC_Gun_SVLK14C.label>Собрать СВЛК-14С «Сумрак»</Build_HMC_Gun_SVLK14C.label>
+	<Build_HMC_Gun_SVLK14C.description>Оружие древнего мира. Однозарядная снайперская винтовка с продольно-скользящим затвором. Крупный калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции.\n\nИспользует боеприпасы: .408 Cheyenne Tactical</Build_HMC_Gun_SVLK14C.description>
+	<Build_HMC_Gun_SVLK14C.jobString>Собирает СВЛК-14С «Сумрак».</Build_HMC_Gun_SVLK14C.jobString>
+
+	<Build_Gun_M200_HMC.label>Собрать M200 «Intervention»</Build_Gun_M200_HMC.label>
+	<Build_Gun_M200_HMC.description>Оружие древнего мира. Крупнокалиберная снайперская винтовка с продольно-скользящим затвором. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции.\n\nИспользует боеприпасы: .408 Cheyenne Tactical</Build_Gun_M200_HMC.description>
+	<Build_Gun_M200_HMC.jobString>Собирает M200 «Intervention».</Build_Gun_M200_HMC.jobString>
+
+	<BuildDVL10M1Saboteur.label>Собрать ДВЛ-10 М1 «Диверсант»</BuildDVL10M1Saboteur.label>
+	<BuildDVL10M1Saboteur.description>Оружие древнего мира. Модульная тактическая лёгкая снайперская винтовка для бесшумной стрельбы.\n\nИспользует боеприпасы: 7.62x51 мм</BuildDVL10M1Saboteur.description>
+	<BuildDVL10M1Saboteur.jobString>Собирает ДВЛ-10 М1 «Диверсант».</BuildDVL10M1Saboteur.jobString>
+
+	<BuildPTR127_MHC.label>Собрать ПТР-12.7</BuildPTR127_MHC.label>
+	<BuildPTR127_MHC.description>Оружие древнего мира. Очень старое, тяжёлое, но все ещё достаточно эффективное противотанковое ружье.\n\nИспользует боеприпасы: 12.7x108 мм</BuildPTR127_MHC.description>
+	<BuildPTR127_MHC.jobString>Собирает ПТР-12.7.</BuildPTR127_MHC.jobString>
+
+	<BuildOSV96_MHC.label>Собрать ОСВ-96</BuildOSV96_MHC.label>
+	<BuildOSV96_MHC.description>Оружие древнего мира. Старая, но все ещё достаточно эффективная крупнокалиберная снайперская винтовка.\n\nИспользует боеприпасы: 12.7x108 мм</BuildOSV96_MHC.description>
+	<BuildOSV96_MHC.jobString>Собирает ОСВ-96.</BuildOSV96_MHC.jobString>
+
+	<Build_Gun_RT20_HMC.label>Собрать RT-20</Build_Gun_RT20_HMC.label>
+	<Build_Gun_RT20_HMC.description>Оружие древнего мира. Старая, но все ещё работоспособная крупнокалиберная снайперская винтовка с продольно-скользящим затвором.\n\nИспользует боеприпасы: 20x102 мм</Build_Gun_RT20_HMC.description>
+	<Build_Gun_RT20_HMC.jobString>Собирает RT-20.</Build_Gun_RT20_HMC.jobString>
+
+	<Build_Gun_R2Lance_HMC.label>Собрать R2 Lance</Build_Gun_R2Lance_HMC.label>
+	<Build_Gun_R2Lance_HMC.description>Продвинутое оружие древнего мира. Могучая снайперская энерговинтовка с продольно-скользящим затвором. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции</Build_Gun_R2Lance_HMC.description>
+	<Build_Gun_R2Lance_HMC.jobString>Собирает R2 Lance.</Build_Gun_R2Lance_HMC.jobString>
+
+	<Build_Item62_HMC.label>Собрать Изделие 62</Build_Item62_HMC.label>
+	<Build_Item62_HMC.description>Продвинутое оружие древнего мира. Могучая снайперская гаусс-пушка. Калибр оружия позволяет вести точную стрельбу на сверхдальние дистанции</Build_Item62_HMC.description>
+	<Build_Item62_HMC.jobString>Собирает Изделие 62.</Build_Item62_HMC.jobString>
+
+	<!-- ==================== Heavy ========================== -->
+
+	<Build_HMC_PKP.label>Собрать ПКП "Печеньек"</Build_HMC_PKP.label>
+	<Build_HMC_PKP.description>Оружие древнего мира. Единый пулемет винтовочного калибра.\n\nИспользует боеприпасы: 7.62x54 мм R</Build_HMC_PKP.description>
+	<Build_HMC_PKP.jobString>Собирает ПКП "Печеньек".</Build_HMC_PKP.jobString>
+
+	<Build_MG3_HMC.label>Собрать MG3</Build_MG3_HMC.label>
+	<Build_MG3_HMC.description>Оружие древнего мира. Единый пулемет винтовочного калибра.\n\nИспользует боеприпасы: 7.62x51 мм</Build_MG3_HMC.description>
+	<Build_MG3_HMC.jobString>Собирает MG3.</Build_MG3_HMC.jobString>
+
+	<Build_6P62_HMC.label>Собрать 6П62</Build_6P62_HMC.label>
+	<Build_6P62_HMC.description>Оружие древнего мира. Экспериментальный крупнокалиберный ручной пулемёт с магазинным питанием под патрон 12.7x108 мм.</Build_6P62_HMC.description>
+	<Build_6P62_HMC.jobString>Собирает 6P62.</Build_6P62_HMC.jobString>
+
+	<Build_RPK74M_HMC.label>Собрать РПК-74М</Build_RPK74M_HMC.label>
+	<Build_RPK74M_HMC.description>Оружие древнего мира. Тяжелая версия АК74М с удлиненным стволом, сошками и четырехрядным магазином на 60 патронов</Build_RPK74M_HMC.description>
+	<Build_RPK74M_HMC.jobString>Собирает РПК-74М.</Build_RPK74M_HMC.jobString>
+
+	<Build_LWMMG_HMC.label>Собрать LWMMG 338</Build_LWMMG_HMC.label>
+	<Build_LWMMG_HMC.description>Оружие древнего мира. Облегчённый средний пулемёт, использующий особые винтовочные боеприпасы</Build_LWMMG_HMC.description>
+	<Build_LWMMG_HMC.jobString>Собирает LWMMG 338.</Build_LWMMG_HMC.jobString>
+
+	<Build_RPD_HMC.label>Собрать РПД</Build_RPD_HMC.label>
+	<Build_RPD_HMC.description>Оружие древнего мира. Ручной пулемет промежуточного калибра. Обладает высокой огневой мощью, но посредственной скорострельностью и точностью</Build_RPD_HMC.description>
+	<Build_RPD_HMC.jobString>Собирает РПД.</Build_RPD_HMC.jobString>
+
+	<Build_Mag_MG_HMC.label>Собрать магнитный пулемет</Build_Mag_MG_HMC.label>
+	<Build_Mag_MG_HMC.description>Продвинутое оружие древнего мира. Необыкновенный высокоточный пулемет, способный пробить практически любую броню</Build_Mag_MG_HMC.description>
+	<Build_Mag_MG_HMC.jobString>Собирает магнитный пулемет.</Build_Mag_MG_HMC.jobString>
+
+	<Build_HMC_RPL.label>Собрать РПЛ-20</Build_HMC_RPL.label>
+	<Build_HMC_RPL.description>Оружие древнего мира. Ручной пулемет промежуточного калибра. Обладает сбалансированными характеристиками</Build_HMC_RPL.description>
+	<Build_HMC_RPL.jobString>Собирает РПЛ-20.</Build_HMC_RPL.jobString>
+
+	<!-- ==================== Launchers ========================== -->
+
+	<Build_XM25_HMC.label>Собрать XM-25 CDTE</Build_XM25_HMC.label>
+	<Build_XM25_HMC.description>Оружие древнего мира. Гранатометный комплекс гранатометного калибра предназначенный для поражения гранатоуязвимых целей прицельным залпом гранатных гранат</Build_XM25_HMC.description>
+	<Build_XM25_HMC.jobString>Собирает XM-25 CDTE.</Build_XM25_HMC.jobString>
+
+</LanguageData>

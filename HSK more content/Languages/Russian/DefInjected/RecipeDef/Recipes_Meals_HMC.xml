@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Cook_HMC_Chebupek.label>Приготовить чебупек</Cook_HMC_Chebupek.label>
+	<Cook_HMC_Chebupek.description>Приготовить чебупек из мяса, муки и загадочного «масла».</Cook_HMC_Chebupek.description>
+	<Cook_HMC_Chebupek.jobString>Абузит чебупек.</Cook_HMC_Chebupek.jobString>
+
+	<Cook_HMC_PrimeMeat.label>Приготовить первосортное мясо</Cook_HMC_PrimeMeat.label>
+	<Cook_HMC_PrimeMeat.description>Приготовить первосортное мясо из обычного мяса, соли и бутылки крепкого спиртного напитка.</Cook_HMC_PrimeMeat.description>
+	<Cook_HMC_PrimeMeat.jobString>Готовит первосортное мясо.</Cook_HMC_PrimeMeat.jobString>
+
+</LanguageData>

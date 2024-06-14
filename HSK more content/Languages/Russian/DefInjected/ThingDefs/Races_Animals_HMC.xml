@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LandShark.label>сухопутная акула</LandShark.label>
+  <LandShark.description>...коробочка...вкусняшка...</LandShark.description>
+  <Corpse_LandShark.label>труп сухопутной акулы</Corpse_LandShark.label>
+  <Corpse_LandShark.description>Труп сухопутной акулы.</Corpse_LandShark.description>
+
+  <Jackalope.label>рогатый заяц</Jackalope.label>
+  <Jackalope.description>Странный генетически модифицированный вид кролика с острыми рогами, растущими из черепа. Очень опасен в больших количествах.</Jackalope.description>
+  <Corpse_Jackalope.label>труп рогатого зайца</Corpse_Jackalope.label>
+  <Corpse_Jackalope.description>Труп рогатого зайца.</Corpse_Jackalope.description>
+
+  <SnowJackalope.label>снежный рогатый заяц</SnowJackalope.label>
+  <SnowJackalope.description>Странный генетически модифицированный вид кролика с острыми рогами, растущими из черепа. Очень опасен в больших количествах.</SnowJackalope.description>
+  <Corpse_SnowJackalope.label>труп снежного рогатого зайца</Corpse_SnowJackalope.label>
+  <Corpse_SnowJackalope.description>Труп снежного рогатого зайца.</Corpse_SnowJackalope.description>
+
+  <Hiveguardsman.label>гвардеец улья</Hiveguardsman.label>
+  <Hiveguardsman.description>Гигантский генетически модифицированный инсектоид размером с носорога, созданный для тяжёлый работы и боя. Его защищает толстая хитиновая броня, а длинные потрошащие клинки смертельно опасны в ближнем бою. На открытой местности весьма медлителен.</Hiveguardsman.description>
+  <Corpse_Hiveguardsman.label>труп гвардейца улья</Corpse_Hiveguardsman.label>
+  <Corpse_Hiveguardsman.description>Труп гвардейца улья.</Corpse_Hiveguardsman.description>
+
+  <HMC_beaver.label>бобр</HMC_beaver.label>
+  <HMC_beaver.labelFemale>бобриха</HMC_beaver.labelFemale>
+  <HMC_beaver.labelPlural>бобры</HMC_beaver.labelPlural>
+  <HMC_beaver.lifeStages.0.label>бобрёнок</HMC_beaver.lifeStages.0.label>
+  <HMC_beaver.lifeStages.1.label>молодой бобёр</HMC_beaver.lifeStages.1.label>
+  <HMC_beaver.lifeStages.1.labelFemale>молодая бобриха</HMC_beaver.lifeStages.1.labelFemale>
+  <Corpse_HMC_beaver.label>тушка бобра</Corpse_HMC_beaver.label>
+  <Corpse_HMC_beaver.description>Мёртвый бобр.</Corpse_HMC_beaver.description>
+
+</LanguageData>

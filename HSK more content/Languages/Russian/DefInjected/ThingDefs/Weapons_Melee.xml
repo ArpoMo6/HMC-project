@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MeleeWeapon_Pike_HMC.label>пика</MeleeWeapon_Pike_HMC.label>
+	<MeleeWeapon_Pike_HMC.description>Это оружие настолько длинное, что воспринимается пешками оружием дальнего боя. Позволяет наносить удары на недоступном для других расстоянии, но управлять пикой неудобно.\nОружие может показаться довольно костыльным, но, пожалуйста, не ругайте лапкодела, он действительно очень хотел поиграть с чем-то подобным и решил поделиться этим с вами.</MeleeWeapon_Pike_HMC.description>
+	<Bullet_MeleeWeapon_Pike_HMC.label>Выпад</Bullet_MeleeWeapon_Pike_HMC.label>
+</LanguageData>

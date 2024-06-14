@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <Unmake_MedievalCrate.label>Разобрать детали средневекового орудия</Unmake_MedievalCrate.label>
+    <Unmake_MedievalCrate.description>Разобрать детали средневекового орудия.</Unmake_MedievalCrate.description>
+    <Unmake_MedievalCrate.jobString>Разбирает детали средневекового орудия.</Unmake_MedievalCrate.jobString>
+
+    <Unmake_LightMGCrate.label>Разобрать детали легкого стационарного орудия</Unmake_LightMGCrate.label>
+    <Unmake_LightMGCrate.description>Разобрать детали легкого стационарного орудия. Основной компонент орудия также будет разобран в этом процессе.</Unmake_LightMGCrate.description>
+    <Unmake_LightMGCrate.jobString>Разбирает детали легкого стационарного орудия.</Unmake_LightMGCrate.jobString>
+
+    <Unmake_HeavyMGCrate.label>Разобрать детали тяжелого стационарного орудия</Unmake_HeavyMGCrate.label>
+    <Unmake_HeavyMGCrate.description>Разобрать детали тяжелого стационарного орудия. Основной компонент орудия также будет разобран в этом процессе.</Unmake_HeavyMGCrate.description>
+    <Unmake_HeavyMGCrate.jobString>Разбирает детали тяжелого стационарного орудия.</Unmake_HeavyMGCrate.jobString>
+
+    <Unmake_LightMortarCrate.label>Разобрать детали легкой артиллерии</Unmake_LightMortarCrate.label>
+    <Unmake_LightMortarCrate.description>Разобрать детали легкой артиллерии. Основной компонент орудия также будет разобран в этом процессе.</Unmake_LightMortarCrate.description>
+    <Unmake_LightMortarCrate.jobString>Разбирает детали легкой артиллерии.</Unmake_LightMortarCrate.jobString>
+
+    <Unmake_HeavyMortarCrate.label>Разобрать детали тяжелой артиллерии</Unmake_HeavyMortarCrate.label>
+    <Unmake_HeavyMortarCrate.description>Разобрать детали тяжелой артиллерии. Основной компонент орудия также будет разобран в этом процессе.</Unmake_HeavyMortarCrate.description>
+    <Unmake_HeavyMortarCrate.jobString>Разбирает детали тяжелой артиллерии.</Unmake_HeavyMortarCrate.jobString>
+
+    <Unmake_SentryTurretCrate.label>Разобрать детали автотурели</Unmake_SentryTurretCrate.label>
+    <Unmake_SentryTurretCrate.description>Разобрать детали автотурели. Основной компонент орудия также будет разобран в этом процессе.</Unmake_SentryTurretCrate.description>
+    <Unmake_SentryTurretCrate.jobString>Разбирает детали автотурели.</Unmake_SentryTurretCrate.jobString>
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AmmoSet_SlingBall.label>Снаряды пращи</AmmoSet_SlingBall.label>
+	<AmmoSet_CannonBall_HMC.label>Пушечное ядро</AmmoSet_CannonBall_HMC.label>
+	<AmmoSet_762x54mmR.label>7.62x54 мм R</AmmoSet_762x54mmR.label>
+	<AmmoSet_545x39mmSoviet.label>5.45x39 мм</AmmoSet_545x39mmSoviet.label>
+	<AmmoSet_9x39mmSoviet.label>9x39 мм</AmmoSet_9x39mmSoviet.label>
+	<AmmoSet_473x33mmCaseless.label>4.73x33 мм безгильзовый</AmmoSet_473x33mmCaseless.label>
+	<AmmoSet_25x40mmGrenade.label>25x40 мм гранаты</AmmoSet_25x40mmGrenade.label>
+	<AmmoSet_ChargedLaserGreen.label>Лазерная энергоячейка</AmmoSet_ChargedLaserGreen.label>
+	<AmmoSet_GaussCharged.label>Заряды гаусс-пушки</AmmoSet_GaussCharged.label>
+	<AmmoSet_BlasterBoltZeon.label>Бластерные снаряды Зеона</AmmoSet_BlasterBoltZeon.label>
+
+</LanguageData>

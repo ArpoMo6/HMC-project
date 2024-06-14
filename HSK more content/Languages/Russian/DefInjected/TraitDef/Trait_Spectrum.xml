@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Medic.degreeDatas.3.label>швопытный медик</Medic.degreeDatas.3.label>
+  <Medic.degreeDatas.3.description>{PAWN_nameDef} имеет швосключительные навыки в области медицины. {PAWN_possessive} умелые руки и вдохновляющая манера ухода за больными не оставит никого равнодушным хештегнижнееподчеркиваниециркумфлекссобака. </Medic.degreeDatas.3.description>
+  
+  <HMC_Lucks.degreeDatas.unlucky.label>неудачливый</HMC_Lucks.degreeDatas.unlucky.label>
+  <HMC_Lucks.degreeDatas.unlucky.description>Тяжкая жизнь, многочисленные попойки и несчеслимое количество подвернутых мизинцев – {PAWN_nameDef} обладает поистине впечатляющей неудачей, будто сами божества прокляли {PAWN_gender ? его : её}.\nДанная черта обладает поистине чудодейственными свойствами соответствовать ожиданиям игрока независимо от его веры, мировоззрения, размера обуви, любимого футбольного клуба и количества черепашек в {PAWN_gender ? его : её} аквариуме (особенно если их ноль).\n\n    Удача -50%</HMC_Lucks.degreeDatas.unlucky.description>
+  <HMC_Lucks.degreeDatas.lucky.label>удачливый</HMC_Lucks.degreeDatas.lucky.label>
+  <HMC_Lucks.degreeDatas.lucky.description>Беззаботное прошлое, стремительная карьера и горшочки золота многочисленных лепреконов – {PAWN_nameDef} обладает поистине впечатляющей удачей, будто сами божества благоволили {PAWN_gender ? ему : ей} на пути.\nДанная черта обладает поистине чудодейственными свойствами соответствовать ожиданиям игрока независимо от его веры, мировоззрения, размера обуви, любимого хоккейного клуба и количества черепашек в {PAWN_gender ? его : её} аквариуме (если только их не ноль).\n\n    Удача +50%</HMC_Lucks.degreeDatas.lucky.description>
+  
+  <!-- EN: asthenicity -->
+  <Neurotic.degreeDatas.asthenicity.label>астеничность</Neurotic.degreeDatas.asthenicity.label>
+  <Neurotic.degreeDatas.asthenicity.description>Из-за длительных психологических нагрузок нервная система {PAWN_nameDef} не способна выполнять свои функции в полной мере, что катастрофически сказывается на {PAWN_possessive} продуктивности, сне, здоровье, обучаемости, нервной системе и конфликтности.</Neurotic.degreeDatas.asthenicity.description>
+  <!-- EN: phlegmaticity -->
+  <Neurotic.degreeDatas.phlegmaticity.label>флегматичность</Neurotic.degreeDatas.phlegmaticity.label>
+  <Neurotic.degreeDatas.phlegmaticity.description>{PAWN_nameDef} любит всё делать неторопливо, отчего работает меньше остальных. Такой подход не слишком продуктивен, однако, положительно сказывается на {PAWN_possessive} нервной системе и конфликтности.</Neurotic.degreeDatas.phlegmaticity.description>
+  <!-- EN: atonicity -->
+  <Neurotic.degreeDatas.atonicity.label>атоничность</Neurotic.degreeDatas.atonicity.label>
+  <Neurotic.degreeDatas.atonicity.description>{PAWN_nameDef} совершенно не переживает о чем-либо и совершенно не заставляет себя работать с каким-либо усердием, что плохо сказывается на {PAWN_possessive} продуктивности, но отлично на нервной системе и конфликтности.</Neurotic.degreeDatas.atonicity.description>
+  
+  <!-- EN: conservatism -->
+  <HMC_Conservatism.degreeDatas.conservatism.label>консерватизм</HMC_Conservatism.degreeDatas.conservatism.label>
+  <HMC_Conservatism.degreeDatas.conservatism.description>"Раньше было лучше! Не нужна нам эта консоль связи, голубиная почта надежднее! Нынешние норбалы совсем не те, исхудали. А вот в наше время-то..." – {PAWN_nameDef} не доверяет любым проявлениям новизны, предпочитая старые и проверенные временем вещи, не забывая поделиться при этом своим мнением с остальными.</HMC_Conservatism.degreeDatas.conservatism.description>
+  <!-- EN: cynicism -->
+  <HMC_Conservatism.degreeDatas.cynicism.label>цинизм</HMC_Conservatism.degreeDatas.cynicism.label>
+  <HMC_Conservatism.degreeDatas.cynicism.description>{PAWN_nameDef} пренебрежительно относится к любым догматическим проявлениям и {PAWN_possessive} совершенно не заботит мировоззрение окружающих. {PAWN_gender ? Он : Она} без зазрения совести сменит свое мнение на доминирующее в социуме ради достижения своих целей.</HMC_Conservatism.degreeDatas.cynicism.description>
+
+</LanguageData>

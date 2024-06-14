@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <HMC_Pain_Reduced_Lite.label>болестойч</HMC_Pain_Reduced_Lite.label>
+  <HMC_Pain_Reduced_Lite.description>Носители этого гена ощущают немного меньшую боль, чем другие.</HMC_Pain_Reduced_Lite.description>
+  <HMC_Pain_Reduced_Lite.labelShortAdj>болестойч</HMC_Pain_Reduced_Lite.labelShortAdj>
+
+  <HMC_Pain_Extra_Lite.label>болечувств</HMC_Pain_Extra_Lite.label>
+  <HMC_Pain_Extra_Lite.description>Носители этого гена ощущают немного большую боль, чем другие.</HMC_Pain_Extra_Lite.description>
+  <HMC_Pain_Extra_Lite.labelShortAdj>болечувств</HMC_Pain_Extra_Lite.labelShortAdj>
+
+  <HMC_Natural_Pockets.label>естественные карманы</HMC_Natural_Pockets.label>
+  <HMC_Natural_Pockets.description>Носители этого гена имеют очень гибкую и эластичную кожу с большим количеством разнообразных складок и карманов.</HMC_Natural_Pockets.description>
+  <HMC_Natural_Pockets.labelShortAdj>карманы</HMC_Natural_Pockets.labelShortAdj>
+
+  <HMC_SteelSkin.label>стальная кожа</HMC_SteelSkin.label>
+  <HMC_SteelSkin.description>У носителей этого гена очень жесткая кожа. У них утолщенная кожа, которая действует как естественная тонкая стальная броня.</HMC_SteelSkin.description>
+
+  <HMC_PlasteelSkin.label>пласталевая кожа</HMC_PlasteelSkin.label>
+  <HMC_PlasteelSkin.description>У носителей этого гена очень жесткая кожа. У них утолщенная кожа, которая действует как естественная тонкая пласталевая броня.</HMC_PlasteelSkin.description>
+
+  <HMC_EdritiumSkin.label>едритиумная кожа</HMC_EdritiumSkin.label>
+  <HMC_EdritiumSkin.description>У носителей этого гена очень очень очень жесткая кожа. У них утолщенная кожа, которая действует как естественная тонкая едритиумная броня. Очень огнеопасная броня.</HMC_EdritiumSkin.description>
+
+  <EMPSurge.label>разряд</EMPSurge.label>
+  <EMPSurge.description>Носители этого гена способны запускать шар молнии, генерируемый специальными электрическими органами. Удар может затронуть небольшую площадь и на короткое время вывести из строя электронику.</EMPSurge.description>
+  <EMPSurge.labelShortAdj>разряд</EMPSurge.labelShortAdj>
+
+  <HMC_HA_DeerEar.label>оленьи уши</HMC_HA_DeerEar.label>
+  <HMC_HA_DeerEar.description>У носителей этого гена отрастают уши как у оленя, а у взрослых — даже рога.</HMC_HA_DeerEar.description>
+  <HMC_HA_DeerEar.labelShortAdj>олень</HMC_HA_DeerEar.labelShortAdj>
+
+  <HMC_HA_FoxEar.label>лисьи уши</HMC_HA_FoxEar.label>
+  <HMC_HA_FoxEar.description>У носителей этого гена отрастают уши как у лисицы.</HMC_HA_FoxEar.description>
+  <HMC_HA_FoxEar.labelShortAdj>лис</HMC_HA_FoxEar.labelShortAdj>
+
+  <HMC_HA_HalfDemonEar.label>бесовые уши</HMC_HA_HalfDemonEar.label>
+  <HMC_HA_HalfDemonEar.description>У носителей этого гена отрастают уши как у бесов и импидов.</HMC_HA_HalfDemonEar.description>
+  <HMC_HA_HalfDemonEar.labelShortAdj>бес</HMC_HA_HalfDemonEar.labelShortAdj>
+
+  <HMC_BA_SpikedLizardTail.label>ящеровый хвост</HMC_BA_SpikedLizardTail.label>
+  <HMC_BA_SpikedLizardTail.description>У носителей этого гена растут шипастые хвосты, похожие на ящерицкие.</HMC_BA_SpikedLizardTail.description>
+  <HMC_BA_SpikedLizardTail.labelShortAdj>ящер</HMC_BA_SpikedLizardTail.labelShortAdj>
+
+  <HMC_BA_SnakeTail.label>змеиный хвост</HMC_BA_SnakeTail.label>
+  <HMC_BA_SnakeTail.description>У носителей этого гена растут хвосты, похожие на змеиные.</HMC_BA_SnakeTail.description>
+  <HMC_BA_SnakeTail.labelShortAdj>змей</HMC_BA_SnakeTail.labelShortAdj>
+
+  <HMC_BA_DevilTail.label>бесовый хвост</HMC_BA_DevilTail.label>
+  <HMC_BA_DevilTail.description>У носителей этого гена растут хвосты, похожие на бесовые или импидные.</HMC_BA_DevilTail.description>
+  <HMC_BA_DevilTail.labelShortAdj>дьявол</HMC_BA_DevilTail.labelShortAdj>
+
+</LanguageData>
