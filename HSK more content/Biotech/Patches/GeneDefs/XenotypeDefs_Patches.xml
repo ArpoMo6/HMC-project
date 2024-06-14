@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/XenotypeDef[defName="Neanderthal" or defName="Pigskin"]/genes</xpath>
+		<value>
+			<li>HMC_Pain_Reduced_Lite</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+		<value>
+			<li>HMC_HA_HalfDemonEar</li>
+			<li>HMC_BA_DevilTail</li>
+		</value>
+	</Operation>
+
+</Patch>	

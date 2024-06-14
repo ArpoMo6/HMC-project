@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="HMC_BodyAttachmentGeneBase" Abstract="True">
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <randomChosen>true</randomChosen>
+        <displayCategory>HMC_Genes</displayCategory>
+        <displayOrderInCategory>110</displayOrderInCategory>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+            <drawScale>1.33</drawScale>
+            <drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+        </graphicData>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+        
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_BodyAttachmentGeneBase">
+        <defName>HMC_BA_SpikedLizardTail</defName>
+        <label>Spiked lizard tail</label>
+        <description>Carriers of this gene grow spiked lizard-like tails.</description>
+        <iconPath>UI/Icons/Genes/Gene_SpikedLizardTail</iconPath>
+		<displayOrderInCategory>111</displayOrderInCategory>
+        <graphicData>
+            <colorType>Skin</colorType>
+            <graphicPaths>
+				<li>Things/Pawn/Humanlike/BodyAttachments/SpikedLizardTail/SpikedLizardTailA</li>
+				<li>Things/Pawn/Humanlike/BodyAttachments/SpikedLizardTail/SpikedLizardTailB</li>
+			</graphicPaths>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_BodyAttachmentGeneBase">
+        <defName>HMC_BA_SnakeTail</defName>
+        <label>Snake tail</label>
+        <description>Carriers of this gene grow snake-like tails.</description>
+        <iconPath>UI/Icons/Genes/Gene_SnakeTail</iconPath>
+		<displayOrderInCategory>112</displayOrderInCategory>
+        <graphicData>
+            <colorType>Skin</colorType>
+            <graphicPaths>
+			<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailA</li>
+			<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailB</li>
+			</graphicPaths>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_BodyAttachmentGeneBase">
+        <defName>HMC_BA_DevilTail</defName>
+        <label>Devil tail</label>
+        <description>Carriers of this gene grow devil tails.</description>
+        <iconPath>UI/Icons/Genes/Gene_DevilTail</iconPath>
+		<displayOrderInCategory>113</displayOrderInCategory>
+        <graphicData>
+            <graphicPaths>
+                <li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailA</li>
+                <li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailB</li>
+				<li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailC</li>
+				<li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailD</li>
+            </graphicPaths>
+        </graphicData>
+    </GeneDef>
+
+</Defs>

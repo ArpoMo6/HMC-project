@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="ToughSkin"]</xpath>
+		<value>
+			<displayCategory>Miscellaneous</displayCategory>
+			<exclusionTags>
+			  <li>HMC_ToughSkin</li>
+			</exclusionTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="Hands_Pig"]</xpath>
+		<value>
+			<statOffsets>
+				<ReloadSpeed>-0.1</ReloadSpeed>
+				<AimingDelayFactor>0.05</AimingDelayFactor>
+			</statOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="ElongatedFingers"]</xpath>
+		<value>
+			<statOffsets>
+				<ReloadSpeed>0.05</ReloadSpeed>
+				<AimingDelayFactor>-0.05</AimingDelayFactor>
+			</statOffsets>
+		</value>
+	</Operation>
+<!-- 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[@Name="GeneAptitudeBase"]</xpath>
+		<value>
+			<exclusionTags>
+			  <li>GeneAptitude</li>
+			</exclusionTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[@Name="GeneChemicalBase"]</xpath>
+		<value>
+			<exclusionTags>
+			  <li>GeneChemical</li>
+			</exclusionTags>
+		</value>
+	</Operation>
+ -->
+<!-- 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[@Name="GenePainBase" or
+		@Name="GeneAptitudeBase" or
+		@Name="GeneChemicalBase" or
+		@Name="GeneMinTempBase" or
+		@Name="GeneMaxTempBase" or
+		@Name="GenePsychicAbilityBase" or
+		@Name="GeneMoveSpeedBase" or
+		@Name="GeneBeautyBase" or
+		@Name="GeneLearningBase" or
+		@Name="GeneMoodBase" or
+		@Name="GeneToxResistBase" or
+		@Name="GeneToughnessBase" or
+		@Name="GeneAggressionBase" or
+		@Name="GeneSleepBase" or
+		@Name="GeneMeleeDamageBase" or
+		@Name="UVSensitivityBase" or
+		@Name="LibidoBase" or
+		@Name="CellInstabilityBase" or
+		@Name="GeneHealingRateBase" or
+		@Name="GeneImmunityBase" or
+		@Name="GenePollutionBase" or
+		@Name="FertilityBase" or
+		@Name="GeneHairStyleBase" or
+		@Name="GeneBeardStyleBase" or
+		@Name="GeneSkinColorOverride" or
+		@Name="GeneEyeColor" or
+		@Name="GeneGermResistBase" or
+		@Name="GeneGermContainmentBase" or
+		@Name="GeneMeleeDodgeBase" or
+		@Name="GeneMeleeCritBase" or
+		@Name="GeneMeleeParryBase" or
+		defName="KillThirst" or
+		defName="ViolenceDisabled" or
+		defName="KindInstinct" or
+		defName="Tail_Orassan" or
+		defName="Ears_Dova" or
+		defName="Ears_Nova" or
+		defName="NearsightedMinor" or
+		defName="MinorDarkVision" or
+		defName="EfficientStomach" or
+		defName="VeryEfficientStomach" or
+		defName="FireGreatFlammability" or
+		defName="FireFlammability" or
+		defName="HardenedStomach" or
+		defName="Ears_Ratkin" or
+		defName="Tail_Ratkin"]</xpath>
+		<value>
+			<randomChosen>true</randomChosen>
+		</value>
+	</Operation>
+ -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef/randomChosen</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef</xpath>
+		<value>
+			<randomChosen>true</randomChosen>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GeneDef[defName="LongjumpLegs"]</xpath>
+		<value>
+			<statFactors>
+				<CarryWeight>1.2</CarryWeight>
+			</statFactors>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Better Gene Graphics Framework</li>
+        </mods>
+        <match Class="PatchOperationAddModExtension">
+            <xpath>Defs/GeneDef[defName="HMC_HA_DeerEar"]</xpath>
+            <value>
+				<li Class="BetterGeneGraphicsFramework.GraphicsWithAge">
+					<ages>
+						<li>0</li>
+						<li>18</li>
+					</ages>
+					<graphicPaths>
+						<li>Things/Pawn/Humanlike/HeadAttachments/DeerEar/DeerEarChildA</li>
+						<li>Things/Pawn/Humanlike/HeadAttachments/DeerEar/DeerEarAdultA</li>
+					</graphicPaths>
+				</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Better Gene Graphics Framework</li>
+        </mods>
+        <match Class="PatchOperationAddModExtension">
+            <xpath>Defs/GeneDef[defName="HMC_BA_SpikedLizardTail"]</xpath>
+            <value>
+				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
+					<bodyTypeOffsetNorth>
+						<male>(0,0.2,-0.08)</male>
+						<female>(0,0.2,-0.08)</female>
+						<hulk>(0,0.2,-0.16)</hulk>
+						<fat>(0,0.2,-0.05)</fat>
+						<thin>(0,0.2,-0.02)</thin>
+						<baby>(0,0.2,-0.1)</baby>
+						<child>(0, 0.2, 0)</child>
+						<femaleBB>(0, 0.2, -0.01)</femaleBB>
+					</bodyTypeOffsetNorth>
+					<bodyTypeOffsetSouth>
+						<male>(0,0,0)</male>
+						<female>(0,0,0)</female>
+						<hulk>(0,0,0)</hulk>
+						<fat>(0,0,0)</fat>
+						<thin>(0,0,0)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0,0,0)</child>
+						<femaleBB>(0,0,0)</femaleBB>
+					</bodyTypeOffsetSouth>
+					<bodyTypeOffsetEast>
+						<male>(-0.2,0.02,0.01)</male>
+						<female>(-0.22,0.02,-0.01)</female>
+						<hulk>(-0.35,0.02,-0.08)</hulk>
+						<fat>(-0.28,0.02,0.01)</fat>
+						<thin>(-0.3,0.02,-0.01)</thin>
+						<baby>(-0.23,0.02,0.03)</baby>
+						<child>(-0.18, 0.02, 0.08)</child>
+						<femaleBB>(-0.26, 0.02, -0.06)</femaleBB>
+					</bodyTypeOffsetEast>
+				</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Better Gene Graphics Framework</li>
+        </mods>
+        <match Class="PatchOperationAddModExtension">
+            <xpath>Defs/GeneDef[defName="HMC_BA_SnakeTail"]</xpath>
+            <value>
+				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
+					<bodyTypeOffsetNorth>
+						<male>(0,0.2,-0.08)</male>
+						<female>(0,0.2,-0.08)</female>
+						<hulk>(0,0.2,-0.16)</hulk>
+						<fat>(0,0.2,-0.05)</fat>
+						<thin>(0,0.2,-0.02)</thin>
+						<baby>(0,0.2,-0.1)</baby>
+						<child>(0, 0.2, 0)</child>
+						<femaleBB>(0, 0.2, -0.01)</femaleBB>
+					</bodyTypeOffsetNorth>
+					<bodyTypeOffsetSouth>
+						<male>(0,0,0)</male>
+						<female>(0,0,0)</female>
+						<hulk>(0,0,0)</hulk>
+						<fat>(0,0,0)</fat>
+						<thin>(0,0,0)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0,0,0)</child>
+						<femaleBB>(0,0,0)</femaleBB>
+					</bodyTypeOffsetSouth>
+					<bodyTypeOffsetEast>
+						<male>(-0.2,0.02,0.01)</male>
+						<female>(-0.22,0.02,-0.01)</female>
+						<hulk>(-0.35,0.02,-0.08)</hulk>
+						<fat>(-0.28,0.02,0.01)</fat>
+						<thin>(-0.3,0.02,-0.01)</thin>
+						<baby>(-0.23,0.02,0.03)</baby>
+						<child>(-0.18, 0.02, 0.08)</child>
+						<femaleBB>(-0.26, 0.02, -0.06)</femaleBB>
+					</bodyTypeOffsetEast>
+				</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Better Gene Graphics Framework</li>
+        </mods>
+        <match Class="PatchOperationAddModExtension">
+            <xpath>Defs/GeneDef[defName="HMC_BA_DevilTail"]</xpath>
+            <value>
+				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
+					<bodyTypeOffsetNorth>
+						<male>(0, 0.2, -0.12)</male>
+						<female>(0, 0.2, -0.04)</female>
+						<hulk>(0, 0.2, -0.18)</hulk>
+						<fat>(0, 0.2, -0.03)</fat>
+						<thin>(0, 0.2, 0)</thin>
+						<baby>(0,0.2, -0.17)</baby>
+						<child>(0, 0.2, -0.01)</child>
+						<femaleBB>(0, 0.2, 0)</femaleBB>
+					</bodyTypeOffsetNorth>
+					<bodyTypeOffsetSouth>
+						<male>(0,0,0)</male>
+						<female>(0,0,0)</female>
+						<hulk>(0,0,0)</hulk>
+						<fat>(0,0,0)</fat>
+						<thin>(0,0,0)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0,0,0)</child>
+						<femaleBB>(0,0,0)</femaleBB>
+					</bodyTypeOffsetSouth>
+					<bodyTypeOffsetEast>
+						<male>(0.04, 0.02, -0.02)</male>
+						<female>(-0.03, 0.02, 0)</female>
+						<hulk>(-0.11, 0.02, -0.07)</hulk>
+						<fat>(-0.14, 0.02, -0.06)</fat>
+						<thin>(0.06, 0.02, 0.03)</thin>
+						<baby>(-0.01, 0.02, -0.01)</baby>
+						<child>(0.04, 0.02, 0.03)</child>
+						<femaleBB>(-0.02, 0.02, 0)</femaleBB>
+					</bodyTypeOffsetEast>
+				</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>	

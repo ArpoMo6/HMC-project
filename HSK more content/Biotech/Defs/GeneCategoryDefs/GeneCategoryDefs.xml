@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneCategoryDef>
+    <defName>HMC_Genes</defName>
+    <label>HSK more content</label>
+    <displayPriorityInXenotype>11</displayPriorityInXenotype>
+    <displayPriorityInGenepack>-211</displayPriorityInGenepack>
+  </GeneCategoryDef>
+
+</Defs>

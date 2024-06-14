@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>HMC_Teljor</defName>
+    <label>teljor</label>
+    <description>Teljors are a subrace of tall, graceful creatures that live in dense forests and deep caves. They were bred by chance during experiments on hemophagous norbals and possess some of their abilities. Quite bloodthirsty by nature, but treat friends very good-naturedly.</description>
+    <descriptionShort>Teljor.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Teljor</iconPath>
+    <inheritable>true</inheritable>
+<!--     <nameMaker>NamerPersonDirtmole_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker> -->
+    <genes>
+		<li>FoamSpray</li>
+		<li>Hemogenic</li>
+		<li>LongjumpLegs</li>
+		<li>Bloodfeeder</li>
+		<li>Superclotting</li>
+		<li>FireFlammability</li>
+		<li>KindInstinct</li>
+		<li>KillThirst</li>
+		<li>HMC_Pain_Extra_Lite</li>
+		<li>Beauty_Pretty</li>
+		<li>Hair_LongOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Pointed</li>
+		<li>FacialRidges</li>
+		<li>Body_Standard</li>
+		<li>Hair_Blonde</li>
+		<li>Skin_SheerWhite</li>
+		<li>MinorDarkVision</li>
+		<li>ElongatedFingers</li>
+		<li>AptitudeAboveAverage_Shooting</li>
+		<li>AptitudeStrong_Melee</li>
+		<li>AptitudePoor_Construction</li>
+		<li>AptitudePoor_Mining</li>
+		<li>AptitudePoor_Cooking</li>
+		<li>AptitudeAboveAverage_Medicine</li>
+		<li>AptitudePoor_Social</li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>HMC_Homunculus</defName>
+    <label>homunculus</label>
+    <description>Homunculus is a genetically bred mutant by some crazy and carousing hairy scientists. The purpose of breeding is unknown, the resulting specimen is extremely unstable genetically, but still has some potential for survival and even reproduction.</description>
+    <descriptionShort>Creation of evil cats with drugs.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+	
+		<!-- Vanilla traits -->
+	
+		<li>LongjumpLegs</li>
+		<li>AnimalWarcall</li>
+		<li>Bloodfeeder</li>
+		<!-- <li>Coagulate</li> -->
+		<!-- <li>XenogermReimplanter</li> -->
+		<li>PiercingSpine</li>
+		<li>AcidSpray</li>
+		<li>Hair_BaldOnly</li>
+		<li>Hair_ShortOnly</li>
+		<li>Hair_LongOnly</li>
+		<li>Hair_Grayless</li>
+		<li>Beard_BushyOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Beard_Always</li>
+		<li>Skin_InkBlack</li>
+		<li>Skin_SlateGray</li>
+		<li>Skin_LightGray</li>
+		<li>Skin_SheerWhite</li>
+		<li>Skin_Blue</li>
+		<li>Skin_Purple</li>
+		<li>Skin_PaleRed</li>
+		<li>Skin_DeepRed</li>
+		<li>Skin_PaleYellow</li>
+		<li>Skin_DeepYellow</li>
+		<li>Skin_Orange</li>
+		<li>Skin_Green</li>
+		<li>Furskin</li>
+		<li>Eyes_Red</li>
+		<li>Eyes_Gray</li>
+		<li>Brow_Heavy</li>
+		<li>Tail_Furry</li>
+		<li>Tail_Smooth</li>
+		<li>FacialRidges</li>
+		<li>Body_Fat</li>
+		<li>Body_Thin</li>
+		<li>Body_Hulk</li>
+		<li>Body_Standard</li>
+		<li>Ears_Human</li>
+		<li>Ears_Pig</li>
+		<li>Ears_Floppy</li>
+		<li>Ears_Cat</li>
+		<li>Ears_Pointed</li>
+		<li>Nose_Human</li>
+		<li>Nose_Pig</li>
+		<li>Jaw_Baseline</li>
+		<li>Jaw_Heavy</li>
+		<li>Head_Gaunt</li>
+		<li>Hands_Human</li>
+		<li>Hands_Pig</li>
+		<li>ElongatedFingers</li>
+		<li>Headbone_Human</li>
+		<li>Headbone_MiniHorns</li>
+		<li>Headbone_CenterHorn</li>
+		<li>Voice_Human</li>
+		<li>VoicePig</li>
+		<li>VoiceRoar</li>
+		<li>WoundHealing_Slow</li>
+		<li>WoundHealing_Fast</li>
+		<li>WoundHealing_SuperFast</li>
+		<li>Immunity_Weak</li>
+		<li>Immunity_Strong</li>
+		<li>Immunity_SuperStrong</li>
+		<li>ToxicEnvironmentResistance_Partial</li>
+		<li>ToxicEnvironmentResistance_Total</li>
+		<li>Sterile</li>
+		<li>Fertile</li>
+		<li>KindInstinct</li>
+		<li>Nearsighted</li>
+		<li>StrongStomach</li>
+		<li>DarkVision</li>
+		<li>KillThirst</li>
+		<li>FireResistant</li>
+		<li>Inbred</li>
+		<li>RobustDigestion</li>
+		<li>Instability_Mild</li>
+		<li>Instability_Major</li>
+		<!-- <li>PsychicBonding</li> -->
+		<li>PollutionRush</li>
+		<li>Unstoppable</li>
+		<li>NakedSpeed</li>
+		<li>Hemogenic</li>
+		<!-- <li>HemogenDrain</li> -->
+		<li>FireWeakness</li>
+		<li>FireTerror</li>
+		<!-- <li>PerfectImmunity</li> -->
+		<!-- <li>DiseaseFree</li> -->
+		<li>TotalHealing</li>
+		<!-- <li>Deathrest</li> -->
+		<!-- <li>Ageless</li> -->
+		<!-- <li>Deathless</li> -->
+		<li>ArchiteMetabolism</li>
+		<li>MinTemp_SmallIncrease</li>
+		<li>MinTemp_SmallDecrease</li>
+		<li>MinTemp_LargeDecrease</li>
+		<li>MaxTemp_LargeIncrease</li>
+		<li>MaxTemp_SmallIncrease</li>
+		<li>MaxTemp_SmallDecrease</li>
+		<li>PsychicAbility_Deaf</li>
+		<li>PsychicAbility_Dull</li>
+		<li>PsychicAbility_Enhanced</li>
+		<li>PsychicAbility_Extreme</li>
+		<li>MoveSpeed_Slow</li>
+		<li>MoveSpeed_Quick</li>
+		<li>MoveSpeed_VeryQuick</li>
+		<li>Beauty_VeryUgly</li>
+<!-- 		<li>Beauty_Ugly</li>
+		<li>Beauty_Pretty</li>
+		<li>Beauty_Beautiful</li> -->
+		<li>Learning_Slow</li>
+		<li>Learning_Fast</li>
+		<li>Mood_Depressive</li>
+		<li>Mood_Pessimist</li>
+		<li>Mood_Optimist</li>
+		<li>Mood_Sanguine</li>
+		<li>ToxResist_Partial</li>
+		<li>ToxResist_Total</li>
+		<li>Delicate</li>
+		<li>Robust</li>
+		<li>Pain_Reduced</li>
+		<li>Pain_Extra</li>
+		<li>Aggression_DeadCalm</li>
+		<li>Aggression_Aggressive</li>
+		<li>Aggression_HyperAggressive</li>
+		<li>VerySleepy</li>
+		<li>Sleepy</li>
+		<li>LowSleep</li>
+		<li>Neversleep</li>
+		<li>MeleeDamage_Weak</li>
+		<li>MeleeDamage_Strong</li>
+		<li>UVSensitivity_Mild</li>
+		<li>UVSensitivity_Intense</li>
+		<li>Libido_Low</li>
+		<li>Libido_High</li>
+		<li>AptitudeStrong_Plants</li>
+		<li>AptitudeStrong_Animals</li>
+		<li>AptitudeTerrible_Social</li>
+
+		<!-- HSK traits -->
+
+		<li>Ears_Orassan</li>
+		<li>Tail_Orassan</li>
+		<li>Ears_Dova</li>
+		<li>Ears_Nova</li>
+		<li>ToxResist_Minor</li>
+		<li>ToxWeakness_Minor</li>
+		<li>GermResist_Minor</li>
+		<li>GermResist_Strong</li>
+		<li>GermContainment_Minor</li>
+		<li>GermContainment_Poor</li>
+		<li>MinTemp_TinyDecrease</li>
+		<li>MaxTemp_TinyIncrease</li>
+		<li>MaxTemp_LargeDecrease</li>
+		<li>NearsightedMinor</li>
+		<li>MinorDarkVision</li>
+		<li>MeleeAgile</li>
+		<li>MeleeSluggish</li>
+		<li>MeleePrecise</li>
+		<li>MeleeRough</li>
+		<li>MeleeFencer</li>
+		<li>MeleeUncoordinated</li>
+		<li>Learning_Better</li>
+		<li>Learning_Poor</li>
+		<li>EfficientStomach</li>
+		<li>VeryEfficientStomach</li>
+		<li>FireGreatFlammability</li>
+		<li>FireFlammability</li>
+		<li>PsychicAbility_Improved</li>
+		<li>ToughSkin</li>
+		<li>HardenedStomach</li>
+		<li>MoveSpeed_ExtremelyQuick</li>
+		<li>Beard_Male_Always</li>
+		
+		<!-- RatkinRaceHSK -->
+		
+		<li MayRequire="Solaris.RatkinRaceMod">Ears_Ratkin</li>
+		<li MayRequire="Solaris.RatkinRaceMod">Tail_Ratkin</li>
+		
+		<!-- HMC mods -->
+		
+		<li>HMC_Pain_Reduced_Lite</li>
+		<li>HMC_Pain_Extra_Lite</li>
+		<li>HMC_Natural_Pockets</li>
+		<li>HMC_BA_SpikedLizardTail</li>
+		<li>HMC_BA_SnakeTail</li>
+		<li>HMC_BA_DevilTail</li>
+		<li>HMC_HA_DeerEar</li>
+		<li>HMC_HA_FoxEar</li>
+		<li>HMC_HA_HalfDemonEar</li>
+		
+		<!-- Other mods -->
+		
+		<!-- <li MayRequire="FS.ReviaRace">ReviaTail</li> -->
+		<li MayRequire="FS.ReviaRace">ReviaEars</li>
+		
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>HMC_HightechNorbal</defName>
+    <label>High Tech Norbal</label>
+    <description>This glorious people came to us from the distant depths of outer space with clearly good intentions to do good and bring justice!</description>
+    <descriptionShort>High Tech Norbal.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Norbal</iconPath>
+	<combatPowerFactor>1.25</combatPowerFactor>
+    <inheritable>true</inheritable>
+    <genes>
+		<li>Immunity_SuperStrong</li>
+		<li>WoundHealing_Fast</li>
+		<li>PsychicAbility_Deaf</li>
+		<li>MoveSpeed_Slow</li>
+		<li>MinTemp_LargeDecrease</li>
+		<li>GermResist_Strong</li>
+		<li>Aggression_Aggressive</li>
+		<li>MeleeDamage_Strong</li>
+		<li>MeleePrecise</li>
+		<li>MeleeFencer</li>
+		<li>Robust</li>
+		<li>HMC_Pain_Reduced_Lite</li>
+		<li>Beard_BushyOnly</li>
+		<li>Jaw_Heavy</li>
+		<li>Brow_Heavy</li>
+		<li>Voice_Human</li>
+		<li>Body_Standard</li>
+		<li>Body_Fat</li>
+		<li>Body_Hulk</li>
+		<li>Hair_SandyBlonde</li>
+		<li>Hair_LightOrange</li>
+		<li>Hair_ReddishBrown</li>
+		<li>Hair_BrightRed</li>
+		<li>Skin_Blue</li>
+		<li>StrongStomach</li>
+		<li>RobustDigestion</li>
+		<li>Learning_Slow</li>
+		<li>Nearsighted</li>
+		<li>VeryEfficientStomach</li>
+		<li>AptitudePoor_Shooting</li>
+		<li>AptitudeRemarkable_Melee</li>
+		<li>AptitudeStrong_Animals</li>
+		<li>AptitudePoor_Social</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

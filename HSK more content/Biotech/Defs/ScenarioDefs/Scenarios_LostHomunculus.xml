@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>HMC_LostHomunculus</defName>
+		<label>Lost Homunculus</label>
+		<description>You woke up to the sound of walls and glass cracking. Something out of a test tube, you have emerged from the ruins of what was once a research complex to start a new life in the unknown.\n\nDefault Race: Human (Homunculus).\n\nHomunculus is a genetically bred mutant by some crazy and carousing hairy scientists. The purpose of breeding is unknown, the resulting specimen is extremely unstable genetically, but still has some potential for survival and even reproduction.\n\nNote: the starting set of resources is meager and scattered throughout the map; in return, homunculi have some useful abilities. Take care of them.</description>
+		<scenario>
+			<summary>Four lost homunculus attempt to build new life.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>HMC_PlayerHomunculusTribe</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>You woke up to the sound of walls and glass cracking. Something out of a test tube, you have emerged from the ruins of what was once a research complex to start a new life in the unknown.\n\nDefault Race: Human (Homunculus).\n\nHomunculus is a genetically bred mutant by some crazy and carousing hairy scientists. The purpose of breeding is unknown, the resulting specimen is extremely unstable genetically, but still has some potential for survival and even reproduction.\n\nNote: the starting set of resources is meager and scattered throughout the map; in return, homunculi have some useful abilities. Take care of them.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+				  <def>ConfigurePawnsXenotypes</def>
+				  <pawnChoiceCount>4</pawnChoiceCount>
+				  <xenotypeCounts>
+					<li>
+					  <xenotype>HMC_Homunculus</xenotype>
+					  <count>4</count>
+					  <description>non-baby homunculus</description>
+					  <requiredAtStart>true</requiredAtStart>
+					  <allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+					</li>
+				  </xenotypeCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>Malnutrition</hediff>
+					<severityRange>
+						<min>0.2</min>
+						<max>0.4</max>
+					</severityRange>
+				</li>
+				<li Class="ScenPart_SetNeedLevel">
+					<def>SetNeedLevel</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>1.0</chance>
+					<need>Food</need>
+					<levelRange>
+						<min>0</min>
+						<max>0.1</max>
+					</levelRange>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodLog</thingDef>
+					<count>320</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodPlank</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>BlocksSandstone</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipChunk</thingDef>
+					<count>8</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipMechChunk</thingDef>
+					<count>6</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				
+				<!-- Cat-Drugs references -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>Chitin</thingDef>
+					<count>270</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ChitinPlating</thingDef>
+					<count>18</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>DevilstrandCloth</thingDef>
+					<count>84</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>CupronickelAlloy</thingDef>
+					<count>120</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>SmokeleafJoint</thingDef>
+					<count>60</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

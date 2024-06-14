@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Homunculus -->
+	<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+		<defName>HMC_Homunculus_person</defName>
+		<label>member</label>
+		<race>Human</race>
+		<defaultFactionType>HMC_PlayerHomunculusTribe</defaultFactionType>
+		<chemicalAddictionChance>0.08</chemicalAddictionChance>
+		<apparelTags>
+			<li>Tribal</li>
+		</apparelTags>
+		<apparelMoney>200~400</apparelMoney>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags Inherit="false">
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.08</techHediffsChance>
+		<initialResistanceRange>3~8</initialResistanceRange>
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			<HMC_Homunculus MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Homunculus>
+		  </xenotypeChances>
+		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+	</PawnKindDef>
+
+</Defs>

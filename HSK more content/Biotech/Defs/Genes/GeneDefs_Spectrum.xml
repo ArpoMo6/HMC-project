@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GenePainBase">
+    <defName>HMC_Pain_Reduced_Lite</defName>
+    <label>reduced pain lite</label>
+    <labelShortAdj>pain-dull-lite</labelShortAdj>
+    <description>Carriers of this gene feel slightly less pain than other.</description>
+    <iconPath>UI/Icons/Genes/Gene_PainReduced</iconPath>
+	<displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>41</displayOrderInCategory>
+    <painFactor>0.9</painFactor>
+    <biostatMet>0</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dull</symbol></li>
+        <li><symbol>daze</symbol></li>
+        <li><symbol>tough</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GenePainBase">
+    <defName>HMC_Pain_Extra_Lite</defName>
+    <label>extra pain lite</label>
+    <labelShortAdj>wimpy-lite</labelShortAdj>
+    <description>Carriers of this gene feel slightly more pain than other.</description>
+    <iconPath>UI/Icons/Genes/Gene_ExtraPain</iconPath>
+	<displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>42</displayOrderInCategory>
+	<painFactor>1.1</painFactor>
+    <biostatMet>0</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>wimpo</symbol></li>
+        <li><symbol>whino</symbol></li>
+        <li><symbol>cowar</symbol></li>
+        <li><symbol>cry</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>whiner</symbol></li>
+        <li><symbol>wimp</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

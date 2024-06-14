@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<!-- Colonist dirtmole -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_DirtmoleColonist</defName>
+						<label>colonist dirtmole</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">999</Dirtmole>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist genie -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_GenieColonist</defName>
+						<label>colonist genie</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Genie MayRequire="Ludeon.RimWorld.Biotech">999</Genie>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist hussar -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_HussarColonist</defName>
+						<label>colonist hussar</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Hussar MayRequire="Ludeon.RimWorld.Biotech">999</Hussar>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist sanguophage -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_SanguophageColonist</defName>
+						<label>colonist sanguophage</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">999</Sanguophage>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist neanderthal -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_NeanderthalColonist</defName>
+						<label>colonist neanderthal</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">999</Neanderthal>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist pigskin -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_PigskinColonist</defName>
+						<label>colonist pigskin</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Pigskin MayRequire="Ludeon.RimWorld.Biotech">999</Pigskin>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist impid -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_ImpidColonist</defName>
+						<label>colonist impid</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Impid MayRequire="Ludeon.RimWorld.Biotech">999</Impid>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist waster -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_WasterColonist</defName>
+						<label>colonist waster</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Waster MayRequire="Ludeon.RimWorld.Biotech">999</Waster>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist yttakin -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_YttakinColonist</defName>
+						<label>colonist yttakin</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Yttakin MayRequire="Ludeon.RimWorld.Biotech">999</Yttakin>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+					
+					<!-- Colonist highmate -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_HighmateColonist</defName>
+						<label>colonist highmate</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<Highmate MayRequire="Ludeon.RimWorld.Biotech">999</Highmate>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+										
+					<!-- Colonist teljor -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_TeljorColonist</defName>
+						<label>colonist teljor</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<HMC_Teljor MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Teljor>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<AlienRace.RaceSettings>
+						<defName>HMC_DirtmoleRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_DirtmoleColonist</li>
+											</kindDefs>
+											<chance>5.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_DirtmoleColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_DirtmoleColonist</li>
+									</kindDefs>
+									<chance>6.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_DirtmoleColonist</li>
+											</kindDefs>
+											<chance>6.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+					
+					<AlienRace.RaceSettings>
+						<defName>HMC_GenieRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_GenieColonist</li>
+											</kindDefs>
+											<chance>5.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_GenieColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_GenieColonist</li>
+									</kindDefs>
+									<chance>6.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_GenieColonist</li>
+											</kindDefs>
+											<chance>6.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+										
+					<AlienRace.RaceSettings>
+						<defName>HMC_HussarRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_HussarColonist</li>
+											</kindDefs>
+											<chance>3.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_HussarColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_HussarColonist</li>
+									</kindDefs>
+									<chance>4.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_HussarColonist</li>
+											</kindDefs>
+											<chance>4.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+															
+					<AlienRace.RaceSettings>
+						<defName>HMC_SanguophageRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_SanguophageColonist</li>
+											</kindDefs>
+											<chance>1.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_SanguophageColonist</li>
+									</kindDefs>
+									<chance>1.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_SanguophageColonist</li>
+									</kindDefs>
+									<chance>1.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_SanguophageColonist</li>
+											</kindDefs>
+											<chance>1.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																				
+					<AlienRace.RaceSettings>
+						<defName>HMC_NeanderthalRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_NeanderthalColonist</li>
+											</kindDefs>
+											<chance>9.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_NeanderthalColonist</li>
+									</kindDefs>
+									<chance>3.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_NeanderthalColonist</li>
+									</kindDefs>
+									<chance>7.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_NeanderthalColonist</li>
+											</kindDefs>
+											<chance>7.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																									
+					<AlienRace.RaceSettings>
+						<defName>HMC_PigskinRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_PigskinColonist</li>
+											</kindDefs>
+											<chance>8.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_PigskinColonist</li>
+									</kindDefs>
+									<chance>3.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_PigskinColonist</li>
+									</kindDefs>
+									<chance>6.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_PigskinColonist</li>
+											</kindDefs>
+											<chance>6.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																														
+					<AlienRace.RaceSettings>
+						<defName>HMC_ImpidRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_ImpidColonist</li>
+											</kindDefs>
+											<chance>6.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_ImpidColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_ImpidColonist</li>
+									</kindDefs>
+									<chance>4.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_ImpidColonist</li>
+											</kindDefs>
+											<chance>4.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																																			
+					<AlienRace.RaceSettings>
+						<defName>HMC_WasterRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_WasterColonist</li>
+											</kindDefs>
+											<chance>5.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_WasterColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_WasterColonist</li>
+									</kindDefs>
+									<chance>3.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_WasterColonist</li>
+											</kindDefs>
+											<chance>3.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																																								
+					<AlienRace.RaceSettings>
+						<defName>HMC_YttakinRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_YttakinColonist</li>
+											</kindDefs>
+											<chance>5.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_YttakinColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_YttakinColonist</li>
+									</kindDefs>
+									<chance>3.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_YttakinColonist</li>
+											</kindDefs>
+											<chance>3.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																																													
+					<AlienRace.RaceSettings>
+						<defName>HMC_HighmateRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_HighmateColonist</li>
+											</kindDefs>
+											<chance>3.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_HighmateColonist</li>
+									</kindDefs>
+									<chance>1.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_HighmateColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_HighmateColonist</li>
+											</kindDefs>
+											<chance>2.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																																																		
+					<AlienRace.RaceSettings>
+						<defName>HMC_TeljorRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_TeljorColonist</li>
+											</kindDefs>
+											<chance>3.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_TeljorColonist</li>
+									</kindDefs>
+									<chance>1.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_TeljorColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_TeljorColonist</li>
+											</kindDefs>
+											<chance>2.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

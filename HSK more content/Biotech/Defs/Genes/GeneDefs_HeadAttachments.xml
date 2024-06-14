@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="HMC_HeadAttachmentGeneBase" Abstract="True"><!-- 耳朵-->
+        <biostatCpx>0</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <randomChosen>true</randomChosen>
+        <endogeneCategory>Ears</endogeneCategory>
+        <displayCategory>HMC_Genes</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <graphicData>
+            <layer>PostHair</layer>
+            <drawNorthAfterHair>true</drawNorthAfterHair>
+            <useSkinShader>false</useSkinShader>
+            <drawLoc>HeadTop</drawLoc>
+        </graphicData>
+        <!-- Collides with other genes with the same tags-->
+        <exclusionTags>
+            <li>Ears</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
+        <defName>HMC_HA_DeerEar</defName>
+        <label>Deer ear</label>
+        <description>Carriers of this gene grow deer-like ears, adults own antlers.</description>
+        <iconPath>UI/Icons/Genes/Gene_DeerEar</iconPath>
+		<displayOrderInCategory>101</displayOrderInCategory>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/HeadAttachments/DeerEar/DeerEarAdultA</graphicPath>
+            <colorType>Hair</colorType>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
+        <defName>HMC_HA_FoxEar</defName>
+        <label>Fox ear</label>
+        <description>Carriers of this gene grow fox-like ears.</description>
+        <iconPath>UI/Icons/Genes/Gene_FoxEar</iconPath>
+		<displayOrderInCategory>102</displayOrderInCategory>
+        <graphicData>
+            <graphicPaths>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarA</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarB</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarC</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarD</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarE</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarF</li>
+            </graphicPaths>
+            <colorType>Hair</colorType>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
+        <defName>HMC_HA_HalfDemonEar</defName>
+        <label>Imp ear</label>
+        <description>Carriers of this gene grow imp-like ears.</description>
+        <iconPath>UI/Icons/Genes/Gene_HalfDemonEar</iconPath>
+		<displayOrderInCategory>103</displayOrderInCategory>
+        <graphicData>
+            <colorType>Skin</colorType>
+            <graphicPaths>
+                <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarA</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarB</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarC</li>
+                <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarD</li>
+            </graphicPaths>
+        </graphicData>
+    </GeneDef>
+	
+</Defs>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef>
+    <defName>HMC_Natural_Pockets</defName>
+    <label>natural pockets</label>
+    <iconPath>UI/Icons/Genes/Gene_Natural_Pockets</iconPath>
+    <description>Carriers of this gene have very flexible and elastic skin with a large number of different folds and pockets.</description>
+    <displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>51</displayOrderInCategory>
+    <statOffsets>
+      <CarryBulk>20</CarryBulk>
+      <CarryingCapacity>20</CarryingCapacity>
+    </statOffsets>
+    <biostatMet>-2</biostatMet>
+  </GeneDef>
+
+  <GeneDef Name="HMC_GeneToughSkinBase" Abstract="True">
+    <displayCategory>HMC_Genes</displayCategory>
+    <exclusionTags>
+      <li>HMC_ToughSkin</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="HMC_GeneToughSkinBase">
+    <defName>HMC_SteelSkin</defName>
+    <label>steel skin</label>
+    <description>Carriers of this gene have very tougher skin. They have thickened skin that acts as natural armor.</description>
+    <iconPath>UI/Icons/Genes/Gene_ArmorSkinHMC</iconPath>
+	<skinColorOverride>(105, 105, 105)</skinColorOverride>
+    <displayOrderInCategory>52</displayOrderInCategory>
+    <statOffsets>
+		<ArmorRating_Blunt>3.2</ArmorRating_Blunt>
+		<ArmorRating_Sharp>2.1</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		<ArmorRating_Electric>-0.2</ArmorRating_Electric>
+    </statOffsets>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>tough</symbol></li>
+        <li><symbol>stout</symbol></li>
+        <li><symbol>rough</symbol></li>
+        <li><symbol>lump</symbol></li>
+        <li><symbol>bruise</symbol></li>
+        <li><symbol>stiff</symbol></li>
+        <li><symbol>hard</symbol></li>
+        <li><symbol>vigo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="HMC_GeneToughSkinBase">
+    <defName>HMC_PlasteelSkin</defName>
+    <label>plasteel skin</label>
+    <description>Carriers of this gene have very very tougher skin. They have thickened skin that acts as natural armor.</description>
+    <iconPath>UI/Icons/Genes/Gene_ArmorSkinHMC</iconPath>
+	<skinColorOverride>(160, 178, 181)</skinColorOverride>
+    <displayOrderInCategory>53</displayOrderInCategory>
+    <statOffsets>
+		<ArmorRating_Blunt>5.4</ArmorRating_Blunt>
+		<ArmorRating_Sharp>4</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.2</ArmorRating_Heat>
+		<ArmorRating_Electric>-0.4</ArmorRating_Electric>
+    </statOffsets>
+    <biostatMet>-3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>tough</symbol></li>
+        <li><symbol>stout</symbol></li>
+        <li><symbol>rough</symbol></li>
+        <li><symbol>lump</symbol></li>
+        <li><symbol>bruise</symbol></li>
+        <li><symbol>stiff</symbol></li>
+        <li><symbol>hard</symbol></li>
+        <li><symbol>vigo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="HMC_GeneToughSkinBase">
+    <defName>HMC_EdritiumSkin</defName>
+    <label>edritium skin</label>
+    <description>Carriers of this gene have very very very tougher skin. They have thickened skin that acts as natural armor. Very flammable armor.</description>
+    <iconPath>UI/Icons/Genes/Gene_ArmorSkinHMC</iconPath>
+	<skinColorOverride>(230, 135, 155)</skinColorOverride>
+    <displayOrderInCategory>54</displayOrderInCategory>
+    <statOffsets>
+		<ArmorRating_Blunt>9</ArmorRating_Blunt>
+		<ArmorRating_Sharp>6.7</ArmorRating_Sharp>
+		<ArmorRating_Heat>-2</ArmorRating_Heat>
+		<ArmorRating_Electric>-0.5</ArmorRating_Electric>
+    </statOffsets>
+    <biostatMet>-3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>tough</symbol></li>
+        <li><symbol>stout</symbol></li>
+        <li><symbol>rough</symbol></li>
+        <li><symbol>lump</symbol></li>
+        <li><symbol>bruise</symbol></li>
+        <li><symbol>stiff</symbol></li>
+        <li><symbol>hard</symbol></li>
+        <li><symbol>vigo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

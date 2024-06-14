@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>HSK more content</name>
+	<author>arpomo6</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>arpomo6.hmc.project</packageId>
+	<description>
+(ENG)
+Version 0.44.
+this mod do:
+- add new weapons and ammo (EMP-ammo included too!);
+- add a new traits (some of them may be dangerous!);
+- add ammo-unmaking (the game won't get any easier!);
+- add new dangerous factions (be ready!);
+- and more...
+P.S. This modification can cause a some butthurt, feelings of hatred, anger, or severe depression.
+It is strongly not recommended for particularly nervous or impressionable persons. Persons who do not accept gaming inequality in any of its manifestations, as well as for childrens, pregnant persons and retirees.
+
+Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
+
+(RUS)
+Версия 0.44.
+Этот мод:
+- добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
+- добавляет новые черты характера (некоторые из них могут быть опасны!);
+- добавляет разбор боеприпасов (игра от этого легче не станет!);
+- добавляет новые опасные фракции (приготовьтесь!);
+- и ещё кое-что...
+P.S. Данная модификация может вызвать жжение в области заднего прохода, чувство ненависти, злости или вызвать сильную депрессию.
+Настоятельно не рекомендуется для игры особо нервным или впечатлительным лицам. Лицам, не приемлющих игровое неравенство в любом его проявлении, а также детям, беременным и пенсионерам.
+
+Некоторая часть текстур оружия, патронов и брони были взяты из других модов (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded и других старых модов, названия которых я уже не помню, к сожалению) и принадлежат их создателям, часть - из других игр, часть - сделана мною.
+	</description>
+	<modDependencies>
+	</modDependencies>
+	<loadBefore>
+		<li>GhostRolly.Rim73</li>
+		<li>experimental.optimizations</li>
+		<li>DimonSever000.ModIndicator.Specific</li>
+		<li>dubwise.dubsperformanceanalyzer.steam</li>
+		<li>DimonSever000.Wiki.Specific</li>
+		<li>mlie.wikirim</li>
+		<li>Taranchuk.PerformanceOptimizer</li>
+		<li>notooshabby.rocketman</li>
+		<li>Krkr.RocketMan</li>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>bs.performance</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>CETeam.CombatExtended</li>
+		<li>skyarkhangel.HSK</li>
+		<li>killface.facialstuff</li>
+		<li>chjees.androids</li>
+		<li>multilangcolorfultraits.pirateby</li>
+		<li>telardo.BetterGeneGraphicsFramework</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>ArpoMo6.HMC.USSRWP</li>
+	</incompatibleWith>
+</ModMetaData>
