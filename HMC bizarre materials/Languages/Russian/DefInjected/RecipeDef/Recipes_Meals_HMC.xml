@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Cook_HMC_Fequila.label>Приготовить фекилу</Cook_HMC_Fequila.label>
+	<Cook_HMC_Fequila.description>Приготовить фекилу из текилы и фекального ила.</Cook_HMC_Fequila.description>
+	<Cook_HMC_Fequila.jobString>Готовит фекилу.</Cook_HMC_Fequila.jobString>
+
+	<Cook_HMC_MacAndCheese.label>Приготовить макароны с сыром</Cook_HMC_MacAndCheese.label>
+	<Cook_HMC_MacAndCheese.description>Приготовить макароны с сыром из макарон и сыра.</Cook_HMC_MacAndCheese.description>
+	<Cook_HMC_MacAndCheese.jobString>Готовит макароны с сыром.</Cook_HMC_MacAndCheese.jobString>
+
+</LanguageData>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Cook_HMC_Fequila</defName>
+		<label>cook fequila</label>
+		<description>Cook fequila. Produces 2.</description>
+		<jobString>cooking fequila.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>300</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RottedMush</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>tequila</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<HMC_fequila>2</HMC_fequila>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RottedMush</li>
+				<li>tequila</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<researchPrerequisite>Alcohol_B2</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Cook_HMC_MacAndCheese</defName>
+		<label>cook mac and cheese</label>
+		<description>Cook mac and cheese. Produces 2.</description>
+		<jobString>cooking mac and cheese.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>825</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cheese</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+		</ingredients>
+		<products>
+			<HMC_MacAndCheese>2</HMC_MacAndCheese>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+				<li>Cheese</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

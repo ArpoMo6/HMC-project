@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_BedWithQualityBase">
+		<defName>HMCSpacerBed</defName>
+		<label>spacer bed</label>
+		<description>A very cozy mattress with sheets on a metal frame for resting.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Beds/NormalHMC/single/normalbed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3.7)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.2, 1.8)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>900</WorkToBuild>
+			<Comfort>0.9</Comfort>
+			<ImmunityGainSpeedFactor>1.03</ImmunityGainSpeedFactor>
+			<BedRestEffectiveness>1.07</BedRestEffectiveness>
+			<SurgerySuccessChanceFactor>0.97</SurgerySuccessChanceFactor>
+			<Bulk>70</Bulk>
+			<Mass>28</Mass>
+		</statBases>
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Leathery</li>
+			<li>Fabric</li>
+			<li>HF</li>
+			<li>Plastic</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>8</bed_healPerDay>
+		</building>
+		<researchPrerequisites>
+			<li>Beds_C2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_BedWithQualityBase">
+		<defName>HMCDoubleSpacerBed</defName>
+		<label>spacer bed</label>
+		<description>A non simple double-wide bed that fits two people.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Beds/NormalHMC/double/normalbed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3.7)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.2, 1.8)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>1800</WorkToBuild>
+			<Comfort>1</Comfort>
+			<Beauty>15</Beauty>
+			<MaxHitPoints>120</MaxHitPoints>
+			<ImmunityGainSpeedFactor>1.03</ImmunityGainSpeedFactor>
+			<BedRestEffectiveness>1.07</BedRestEffectiveness>
+			<SurgerySuccessChanceFactor>0.97</SurgerySuccessChanceFactor>
+			<Bulk>160</Bulk>
+			<Mass>65</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Leathery</li>
+			<li>Fabric</li>
+			<li>HF</li>
+			<li>Plastic</li>
+		</stuffCategories>
+		<costStuffCount>145</costStuffCount>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>8</bed_healPerDay>
+		</building>
+		<researchPrerequisites>
+			<li>Beds_C2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

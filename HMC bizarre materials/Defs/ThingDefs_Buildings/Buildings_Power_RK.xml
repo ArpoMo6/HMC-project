@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PowerFueled">
+		<defName>SarcasmiumGenerator</defName>
+		<label>sarcasmium generator</label>
+		<graphicData>
+			<texPath>Things/Building/Power/SarcasmFiredGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.8, 1.8)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>475</MaxHitPoints>
+			<WorkToBuild>7000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<description>The advanced Steam Generator that produces electricity. Can be fueled with Sarcasmium only.
+Power output: around 5000 W.</description>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<costList>
+			<Sarcasmium>110</Sarcasmium>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<ReinforcedConcrete>20</ReinforcedConcrete>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-5000</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(154,205,50,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>32</heatPerSecond>
+				<heatPushMaxTemperature>160</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>2050</operatingTemp>
+				<drawfirefuel>false</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<fuelCapacity>75</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Sarcasmium</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Generators_C3</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>13</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="PowerFueled">
+		<defName>EdritiumGenerator</defName>
+		<label>edritium generator</label>
+		<graphicData>
+			<texPath>Things/Building/Power/EdritPoweredGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(2.8, 0.8, 1.8)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.9</fillPercent>
+		<statBases>
+			<MaxHitPoints>525</MaxHitPoints>
+			<WorkToBuild>13000</WorkToBuild>
+			<Flammability>2.0</Flammability>
+		</statBases>
+		<description>A advanced Power Plant that produces electricity. Can be fueled with Edritium only.</description>
+		<size>(3,2)</size>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>330</costStuffCount>
+		<costList>
+			<Edritium>170</Edritium>
+			<Rubber>65</Rubber>
+			<ReinforcedConcrete>45</ReinforcedConcrete>
+			<ComponentIndustrial>35</ComponentIndustrial>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-15025</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(230,135,155,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>64</heatPerSecond>
+				<heatPushMaxTemperature>666</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>6666</operatingTemp>
+				<drawfirefuel>false</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<fuelCapacity>90</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Edritium</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Generators_C4</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

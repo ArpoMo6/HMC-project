@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>HMC bizarre materials</name>
+	<author>arpomo6</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>ArpoMo6.HMC.bizmat</packageId>
+	<description>Version 0.20. Added few new materials and recipes.</description>
+	<modDependencies>
+	</modDependencies>
+	<loadBefore>
+		<li>experimental.optimizations</li>
+		<li>notooshabby.rocketman</li>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>UnlimitedHugs.HugsLib</li>
+		<li>CETeam.CombatExtended</li>
+		<li>skyarkhangel.HSK</li>
+		<li>skyarkhangel.SurvivalToolsLite</li>
+		<li>ArpoMo6.HMC.Project</li>
+	</loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

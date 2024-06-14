@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeKartonium"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>RottedMush</li>
+										<li>FecalSludge</li>
+									</thingDefs>
+								</filter>
+								<count>15</count>
+							</li>
+							<li>
+								<filter>
+									<categories>
+										<li>Woody</li>
+									</categories>
+									<disallowedThingDefs>
+										<li>Kartonium</li>
+									</disallowedThingDefs>
+								</filter>
+								<count>15</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Charcoal</li>
+									</thingDefs>
+								</filter>
+								<count>3</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="MakeKartonium"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>FecalSludge</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

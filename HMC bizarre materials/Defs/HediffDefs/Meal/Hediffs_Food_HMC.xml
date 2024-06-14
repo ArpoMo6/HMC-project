@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>Ate_HMC_Yummy</defName>
+		<label>satisfied by yummy</label>
+		<description>satisfied by yummy</description>
+		<defaultLabelColor>(0.23, 0.62, 0.1)</defaultLabelColor>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: yummy :3</label>
+				<hungerRateFactorOffset>-0.25</hungerRateFactorOffset>
+				<statOffsets>
+					<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

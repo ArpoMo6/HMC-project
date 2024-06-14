@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[@Name="SK_OrassanBase" or defName="NovaAlliance" or defName="Pirate" or defName="Sectarian" or defName="Syndicate" or defName="Brotherhood"]/apparelStuffFilter/thingDefs</xpath>
+				<value>
+					<li>PlaPlasteel</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Orion"]/apparelStuffFilter/thingDefs</xpath>
+				<value>
+					<li>Opticweave</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
