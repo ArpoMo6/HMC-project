@@ -1,3 +1,10 @@
+– Changelog "HSK more content" v0.45.1 (1.4 version):
+
+
+1) fixed a critical bug due to which a new world could be generated incorrectly (lack of factions on the map, for example).
+
+
+
 – Changelog "HSK more content" v0.45 (1.4 version):
 
 
