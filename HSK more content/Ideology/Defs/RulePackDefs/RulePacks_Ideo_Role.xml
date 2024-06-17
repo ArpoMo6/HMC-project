@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>HMC_NamerRoleCookingSpecialist</defName>
+    <include><li>NamerRoleSpecialistUtility</li></include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_roleName->cook</li>
+        <li>r_roleName->flunkey</li>
+        <li>r_roleName->Ramsay</li>
+		<li>r_roleName->norballieri</li>
+        <li>firstPart->ask</li>
+		<li>firstPart->buckwheat</li>
+		<li>firstPart->potato</li>
+		<li>firstPart->pizza</li>
+		<li>firstPart->ginger</li>
+		<li>firstPart->twolegso</li>
+        <li>firstPart->cook</li>
+        <li>firstPart->pasta</li>
+        <li>firstPart->menu</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
