@@ -6,7 +6,7 @@
     <label>primitive component floor</label>
     <renderPrecedence>249</renderPrecedence>
     <description>Polished primitive component floor. It not so pretty, but the smooth surface gets a little bonus to cleanliness.</description>
-    <texturePath>Terrain/Surfaces/TotemicBoards</texturePath>
+    <texturePath>Terrain/Surfaces/PavedTile</texturePath>
     <color>(0.439, 0.284, 0.145)</color>
     <statBases>
       <WorkToBuild>480</WorkToBuild>
