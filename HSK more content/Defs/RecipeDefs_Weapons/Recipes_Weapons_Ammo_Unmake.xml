@@ -172,6 +172,7 @@
 						<li>Ammo762x39mmSoviet</li>
 						<li>Ammo545x39mmSoviet</li>
 						<li>Ammo9x39mmSoviet</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo792x33mmK</li>
 					</categories>
 				</filter>
 				<count>100</count>
@@ -183,6 +184,7 @@
 				<li>Ammo762x39mmSoviet</li>
 				<li>Ammo545x39mmSoviet</li>
 				<li>Ammo9x39mmSoviet</li>
+				<li MayRequire="XxNelsonxX.Parabellum">Ammo792x33mmK</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -211,6 +213,8 @@
 						<li>Ammo762x51mmNATO</li>
 						<li>Ammo127x55mmAR</li>
 						<li>Ammo338LM</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo8mmM</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo127x42mmB</li>
 					</categories>
 				</filter>
 				<count>100</count>
@@ -223,6 +227,8 @@
 				<li>Ammo762x51mmNATO</li>
 				<li>Ammo127x55mmAR</li>
 				<li>Ammo338LM</li>
+				<li MayRequire="XxNelsonxX.Parabellum">Ammo8mmM</li>
+				<li MayRequire="XxNelsonxX.Parabellum">Ammo127x42mmB</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -249,6 +255,7 @@
 						<li>Ammo9x19mmPara</li>
 						<li>Ammo45ACP</li>
 						<li>Ammo762x25mmTT</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo763x25mmM</li>
 					</categories>
 				</filter>
 				<count>100</count>
@@ -259,6 +266,7 @@
 					<li>Ammo9x19mmPara</li>
 					<li>Ammo45ACP</li>
 					<li>Ammo762x25mmTT</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo763x25mmM</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -321,6 +329,7 @@
 						<li>Ammo408CT</li>
 						<li>Ammo127x108mm</li>
 						<li>Ammo700NE</li>
+						<li MayRequire="XxNelsonxX.Parabellum">AmmoTuF</li>
 					</categories>
 				</filter>
 				<count>50</count>
@@ -335,6 +344,7 @@
 					<li>Ammo408CT</li>
 					<li>Ammo127x108mm</li>
 					<li>Ammo700NE</li>
+					<li MayRequire="XxNelsonxX.Parabellum">AmmoTuF</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -390,6 +400,8 @@
 						<li>Ammo30x29mmGrenades</li>
 						<li>Ammo40x46mmGrenades</li>
 						<li>Ammo25x40mmGrenades</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo25x59mmGrenades</li>
+						<li MayRequire="XxNelsonxX.Parabellum">AmmoSchiessbecher</li>
 					</categories>
 				</filter>
 				<count>30</count>
@@ -400,6 +412,8 @@
 					<li>Ammo30x29mmGrenades</li>
 					<li>Ammo40x46mmGrenades</li>
 					<li>Ammo25x40mmGrenades</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo25x59mmGrenades</li>
+					<li MayRequire="XxNelsonxX.Parabellum">AmmoSchiessbecher</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -661,6 +675,9 @@
 						<li>AmmoM72LAW</li>
 						<li>AmmoRPG7Grenades</li>
 						<li>AmmoSPG9Rockets</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo84mmCGShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">AmmoRPzBRockets</li>
+						<li MayRequire="XxNelsonxX.Parabellum">AmmoNbWRockets</li>
 					</categories>
 				</filter>
 				<count>10</count>
@@ -671,6 +688,9 @@
 					<li>AmmoM72LAW</li>
 					<li>AmmoRPG7Grenades</li>
 					<li>AmmoSPG9Rockets</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo84mmCGShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">AmmoRPzBRockets</li>
+					<li MayRequire="XxNelsonxX.Parabellum">AmmoNbWRockets</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -699,6 +719,11 @@
 						<li>Ammo90mmCannonShells</li>
 						<li>Ammo120mmCannonShells</li>
 						<li>Ammo155mmHowitzerShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo37mmCannonShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo50mmCannonShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo75mmCannonShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo128mmCannonShells</li>
+						<li MayRequire="XxNelsonxX.Parabellum">Ammo210mmHowitzerShell</li>
 					</categories>
 				</filter>
 				<count>5</count>
@@ -710,6 +735,11 @@
 					<li>Ammo90mmCannonShells</li>
 					<li>Ammo120mmCannonShells</li>
 					<li>Ammo155mmHowitzerShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo37mmCannonShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo50mmCannonShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo75mmCannonShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo128mmCannonShells</li>
+					<li MayRequire="XxNelsonxX.Parabellum">Ammo210mmHowitzerShell</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>

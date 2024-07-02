@@ -8,7 +8,7 @@
 	<packageId>arpomo6.hmc.project</packageId>
 	<description>
 (ENG)
-Version 0.45.1.
+Version 0.45.2.
 this mod do:
 - add new weapons and ammo (EMP-ammo included too!);
 - add a new traits (some of them may be dangerous!);
@@ -21,7 +21,7 @@ It is strongly not recommended for particularly nervous or impressionable person
 Some weapon, ammo and armour textures was taken from other mods (Gun Nut, Project Itzal, [SY4] Vanilla-Friendly Weapon Pack, dianne's defaults - Weapons, Combat Extended Guns Retextured, Eccentric Tech - Foxy's Armory, Girls' frontline Weapon Pack, EVA Core, Not Only just a cannon, Vanilla XCOM Laser Weapons, ADE Advanced Turrets, AFU Cosmetic Gene Expanded and other old mods whose names I don't remember anymore unfortunately) and belong to their creators, some was taken from other games, some was made by me.
 
 (RUS)
-Версия 0.45.1.
+Версия 0.45.2.
 Этот мод:
 - добавляет новое оружие и боеприпасы (ЭМИ-боеприпасы в том числе!);
 - добавляет новые черты характера (некоторые из них могут быть опасны!);
@@ -38,7 +38,6 @@ P.S. Данная модификация может вызвать жжение 
 	<loadBefore>
 		<li>GhostRolly.Rim73</li>
 		<li>experimental.optimizations</li>
-		<li>DimonSever000.ModIndicator.Specific</li>
 		<li>dubwise.dubsperformanceanalyzer.steam</li>
 		<li>DimonSever000.Wiki.Specific</li>
 		<li>mlie.wikirim</li>

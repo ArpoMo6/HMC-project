@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneEyeColor">
+	<defName>Eyes_Golden_HMC</defName>
+	<label>golden eyes</label>
+	<labelShortAdj>Golden-eyed</labelShortAdj>
+	<description>Golden eyes</description>
+	<iconPath>UI/Icons/Genes/GoldenEyesIcon</iconPath>
+	<displayCategory>HMC_Genes</displayCategory>
+	<displayOrderInCategory>61</displayOrderInCategory>
+    <graphicData>
+      <drawScale>0.28</drawScale>
+      <graphicPath>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Male/GoldenEyes_Male</graphicPath>
+      <graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Female/GoldenEyes_FemaleTwo</graphicPathFemale>
+    </graphicData>
+  </GeneDef>
+</Defs>

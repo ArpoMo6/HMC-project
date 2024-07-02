@@ -46,7 +46,7 @@
 		<thingCategories>
 			<li>BuildingsSecurity</li>
 		</thingCategories>
-		<researchPrerequisites><li>Ballista_B1</li></researchPrerequisites>
+		<researchPrerequisites><li>HMC_TeljorArmament</li></researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
 

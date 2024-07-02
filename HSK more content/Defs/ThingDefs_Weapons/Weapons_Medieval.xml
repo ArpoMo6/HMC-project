@@ -70,6 +70,9 @@
 		<costList>
 			<ComponentMedieval>20</ComponentMedieval>
 		</costList>
+		<recipeMaker>
+		  <researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
+		</recipeMaker>
     </ThingDef>
 	
     <ThingDef ParentName="HMC_HandCannon">

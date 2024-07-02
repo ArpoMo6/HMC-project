@@ -33,6 +33,7 @@
 		<weaponTags>
 			<li>NeolithicRangedBasic</li>
 			<li>CE_Bow</li>
+			<li>CE_OneHandedWeapon</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>Neolithic</li>

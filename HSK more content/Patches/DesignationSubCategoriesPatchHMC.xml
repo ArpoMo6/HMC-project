@@ -55,4 +55,11 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames</xpath>
+		<value>
+			<li>HMC_Parapet</li>
+		</value>
+	</Operation>
+
 </Patch>

@@ -25,6 +25,7 @@
 		<li>Hair_LongOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>Ears_Pointed</li>
+		<li>Eyes_Golden_HMC</li>
 		<li>FacialRidges</li>
 		<li>Body_Standard</li>
 		<li>Hair_Blonde</li>
@@ -46,7 +47,7 @@
     <label>homunculus</label>
     <description>Homunculus is a genetically bred mutant by some crazy and carousing hairy scientists. The purpose of breeding is unknown, the resulting specimen is extremely unstable genetically, but still has some potential for survival and even reproduction.</description>
     <descriptionShort>Creation of evil cats with drugs.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
+    <iconPath>UI/Icons/Xenotypes/Homunculus</iconPath>
     <inheritable>true</inheritable>
     <genes>
 	
@@ -81,6 +82,7 @@
 		<li>Furskin</li>
 		<li>Eyes_Red</li>
 		<li>Eyes_Gray</li>
+		<li>Eyes_Golden_HMC</li>
 		<li>Brow_Heavy</li>
 		<li>Tail_Furry</li>
 		<li>Tail_Smooth</li>

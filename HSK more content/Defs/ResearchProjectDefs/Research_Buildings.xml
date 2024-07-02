@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>HMC_TeljorArmament</defName>
+		<label>teljor's armament</label>
+		<description>teljor's armament</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+<!-- 		<prerequisites>
+			<li>Fortification_B2</li>
+		</prerequisites> -->
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<tab>Buildings_SK</tab>
+		<techprintCount MayRequire="Ludeon.RimWorld.Royalty">1</techprintCount>
+		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">3</techprintCommonality>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">800</techprintMarketValue>
+		<heldByFactionCategoryTags MayRequire="Ludeon.RimWorld.Royalty">
+		  <li>Medieval</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+</Defs>

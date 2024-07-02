@@ -318,7 +318,7 @@
 		<products>
 			<Ammo_CannonBall_Solid_HMC>10</Ammo_CannonBall_Solid_HMC>
 		</products>
-		<researchPrerequisite>Ballista_B1</researchPrerequisite>
+		<researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
 		<recipeUsers Inherit="false">
 			<li>FueledSmithy</li>
 			<li>ElectricSmithy</li>
@@ -374,7 +374,7 @@
 		<products>
 			<Ammo_CannonBall_Explosive_HMC>10</Ammo_CannonBall_Explosive_HMC>
 		</products>
-		<researchPrerequisite>Ballista_B1</researchPrerequisite>
+		<researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
 		<recipeUsers Inherit="false">
 			<li>FueledSmithy</li>
 			<li>ElectricSmithy</li>
@@ -441,7 +441,7 @@
 		<products>
 			<Ammo_CannonBall_Incendiary_HMC>10</Ammo_CannonBall_Incendiary_HMC>
 		</products>
-		<researchPrerequisite>Ballista_B1</researchPrerequisite>
+		<researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
 		<recipeUsers Inherit="false">
 			<li>FueledSmithy</li>
 			<li>ElectricSmithy</li>
@@ -496,7 +496,7 @@
 		<products>
 			<Ammo_CannonBall_Grape_HMC>10</Ammo_CannonBall_Grape_HMC>
 		</products>
-		<researchPrerequisite>Ballista_B1</researchPrerequisite>
+		<researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
 		<recipeUsers Inherit="false">
 			<li>FueledSmithy</li>
 			<li>ElectricSmithy</li>
