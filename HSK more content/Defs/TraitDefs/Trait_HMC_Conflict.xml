@@ -74,7 +74,7 @@
 		<degreeDatas>
 			<li>
 				<label>tin man</label>
-				<description>[PAWN_nameDef] has robust skin and good tree destroy skills. The only thing [PAWN_possessive] is a cut the greenies slowly.</description>
+				<description>[PAWN_nameDef] has robust skin and good tree chopping skills.</description> <!-- In russian there is also a reference to one streamer, but due to requests, I removed it from english, because no one understands it anyway -->
 				<statOffsets>
 					<MoveSpeed>-0.05</MoveSpeed>
 				</statOffsets>

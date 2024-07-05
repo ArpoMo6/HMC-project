@@ -54,7 +54,8 @@
 		<defName>Bullet_12Gauge_DB</defName>
 		<label>dragons breath shard</label>
 		<graphicData>
-			<texPath>Things/Projectile/DragonsBreathShard</texPath>
+			<texPath>Things/Mote/FireGlow</texPath>
+			<shaderType>MoteGlow</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -65,8 +66,27 @@
 			<armorPenetrationSharp>0</armorPenetrationSharp>
 			<armorPenetrationBlunt>0</armorPenetrationBlunt>
 			<spreadMult>60.4</spreadMult>
-			<speed>50</speed>
+			<speed>120</speed>
+			<castShadow>false</castShadow>
 		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ProjectileFleck">
+				<FleckDatas>
+					<li>
+						<fleck>Fleck_CEFlamethrowerTrail</fleck>
+						<emissionsPerTick>1.4</emissionsPerTick>
+						<flecksPerEmission>1.4</flecksPerEmission>
+						<scale>4</scale>
+					</li>
+					<li>
+						<fleck>Fleck_CEFlamethrowerSmokeTrail</fleck>
+						<emissionsPerTick>1.4</emissionsPerTick>
+						<flecksPerEmission>1</flecksPerEmission>
+						<scale>4</scale>
+					</li>
+				</FleckDatas>
+			</li>
+		</comps>
 	</ThingDef>
 
 <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base12GaugeBullet">

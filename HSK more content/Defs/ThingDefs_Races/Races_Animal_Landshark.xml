@@ -52,7 +52,7 @@
             <baseHealthScale>3.0</baseHealthScale>
 			<hediffGiverSets>
 				<li>BerserkPassiveSet</li>
-			</hediffGiverSets>			
+			</hediffGiverSets>
             <foodType>CarnivoreAnimal</foodType>
             <gestationPeriodDays>360</gestationPeriodDays>
             <packAnimal>false</packAnimal>

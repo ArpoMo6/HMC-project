@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Penguin -->
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>HMC_EggPenguinFertilized</defName>
+    <label>penguin egg (fert.)</label>
+    <description>A fertilized penguin egg. If all goes well, it should hatch into a baby penguin. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <color>(182,205,161)</color>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.6</Nutrition>
+      <MarketValue>19</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherPawn>HMC_Penguin</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

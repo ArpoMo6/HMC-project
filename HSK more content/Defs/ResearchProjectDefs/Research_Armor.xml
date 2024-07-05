@@ -4,7 +4,7 @@
 	<ResearchProjectDef ParentName="HitechLabStationBase">
 		<defName>Armor_F1_HMC</defName>
 		<label>R.P.A. technologies</label>
-		<description>Technologies for manufacturing robotic polypower armor of the «Personal fortress» type. Capable of absorbing massive amounts of damage, making the wearer virtually invulnerable to conventional firearms.</description>
+		<description>Technologies for manufacturing robotic polypower armor of the «Personal fortress» type. Capable of absorbing massive amounts of damage, making the wearer virtually invulnerable to conventional firearms. A techprint is required for research.</description>
 		<baseCost>4500</baseCost>
 		<techLevel>Archotech</techLevel>
 		<prerequisites>
@@ -16,6 +16,12 @@
 		<researchViewX>25.00</researchViewX>
 		<researchViewY>38.00</researchViewY>
 		<tab>Apparel_SK</tab>
+		<techprintCount MayRequire="Ludeon.RimWorld.Royalty">1</techprintCount>
+		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">1</techprintCommonality>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">4500</techprintMarketValue>
+		<heldByFactionCategoryTags MayRequire="Ludeon.RimWorld.Royalty">
+		  <li>Archotech</li>
+		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 
 </Defs>

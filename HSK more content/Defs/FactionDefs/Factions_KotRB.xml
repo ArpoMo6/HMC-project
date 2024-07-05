@@ -255,6 +255,7 @@
 						<li>Berserk_herb</li>
 						<li>Beer</li>
 						<li>Pemmican</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">Techprint_HMC_TeljorArmament</li>
 					</thingDefs>
 				</filter>
 			</fixedParams>

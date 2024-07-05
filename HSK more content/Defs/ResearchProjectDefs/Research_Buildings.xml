@@ -4,7 +4,7 @@
 	<ResearchProjectDef ParentName="MedievalBase">
 		<defName>HMC_TeljorArmament</defName>
 		<label>teljor's armament</label>
-		<description>teljor's armament</description>
+		<description>Provides access to the creation of advanced fortifications and weapons of the medieval. A techprint is required for research.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
 <!-- 		<prerequisites>
