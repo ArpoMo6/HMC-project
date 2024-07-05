@@ -122,7 +122,7 @@
 		<li>Fertile</li>
 		<li>KindInstinct</li>
 		<li>Nearsighted</li>
-		<li>StrongStomach</li>
+		<!-- <li>StrongStomach</li> -->
 		<li>DarkVision</li>
 		<li>KillThirst</li>
 		<li>FireResistant</li>
@@ -133,7 +133,7 @@
 		<!-- <li>PsychicBonding</li> -->
 		<li>PollutionRush</li>
 		<li>Unstoppable</li>
-		<li>NakedSpeed</li>
+		<!-- <li>NakedSpeed</li> -->
 		<li>Hemogenic</li>
 		<!-- <li>HemogenDrain</li> -->
 		<li>FireWeakness</li>
@@ -246,7 +246,7 @@
 		<!-- Other mods -->
 		
 		<!-- <li MayRequire="FS.ReviaRace">ReviaTail</li> -->
-		<li MayRequire="FS.ReviaRace">ReviaEars</li>
+		<!-- <li MayRequire="FS.ReviaRace">ReviaEars</li> -->
 		
     </genes>
   </XenotypeDef>
