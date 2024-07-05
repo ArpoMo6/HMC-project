@@ -181,6 +181,7 @@
         <filter>
           <thingDefs>
 			<li>Honey</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Techprint_Armor_F1_HMC</li>
           </thingDefs>
         </filter>
       </fixedParams>

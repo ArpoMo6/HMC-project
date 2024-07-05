@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Lion =============================== -->
+
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>HMC_Lion</defName>
+		<label>lion</label>
+		<description>A king of the animal kingdom, a lion is a muscular, deep-chested cat with a short head and a prominent mane. Being the biggest of the cat species, lions are excellent combat animals despite their wildness.</description>
+		<statBases>
+			<MoveSpeed>6.4</MoveSpeed>
+			<MarketValue>2000</MarketValue>
+			<ComfyTemperatureMin>-12</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<FilthRate>2</FilthRate>
+			<MeleeDodgeChance>0.22</MeleeDodgeChance>
+			<MeleeCritChance>0.33</MeleeCritChance>
+			<MeleeParryChance>0.11</MeleeParryChance>
+			<ArmorRating_Blunt>2.9</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+			<InjuryHealingFactor>2</InjuryHealingFactor>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationBlunt>4.7</armorPenetrationBlunt>
+				<armorPenetrationSharp>5</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationBlunt>4.7</armorPenetrationBlunt>
+				<armorPenetrationSharp>5</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>2.2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationBlunt>5.6</armorPenetrationBlunt>
+				<armorPenetrationSharp>6</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>3.0</maxPreyBodySize>
+			<baseBodySize>1.65</baseBodySize>
+			<baseHungerRate>0.6</baseHungerRate>
+			<baseHealthScale>2.4</baseHealthScale>
+			<hediffGiverSets>
+				<li>BerserkPassiveSet</li>
+			</hediffGiverSets>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Panthera</leatherDef>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<wildness>0.88</wildness>
+			<nuzzleMtbHours>330</nuzzleMtbHours>
+			<trainability>Advanced</trainability>
+			<manhunterOnTameFailChance>0.45</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.45</manhunterOnDamageChance>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<lifeExpectancy>16</lifeExpectancy>
+			<wildBiomes>
+				<AridShrubland>0.2</AridShrubland>
+				<Desert>0.15</Desert>
+				<ExtremeDesert>0.1</ExtremeDesert>
+				<HmcSavanna MayRequire="arpomo6.hmc.biomes">0.6</HmcSavanna>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>HMC_Pawn_Lion_Wounded</soundWounded>
+					<soundDeath>HMC_Pawn_Lion_Death</soundDeath>
+					<soundAngry>HMC_Pawn_Lion_Angry</soundAngry>
+					<soundCall>HMC_Pawn_Lion_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>HMC_Lion</defName>
+		<label>lion</label>
+		<labelPlural>lions</labelPlural>
+		<race>HMC_Lion</race>
+		<combatPower>260</combatPower>
+		<ecoSystemWeight>0.80</ecoSystemWeight>
+		<wildGroupSize>
+			<min>1</min>
+			<max>3</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>lion cub</label>
+				<labelPlural>lion cubs</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Lion/LionFemale</texPath>
+					<drawSize>1.2</drawSize>
+					<color>(214,184,139)</color>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Lion/Dessicated_Lion</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Lion/LionMale</texPath>
+					<drawSize>1.6</drawSize>
+					<color>(185,143,96)</color>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Animal/Lion/LionFemale</texPath>
+					<drawSize>1.5</drawSize>
+					<color>(214,184,139))</color>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Lion/Dessicated_Lion</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Lion/LionMale</texPath>
+					<drawSize>2.38</drawSize>
+					<color>(185,143,96)</color>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Animal/Lion/LionFemale</texPath>
+					<drawSize>2.18</drawSize>
+					<color>(214,184,139)</color>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Lion/Dessicated_Lion</texPath>
+					<drawSize>2.18</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

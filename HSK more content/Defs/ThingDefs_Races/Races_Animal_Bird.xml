@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================= Penguin =============================== -->
+
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>HMC_Penguin</defName>
+		<label>penguin</label>
+		<description>An aquatic, flightless bird, only found in arctic regions. Often seen in massive flocks, penguins are fierce when cornered, and can quickly overrun any hunter incompetent enough to get close to them.</description>
+		<statBases>
+			<Mass>5</Mass>
+			<MoveSpeed>2.1</MoveSpeed>
+			<MarketValue>120</MarketValue>
+			<ComfyTemperatureMin>-60</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<FilthRate>4</FilthRate>
+			<MeleeDodgeChance>0.01</MeleeDodgeChance>
+			<MeleeCritChance>0.01</MeleeCritChance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationBlunt>0.7</armorPenetrationBlunt>
+				<armorPenetrationSharp>1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>beak</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationBlunt>0.7</armorPenetrationBlunt>
+				<armorPenetrationSharp>1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>2</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>HMC_EggPenguinFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>3.5</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>Bird</body>
+			<leatherDef>Leather_Bird</leatherDef>
+			<gestationPeriodDays>24</gestationPeriodDays>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.8</baseBodySize>
+			<baseHealthScale>0.8</baseHealthScale>
+			<baseHungerRate>0.10</baseHungerRate>
+			<foodType>CarnivoreAnimal</foodType>
+			<wildness>0.70</wildness>
+			<lifeExpectancy>50</lifeExpectancy>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<manhunterOnTameFailChance>0.16</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.22</manhunterOnDamageChance>
+			<wildBiomes>
+				<SeaIce>0.3</SeaIce>
+				<IceSheet>1</IceSheet>
+				<Tundra>0.2</Tundra>
+				<TundraArchipelago>0.4</TundraArchipelago>
+				<TropicalArchipelago>0.2</TropicalArchipelago>
+			</wildBiomes>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBabyTiny</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.22</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.45</minAge>
+					<soundWounded>HMC_Pawn_Penguin_Wounded</soundWounded>
+					<soundDeath>HMC_Pawn_Penguin_Death</soundDeath>
+					<soundCall>HMC_Pawn_Penguin_Call</soundCall>
+					<soundAngry>HMC_Pawn_Penguin_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>		
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>HMC_Penguin</defName>
+		<label>penguin</label>
+		<labelPlural>penguins</labelPlural>
+		<wildGroupSize>
+			<min>3</min>
+			<max>14</max>
+		</wildGroupSize>
+		<race>HMC_Penguin</race>
+		<combatPower>60</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Penguin/PenguinBaby</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Penguin/Dessicated_Penguin</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Penguin/Penguin</texPath>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Penguin/Dessicated_Penguin</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Animal/Penguin/Penguin</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Animal/Penguin/Dessicated_Penguin</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
