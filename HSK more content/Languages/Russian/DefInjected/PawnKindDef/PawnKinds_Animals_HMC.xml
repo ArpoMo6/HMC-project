@@ -36,4 +36,18 @@
   <HMC_beaver.lifeStages.1.label>молодой бобр</HMC_beaver.lifeStages.1.label>
   <HMC_beaver.lifeStages.1.labelFemale>молодая бобриха</HMC_beaver.lifeStages.1.labelFemale>
   
+  <HMC_Penguin.label>пингвин</HMC_Penguin.label>
+  <HMC_Penguin.labelFemale>пингвин</HMC_Penguin.labelFemale>
+  <HMC_Penguin.labelPlural>пингвины</HMC_Penguin.labelPlural>
+  <HMC_Penguin.lifeStages.0.label>пингвинёнок</HMC_Penguin.lifeStages.0.label>
+  <HMC_Penguin.lifeStages.1.label>молодой пингвин</HMC_Penguin.lifeStages.1.label>
+  <HMC_Penguin.lifeStages.1.labelFemale>молодая пингвин</HMC_Penguin.lifeStages.1.labelFemale>
+  
+  <HMC_Lion.label>лев</HMC_Lion.label>
+  <HMC_Lion.labelFemale>львица</HMC_Lion.labelFemale>
+  <HMC_Lion.labelPlural>львы</HMC_Lion.labelPlural>
+  <HMC_Lion.lifeStages.0.label>львёнок</HMC_Lion.lifeStages.0.label>
+  <HMC_Lion.lifeStages.1.label>молодой лев</HMC_Lion.lifeStages.1.label>
+  <HMC_Lion.lifeStages.1.labelFemale>молодая львица</HMC_Lion.lifeStages.1.labelFemale>
+  
 </LanguageData>

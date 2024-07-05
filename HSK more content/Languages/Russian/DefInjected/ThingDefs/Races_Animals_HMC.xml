@@ -22,12 +22,18 @@
   <Corpse_Hiveguardsman.description>Труп гвардейца улья.</Corpse_Hiveguardsman.description>
 
   <HMC_beaver.label>бобр</HMC_beaver.label>
-  <HMC_beaver.labelFemale>бобриха</HMC_beaver.labelFemale>
-  <HMC_beaver.labelPlural>бобры</HMC_beaver.labelPlural>
-  <HMC_beaver.lifeStages.0.label>бобрёнок</HMC_beaver.lifeStages.0.label>
-  <HMC_beaver.lifeStages.1.label>молодой бобёр</HMC_beaver.lifeStages.1.label>
-  <HMC_beaver.lifeStages.1.labelFemale>молодая бобриха</HMC_beaver.lifeStages.1.labelFemale>
+  <HMC_beaver.description>бобёр обыкновенный.</HMC_beaver.description>
   <Corpse_HMC_beaver.label>тушка бобра</Corpse_HMC_beaver.label>
   <Corpse_HMC_beaver.description>Мёртвый бобр.</Corpse_HMC_beaver.description>
+
+  <HMC_Penguin.label>пингвин</HMC_Penguin.label>
+  <HMC_Penguin.description>Водная нелетающая птица, обитающая преимущественно в арктических регионах. Пингвины, которых часто можно увидеть большими стаями, агрессивны, когда их загоняют в угол, и могут быстро напасть на любого некомпетентного охотника, чтобы приблизиться к нему.</HMC_Penguin.description>
+  <Corpse_HMC_Penguin.label>тушка пингвина</Corpse_HMC_Penguin.label>
+  <Corpse_HMC_Penguin.description>Мёртвый пингвин.</Corpse_HMC_Penguin.description>
+
+  <HMC_Lion.label>лев</HMC_Lion.label>
+  <HMC_Lion.description>Царь животного мира, лев — мускулистая кошка с развитой грудной клеткой, короткой головой и выступающей гривой. Будучи самыми крупными представителями кошачьих, львы являются отличными боевыми животными, несмотря на свою дикость.</HMC_Lion.description>
+  <Corpse_HMC_Lion.label>тушка льва</Corpse_HMC_Lion.label>
+  <Corpse_HMC_Lion.description>Мёртвый лев.</Corpse_HMC_Lion.description>
 
 </LanguageData>
