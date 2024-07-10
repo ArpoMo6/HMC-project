@@ -1,3 +1,35 @@
+– Changelog "HSK more content" v0.46 (1.4 version):
+
+
+1) added Parabellum modification ammo to ammo-unmaking recipes (please let me know if I missed some ammo from this mod);
+
+2) added icon to "Homunculus" xenotype;
+
+3) added "golden eyes" gene to "Teljor" xenotype. This gene also can be freely used in custom xenotypes if desired;
+
+4) penguins have been added to the tundra, glacier, sea ice and tropical islands;
+
+5) lions have been added to the savannah;
+
+6) the sling is now a one-handed weapon and can be used with a shield;
+
+7) added new medieval research "Teljor Armament", which opens access to some new content. Some of the content has moved to this research. The research is inexpensive, but requires a techprint (only if you have Royalty), which can be obtained through quests, bought from merchants, or looted from any medieval raids;
+
+8) research "R.P.A. technologies" now requires a techprint, which can be obtained through quests, bought from merchants or looted from raids of the I.G.U.F. faction;
+
+9) .12 Dragon's Breath shot animation has been updated;
+
+10) bubbles' movement speed has been increased by ~10%;
+
+11) fixed a bug with displaying the floor from primitive components when the Ideology dlc is disabled, now the floor will use a different texture in this case;
+
+12) fixed a bug due to which homunculus sometimes has the “Gene set incomplete” hediff when the Revia Race modification was enabled, which they should not have;
+
+13) fixed a bug due to which the cannoners of the knights of the round barrel sometimes had hand cannons spawned from high-tech materials;
+
+14) some minor edits and text updates.
+
+
 – Changelog "HSK more content" v0.45.1 (1.4 version):
 
 

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingSetMakerDef[defName = "Reward_ItemsStandard"]/root/options/li[1]/thingSetMaker/options</xpath>
+				<value>
+					<li>
+						<weight>0.25</weight>
+						<thingSetMaker Class="ThingSetMaker_MarketValue">
+							<fixedParams>
+								<allowNonStackableDuplicates>False</allowNonStackableDuplicates>
+								<filter>
+									<thingSetMakerTagsToAllow>
+										<li>HMCCombatSupplies</li>
+									</thingSetMakerTagsToAllow>
+								</filter>
+								<minSingleItemMarketValuePct>0.01</minSingleItemMarketValuePct>
+							</fixedParams>
+						</thingSetMaker>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
+

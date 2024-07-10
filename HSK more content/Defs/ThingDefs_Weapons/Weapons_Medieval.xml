@@ -11,7 +11,7 @@
 		<soundInteract>Interaction_Cannon_HMC</soundInteract>
         <statBases>
             <MaxHitPoints>125</MaxHitPoints>
-			<MarketValue>450</MarketValue>
+			<!-- <MarketValue>450</MarketValue> -->
             <SightsEfficiency>0.9</SightsEfficiency>
             <ShotSpread>0.21</ShotSpread>
             <SwayFactor>1.46</SwayFactor>
@@ -19,7 +19,7 @@
             <Bulk>7</Bulk>
             <Mass>8</Mass>
         </statBases>
-        <tradeability>None</tradeability>
+        <!-- <tradeability>None</tradeability> -->
         <techLevel>Medieval</techLevel>
         <destroyOnDrop>False</destroyOnDrop>
         <weaponTags>
@@ -96,6 +96,7 @@
         </verbs>
 		<generateCommonality>0.15</generateCommonality>
 		<destroyOnDrop>True</destroyOnDrop>
+		<tradeability>None</tradeability>
     </ThingDef>
 
 </Defs>

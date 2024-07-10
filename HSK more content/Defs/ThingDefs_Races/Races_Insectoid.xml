@@ -7,7 +7,7 @@
 		<description>A quiet stalker and merciless killer, the Bubble is a warrior caste of the insectoid hive. This species was created to fight the Mechanoid invasion, but poses a danger to people, too. It is a social creature that cannot reproduce individually.\n\nCan jump.\nExplodes upon death.\n\nArtist: Cosmochrpshk</description>
 		<statBases>
 			<Mass>100</Mass>
-			<MoveSpeed>5.5</MoveSpeed>
+			<MoveSpeed>6.0</MoveSpeed>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<ArmorRating_Blunt>2</ArmorRating_Blunt>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>

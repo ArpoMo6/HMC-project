@@ -101,6 +101,9 @@
 		<ammoClass>HollowPoint</ammoClass>
 		<generateAllowChance>0.35</generateAllowChance>
 		<cookOffProjectile>Bullet_545x39mmSoviet_HP</cookOffProjectile>
+		<thingSetMakerTags>
+			<li>HMCCombatSupplies</li>
+		</thingSetMakerTags>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
