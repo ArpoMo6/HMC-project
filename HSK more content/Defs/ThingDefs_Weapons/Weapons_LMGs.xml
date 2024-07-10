@@ -583,6 +583,9 @@
             <Weapon_Parts>8</Weapon_Parts>
             <Plastic>16</Plastic>
         </smeltProducts>
+		<thingSetMakerTags>
+			<li>HMCCombatSupplies</li>
+		</thingSetMakerTags>
     </ThingDef>
 
 </Defs>

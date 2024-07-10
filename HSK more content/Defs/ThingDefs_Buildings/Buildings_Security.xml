@@ -70,7 +70,7 @@
 			<Mass>35.5</Mass>
 			<Bulk>50</Bulk>
 		</statBases>
-		<techLevel>Spacer</techLevel>
+		<!-- <techLevel>Spacer</techLevel> -->
 		<description>NSV-12.7 «Utyos» high caliber machine gun mounted on a tripod.</description>
 		<size>(1,1)</size>
 		<stuffCategories>
@@ -118,7 +118,7 @@
 			<Mass>26</Mass>
 			<Bulk>41</Bulk>
 		</statBases>
-		<techLevel>Ultra</techLevel>
+		<techLevel>Spacer</techLevel>
 		<description>LWMMG GPMG mounted on a tripod.</description>
 		<size>(1,1)</size>
 		<stuffCategories>
