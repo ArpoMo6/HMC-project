@@ -173,6 +173,7 @@
 						<li>Ammo545x39mmSoviet</li>
 						<li>Ammo9x39mmSoviet</li>
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo792x33mmK</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">Ammo30Carabine</li>
 					</categories>
 				</filter>
 				<count>100</count>
@@ -185,6 +186,7 @@
 				<li>Ammo545x39mmSoviet</li>
 				<li>Ammo9x39mmSoviet</li>
 				<li MayRequire="XxNelsonxX.Parabellum">Ammo792x33mmK</li>
+				<li MayRequire="XxNelsonxX.ParabellumWT">Ammo30Carabine</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -291,6 +293,7 @@
 				<filter>
 					<categories>
 						<li>Ammo12Gauge</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">Ammo23mmKS</li>
 					</categories>
 				</filter>
 				<count>100</count>
@@ -299,6 +302,7 @@
 		<fixedIngredientFilter>
 			<categories>
 					<li>Ammo12Gauge</li>
+					<li MayRequire="XxNelsonxX.ParabellumWT">Ammo23mmKS</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -402,6 +406,7 @@
 						<li>Ammo25x40mmGrenades</li>
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo25x59mmGrenades</li>
 						<li MayRequire="XxNelsonxX.Parabellum">AmmoSchiessbecher</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">AmmoFFMR</li>
 					</categories>
 				</filter>
 				<count>30</count>
@@ -414,6 +419,7 @@
 					<li>Ammo25x40mmGrenades</li>
 					<li MayRequire="XxNelsonxX.Parabellum">Ammo25x59mmGrenades</li>
 					<li MayRequire="XxNelsonxX.Parabellum">AmmoSchiessbecher</li>
+					<li MayRequire="XxNelsonxX.ParabellumWT">AmmoFFMR</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -678,6 +684,7 @@
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo84mmCGShells</li>
 						<li MayRequire="XxNelsonxX.Parabellum">AmmoRPzBRockets</li>
 						<li MayRequire="XxNelsonxX.Parabellum">AmmoNbWRockets</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">AmmoJFGM</li>
 					</categories>
 				</filter>
 				<count>10</count>
@@ -691,6 +698,7 @@
 					<li MayRequire="XxNelsonxX.Parabellum">Ammo84mmCGShells</li>
 					<li MayRequire="XxNelsonxX.Parabellum">AmmoRPzBRockets</li>
 					<li MayRequire="XxNelsonxX.Parabellum">AmmoNbWRockets</li>
+					<li MayRequire="XxNelsonxX.ParabellumWT">AmmoJFGM</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -724,6 +732,7 @@
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo75mmCannonShells</li>
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo128mmCannonShells</li>
 						<li MayRequire="XxNelsonxX.Parabellum">Ammo210mmHowitzerShell</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">Ammo50mmGDShells</li>
 					</categories>
 				</filter>
 				<count>5</count>
@@ -740,6 +749,7 @@
 					<li MayRequire="XxNelsonxX.Parabellum">Ammo75mmCannonShells</li>
 					<li MayRequire="XxNelsonxX.Parabellum">Ammo128mmCannonShells</li>
 					<li MayRequire="XxNelsonxX.Parabellum">Ammo210mmHowitzerShell</li>
+					<li MayRequire="XxNelsonxX.ParabellumWT">Ammo50mmGDShells</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -802,6 +812,7 @@
 						<li>AmmoMinieBall</li>
 						<li>Ammo5070Govt</li>
 						<li>Ammo44Rimfire</li>
+						<li MayRequire="XxNelsonxX.ParabellumWT">Ammo4570Govt</li> <!-- Cuz this caliber used black powder -->
 					</categories>
 				</filter>
 				<count>50</count>
@@ -813,6 +824,7 @@
 					<li>AmmoMinieBall</li>
 					<li>Ammo5070Govt</li>
 					<li>Ammo44Rimfire</li>
+					<li MayRequire="XxNelsonxX.ParabellumWT">Ammo4570Govt</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
