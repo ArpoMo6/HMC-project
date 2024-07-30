@@ -65,6 +65,34 @@
   </CombatExtended.AmmoCategoryDef>
 
    <CombatExtended.AmmoCategoryDef>
+    <defName>FullMetalJacket55645HMC</defName>
+    <label>full metal jacket (5.56x45mm)</label>
+    <labelShort>FMJ (5.56x45mm)</labelShort>
+    <description>The soft lead core is encased in a harder metal coating, combining a medium amount of stopping power and armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>FullMetalJacket54539HMC</defName>
+    <label>full metal jacket (5.45x39mm)</label>
+    <labelShort>FMJ (5.45x39mm)</labelShort>
+    <description>The soft lead core is encased in a harder metal coating, combining a medium amount of stopping power and armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>FullMetalJacket76239HMC</defName>
+    <label>full metal jacket (7.62x39mm)</label>
+    <labelShort>FMJ (7.62x39mm)</labelShort>
+    <description>The soft lead core is encased in a harder metal coating, combining a medium amount of stopping power and armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef MayRequire="XxNelsonxX.Parabellum">
+    <defName>FullMetalJacket79233HMC</defName>
+    <label>full metal jacket (7.92x33mm)</label>
+    <labelShort>FMJ (7.92x33mm)</labelShort>
+    <description>The soft lead core is encased in a harder metal coating, combining a medium amount of stopping power and armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
     <defName>ArmorPiercing76251HMC</defName>
     <label>armor-piercing (7.62x51)</label>
     <labelShort>AP (7.62x51)</labelShort>
@@ -110,6 +138,34 @@
     <defName>ArmorPiercing408CTHMC</defName>
     <label>armor-piercing (.408 Chey Tac)</label>
     <labelShort>AP (.408 Chey Tac)</labelShort>
+    <description>Features a hardened steel penetrator core for increased armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>ArmorPiercing55645HMC</defName>
+    <label>armor-piercing (5.56x45mm)</label>
+    <labelShort>AP (5.56x45mm)</labelShort>
+    <description>Features a hardened steel penetrator core for increased armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>ArmorPiercing54539HMC</defName>
+    <label>armor-piercing (5.45x39mm)</label>
+    <labelShort>AP (5.45x39mm)</labelShort>
+    <description>Features a hardened steel penetrator core for increased armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>ArmorPiercing76239HMC</defName>
+    <label>armor-piercing (7.62x39mm)</label>
+    <labelShort>AP (7.62x39mm)</labelShort>
+    <description>Features a hardened steel penetrator core for increased armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef MayRequire="XxNelsonxX.Parabellum">
+    <defName>ArmorPiercing79233HMC</defName>
+    <label>armor-piercing (7.92x33mm)</label>
+    <labelShort>AP (7.92x33mm)</labelShort>
     <description>Features a hardened steel penetrator core for increased armor penetration.</description>
   </CombatExtended.AmmoCategoryDef>
 
@@ -160,6 +216,34 @@
     <label>hollow point (.408 Chey Tac)</label>
     <labelShort>HP (.408 Chey Tac)</labelShort>
     <description>A hollowed out tip causes the bullet to expand on impact, increasing tissue damage at the cost of armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>HollowPoint55645HMC</defName>
+    <label>hollow point (5.56x45mm)</label>
+    <labelShort>HP (5.56x45mm)</labelShort>
+    <description>A hollowed out tip causes the bullet to expand on impact, increasing tissue damage at the cost of armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>HollowPoint54539HMC</defName>
+    <label>hollow point (5.45x39mm)</label>
+    <labelShort>HP (5.45x39mm)</labelShort>
+    <description>A hollowed out tip causes the bullet to expand on impact, increasing tissue damage at the cost of armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>HollowPoint76239HMC</defName>
+    <label>hollow point (7.62x39mm)</label>
+    <labelShort>HP (7.62x39mm)</labelShort>
+    <description>A hollowed out tip causes the bullet to expand on impact, increasing tissue damage at the cost of armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef MayRequire="XxNelsonxX.Parabellum">
+    <defName>J79233HMC</defName>
+    <label>J (7.92x33mm)</label>
+    <labelShort>J (7.92x33mm)</labelShort>
+    <description>J (7.92x33mm).</description>
   </CombatExtended.AmmoCategoryDef>
 
    <CombatExtended.AmmoCategoryDef>
@@ -216,6 +300,14 @@
     <defName>ExplosiveAP127HMC</defName>
     <label>armor-piercing high-explosive (12.7x108mm)</label>
     <labelShort>AP-HE (12.7x108mm)</labelShort>
+    <description>Filled with high-explosives that detonate on impact for additional damage.</description>
+	<advanced>true</advanced>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>ExplosiveAP55645HMC</defName>
+    <label>armor-piercing high-explosive (5.56x45mm)</label>
+    <labelShort>AP-HE (5.56x45mm)</labelShort>
     <description>Filled with high-explosives that detonate on impact for additional damage.</description>
 	<advanced>true</advanced>
   </CombatExtended.AmmoCategoryDef>

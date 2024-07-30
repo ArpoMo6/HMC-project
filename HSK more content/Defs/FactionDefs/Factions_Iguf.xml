@@ -178,6 +178,7 @@
     <defName>IgufRaidLootMaker</defName>
     <root Class="ThingSetMaker_MarketValue">
       <fixedParams>
+		<maxThingMarketValue>9000</maxThingMarketValue>
         <filter>
           <thingDefs>
 			<li>Honey</li>

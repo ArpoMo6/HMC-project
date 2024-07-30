@@ -3,7 +3,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_MicroTurret_HMC</defName>
-		<label>9x19mm Para / .45 ACP / 7.62x25mm TT</label>
+		<label>9x19mm Para / .45 ACP / 7.62x25mm TT / 8mm Mauser Pistol</label>
 		<ammoTypes>
 			<Ammo_9x19mmPara_FMJ>Bullet_9x19mmPara_FMJ</Ammo_9x19mmPara_FMJ>
 			<Ammo_9x19mmPara_AP>Bullet_9x19mmPara_AP</Ammo_9x19mmPara_AP>
@@ -15,12 +15,34 @@
 			<Ammo_762x25mmTT_AP>Bullet_762x25mmTT_AP</Ammo_762x25mmTT_AP>
 			<Ammo_762x25mmTT_HP>Bullet_762x25mmTT_HP</Ammo_762x25mmTT_HP>
 			<Ammo_762x25mmTT_API>Bullet_762x25mmTT_API</Ammo_762x25mmTT_API>
+			<Ammo_763x25mmM_FMJ MayRequire="XxNelsonxX.Parabellum">Bullet_763x25mmM_FMJ</Ammo_763x25mmM_FMJ>
+			<Ammo_763x25mmM_HP MayRequire="XxNelsonxX.Parabellum">Bullet_763x25mmM_HP</Ammo_763x25mmM_HP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_MicroTurretIntermediate_HMC</defName>
+		<label>5.56mm / 5.45mm / 7.62mm / 7.92mm</label>
+		<ammoTypes>
+			<Ammo_556x45mmNATO_FMJ>Bullet_556x45mmNATO_FMJ</Ammo_556x45mmNATO_FMJ>
+			<Ammo_556x45mmNATO_AP>Bullet_556x45mmNATO_AP</Ammo_556x45mmNATO_AP>
+			<Ammo_556x45mmNATO_HP>Bullet_556x45mmNATO_HP</Ammo_556x45mmNATO_HP>
+			<Ammo_556x45mmNATO_HE_HMC>Bullet_556x45mmNATO_HE_HMC</Ammo_556x45mmNATO_HE_HMC>
+			<Ammo_545x39mmSoviet_FMJ>Bullet_545x39mmSoviet_FMJ</Ammo_545x39mmSoviet_FMJ>
+			<Ammo_545x39mmSoviet_AP>Bullet_545x39mmSoviet_AP</Ammo_545x39mmSoviet_AP>
+			<Ammo_545x39mmSoviet_HP>Bullet_545x39mmSoviet_HP</Ammo_545x39mmSoviet_HP>
+			<Ammo_762x39mmSoviet_FMJ>Bullet_762x39mmSoviet_FMJ</Ammo_762x39mmSoviet_FMJ>
+			<Ammo_762x39mmSoviet_AP>Bullet_762x39mmSoviet_AP</Ammo_762x39mmSoviet_AP>
+			<Ammo_762x39mmSoviet_HP>Bullet_762x39mmSoviet_HP</Ammo_762x39mmSoviet_HP>
+			<Ammo_792x33mmK_FMJ MayRequire="XxNelsonxX.Parabellum">Bullet_792x33mmK_FMJ</Ammo_792x33mmK_FMJ>
+			<Ammo_792x33mmK_AP MayRequire="XxNelsonxX.Parabellum">Bullet_792x33mmK_AP</Ammo_792x33mmK_AP>
+			<Ammo_792x33mmK_J MayRequire="XxNelsonxX.Parabellum">Bullet_792x33mmK_J</Ammo_792x33mmK_J>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_MicroTurretSniper_HMC</defName>
-		<label>.303 British / 7.62 mm rifle</label>
+		<label>.303 British / 7.62mm rifle / 8mm Mauser Rifle</label>
 		<ammoTypes>
 			<Ammo_303British_FMJ>Bullet_303British_FMJ</Ammo_303British_FMJ>
 			<Ammo_303British_AP>Bullet_303British_AP</Ammo_303British_AP>
@@ -31,12 +53,16 @@
 			<Ammo_762x54mmR_FMJ>Bullet_762x54mmR_FMJ</Ammo_762x54mmR_FMJ>
 			<Ammo_762x54mmR_AP>Bullet_762x54mmR_AP</Ammo_762x54mmR_AP>
 			<Ammo_762x54mmR_HP>Bullet_762x54mmR_HP</Ammo_762x54mmR_HP>
+			<Ammo_8mmM_P88M MayRequire="XxNelsonxX.Parabellum">Bullet_8mmM_P88M</Ammo_8mmM_P88M>
+			<Ammo_8mmM_SP MayRequire="XxNelsonxX.Parabellum">Bullet_8mmM_SP</Ammo_8mmM_SP>
+			<Ammo_8mmM_KP MayRequire="XxNelsonxX.Parabellum">Bullet_8mmM_KP</Ammo_8mmM_KP>
+			<Ammo_8mmM_BP MayRequire="XxNelsonxX.Parabellum">Bullet_8mmM_BP</Ammo_8mmM_BP>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_MicroTurretAMR_HMC</defName>
-		<label>.408 CT / .50 BMG / 12.7x108mm</label>
+		<label>.408 CT / .50 BMG / 12.7x108mm / 13.2x92mmSR</label>
 		<ammoTypes>
 			<Ammo_408CT_FMJ>Bullet_408CT_FMJ</Ammo_408CT_FMJ>
 			<Ammo_408CT_AP>Bullet_408CT_AP</Ammo_408CT_AP>
@@ -50,6 +76,12 @@
 			<Ammo_127x108mm_Sabot>Bullet_127x108mm_Sabot</Ammo_127x108mm_Sabot>
 			<Ammo_127x108mm_HE>Bullet_127x108mm_HE</Ammo_127x108mm_HE>
 			<Ammo_127x108mm_Incendiary>Bullet_127x108mm_Incendiary</Ammo_127x108mm_Incendiary>
+			<Ammo_8mmM_KP MayRequire="XxNelsonxX.Parabellum">Bullet_8x94mmPzB_AP</Ammo_8mmM_KP>
+			<Ammo_TuF_AP MayRequire="XxNelsonxX.Parabellum">Bullet_TuF_AP</Ammo_TuF_AP>
+			<Ammo_TuF_APHE MayRequire="XxNelsonxX.Parabellum">Bullet_TuF_APHE</Ammo_TuF_APHE>
+			<Ammo_TuF_AP MayRequire="XxNelsonxX.Parabellum">Bullet_TuF_AP</Ammo_TuF_AP>
+			<Ammo_TuF_APHE MayRequire="XxNelsonxX.Parabellum">Bullet_TuF_APHE</Ammo_TuF_APHE>
+			<Ammo_MG131_HET MayRequire="XxNelsonxX.Parabellum">Bullet_MG131_HET</Ammo_MG131_HET>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 
