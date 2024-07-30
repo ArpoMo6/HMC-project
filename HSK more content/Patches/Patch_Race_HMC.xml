@@ -5,7 +5,7 @@
 			<li>Androids</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
+			<success>Normal</success>
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/PawnKindDef[@Name="HMCIgufBase"]/race</xpath>
