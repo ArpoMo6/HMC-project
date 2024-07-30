@@ -5,7 +5,7 @@
 
 	<ThingDef ParentName="WeaponSpacerBase">
 		<defName>HMC_HighTechNorbal_ZeusHammer</defName>
-		<label>Power hammer</label>
+		<label>power hammer</label>
 		<description>Very powerful power hammer, capable of crushing the skull with one hit. The technologies of the future endowed it with shocking abilities.</description>
 		<graphicData>
 			<texPath>Things/Weapons/HighTechNorbal/ZeusHammer</texPath>
@@ -82,7 +82,7 @@
 
 	<ThingDef ParentName="WeaponSpacerBase">
 		<defName>HMC_HighTechNorbal_Monosword</defName>
-		<label>Power gladius</label>
+		<label>power gladius</label>
 		<description>Very sharp power gladius, able to cut granite in half with one hit. The technologies of the future endowed it with shocking abilities.</description>
 		<graphicData>
 			<texPath>Things/Weapons/HighTechNorbal/Monosword</texPath>
@@ -173,7 +173,7 @@
 
 	<ThingDef ParentName="WeaponSpacerBase">
 		<defName>HMC_HighTechNorbal_Axe</defName>
-		<label>Power axe</label>
+		<label>power axe</label>
 		<description>Very very powerful ax, able to cut even kartonium cardboard. Future technologies endowed it with shocking abilities.</description>
 		<graphicData>
 			<texPath>Things/Weapons/HighTechNorbal/HighTechAxe</texPath>
@@ -264,7 +264,7 @@
     <!-- Long bow -->
     <ThingDef ParentName="BaseGun_LongBarreled">
         <defName>HMC_HighTechNorbal_LongBow</defName>
-        <label>Power long bow</label>
+        <label>power long bow</label>
         <description>Very long and accurate power bow, capable of firing up to two shots in one volley. This feature baffles all craftsmans who tried to recreate this weapon.</description>
         <graphicData>
             <texPath>Things/Weapons/HighTechNorbal/HighTechLongBow</texPath>
@@ -327,7 +327,7 @@
 
 	<ThingDef ParentName="WeaponSpacerBase">
 		<defName>HMC_HighTechNorbal_PowerWolf</defName>
-		<label>Powerwolf</label>
+		<label>powerwolf</label>
 		<description>Very heavy and sharp power ultra great sword, able to cut granite in half with one hit. The technologies of the future endowed it with electrical abilities.</description>
 		<graphicData>
 			<texPath>Things/Weapons/HighTechNorbal/HMCPowerWolf</texPath>
@@ -424,6 +424,83 @@
 			<li>SharpMelee</li>
 			<li>HeavyMelee</li>
 		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="WeaponSpacerBase">
+		<defName>HMC_HighTechNorbal_PowerFist</defName>
+		<label>energy fist</label>
+		<description>Very powerful energy fist, capable of crushing the skull with one hit. The technologies of the future endowed it with shocking abilities.</description>
+		<graphicData>
+			<texPath>Things/Weapons/HighTechNorbal/PowerFist</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>HMCNorbalBerserkerMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<stuffCategories>
+			<li>SolidMetallic</li>
+		</stuffCategories>
+		<costStuffCount>85</costStuffCount>
+		<costList>
+			<ComponentSpacer>8</ComponentSpacer>
+			<TitaniumBar>15</TitaniumBar>
+			<Leather_Human>20</Leather_Human>
+		</costList>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Bulk>8</Bulk>
+			<Mass>10</Mass>
+			<MeleeCounterParryBonus>0.55</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.55</MeleeCritChance>
+			<MeleeParryChance>0.44</MeleeParryChance>
+			<MeleeDodgeChance>0.33</MeleeDodgeChance>
+			<Suppressability>-0.22</Suppressability>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>0.3</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>16.4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>EMPburst</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>10</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>0.7</cooldownTime>
+				<chanceFactor>0.67</chanceFactor>
+				<armorPenetrationSharp>14.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>14.6</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.2,1.2</DrawSize>
+		  </li>
+		</modExtensions>
+		<thingCategories>
+			<li>BluntMelee</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>Melee_D1</researchPrerequisite>
+		</recipeMaker>
 	</ThingDef>
 
 </Defs>
