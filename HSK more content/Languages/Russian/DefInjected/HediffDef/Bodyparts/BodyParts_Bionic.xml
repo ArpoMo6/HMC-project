@@ -7,4 +7,8 @@
 	<IgufFirmware.description>Введение небольшого устройства в мозг, которое расширяет возможности его носителя.</IgufFirmware.description>
 	<IgufFirmware.labelNoun>прошивка И.Г.У.Ф.</IgufFirmware.labelNoun>
 
+	<HMC_HomunculusClaws.label>лапка гомункула</HMC_HomunculusClaws.label>
+	<HMC_HomunculusClaws.description>Небольшая лапка с острыми когтями.</HMC_HomunculusClaws.description>
+	<HMC_HomunculusClaws.labelNoun>лапка гомункула</HMC_HomunculusClaws.labelNoun>
+
 </LanguageData>

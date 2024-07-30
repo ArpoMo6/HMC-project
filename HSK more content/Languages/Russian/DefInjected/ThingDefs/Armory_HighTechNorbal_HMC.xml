@@ -18,6 +18,9 @@
 	<HMC_HighTechNorbal_PowerWolf.label>Силовой двуручный меч</HMC_HighTechNorbal_PowerWolf.label>
 	<HMC_HighTechNorbal_PowerWolf.description>Оружие древних мастеров. Очень тяжелый и острый огромный двуручный меч, способный разрубить гранит пополам с одного удара. Технологии будущего наделили его электричискими способностями.</HMC_HighTechNorbal_PowerWolf.description>
 
+	<HMC_HighTechNorbal_PowerFist.label>Энергетическая кисть</HMC_HighTechNorbal_PowerFist.label>
+	<HMC_HighTechNorbal_PowerFist.description>Оружие древних мастеров. Очень тяжелый и быстрый огромный кулак, способный раскрошить череп с одной серии ударов. Технологии будущего наделили его электричискими способностями.</HMC_HighTechNorbal_PowerFist.description>
+
 	<!-- ====================== Armors ======================= -->
 	
 	<HMC_HighTechNorbal_Brigandine.label>Силовая бригантина</HMC_HighTechNorbal_Brigandine.label>

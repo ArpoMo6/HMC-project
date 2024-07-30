@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <HMC_Pain_Reduced_Lite.label>болестойч</HMC_Pain_Reduced_Lite.label>
+  <HMC_Pain_Reduced_Lite.label>болестойкость</HMC_Pain_Reduced_Lite.label>
   <HMC_Pain_Reduced_Lite.description>Носители этого гена ощущают немного меньшую боль, чем другие.</HMC_Pain_Reduced_Lite.description>
   <HMC_Pain_Reduced_Lite.labelShortAdj>болестойч</HMC_Pain_Reduced_Lite.labelShortAdj>
 
-  <HMC_Pain_Extra_Lite.label>болечувств</HMC_Pain_Extra_Lite.label>
+  <HMC_Pain_Extra_Lite.label>болечувствительность</HMC_Pain_Extra_Lite.label>
   <HMC_Pain_Extra_Lite.description>Носители этого гена ощущают немного большую боль, чем другие.</HMC_Pain_Extra_Lite.description>
   <HMC_Pain_Extra_Lite.labelShortAdj>болечувств</HMC_Pain_Extra_Lite.labelShortAdj>
 
@@ -53,5 +53,37 @@
   <Eyes_Golden_HMC.label>золотые глаза</Eyes_Golden_HMC.label>
   <Eyes_Golden_HMC.description>У носителей этого гена глаза имеют золотой цвет.</Eyes_Golden_HMC.description>
   <Eyes_Golden_HMC.labelShortAdj>златоглазки</Eyes_Golden_HMC.labelShortAdj>
+
+  <HMC_Longsighted.label>дальнозоркость</HMC_Longsighted.label>
+  <HMC_Longsighted.description>Носители этого гена хорошо видят только вдали. Им трудно сражаться вблизи.</HMC_Longsighted.description>
+  <HMC_Longsighted.labelShortAdj>снайпер</HMC_Longsighted.labelShortAdj>
+
+  <HMC_BloodLustInstinct.label>врождённая кровожадность</HMC_BloodLustInstinct.label>
+  <HMC_BloodLustInstinct.description>Носители этого гена любят обрывать чужие жизни. Продолжительное отсутствие возможности убить кого-нибудь в бою не сделает их раздражительными в отличие от жажды убийства, однако, они в целом более склонны к агрессии чем обычно.</HMC_BloodLustInstinct.description>
+  <HMC_BloodLustInstinct.labelShortAdj>кровожад</HMC_BloodLustInstinct.labelShortAdj>
+
+  <HMC_Mood_Realist.label>реализм</HMC_Mood_Realist.label>
+  <HMC_Mood_Realist.description>Носители этого гена склонны к прагматичным взглядам. Они не таят надежд и воспринимают окружающую действительность как есть.</HMC_Mood_Realist.description>
+  <HMC_Mood_Realist.labelShortAdj>реализм</HMC_Mood_Realist.labelShortAdj>
+
+  <HMC_Mood_Bipolarity.label>биполяризм</HMC_Mood_Bipolarity.label>
+  <HMC_Mood_Bipolarity.description>Носители этого гена предрасположены к резким перепадам настроения. Когда они счастливы, они могут быть очень счастливы, но когда они грустят, они могут стать опасно подавленными.</HMC_Mood_Bipolarity.description>
+  <HMC_Mood_Bipolarity.labelShortAdj>биполярочка</HMC_Mood_Bipolarity.labelShortAdj>
+
+  <HMC_HA_FinEar.label>плавники</HMC_HA_FinEar.label>
+  <HMC_HA_FinEar.description>У носителей этого гена отрастают уши подобные рыбьим плавникам.</HMC_HA_FinEar.description>
+  <HMC_HA_FinEar.labelShortAdj>плавники</HMC_HA_FinEar.labelShortAdj>
+
+  <HMC_HA_HalfElfEar.label>заострённые уши</HMC_HA_HalfElfEar.label>
+  <HMC_HA_HalfElfEar.description>Носители этого гена обладают заострёнными ушами.</HMC_HA_HalfElfEar.description>
+  <HMC_HA_HalfElfEar.labelShortAdj>полуэльф</HMC_HA_HalfElfEar.labelShortAdj>
+
+  <HMC_HA_RamHorn.label>бараньи рога</HMC_HA_RamHorn.label>
+  <HMC_HA_RamHorn.description>У носителей этого гена растут рога, похожие на бараньи.</HMC_HA_RamHorn.description>
+  <HMC_HA_RamHorn.labelShortAdj>баран</HMC_HA_RamHorn.labelShortAdj>
+
+  <HMC_HA_Nose_Orcoid.label>орочий нос</HMC_HA_Nose_Orcoid.label>
+  <HMC_HA_Nose_Orcoid.description>У носителей этого гена нос похож на орочий.</HMC_HA_Nose_Orcoid.description>
+  <HMC_HA_Nose_Orcoid.labelShortAdj>орк</HMC_HA_Nose_Orcoid.labelShortAdj>
 
 </LanguageData>

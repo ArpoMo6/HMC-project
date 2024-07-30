@@ -62,17 +62,17 @@
     <UnmakeAmmo_RailRay.description>Разобрать боеприпас рейлгана х30.</UnmakeAmmo_RailRay.description>
     <UnmakeAmmo_RailRay.jobString>Разбирает боеприпас рейлгана х30.</UnmakeAmmo_RailRay.jobString>
 
-    <UnmakeAmmo_AmmoGrenade.label>Разобрать 30x29/40x46/25x40 мм гранату х30</UnmakeAmmo_AmmoGrenade.label>
-    <UnmakeAmmo_AmmoGrenade.description>Разобрать 30x29/40x46/25x40 мм гранату х30.</UnmakeAmmo_AmmoGrenade.description>
-    <UnmakeAmmo_AmmoGrenade.jobString>Разбирает 30x29/40x46/25x40 мм гранату х30.</UnmakeAmmo_AmmoGrenade.jobString>
+    <UnmakeAmmo_AmmoGrenade.label>Разобрать 20-50мм-ые гранаты х30</UnmakeAmmo_AmmoGrenade.label>
+    <UnmakeAmmo_AmmoGrenade.description>Разобрать 20-50мм-ые гранаты х30.</UnmakeAmmo_AmmoGrenade.description>
+    <UnmakeAmmo_AmmoGrenade.jobString>Разбирает 20-50мм-ые гранаты х30.</UnmakeAmmo_AmmoGrenade.jobString>
 
-    <UnmakeAmmo_FuelCell.label>Разобрать 30x64 гранату х30</UnmakeAmmo_FuelCell.label>
-    <UnmakeAmmo_FuelCell.description>Разобрать 30x64 гранату х30.</UnmakeAmmo_FuelCell.description>
-    <UnmakeAmmo_FuelCell.jobString>Разбирает 30x64 гранату х30.</UnmakeAmmo_FuelCell.jobString>
+    <UnmakeAmmo_FuelCell.label>Разобрать 30x64 топливную ячейку х30</UnmakeAmmo_FuelCell.label>
+    <UnmakeAmmo_FuelCell.description>Разобрать 30x64 топливную ячейку х30.</UnmakeAmmo_FuelCell.description>
+    <UnmakeAmmo_FuelCell.jobString>Разбирает 30x64 топливную ячейку х30.</UnmakeAmmo_FuelCell.jobString>
 
-    <UnmakeAmmo_RPGsGrenade.label>Разобрать гранату РПГ х10</UnmakeAmmo_RPGsGrenade.label>
-    <UnmakeAmmo_RPGsGrenade.description>Разобрать гранату РПГ х10.</UnmakeAmmo_RPGsGrenade.description>
-    <UnmakeAmmo_RPGsGrenade.jobString>Разбирает гранату РПГ х10.</UnmakeAmmo_RPGsGrenade.jobString>
+    <UnmakeAmmo_RPGsGrenade.label>Разобрать снаряд РПГ х10</UnmakeAmmo_RPGsGrenade.label>
+    <UnmakeAmmo_RPGsGrenade.description>Разобрать снаряд РПГ х10.</UnmakeAmmo_RPGsGrenade.description>
+    <UnmakeAmmo_RPGsGrenade.jobString>Разбирает снаряд РПГ х10.</UnmakeAmmo_RPGsGrenade.jobString>
 
     <UnmakeAmmo_MortarShell.label>Разобрать 81/90/120/155 мм снаряд х5</UnmakeAmmo_MortarShell.label>
     <UnmakeAmmo_MortarShell.description>Разобрать 81/90/120/155 мм снаряд х5.</UnmakeAmmo_MortarShell.description>

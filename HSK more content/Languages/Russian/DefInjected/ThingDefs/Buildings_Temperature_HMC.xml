@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <HMC_EndothermicCampfire.label>эндотермический костёр</HMC_EndothermicCampfire.label>
+  <HMC_EndothermicCampfire.description>Позволяет очень медленно готовить еду и охлаждать помещение. Горит в течение нескольких дней. Как и любой другой источник холода, его следует размещать внутри закрытого помещения, которое он будет охлаждать. Излучает тусклый свет на небольшой территории. Люди, которые предпочитают работать в тусклом освещении, будут довольны этим источником света.</HMC_EndothermicCampfire.description>
+
+</LanguageData>

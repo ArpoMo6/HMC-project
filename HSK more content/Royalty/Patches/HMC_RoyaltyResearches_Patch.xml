@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[defName="Armor_F1_HMC"]</xpath>
+				<value>
+					<techprintCount>1</techprintCount>
+					<techprintCommonality>1</techprintCommonality>
+					<techprintMarketValue>4500</techprintMarketValue>
+					<heldByFactionCategoryTags>
+					  <li>Archotech</li>
+					</heldByFactionCategoryTags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[defName="HMC_TeljorArmament"]</xpath>
+				<value>
+					<techprintCount>1</techprintCount>
+					<techprintCommonality>3</techprintCommonality>
+					<techprintMarketValue>800</techprintMarketValue>
+					<heldByFactionCategoryTags>
+					  <li>Medieval</li>
+					</heldByFactionCategoryTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
