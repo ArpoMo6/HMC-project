@@ -19,13 +19,15 @@
 		<li>Superclotting</li>
 		<li>FireFlammability</li>
 		<li>KindInstinct</li>
-		<li>KillThirst</li>
+		<li>HMC_BloodLustInstinct</li>
 		<li>HMC_Pain_Extra_Lite</li>
 		<li>Beauty_Pretty</li>
 		<li>Hair_LongOnly</li>
 		<li>Beard_NoBeardOnly</li>
 		<li>Ears_Pointed</li>
+		<li>HMC_HA_HalfElfEar</li>
 		<li>Eyes_Golden_HMC</li>
+		<li>EfficientStomach</li>
 		<li>FacialRidges</li>
 		<li>Body_Standard</li>
 		<li>Hair_Blonde</li>
@@ -38,7 +40,6 @@
 		<li>AptitudePoor_Mining</li>
 		<li>AptitudePoor_Cooking</li>
 		<li>AptitudeAboveAverage_Medicine</li>
-		<li>AptitudePoor_Social</li>
     </genes>
   </XenotypeDef>
 
@@ -125,6 +126,7 @@
 		<!-- <li>StrongStomach</li> -->
 		<li>DarkVision</li>
 		<li>KillThirst</li>
+		<li>HMC_BloodLustInstinct</li>
 		<li>FireResistant</li>
 		<li>Inbred</li>
 		<li>RobustDigestion</li>
@@ -137,7 +139,7 @@
 		<li>Hemogenic</li>
 		<!-- <li>HemogenDrain</li> -->
 		<li>FireWeakness</li>
-		<li>FireTerror</li>
+		<!-- <li>FireTerror</li> -->
 		<!-- <li>PerfectImmunity</li> -->
 		<!-- <li>DiseaseFree</li> -->
 		<li>TotalHealing</li>
@@ -164,8 +166,10 @@
 		<li>Beauty_Beautiful</li> -->
 		<li>Learning_Slow</li>
 		<li>Learning_Fast</li>
+		<li>HMC_Mood_Bipolarity</li>
 		<li>Mood_Depressive</li>
 		<li>Mood_Pessimist</li>
+		<li>HMC_Mood_Realist</li>
 		<li>Mood_Optimist</li>
 		<li>Mood_Sanguine</li>
 		<li>ToxResist_Partial</li>
@@ -242,6 +246,11 @@
 		<li>HMC_HA_DeerEar</li>
 		<li>HMC_HA_FoxEar</li>
 		<li>HMC_HA_HalfDemonEar</li>
+		<li>HMC_HA_FinEar</li>
+		<li>HMC_HA_HalfElfEar</li>
+		<li>HMC_HA_RamHorn</li>
+		<li>HMC_Longsighted</li>
+		<li>HMC_HA_Nose_Orcoid</li>
 		
 		<!-- Other mods -->
 		

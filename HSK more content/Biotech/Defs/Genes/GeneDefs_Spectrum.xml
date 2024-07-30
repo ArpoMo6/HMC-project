@@ -44,4 +44,47 @@
     </symbolPack>
   </GeneDef>
 
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>HMC_Mood_Realist</defName>
+    <label>realist</label>
+    <description>Carriers of this gene tend to have pragmatic views. They do not hold hopes and perceive the surrounding reality as it is.</description>
+    <iconPath>UI/Icons/Genes/Gene_Mood_Realism</iconPath>
+	<displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>43</displayOrderInCategory>
+    <biostatMet>1</biostatMet>
+	<biostatCpx>2</biostatCpx>
+	<minAgeActive>15</minAgeActive>
+    <forcedTraits>
+      <li>
+        <def>Pragmatist</def>
+      </li>
+    </forcedTraits>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>reali</symbol></li>
+        <li><symbol>pragma</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMoodBase">
+    <defName>HMC_Mood_Bipolarity</defName>
+    <label>bipolar</label>
+    <description>Carriers of this gene are predisposed to extreme mood swings. When they happy, they can be very happy, but when they sad, they can become dangerously depressed.</description>
+    <iconPath>UI/Icons/Genes/Gene_Mood_Bipolarity</iconPath>
+	<displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>44</displayOrderInCategory>
+    <biostatMet>4</biostatMet>
+    <forcedTraits>
+      <li>
+        <def>Bipolar</def>
+      </li>
+    </forcedTraits>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bipolar</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
 </Defs>

@@ -5,7 +5,7 @@
 	<label>golden eyes</label>
 	<labelShortAdj>Golden-eyed</labelShortAdj>
 	<description>Golden eyes</description>
-	<iconPath>UI/Icons/Genes/GoldenEyesIcon</iconPath>
+	<iconPath>UI/Icons/Genes/Gene_GoldenEyes</iconPath>
 	<displayCategory>HMC_Genes</displayCategory>
 	<displayOrderInCategory>61</displayOrderInCategory>
     <graphicData>

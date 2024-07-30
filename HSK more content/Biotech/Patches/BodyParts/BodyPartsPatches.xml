@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="BaseHumanlikePawn"]/recipes</xpath>
+				<value>
+					<li>InstallHMC_HomunculusClaws</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
