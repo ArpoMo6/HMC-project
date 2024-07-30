@@ -9,4 +9,8 @@
 	<RemoveIgufFirmware.description>Извлечь прошивку И.Г.У.Ф. из мозга.</RemoveIgufFirmware.description>
 	<RemoveIgufFirmware.jobString>Извлекает прошивку И.Г.У.Ф. из мозга.</RemoveIgufFirmware.jobString>
 
+	<InstallHMC_HomunculusClaws.label>Имплантировать лапку гомункула</InstallHMC_HomunculusClaws.label>
+	<InstallHMC_HomunculusClaws.description>Имплантировать лапку гомункула в мозг.</InstallHMC_HomunculusClaws.description>
+	<InstallHMC_HomunculusClaws.jobString>лапку гомункула в мозг.</InstallHMC_HomunculusClaws.jobString>
+
 </LanguageData>

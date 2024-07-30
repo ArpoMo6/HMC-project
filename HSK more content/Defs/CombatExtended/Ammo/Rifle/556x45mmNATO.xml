@@ -13,7 +13,7 @@
 		<statBases>
 			<MarketValue>2.5</MarketValue>
 		</statBases>
-		<ammoClass>ExplosiveAP</ammoClass>
+		<ammoClass>ExplosiveAP55645HMC</ammoClass>
 		<cookOffProjectile>Bullet_556x45mmNATO_HE_HMC</cookOffProjectile>
 		<generateAllowChance>0.25</generateAllowChance>
 	</ThingDef>

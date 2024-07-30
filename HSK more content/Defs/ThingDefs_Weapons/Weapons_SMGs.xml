@@ -291,6 +291,7 @@
             <li>TierTwoNormal</li>
             <li>Futuristic</li>
             <li>CE_AI_Rifle</li>
+			<li>CE_OneHandedWeapon</li>
         </weaponTags>
         <thingCategories>
             <li>Futuristic</li>

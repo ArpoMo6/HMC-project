@@ -100,6 +100,42 @@
 					<ammoClass>ExplosiveAP50BMGHMC</ammoClass>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_556x45mmNATO_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket55645HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_556x45mmNATO_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing55645HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_556x45mmNATO_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint55645HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x39mmSoviet_FMJ"]/ammoClass</xpath>
+				<value>
+					<ammoClass>FullMetalJacket76239HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x39mmSoviet_AP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>ArmorPiercing76239HMC</ammoClass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_762x39mmSoviet_HP"]/ammoClass</xpath>
+				<value>
+					<ammoClass>HollowPoint76239HMC</ammoClass>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 

@@ -14,11 +14,14 @@
 		<apparelMoney>200~400</apparelMoney>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsMoney>50~100</techHediffsMoney>
 		<techHediffsTags Inherit="false">
 			<li>Poor</li>
 		</techHediffsTags>
 		<techHediffsChance>0.08</techHediffsChance>
+		<techHediffsRequired>
+			<li>HMC_HomunculusClaws</li>
+		</techHediffsRequired>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<xenotypeSet Inherit="False">
 		  <xenotypeChances>

@@ -27,6 +27,7 @@
     </researchPrerequisites>
 	<designationCategory>OutsideFloors</designationCategory>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </TerrainDef>
 
 </Defs>

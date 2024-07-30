@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="SK_BodyPartBase">
+		<defName>HMC_HomunculusClaws</defName>
+		<label>Homunculus claws</label>
+		<description>Replaces an retractable claws or hands with homunculus ones.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallHMC_HomunculusClaws</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Bionic</li>
+		</tradeTags>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>200</MarketValue>
+			<Mass>1.5</Mass>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+	</ThingDef>
+
+	<HediffDef ParentName="HediffBodyPartBase_Bionic">
+		<defName>HMC_HomunculusClaws</defName>
+		<label>homunculus claws</label>
+		<description>An installed advanced claws. Replaces an Orassan's retractable claws with metal ones.</description>
+		<labelNoun>an advanced claws</labelNoun>
+		<spawnThingOnRemoved>HMC_HomunculusClaws</spawnThingOnRemoved>
+		<descriptionHyperlinks>
+			<ThingDef>HMC_HomunculusClaws</ThingDef>
+		</descriptionHyperlinks>
+		<defaultLabelColor>(0.65, 0.8, 0.7)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.05</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>fist</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>13</power>
+						<cooldownTime>1.3</cooldownTime>
+						<armorPenetrationBlunt>8</armorPenetrationBlunt>
+						<armorPenetrationSharp>5.5</armorPenetrationSharp>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SK_SurgeryFlesh">
+		<defName>InstallHMC_HomunculusClaws</defName>
+		<label>Install homunculus claws</label>
+		<description>Installs homunculus claws.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing homunculus claws.</jobString>
+		<workAmount>4000</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>HMC_HomunculusClaws</ThingDef>
+		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HMC_HomunculusClaws</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HMC_HomunculusClaws</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>11</Medicine>
+		</skillRequirements>	
+		<appliedOnFixedBodyParts>
+			<li>LeftHandClaws</li>
+			<li>RightHandClaws</li>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HMC_HomunculusClaws</addsHediff>
+		<researchPrerequisite>Prosthesis_install_D3</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

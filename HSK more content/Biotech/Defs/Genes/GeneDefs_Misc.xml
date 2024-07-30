@@ -64,6 +64,7 @@
 		<ArmorRating_Electric>-0.4</ArmorRating_Electric>
     </statOffsets>
     <biostatMet>-3</biostatMet>
+	<biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>tough</symbol></li>
@@ -92,6 +93,7 @@
 		<ArmorRating_Electric>-0.5</ArmorRating_Electric>
     </statOffsets>
     <biostatMet>-3</biostatMet>
+	<biostatCpx>2</biostatCpx>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>tough</symbol></li>
@@ -104,6 +106,61 @@
         <li><symbol>vigo</symbol></li>
       </prefixSymbols>
     </symbolPack>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HMC_BloodLustInstinct</defName>
+    <label>bloodlust instinct</label>
+    <labelShortAdj>bloodlust</labelShortAdj>
+    <description>Carriers of this gene love to end other people's lives. A prolonged lack of opportunity to kill someone in combat will not make them irritable, unlike the kill thirst, however, they are generally more prone to aggression than usual.</description>
+    <iconPath>UI/Icons/Genes/Gene_BloodLustInstinct</iconPath>
+    <displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>55</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Bloodlust</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>1</biostatMet>
+	<minAgeActive>13</minAgeActive>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>murder</symbol></li>
+        <li><symbol>death</symbol></li>
+        <li><symbol>kill</symbol></li>
+        <li><symbol>slay</symbol></li>
+        <li><symbol>rage</symbol></li>
+        <li><symbol>hate</symbol></li>
+        <li><symbol>snuff</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>vore</symbol></li>
+        <li><symbol>killer</symbol></li>
+        <li><symbol>slayer</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+    <exclusionTags>
+      <li>KillThirst</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>HMC_Longsighted</defName>
+    <label>longsighted</label>
+    <iconPath>UI/Icons/Genes/Gene_Longsighted</iconPath>
+    <description>Carriers of this gene can only see well at a distance. It is difficult for them to fight close up.</description>
+    <displayCategory>HMC_Genes</displayCategory>
+    <displayOrderInCategory>56</displayOrderInCategory>
+    <statFactors>
+      <AimingAccuracy>1.15</AimingAccuracy>
+	  <MeleeHitChance>0.5</MeleeHitChance>
+      <MeleeCritChance>0.5</MeleeCritChance>
+	  <MeleeParryChance>0.5</MeleeParryChance>
+    </statFactors>
+    <biostatMet>2</biostatMet>
+    <exclusionTags>
+      <li>ShootingAccuracy</li>
+    </exclusionTags>
   </GeneDef>
 
 </Defs>

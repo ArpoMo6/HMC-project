@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Parabellum</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Ammo_792x33mmK_FMJ"]/ammoClass</xpath>
+					<value>
+						<ammoClass>FullMetalJacket79233HMC</ammoClass>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Ammo_792x33mmK_AP"]/ammoClass</xpath>
+					<value>
+						<ammoClass>ArmorPiercing79233HMC</ammoClass>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Ammo_792x33mmK_J"]/ammoClass</xpath>
+					<value>
+						<ammoClass>J79233HMC</ammoClass>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

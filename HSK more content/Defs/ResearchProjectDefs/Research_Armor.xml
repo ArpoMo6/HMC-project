@@ -14,14 +14,8 @@
 			<li>Fortification_E1</li>
 		</prerequisites>
 		<researchViewX>25.00</researchViewX>
-		<researchViewY>38.00</researchViewY>
+		<researchViewY>35.00</researchViewY>
 		<tab>Apparel_SK</tab>
-		<techprintCount MayRequire="Ludeon.RimWorld.Royalty">1</techprintCount>
-		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">1</techprintCommonality>
-		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">4500</techprintMarketValue>
-		<heldByFactionCategoryTags MayRequire="Ludeon.RimWorld.Royalty">
-		  <li>Archotech</li>
-		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 
 </Defs>

@@ -3,7 +3,7 @@
 
 	<ScenarioDef>
 		<defName>HMC_LostHomunculus</defName>
-		<label>Lost Homunculus</label>
+		<label>Lost Homunculusus</label>
 		<description>You woke up to the sound of walls and glass cracking. Something out of a test tube, you have emerged from the ruins of what was once a research complex to start a new life in the unknown.\n\nDefault Race: Human (Homunculus).\n\nHomunculus is a genetically bred mutant by some crazy and carousing hairy scientists. The purpose of breeding is unknown, the resulting specimen is extremely unstable genetically, but still has some potential for survival and even reproduction.\n\nNote: the starting set of resources is meager and scattered throughout the map; in return, homunculi have some useful abilities. Take care of them.</description>
 		<scenario>
 			<summary>Four lost homunculus attempt to build new life.</summary>

@@ -69,7 +69,7 @@
 		<statBases>
 			<MarketValue>1.45</MarketValue>
 		</statBases>
-		<ammoClass>FullMetalJacket</ammoClass>
+		<ammoClass>FullMetalJacket54539HMC</ammoClass>
 		<cookOffProjectile>Bullet_545x39mmSoviet_FMJ</cookOffProjectile>
 	</ThingDef>
 
@@ -83,7 +83,7 @@
 		<statBases>
 			<MarketValue>1.75</MarketValue>
 		</statBases>
-		<ammoClass>ArmorPiercing</ammoClass>
+		<ammoClass>ArmorPiercing54539HMC</ammoClass>
 		<generateAllowChance>0.45</generateAllowChance>
 		<cookOffProjectile>Bullet_545x39mmSoviet_AP</cookOffProjectile>
 	</ThingDef>
@@ -98,7 +98,7 @@
 		<statBases>
 			<MarketValue>1.65</MarketValue>
 		</statBases>
-		<ammoClass>HollowPoint</ammoClass>
+		<ammoClass>HollowPoint54539HMC</ammoClass>
 		<generateAllowChance>0.35</generateAllowChance>
 		<cookOffProjectile>Bullet_545x39mmSoviet_HP</cookOffProjectile>
 		<thingSetMakerTags>

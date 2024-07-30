@@ -50,22 +50,22 @@
 	<Shrapnel.labelShort>шрапнель (S)</Shrapnel.labelShort>
 	<Shrapnel.description>Цельный снаряд, под завязку напичканный осколками и порохом.</Shrapnel.description>
 
-	<FullMetalJacket76251HMC.label>Оболочечный (FMJ) (7.62x51)</FullMetalJacket76251HMC.label>
+	<FullMetalJacket76251HMC.label>Оболочечный (FMJ) (7.62x51 мм)</FullMetalJacket76251HMC.label>
 	<FullMetalJacket76251HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76251HMC.description>
 
-	<ArmorPiercing76251HMC.label>Бронебойный (AP) (7.62x51)</ArmorPiercing76251HMC.label>
+	<ArmorPiercing76251HMC.label>Бронебойный (AP) (7.62x51 мм)</ArmorPiercing76251HMC.label>
 	<ArmorPiercing76251HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76251HMC.description>
 
-	<HollowPoint76251HMC.label>Экспансивный (HP) (7.62x51)</HollowPoint76251HMC.label>
+	<HollowPoint76251HMC.label>Экспансивный (HP) (7.62x51 мм)</HollowPoint76251HMC.label>
 	<HollowPoint76251HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76251HMC.description>
 
-	<FullMetalJacket76254HMC.label>Оболочечный (FMJ) (7.62x54)</FullMetalJacket76254HMC.label>
+	<FullMetalJacket76254HMC.label>Оболочечный (FMJ) (7.62x54 мм)</FullMetalJacket76254HMC.label>
 	<FullMetalJacket76254HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76254HMC.description>
 
-	<ArmorPiercing76254HMC.label>Бронебойный (AP) (7.62x54)</ArmorPiercing76254HMC.label>
+	<ArmorPiercing76254HMC.label>Бронебойный (AP) (7.62x54 мм)</ArmorPiercing76254HMC.label>
 	<ArmorPiercing76254HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76254HMC.description>
 
-	<HollowPoint76254HMC.label>Экспансивный (HP) (7.62x54)</HollowPoint76254HMC.label>
+	<HollowPoint76254HMC.label>Экспансивный (HP) (7.62x54 мм)</HollowPoint76254HMC.label>
 	<HollowPoint76254HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76254HMC.description>
 
 	<FullMetalJacket303HMC.label>Оболочечный (FMJ) (.303)</FullMetalJacket303HMC.label>
@@ -77,25 +77,25 @@
 	<HollowPoint303HMC.label>Экспансивный (HP) (.303)</HollowPoint303HMC.label>
 	<HollowPoint303HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint303HMC.description>
 
-	<FullMetalJacket76225HMC.label>Оболочечный (FMJ) (7.62x25)</FullMetalJacket76225HMC.label>
+	<FullMetalJacket76225HMC.label>Оболочечный (FMJ) (7.62x25 мм)</FullMetalJacket76225HMC.label>
 	<FullMetalJacket76225HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76225HMC.description>
 
-	<ArmorPiercing76225HMC.label>Бронебойный (AP) (7.62x25)</ArmorPiercing76225HMC.label>
+	<ArmorPiercing76225HMC.label>Бронебойный (AP) (7.62x25 мм)</ArmorPiercing76225HMC.label>
 	<ArmorPiercing76225HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76225HMC.description>
 
-	<HollowPoint76225HMC.label>Экспансивный (HP) (7.62x25)</HollowPoint76225HMC.label>
+	<HollowPoint76225HMC.label>Экспансивный (HP) (7.62x25 мм)</HollowPoint76225HMC.label>
 	<HollowPoint76225HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76225HMC.description>
 
 	<IncendiaryAP76225HMC.label>Зажигательно-бронебойный (AP-I) (7.62x25)</IncendiaryAP76225HMC.label>
 	<IncendiaryAP76225HMC.description>Зажигательный боеприпас, содержащий рецептуру для воспламенения легкогорючих материалов и объектов.</IncendiaryAP76225HMC.description>
 
-	<FullMetalJacket919HMC.label>Оболочечный (FMJ) (9x19)</FullMetalJacket919HMC.label>
+	<FullMetalJacket919HMC.label>Оболочечный (FMJ) (9x19 мм)</FullMetalJacket919HMC.label>
 	<FullMetalJacket919HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket919HMC.description>
 
-	<ArmorPiercing919HMC.label>Бронебойный (AP) (9x19)</ArmorPiercing919HMC.label>
+	<ArmorPiercing919HMC.label>Бронебойный (AP) (9x19 мм)</ArmorPiercing919HMC.label>
 	<ArmorPiercing919HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing919HMC.description>
 
-	<HollowPoint919HMC.label>Экспансивный (HP) (9x19)</HollowPoint919HMC.label>
+	<HollowPoint919HMC.label>Экспансивный (HP) (9x19 мм)</HollowPoint919HMC.label>
 	<HollowPoint919HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint919HMC.description>
 
 	<FullMetalJacket45HMC.label>Оболочечный (FMJ) (.45)</FullMetalJacket45HMC.label>
@@ -146,5 +146,44 @@
 	<ExplosiveAP127HMC.label>Бронебойно-фугасный (HESH) (12.7x108мм)</ExplosiveAP127HMC.label>
 	<ExplosiveAP127HMC.labelShort>AP-HE (12.7x108мм)</ExplosiveAP127HMC.labelShort>
 	<ExplosiveAP127HMC.description>Боеприпас с взрывной сердцевиной, детонирующий при контакте с целью.</ExplosiveAP127HMC.description>
+
+	<FullMetalJacket55645HMC.label>Оболочечный (FMJ) (5.56x45 мм)</FullMetalJacket55645HMC.label>
+	<FullMetalJacket55645HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket55645HMC.description>
+
+	<ArmorPiercing55645HMC.label>Бронебойный (AP) (5.56x45 мм)</ArmorPiercing55645HMC.label>
+	<ArmorPiercing55645HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing55645HMC.description>
+
+	<HollowPoint55645HMC.label>Экспансивный (HP) (5.56x45 мм)</HollowPoint55645HMC.label>
+	<HollowPoint55645HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint55645HMC.description>
+
+	<ExplosiveAP55645HMC.label>Бронебойно-фугасный (AP-HE) (5.56x45 мм)</ExplosiveAP55645HMC.label>
+	<ExplosiveAP55645HMC.description>Боеприпас с взрывной сердцевиной, детонирующий при контакте с целью.</ExplosiveAP55645HMC.description>
+
+	<FullMetalJacket54539HMC.label>Оболочечный (FMJ) (5.45x39 мм)</FullMetalJacket54539HMC.label>
+	<FullMetalJacket54539HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket54539HMC.description>
+
+	<ArmorPiercing54539HMC.label>Бронебойный (AP) (5.45x39 мм)</ArmorPiercing54539HMC.label>
+	<ArmorPiercing54539HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing54539HMC.description>
+
+	<HollowPoint54539HMC.label>Экспансивный (HP) (5.45x39 мм)</HollowPoint54539HMC.label>
+	<HollowPoint54539HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint54539HMC.description>
+
+	<FullMetalJacket76239HMC.label>Оболочечный (FMJ) (7.62x39 мм)</FullMetalJacket76239HMC.label>
+	<FullMetalJacket76239HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket76239HMC.description>
+
+	<ArmorPiercing76239HMC.label>Бронебойный (AP) (7.62x39 мм)</ArmorPiercing76239HMC.label>
+	<ArmorPiercing76239HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing76239HMC.description>
+
+	<HollowPoint76239HMC.label>Экспансивный (HP) (7.62x39 мм)</HollowPoint76239HMC.label>
+	<HollowPoint76239HMC.description>Экспансивные, практически не действуют против брони, но с увеличенным уроном по голому телу.</HollowPoint76239HMC.description>
+
+	<FullMetalJacket79233HMC.label>Оболочечный (FMJ) (7.92x33 мм)</FullMetalJacket79233HMC.label>
+	<FullMetalJacket79233HMC.description>Обычный цельнометаллический патрон с стандартными характеристиками.</FullMetalJacket79233HMC.description>
+
+	<ArmorPiercing79233HMC.label>Бронебойный (AP) (7.92x33 мм)</ArmorPiercing79233HMC.label>
+	<ArmorPiercing79233HMC.description>Бронебойные, с увеличенным процентом пробития брони.</ArmorPiercing79233HMC.description>
+
+	<J79233HMC.label>Джаггер (J) (7.92x33 мм)</J79233HMC.label>
+	<J79233HMC.description>Ранний серийный промежуточный патрон.</J79233HMC.description>
 
 </LanguageData>

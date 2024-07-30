@@ -216,6 +216,55 @@
           <li>Ludeon.RimWorld.Ideology</li>
         </enableIfAnyModActive>
       </li>
+      <!-- Mechanitor ancient complex -->
+      <li Class="StorytellerCompProperties_MechanitorComplexQuest" MayRequire="Ludeon.RimWorld.Biotech">
+        <incident MayRequire="Ludeon.RimWorld.Biotech">GiveQuest_AncientComplex_Mechanitor</incident>
+        <mtbDays>60</mtbDays>
+        <existingMechanitorOrMechlinkMTBFactor>4</existingMechanitorOrMechlinkMTBFactor>
+        <minSpacingDays>60</minSpacingDays>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+        </allowedTargetTags>
+        <enableIfAnyModActive>
+          <li>Ludeon.RimWorld.Biotech</li>
+        </enableIfAnyModActive>
+        <blockedByQueuedOrActiveQuests>
+          <li>OpportunitySite_AncientComplex_Mechanitor</li>
+          <li>MechanitorShip</li>
+        </blockedByQueuedOrActiveQuests>
+      </li>
+      <!-- Dissolution triggered -->
+      <li Class="StorytellerCompProperties_DissolutionTriggered" MayRequire="Ludeon.RimWorld.Biotech">
+        <incident>WastepackInfestation</incident>
+        <thing>Wastepack</thing>
+        <delayTicks>120</delayTicks>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+          <li>Map_Misc</li>
+        </allowedTargetTags>
+        <enableIfAnyModActive>
+          <li>Ludeon.RimWorld.Biotech</li>
+        </enableIfAnyModActive>
+      </li>
+      <!-- Noxious haze -->
+      <li Class="StorytellerCompProperties_NoxiousHaze" MayRequire="Ludeon.RimWorld.Biotech">
+        <lastFireMinMTBThreshold>0.5</lastFireMinMTBThreshold>
+        <lastFireMaxMTBThreshold>2</lastFireMaxMTBThreshold>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+          <li>Map_Misc</li>
+        </allowedTargetTags>
+      </li>
+      <!-- Polux tree -->
+      <li Class="StorytellerCompProperties_OnOffCycle">
+        <incident MayRequire="Ludeon.RimWorld.Biotech">PoluxTreeSpawn</incident>
+        <onDays>15</onDays>
+        <offDays>15</offDays>
+        <numIncidentsRange>1</numIncidentsRange>
+        <allowedTargetTags>
+          <li>Map_PlayerHome</li>
+        </allowedTargetTags>
+      </li>
     </comps>
   </StorytellerDef>
 
@@ -441,7 +490,7 @@
     </comps>
   </StorytellerDef>
 
-	<StorytellerDef ParentName="BaseStoryteller">
+	<StorytellerDef ParentName="BaseStorytellerHighPopHMC">
 		<defName>UberPeka_HMC</defName>
 		<label>Uber Peka</label>
 		<description>Uber Peka is a country girl who loves a many play. Too-too many...</description>

@@ -62,6 +62,12 @@
 				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames/li[text()="Turret_MiniTurret"]</xpath>
 			</li>
 			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_MiniTurret"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+				<value>
+					<ammoSet>AmmoSet_MicroTurretIntermediate_HMC</ammoSet>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>

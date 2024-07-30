@@ -231,8 +231,12 @@
 			<li>NorbsonalShield</li>
 		</apparelTags>
 		<weaponTags>
-			<li>HMCNorbalMelee</li>
+			<li>HMCNorbalBerserkerMelee</li>
 		</weaponTags>
+		<weaponMoney>
+			<min>5000</min>
+			<max>5500</max>
+		</weaponMoney>
 		<techHediffsRequired>
 			<li>DeathAcidifier</li>
 			<li>BionicFoot</li>
@@ -240,7 +244,6 @@
 			<li>BionicEar</li>
 			<li>BionicJaw</li>
 			<li>ArchotechArm</li>
-			<li MayRequire="kikohi.cybernetic">ANN_EnergyFist</li>
 			<li>BionicLiver</li>
 		</techHediffsRequired>
 		<initialWillRange>6~9</initialWillRange>

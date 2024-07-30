@@ -15,7 +15,7 @@
 		<xpath>Defs/GeneDef[defName="Hands_Pig"]</xpath>
 		<value>
 			<statOffsets>
-				<ReloadSpeed>-0.1</ReloadSpeed>
+				<ReloadSpeed>-0.05</ReloadSpeed>
 				<AimingDelayFactor>0.05</AimingDelayFactor>
 			</statOffsets>
 		</value>

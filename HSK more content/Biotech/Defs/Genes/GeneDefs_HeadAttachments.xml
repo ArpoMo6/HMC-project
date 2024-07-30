@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!-- Ears -->
+
     <GeneDef Name="HMC_HeadAttachmentGeneBase" Abstract="True"><!-- 耳朵-->
         <biostatCpx>0</biostatCpx>
         <biostatMet>0</biostatMet>
@@ -22,7 +25,7 @@
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
         <defName>HMC_HA_DeerEar</defName>
-        <label>Deer ear</label>
+        <label>deer ears</label>
         <description>Carriers of this gene grow deer-like ears, adults own antlers.</description>
         <iconPath>UI/Icons/Genes/Gene_DeerEar</iconPath>
 		<displayOrderInCategory>101</displayOrderInCategory>
@@ -34,7 +37,7 @@
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
         <defName>HMC_HA_FoxEar</defName>
-        <label>Fox ear</label>
+        <label>fox ears</label>
         <description>Carriers of this gene grow fox-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_FoxEar</iconPath>
 		<displayOrderInCategory>102</displayOrderInCategory>
@@ -53,7 +56,7 @@
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
         <defName>HMC_HA_HalfDemonEar</defName>
-        <label>Imp ear</label>
+        <label>imp ears</label>
         <description>Carriers of this gene grow imp-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_HalfDemonEar</iconPath>
 		<displayOrderInCategory>103</displayOrderInCategory>
@@ -67,5 +70,67 @@
             </graphicPaths>
         </graphicData>
     </GeneDef>
-	
+
+    <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
+        <defName>HMC_HA_FinEar</defName>
+        <label>fin ears</label>
+        <description>Carriers of this gene grow fish-like ears.</description>
+        <iconPath>UI/Icons/Genes/Gene_FinEar</iconPath>
+		<displayOrderInCategory>104</displayOrderInCategory>
+        <graphicData>
+            <colorType>Skin</colorType>
+            <graphicPaths>
+                <li>Things/Pawn/Humanlike/HeadAttachments/FinEar/FinEar</li>
+            </graphicPaths>
+        </graphicData>
+    </GeneDef>
+
+    <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
+        <defName>HMC_HA_HalfElfEar</defName>
+        <label>half elf ears</label>
+        <description>Carriers of this gene grow short elf-like ears.</description>
+        <iconPath>UI/Icons/Genes/Gene_HalfElfEar</iconPath>
+		<displayOrderInCategory>105</displayOrderInCategory>
+        <graphicData>
+            <colorType>Skin</colorType>
+            <graphicPaths>
+                <li>Things/Pawn/Humanlike/HeadAttachments/HalfElfEar/HalfElfEar</li>
+            </graphicPaths>
+        </graphicData>
+    </GeneDef>
+
+	<!-- Horns -->
+
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>HMC_HA_RamHorn</defName>
+		<label>ram horns</label>
+		<description>Carriers of this gene grow two big ram horns protruding from the forehead.</description>
+		<iconPath>UI/Icons/Genes/Gene_RamHorn</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/RamHorn/RamHorn</graphicPath>
+			<color>(128, 128, 128)</color>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<displayCategory>HMC_Genes</displayCategory>
+		<displayOrderInCategory>106</displayOrderInCategory>
+	</GeneDef>
+
+	<!-- Noses -->
+
+	<GeneDef ParentName="GeneNoseBase">
+		<defName>HMC_HA_Nose_Orcoid</defName>
+		<label>orcoid nose</label>
+		<description>Carriers of this gene have orcoid-like nose.</description>
+		<iconPath>UI/Icons/Genes/Gene_OrcNose</iconPath>
+		<graphicData>
+		  <graphicPath>Things/Pawn/Humanlike/HeadAttachments/OrcNose/OrcNose</graphicPath>
+		  <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+		  <useSkinShader>true</useSkinShader>
+		  <layer>PostHair</layer>
+		</graphicData>
+		<missingGeneRomanceChanceFactor>0.6</missingGeneRomanceChanceFactor>
+		<displayCategory>HMC_Genes</displayCategory>
+		<displayOrderInCategory>107</displayOrderInCategory>
+	</GeneDef>
+
 </Defs>
