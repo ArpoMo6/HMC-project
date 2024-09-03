@@ -7,13 +7,6 @@
         <displayCategory>HMC_Genes</displayCategory>
         <displayOrderInCategory>110</displayOrderInCategory>
         <iconColor>(0.75, 0.75, 0.75)</iconColor>
-        <graphicData>
-            <drawLoc>Tailbone</drawLoc>
-            <drawScale>1.33</drawScale>
-            <drawOffsetNorth>(0, 0, 0)</drawOffsetNorth>
-            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-        </graphicData>
         <exclusionTags>
             <li>Tail</li>
         </exclusionTags>
@@ -26,13 +19,47 @@
         <description>Carriers of this gene grow spiked lizard-like tails.</description>
         <iconPath>UI/Icons/Genes/Gene_SpikedLizardTail</iconPath>
 		<displayOrderInCategory>111</displayOrderInCategory>
-        <graphicData>
-            <colorType>Skin</colorType>
-            <graphicPaths>
+		<renderNodeProperties>
+		  <li>
+			<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+			<texPaths>
 				<li>Things/Pawn/Humanlike/BodyAttachments/SpikedLizardTail/SpikedLizardTailA</li>
 				<li>Things/Pawn/Humanlike/BodyAttachments/SpikedLizardTail/SpikedLizardTailB</li>
-			</graphicPaths>
-        </graphicData>
+			</texPaths>
+			<colorType>Skin</colorType>
+			<overrideMeshSize>(1, 1)</overrideMeshSize>
+			<parentTagDef>Body</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>false</useSkinShader>
+			<visibleFacing>
+				<li>East</li>
+				<li>North</li>
+				<li>West</li>
+				<li>South</li>
+			</visibleFacing>
+			<drawData>
+				<defaultData>
+					<layer>-2</layer>
+				</defaultData>
+				<dataEast>
+					<layer>1</layer>
+					<offset>(-0.2, 0, -0.1)</offset>
+				</dataEast>
+				<dataWest>
+					<layer>1</layer>
+					<offset>(0.2, 0, -0.1)</offset>
+				</dataWest>
+				<dataNorth>
+					<layer>90</layer>
+					<offset>(0, 0, -0.2)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0, 0, -0.2)</offset>
+				</dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_BodyAttachmentGeneBase">
@@ -41,13 +68,47 @@
         <description>Carriers of this gene grow snake-like tails.</description>
         <iconPath>UI/Icons/Genes/Gene_SnakeTail</iconPath>
 		<displayOrderInCategory>112</displayOrderInCategory>
-        <graphicData>
-            <colorType>Skin</colorType>
-            <graphicPaths>
-			<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailA</li>
-			<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailB</li>
-			</graphicPaths>
-        </graphicData>
+		<renderNodeProperties>
+		  <li>
+			<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+			<texPaths>
+				<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailA</li>
+				<li>Things/Pawn/Humanlike/BodyAttachments/SnakeTail/SnakeTailB</li>
+			</texPaths>
+			<colorType>Skin</colorType>
+			<overrideMeshSize>(1, 1)</overrideMeshSize>
+			<parentTagDef>Body</parentTagDef>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>false</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<visibleFacing>
+				<li>East</li>
+				<li>North</li>
+				<li>West</li>
+				<li>South</li>
+			</visibleFacing>
+			<drawData>
+				<defaultData>
+					<layer>-2</layer>
+				</defaultData>
+				<dataEast>
+					<layer>1</layer>
+					<offset>(-0.2, 0, -0.1)</offset>
+				</dataEast>
+				<dataWest>
+					<layer>1</layer>
+					<offset>(0.2, 0, -0.1)</offset>
+				</dataWest>
+				<dataNorth>
+					<layer>90</layer>
+					<offset>(0, 0, -0.2)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0, 0, -0.2)</offset>
+				</dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_BodyAttachmentGeneBase">
@@ -56,14 +117,48 @@
         <description>Carriers of this gene grow devil tails.</description>
         <iconPath>UI/Icons/Genes/Gene_DevilTail</iconPath>
 		<displayOrderInCategory>113</displayOrderInCategory>
-        <graphicData>
-            <graphicPaths>
+		<renderNodeProperties>
+		  <li>
+			<workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+			<texPaths>
                 <li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailA</li>
                 <li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailB</li>
 				<li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailC</li>
 				<li>Things/Pawn/Humanlike/BodyAttachments/DevilTail/DevilTailD</li>
-            </graphicPaths>
-        </graphicData>
+			</texPaths>
+			<colorType>Skin</colorType>
+			<overrideMeshSize>(1, 1)</overrideMeshSize>
+			<parentTagDef>Body</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>false</useSkinShader>
+			<visibleFacing>
+				<li>East</li>
+				<li>North</li>
+				<li>West</li>
+			</visibleFacing>
+			<drawData>
+				<defaultData>
+					<layer>-2</layer>
+				</defaultData>
+				<dataEast>
+					<layer>1</layer>
+					<offset>(-0.2, 0, -0.1)</offset>
+				</dataEast>
+				<dataWest>
+					<layer>1</layer>
+					<offset>(0.2, 0, -0.1)</offset>
+				</dataWest>
+				<dataNorth>
+					<layer>90</layer>
+					<offset>(0, 0, -0.2)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0, 0, -0.2)</offset>
+				</dataSouth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
 </Defs>
