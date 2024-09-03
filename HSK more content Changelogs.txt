@@ -1,3 +1,11 @@
+– Changelog "HSK more content" v0.48 (1.4 version):
+
+- 1) fixed a bug due to which the gene for golden eye color was not used when the [NL] Facial Animation - WIP mod was enabled and the color was chosen randomly;
+
+P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be on 1.5.
+
+
+
 – Changelog "HSK more content" v0.47 (1.4 version):
 
 
