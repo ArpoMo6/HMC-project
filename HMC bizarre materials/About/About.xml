@@ -3,10 +3,10 @@
 	<name>HMC bizarre materials</name>
 	<author>arpomo6</author>
 	<supportedVersions>
-		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
-	<packageId>ArpoMo6.HMC.bizmat</packageId>
-	<description>Version 0.20. Added few new materials and recipes.</description>
+	<packageId>arpomo6.hmc.bizmat</packageId>
+	<description>Version 0.21. Added few new materials and recipes.</description>
 	<modDependencies>
 	</modDependencies>
 	<loadBefore>
@@ -21,7 +21,7 @@
 		<li>CETeam.CombatExtended</li>
 		<li>skyarkhangel.HSK</li>
 		<li>skyarkhangel.SurvivalToolsLite</li>
-		<li>ArpoMo6.HMC.Project</li>
+		<li>arpomo6.hmc.project</li>
 	</loadAfter>
 	<incompatibleWith>
 	</incompatibleWith>
