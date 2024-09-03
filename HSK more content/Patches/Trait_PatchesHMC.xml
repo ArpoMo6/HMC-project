@@ -567,10 +567,7 @@
 					<GermContainment>0.2</GermContainment>
 				</statOffsets>
 				<skillGains>
-					<li>
-						<key>Medicine</key>
-						<value>3</value>
-					</li>
+					<Medicine>3</Medicine>
 				</skillGains>
 			</li>
         </value>

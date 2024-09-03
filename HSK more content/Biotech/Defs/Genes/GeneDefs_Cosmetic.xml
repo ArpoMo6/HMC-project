@@ -8,10 +8,41 @@
 	<iconPath>UI/Icons/Genes/Gene_GoldenEyes</iconPath>
 	<displayCategory>HMC_Genes</displayCategory>
 	<displayOrderInCategory>61</displayOrderInCategory>
-    <graphicData>
-      <drawScale>0.28</drawScale>
-      <graphicPath>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Male/GoldenEyes_Male</graphicPath>
-      <graphicPathFemale>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Female/GoldenEyes_FemaleTwo</graphicPathFemale>
-    </graphicData>
+    <renderNodeProperties>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Male/GoldenEyes_Male</texPath>
+        <texPathFemale>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Female/GoldenEyes_FemaleTwo</texPathFemale>
+        <anchorTag>RightEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Right</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+          </defaultData>
+        </drawData>
+      </li>
+      <li Class="PawnRenderNodeProperties_Eye">
+        <texPath>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Male/GoldenEyes_Male</texPath>
+        <texPathFemale>Things/Pawn/Humanlike/HeadAttachments/GoldenEyes/Female/GoldenEyes_FemaleTwo</texPathFemale>
+        <anchorTag>LeftEye</anchorTag>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <parentTagDef>Head</parentTagDef>
+        <drawSize>0.2</drawSize>
+        <side>Left</side>
+        <drawData>
+          <defaultData>
+            <layer>54</layer>
+            <offset>(0, 0, -0.25)</offset>
+            <flip>true</flip>
+          </defaultData>
+          <dataWest>
+            <flip>false</flip>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
   </GeneDef>
 </Defs>

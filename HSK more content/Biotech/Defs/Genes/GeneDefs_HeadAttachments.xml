@@ -11,12 +11,6 @@
         <displayCategory>HMC_Genes</displayCategory>
         <displayOrderInCategory>100</displayOrderInCategory>
         <iconColor>(0.75, 0.75, 0.75)</iconColor>
-        <graphicData>
-            <layer>PostHair</layer>
-            <drawNorthAfterHair>true</drawNorthAfterHair>
-            <useSkinShader>false</useSkinShader>
-            <drawLoc>HeadTop</drawLoc>
-        </graphicData>
         <!-- Collides with other genes with the same tags-->
         <exclusionTags>
             <li>Ears</li>
@@ -29,10 +23,23 @@
         <description>Carriers of this gene grow deer-like ears, adults own antlers.</description>
         <iconPath>UI/Icons/Genes/Gene_DeerEar</iconPath>
 		<displayOrderInCategory>101</displayOrderInCategory>
-        <graphicData>
-            <graphicPath>Things/Pawn/Humanlike/HeadAttachments/DeerEar/DeerEarAdultA</graphicPath>
-            <colorType>Hair</colorType>
-        </graphicData>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Things/Pawn/Humanlike/HeadAttachments/DeerEar/DeerEarAdultA</texPath>
+			<colorType>Hair</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
@@ -41,17 +48,30 @@
         <description>Carriers of this gene grow fox-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_FoxEar</iconPath>
 		<displayOrderInCategory>102</displayOrderInCategory>
-        <graphicData>
-            <graphicPaths>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarA</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarB</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarC</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarD</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarE</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/FoxEar/FoxEarF</li>
-            </graphicPaths>
-            <colorType>Hair</colorType>
-        </graphicData>
+			</texPaths>
+			<colorType>Hair</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>false</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>71</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
@@ -60,15 +80,28 @@
         <description>Carriers of this gene grow imp-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_HalfDemonEar</iconPath>
 		<displayOrderInCategory>103</displayOrderInCategory>
-        <graphicData>
-            <colorType>Skin</colorType>
-            <graphicPaths>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPaths>
                 <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarA</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarB</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarC</li>
                 <li>Things/Pawn/Humanlike/HeadAttachments/HalfDemonEar/HalfDemonEarD</li>
-            </graphicPaths>
-        </graphicData>
+			</texPaths>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>false</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>71</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
@@ -77,12 +110,23 @@
         <description>Carriers of this gene grow fish-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_FinEar</iconPath>
 		<displayOrderInCategory>104</displayOrderInCategory>
-        <graphicData>
-            <colorType>Skin</colorType>
-            <graphicPaths>
-                <li>Things/Pawn/Humanlike/HeadAttachments/FinEar/FinEar</li>
-            </graphicPaths>
-        </graphicData>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Things/Pawn/Humanlike/HeadAttachments/FinEar/FinEar</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
     <GeneDef ParentName = "HMC_HeadAttachmentGeneBase">
@@ -91,12 +135,23 @@
         <description>Carriers of this gene grow short elf-like ears.</description>
         <iconPath>UI/Icons/Genes/Gene_HalfElfEar</iconPath>
 		<displayOrderInCategory>105</displayOrderInCategory>
-        <graphicData>
-            <colorType>Skin</colorType>
-            <graphicPaths>
-                <li>Things/Pawn/Humanlike/HeadAttachments/HalfElfEar/HalfElfEar</li>
-            </graphicPaths>
-        </graphicData>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Things/Pawn/Humanlike/HeadAttachments/HalfElfEar/HalfElfEar</texPath>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<drawData>
+			  <defaultData>
+				<layer>70</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
     </GeneDef>
 
 	<!-- Horns -->
@@ -106,11 +161,24 @@
 		<label>ram horns</label>
 		<description>Carriers of this gene grow two big ram horns protruding from the forehead.</description>
 		<iconPath>UI/Icons/Genes/Gene_RamHorn</iconPath>
-		<graphicData>
-			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/RamHorn/RamHorn</graphicPath>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Things/Pawn/Humanlike/HeadAttachments/RamHorn/RamHorn</texPath>
 			<color>(128, 128, 128)</color>
-			<layer>PostHeadgear</layer>
-		</graphicData>
+			<parentTagDef>Head</parentTagDef>
+			<!-- <layer>PostHeadgear</layer> -->
+			<drawData>
+			  <defaultData>
+				<layer>80</layer>
+			  </defaultData>
+			  <dataNorth>
+				<layer>10</layer>
+			  </dataNorth>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
 		<displayCategory>HMC_Genes</displayCategory>
 		<displayOrderInCategory>106</displayOrderInCategory>
 	</GeneDef>
@@ -122,12 +190,29 @@
 		<label>orcoid nose</label>
 		<description>Carriers of this gene have orcoid-like nose.</description>
 		<iconPath>UI/Icons/Genes/Gene_OrcNose</iconPath>
-		<graphicData>
-		  <graphicPath>Things/Pawn/Humanlike/HeadAttachments/OrcNose/OrcNose</graphicPath>
-		  <narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
-		  <useSkinShader>true</useSkinShader>
-		  <layer>PostHair</layer>
-		</graphicData>
+		<renderNodeProperties>
+		  <li>
+			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+			<texPath>Things/Pawn/Humanlike/HeadAttachments/OrcNose/OrcNose</texPath>
+			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
+			<useSkinShader>true</useSkinShader>
+			<useRottenColor>true</useRottenColor>
+			<colorType>Skin</colorType>
+			<parentTagDef>Head</parentTagDef>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<visibleFacing>
+			  <li>East</li>
+			  <li>South</li>
+			  <li>West</li>
+			</visibleFacing>
+			<drawData>
+			  <defaultData>
+				<layer>66</layer>
+			  </defaultData>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
 		<missingGeneRomanceChanceFactor>0.6</missingGeneRomanceChanceFactor>
 		<displayCategory>HMC_Genes</displayCategory>
 		<displayOrderInCategory>107</displayOrderInCategory>

@@ -8,7 +8,7 @@
 				<xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="careful shooter"]</xpath>
 				<value>
 					<skillGains>
-						<li><key>Shooting</key><value>2</value></li>
+						<Shooting>2</Shooting>
 					</skillGains>
 				</value>
 			</li>
@@ -16,7 +16,7 @@
 				<xpath>Defs/TraitDef[defName="ShootingAccuracy"]/degreeDatas/li[label="trigger-happy"]</xpath>
 				<value>
 					<skillGains>
-						<li><key>Shooting</key><value>2</value></li>
+						<Shooting>2</Shooting>
 					</skillGains>
 				</value>
 			</li>

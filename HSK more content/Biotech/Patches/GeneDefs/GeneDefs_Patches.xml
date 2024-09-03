@@ -149,17 +149,17 @@
         <match Class="PatchOperationAddModExtension">
             <xpath>Defs/GeneDef[defName="HMC_BA_SpikedLizardTail"]</xpath>
             <value>
-				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+				<li Class="BetterGeneGraphicsFramework.WithBodyTypeOffset"><!-- 独立坐标 -->
 					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
 					<bodyTypeOffsetNorth>
-						<male>(0,0.2,-0.08)</male>
-						<female>(0,0.2,-0.08)</female>
-						<hulk>(0,0.2,-0.16)</hulk>
-						<fat>(0,0.2,-0.05)</fat>
-						<thin>(0,0.2,-0.02)</thin>
-						<baby>(0,0.2,-0.1)</baby>
-						<child>(0, 0.2, 0)</child>
-						<femaleBB>(0, 0.2, -0.01)</femaleBB>
+						<male>(0,0,0)</male>
+						<female>(0,0,0.02)</female>
+						<hulk>(0,0,-0.16)</hulk>
+						<fat>(0,0,0.03)</fat>
+						<thin>(0,0,0)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0, 0, 0.08)</child>
+						<femaleBB>(0, 0, -0.01)</femaleBB>
 					</bodyTypeOffsetNorth>
 					<bodyTypeOffsetSouth>
 						<male>(0,0,0)</male>
@@ -167,19 +167,19 @@
 						<hulk>(0,0,0)</hulk>
 						<fat>(0,0,0)</fat>
 						<thin>(0,0,0)</thin>
-						<baby>(0,0,0)</baby>
-						<child>(0,0,0)</child>
+						<baby>(0,0,0.05)</baby>
+						<child>(0,0,0.1)</child>
 						<femaleBB>(0,0,0)</femaleBB>
 					</bodyTypeOffsetSouth>
 					<bodyTypeOffsetEast>
-						<male>(-0.2,0.02,0.01)</male>
-						<female>(-0.22,0.02,-0.01)</female>
-						<hulk>(-0.35,0.02,-0.08)</hulk>
-						<fat>(-0.28,0.02,0.01)</fat>
-						<thin>(-0.3,0.02,-0.01)</thin>
-						<baby>(-0.23,0.02,0.03)</baby>
-						<child>(-0.18, 0.02, 0.08)</child>
-						<femaleBB>(-0.26, 0.02, -0.06)</femaleBB>
+						<male>(-0.2,0,0.02)</male>
+						<female>(-0.23,0,-0.01)</female>
+						<hulk>(-0.34,0,-0.08)</hulk>
+						<fat>(-0.42,0,0.08)</fat>
+						<thin>(-0.18,0,0.01)</thin>
+						<baby>(0,0,0.12)</baby>
+						<child>(-0.1, 0, 0.12)</child>
+						<femaleBB>(-0.23,0,-0.01)</femaleBB>
 					</bodyTypeOffsetEast>
 				</li>
             </value>
@@ -193,17 +193,17 @@
         <match Class="PatchOperationAddModExtension">
             <xpath>Defs/GeneDef[defName="HMC_BA_SnakeTail"]</xpath>
             <value>
-				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+				<li Class="BetterGeneGraphicsFramework.WithBodyTypeOffset"><!-- 独立坐标 -->
 					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
 					<bodyTypeOffsetNorth>
-						<male>(0,0.2,-0.08)</male>
-						<female>(0,0.2,-0.08)</female>
-						<hulk>(0,0.2,-0.16)</hulk>
-						<fat>(0,0.2,-0.05)</fat>
-						<thin>(0,0.2,-0.02)</thin>
-						<baby>(0,0.2,-0.1)</baby>
-						<child>(0, 0.2, 0)</child>
-						<femaleBB>(0, 0.2, -0.01)</femaleBB>
+						<male>(0,0,0)</male>
+						<female>(0,0,0.02)</female>
+						<hulk>(0,0,-0.16)</hulk>
+						<fat>(0,0,0.03)</fat>
+						<thin>(0,0,0)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0, 0, 0.08)</child>
+						<femaleBB>(0, 0, -0.01)</femaleBB>
 					</bodyTypeOffsetNorth>
 					<bodyTypeOffsetSouth>
 						<male>(0,0,0)</male>
@@ -211,19 +211,19 @@
 						<hulk>(0,0,0)</hulk>
 						<fat>(0,0,0)</fat>
 						<thin>(0,0,0)</thin>
-						<baby>(0,0,0)</baby>
-						<child>(0,0,0)</child>
+						<baby>(0,0,0.05)</baby>
+						<child>(0,0,0.1)</child>
 						<femaleBB>(0,0,0)</femaleBB>
 					</bodyTypeOffsetSouth>
 					<bodyTypeOffsetEast>
-						<male>(-0.2,0.02,0.01)</male>
-						<female>(-0.22,0.02,-0.01)</female>
-						<hulk>(-0.35,0.02,-0.08)</hulk>
-						<fat>(-0.28,0.02,0.01)</fat>
-						<thin>(-0.3,0.02,-0.01)</thin>
-						<baby>(-0.23,0.02,0.03)</baby>
-						<child>(-0.18, 0.02, 0.08)</child>
-						<femaleBB>(-0.26, 0.02, -0.06)</femaleBB>
+						<male>(-0.2,0,0.02)</male>
+						<female>(-0.23,0,-0.01)</female>
+						<hulk>(-0.34,0,-0.08)</hulk>
+						<fat>(-0.42,0,0.08)</fat>
+						<thin>(-0.18,0,0.01)</thin>
+						<baby>(0,0,0.12)</baby>
+						<child>(-0.1, 0, 0.12)</child>
+						<femaleBB>(-0.23,0,-0.01)</femaleBB>
 					</bodyTypeOffsetEast>
 				</li>
             </value>
@@ -237,20 +237,20 @@
         <match Class="PatchOperationAddModExtension">
             <xpath>Defs/GeneDef[defName="HMC_BA_DevilTail"]</xpath>
             <value>
-				<li Class="BetterGeneGraphicsFramework.BetterTailRendering">
+				<li Class="BetterGeneGraphicsFramework.WithBodyTypeOffset"><!-- E标 N标 S无 -->
 					<disableBodyTypeScaleForAdult>true</disableBodyTypeScaleForAdult>
 					<bodyTypeOffsetNorth>
-						<male>(0, 0.2, -0.12)</male>
-						<female>(0, 0.2, -0.04)</female>
-						<hulk>(0, 0.2, -0.18)</hulk>
-						<fat>(0, 0.2, -0.03)</fat>
-						<thin>(0, 0.2, 0)</thin>
-						<baby>(0,0.2, -0.17)</baby>
-						<child>(0, 0.2, -0.01)</child>
-						<femaleBB>(0, 0.2, 0)</femaleBB>
+						<male>(0,0,0)</male><!-- N标 -->
+						<female>(0,0,0.07)</female>
+						<hulk>(0,0,-0.15)</hulk>
+						<fat>(0,0,0.07)</fat>
+						<thin>(0,0,0.05)</thin>
+						<baby>(0,0,0)</baby>
+						<child>(0,0,0.04)</child>
+						<femaleBB>(0,0,0.04)</femaleBB>
 					</bodyTypeOffsetNorth>
 					<bodyTypeOffsetSouth>
-						<male>(0,0,0)</male>
+						<male>(0,0,0)</male><!-- 无SOUTH -->
 						<female>(0,0,0)</female>
 						<hulk>(0,0,0)</hulk>
 						<fat>(0,0,0)</fat>
@@ -260,14 +260,14 @@
 						<femaleBB>(0,0,0)</femaleBB>
 					</bodyTypeOffsetSouth>
 					<bodyTypeOffsetEast>
-						<male>(0.04, 0.02, -0.02)</male>
-						<female>(-0.03, 0.02, 0)</female>
-						<hulk>(-0.11, 0.02, -0.07)</hulk>
-						<fat>(-0.14, 0.02, -0.06)</fat>
-						<thin>(0.06, 0.02, 0.03)</thin>
-						<baby>(-0.01, 0.02, -0.01)</baby>
-						<child>(0.04, 0.02, 0.03)</child>
-						<femaleBB>(-0.02, 0.02, 0)</femaleBB>
+						<male>(0,0,0)</male><!-- E标-->
+						<female>(-0.05,0,0)</female>
+						<hulk>(-0.15,0,-0.09)</hulk>
+						<fat>(-0.27,0,-0.04)</fat>
+						<thin>(0.01,0,0.03)</thin>
+						<child>(0.01,0,0.05)</child>
+						<baby>(0,0,0.03)</baby>
+						<femaleBB>(-0.04,0,0)</femaleBB>
 					</bodyTypeOffsetEast>
 				</li>
             </value>
@@ -291,7 +291,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/GeneDef[defName="Eyes_Golden_HMC"]/graphicData</xpath> <!-- УДАЛЯЕМ ЛИШНЕЕ -->
+                    <xpath>Defs/GeneDef[defName="Eyes_Golden_HMC"]/renderNodeProperties</xpath> <!-- УДАЛЯЕМ ЛИШНЕЕ -->
                 </li>
             </operations>
         </match>

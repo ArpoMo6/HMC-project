@@ -15,7 +15,8 @@
 		<stuffProps>
 			<commonality>0.08</commonality>
 			<color>(102,102,100)</color>
-			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<stuffAdjective>concrete</stuffAdjective>

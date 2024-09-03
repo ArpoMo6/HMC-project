@@ -27,7 +27,7 @@
 		  <xenotypeChances>
 			<HMC_Homunculus MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Homunculus>
 		  </xenotypeChances>
-		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		  <!-- <warnIfTotalAbove1>false</warnIfTotalAbove1> -->
 		</xenotypeSet>
 	</PawnKindDef>
 
