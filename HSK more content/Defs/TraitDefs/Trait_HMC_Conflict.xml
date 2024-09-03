@@ -30,12 +30,12 @@
 					<GermContainment>0.25</GermContainment>
 				</statOffsets>
 				<skillGains>
-					<li><key>Shooting</key><value>-4</value></li>
-					<li><key>Construction</key><value>-4</value></li>
-					<li><key>Mining</key><value>-4</value></li>
-					<li><key>Crafting</key><value>-4</value></li>
-					<li><key>Artistic</key><value>-4</value></li>
-					<li><key>Intellectual</key><value>-4</value></li>
+					<Shooting>-4</Shooting>
+					<Construction>-4</Construction>
+					<Mining>-4</Mining>
+					<Crafting>-4</Crafting>
+					<Artistic>-4</Artistic>
+					<Intellectual>-4</Intellectual>
 				</skillGains>				
 			</li>
 		</degreeDatas>
@@ -83,7 +83,7 @@
 					<MoveSpeed>0.9</MoveSpeed>
 				</statFactors>
 				<skillGains>
-					<li><key>Plants</key><value>4</value></li>
+					<Plants>4</Plants>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -131,7 +131,7 @@
 					<GeneralLaborSpeed>0.30</GeneralLaborSpeed>
 				</statOffsets>
 				<skillGains>
-					<li><key>Crafting</key><value>3</value></li>
+					<Crafting>3</Crafting>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -164,8 +164,8 @@
 					<DrugHarvestYield>0.1</DrugHarvestYield>
 				</statOffsets>
 				<skillGains>
-					<li><key>Mining</key><value>2</value></li>
-					<li><key>Plants</key><value>1</value></li>
+					<Mining>2</Mining>
+					<Plants>1</Plants>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -199,8 +199,8 @@
 					<GlobalLearningFactor>0.3</GlobalLearningFactor>
 				</statOffsets>
 				<skillGains>
-					<li><key>Construction</key><value>2</value></li>
-					<li><key>Intellectual</key><value>2</value></li>
+					<Construction>2</Construction>
+					<Intellectual>2</Intellectual>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -277,8 +277,8 @@
 					<Fertility MayRequire="Ludeon.RimWorld.Biotech">1.5</Fertility>
 				</statFactors>
 				<skillGains>
-					<li><key>Melee</key><value>1</value></li>
-					<li><key>Social</key><value>1</value></li>
+					<Melee>1</Melee>
+					<Social>1</Social>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -314,8 +314,8 @@
 					<Fertility MayRequire="Ludeon.RimWorld.Biotech">0.5</Fertility>
 				</statFactors>
 				<skillGains>
-					<li><key>Melee</key><value>1</value></li>
-					<li><key>Social</key><value>-2</value></li>
+					<Melee>1</Melee>
+					<Social>-2</Social>
 				</skillGains>
 				<hungerRateFactor>1.5</hungerRateFactor>
 			</li>
@@ -333,9 +333,9 @@
 				<label>closeness to nature</label>
 				<description>{PAWN_nameDef} has a strong natural connection with nature. Secular life is alien to {PAWN_possessive}.</description>
 				<skillGains>
-					<li><key>Plants</key><value>2</value></li>
-					<li><key>Animals</key><value>2</value></li>
-					<li><key>Social</key><value>-4</value></li>
+					<Plants>2</Plants>
+					<Animals>2</Animals>
+					<Social>-4</Social>
 				</skillGains>
 				<allowedMeditationFocusTypes><li>Natural</li></allowedMeditationFocusTypes>
 				<disallowedMeditationFocusTypes><li>Artistic</li><li>Dignified</li></disallowedMeditationFocusTypes>

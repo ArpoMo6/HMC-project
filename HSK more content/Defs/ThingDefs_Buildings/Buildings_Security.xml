@@ -43,9 +43,6 @@
 		</building>
 		<size>(3,3)</size>
 		<minifiedDef>MinifiedCannon_HMC</minifiedDef>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
 		<researchPrerequisites><li>HMC_TeljorArmament</li></researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
@@ -89,9 +86,6 @@
 		</building>
 		<designationCategory>Security</designationCategory>
 		<minifiedDef>MinifiedTurret_NSV_HMC</minifiedDef>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
 		<researchPrerequisites>
 			<li>SniperTurret</li>
 		</researchPrerequisites>
@@ -137,9 +131,6 @@
 		</building>
 		<designationCategory>Security</designationCategory>
 		<minifiedDef>MinifiedTurret_LWMMGmounted_HMC</minifiedDef>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
 		<researchPrerequisites>
 			<li>Heavy_turrets_C2</li>
 		</researchPrerequisites>
@@ -185,9 +176,6 @@
 		</building>
 		<designationCategory>Security</designationCategory>
 		<minifiedDef>MinifiedTurret_EnergyGPMG_HMC</minifiedDef>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
 		<researchPrerequisites>
 			<li>Heavy_turrets_C3</li>
 		</researchPrerequisites>
@@ -272,9 +260,6 @@
 		<tradeTags>
 			<li>CE_Turret</li>
 		</tradeTags>
-		<thingCategories>
-			<li>BuildingsSecurity</li>
-		</thingCategories>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
 

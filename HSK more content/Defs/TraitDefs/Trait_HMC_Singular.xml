@@ -15,8 +15,8 @@
 					<MoveSpeed>0.10</MoveSpeed>
 				</statOffsets>
 				<skillGains>
-					<li><key>Shooting</key><value>2</value></li>
-					<li><key>Animals</key><value>2</value></li>					
+					<Shooting>2</Shooting>
+					<Animals>2</Animals>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -56,9 +56,9 @@
 					<FoodPoisonChance>1.00</FoodPoisonChance>
 				</statOffsets>
 				<skillGains>
-					<li><key>Crafting</key><value>2</value></li>
-					<li><key>Intellectual</key><value>2</value></li>
-					<li><key>Cooking</key><value>-4</value></li>
+					<Crafting>2</Crafting>
+					<Intellectual>2</Intellectual>
+					<Cooking>-4</Cooking>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -96,8 +96,8 @@
 					<SmeltingSpeed>0.30</SmeltingSpeed>
 				</statOffsets>
 				<skillGains>
-					<li><key>Crafting</key><value>2</value></li>
-					<li><key>Artistic</key><value>2</value></li>					
+					<Crafting>2</Crafting>
+					<Artistic>2</Artistic>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -178,7 +178,7 @@
 					<MentalBreakThreshold>-0.03</MentalBreakThreshold>
 				</statOffsets>		
 				<skillGains>
-					<li><key>Shooting</key><value>1</value></li>
+					<Shooting>1</Shooting>
 				</skillGains>	
 			</li>
 		</degreeDatas>
@@ -202,7 +202,7 @@
                     </points>
                 </randomMentalStateMtbDaysMoodCurve>
 				<skillGains>
-					<li><key>Social</key><value>-2</value></li>
+					<Social>-2</Social>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -229,7 +229,7 @@
 					<FoodPoisonChance>0</FoodPoisonChance>
 				</statFactors>				
 				<skillGains>
-					<li><key>Cooking</key><value>6</value></li>
+					<Cooking>6</Cooking>
 				</skillGains>
 				<hungerRateFactor>0.9</hungerRateFactor>
 			</li>
@@ -267,7 +267,7 @@
 					<AimingAccuracy>0.25</AimingAccuracy>
 				</statFactors>
 				<skillGains>
-					<li><key>Shooting</key><value>2</value></li>
+					<Shooting>2</Shooting>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -305,9 +305,9 @@
 					<FishingSpeed>0.30</FishingSpeed>
 				</statOffsets>
 				<skillGains>
-					<li><key>Shooting</key><value>1</value></li>
-					<li><key>Melee</key><value>1</value></li>
-					<li><key>Social</key><value>-4</value></li>
+					<Shooting>1</Shooting>
+					<Melee>1</Melee>
+					<Social>-4</Social>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -339,7 +339,7 @@
 					<AimingAccuracy>1.5</AimingAccuracy>
 				</statFactors>
 				<skillGains>
-					<li><key>Shooting</key><value>4</value></li>
+					<Shooting>4</Shooting>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -395,13 +395,13 @@
 					<ResearchSpeed>0.07</ResearchSpeed>
 				</statOffsets>
 				<skillGains>
-					<li><key>Mining</key><value>2</value></li>
-					<li><key>Intellectual</key><value>1</value></li>
-					<li><key>Construction</key><value>-3</value></li>
-					<li><key>Cooking</key><value>-3</value></li>
-					<li><key>Plants</key><value>-3</value></li>
-					<li><key>Crafting</key><value>-3</value></li>
-					<li><key>Artistic</key><value>-3</value></li>
+					<Mining>2</Mining>
+					<Intellectual>1</Intellectual>
+					<Construction>-3</Construction>
+					<Cooking>-3</Cooking>
+					<Plants>-3</Plants>
+					<Crafting>-3</Crafting>
+					<Artistic>-3</Artistic>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -447,8 +447,8 @@
 					<UnarmedDamage>2</UnarmedDamage>
 				</statFactors>
 				<skillGains>
-					<li><key>Melee</key><value>2</value></li>
-					<li><key>Intellectual</key><value>-2</value></li>
+					<Melee>2</Melee>
+					<Intellectual>-2</Intellectual>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -480,11 +480,11 @@
 					<MortarMissRadiusFactor>0.5</MortarMissRadiusFactor>
 				</statFactors>
 				<skillGains>
-					<li><key>Shooting</key><value>2</value></li>
-					<li><key>Construction</key><value>2</value></li>
-					<li><key>Crafting</key><value>2</value></li>
-					<li><key>Artistic</key><value>2</value></li>
-					<li><key>Intellectual</key><value>2</value></li>
+					<Shooting>2</Shooting>
+					<Construction>2</Construction>
+					<Crafting>2</Crafting>
+					<Artistic>2</Artistic>
+					<Intellectual>2</Intellectual>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -515,11 +515,11 @@
 					<MortarMissRadiusFactor>1.5</MortarMissRadiusFactor>
 				</statFactors>
 				<skillGains>
-					<li><key>Shooting</key><value>-2</value></li>
-					<li><key>Construction</key><value>-2</value></li>
-					<li><key>Crafting</key><value>-2</value></li>
-					<li><key>Artistic</key><value>-2</value></li>
-					<li><key>Intellectual</key><value>-2</value></li>
+					<Shooting>-2</Shooting>
+					<Construction>-2</Construction>
+					<Crafting>-2</Crafting>
+					<Artistic>-2</Artistic>
+					<Intellectual>-2</Intellectual>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -596,18 +596,18 @@
 					<GlobalLearningFactor>0.1</GlobalLearningFactor>
 				</statFactors>
 				<skillGains>
-					<li><key>Shooting</key><value>7</value></li>
-					<li><key>Melee</key><value>7</value></li>
-					<li><key>Construction</key><value>7</value></li>
-					<li><key>Mining</key><value>7</value></li>
-					<li><key>Cooking</key><value>7</value></li>
-					<li><key>Plants</key><value>7</value></li>
-					<li><key>Animals</key><value>7</value></li>
-					<li><key>Crafting</key><value>7</value></li>
-					<li><key>Artistic</key><value>7</value></li>
-					<li><key>Medicine</key><value>7</value></li>
-					<li><key>Social</key><value>7</value></li>
-					<li><key>Intellectual</key><value>7</value></li>
+					<Shooting>7</Shooting>
+					<Melee>7</Melee>
+					<Construction>7</Construction>
+					<Mining>7</Mining>
+					<Cooking>7</Cooking>
+					<Plants>7</Plants>
+					<Animals>7</Animals>
+					<Crafting>7</Crafting>
+					<Artistic>7</Artistic>
+					<Medicine>7</Medicine>
+					<Social>7</Social>
+					<Intellectual>7</Intellectual>
 				</skillGains>
 				<allowedMeditationFocusTypes>
 					<li>Artistic</li>
@@ -671,7 +671,7 @@
 					<MeleeParryChance>1.5</MeleeParryChance>
 				</statFactors>
 				<skillGains>
-					<li><key>Melee</key><value>1</value></li>
+					<Melee>1</Melee>
 				</skillGains>
 			</li>
 		</degreeDatas>
@@ -716,7 +716,7 @@
 					<NegotiationAbility>0.1</NegotiationAbility>
 				</statOffsets>
 				<skillGains>
-					<li><key>Social</key><value>1</value></li>
+					<Social>1</Social>
 				</skillGains>
 				<socialFightChanceFactor>0</socialFightChanceFactor>
 			</li>
@@ -745,8 +745,8 @@
 					<MortarMissRadiusFactor>-0.75</MortarMissRadiusFactor>
 				</statOffsets>
 				<skillGains>
-					<li><key>Shooting</key><value>1</value></li>
-					<li><key>Intellectual</key><value>1</value></li>
+					<Shooting>1</Shooting>
+					<Intellectual>1</Intellectual>
 				</skillGains>
 			</li>
 		</degreeDatas>
