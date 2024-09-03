@@ -16,7 +16,7 @@
 		<canStageAttacks>false</canStageAttacks>
 		<earliestRaidDays>315</earliestRaidDays>
 		<!-- <hidden>true</hidden> -->
-		<!-- <naturalEnemy>true</naturalEnemy> -->
+		<naturalEnemy>true</naturalEnemy>
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<raidCommonalityFromPointsCurve>
@@ -91,7 +91,7 @@
 		  <xenotypeChances>
 			<Baseline_Orassan MayRequire="Ludeon.RimWorld.Biotech">999</Baseline_Orassan>
 		  </xenotypeChances>
-		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		  <!-- <warnIfTotalAbove1>false</warnIfTotalAbove1> -->
 		</xenotypeSet>
 		<leaderTitle>Drug elder</leaderTitle>
 		<visitorTraderKinds>

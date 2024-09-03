@@ -77,7 +77,7 @@
 		  <xenotypeChances>
 			<HMC_Teljor MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Teljor>
 		  </xenotypeChances>
-		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		  <!-- <warnIfTotalAbove1>false</warnIfTotalAbove1> -->
 		</xenotypeSet>
 		<caravanTraderKinds>
 			<li>Caravan_Neolithic_BulkGoods</li>

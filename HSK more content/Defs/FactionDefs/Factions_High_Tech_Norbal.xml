@@ -96,7 +96,7 @@
 		  <xenotypeChances>
 			<HMC_HightechNorbal MayRequire="Ludeon.RimWorld.Biotech">999</HMC_HightechNorbal>
 		  </xenotypeChances>
-		  <warnIfTotalAbove1>false</warnIfTotalAbove1>
+		  <!-- <warnIfTotalAbove1>false</warnIfTotalAbove1> -->
 		</xenotypeSet>
 		<leaderTitle>cosmic Jarl</leaderTitle>
 		<visitorTraderKinds>

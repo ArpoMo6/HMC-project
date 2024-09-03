@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Norbal Bases -->
 	<PawnKindDef Name="HMCNorbalBase" Abstract="True">
-		<race>Norbal</race>
+		<race>Human</race> <!-- temporary change to human cuz norbal didnt want raids for no reason -->
 		<defaultFactionType>NorbalHighTech</defaultFactionType>
 		<backstoryFilters>
 			<li>
