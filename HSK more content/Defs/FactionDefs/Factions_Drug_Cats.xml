@@ -16,7 +16,7 @@
 		<canStageAttacks>false</canStageAttacks>
 		<earliestRaidDays>315</earliestRaidDays>
 		<!-- <hidden>true</hidden> -->
-		<!-- <naturalEnemy>true</naturalEnemy> -->
+		<naturalEnemy>true</naturalEnemy>
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<raidCommonalityFromPointsCurve>
