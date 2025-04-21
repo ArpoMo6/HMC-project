@@ -94,7 +94,7 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<herdAnimal>false</herdAnimal>
+			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
 			<maxPreyBodySize>3.0</maxPreyBodySize>
 			<baseBodySize>1.65</baseBodySize>
