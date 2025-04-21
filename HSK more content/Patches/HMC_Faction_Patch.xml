@@ -56,4 +56,25 @@
 			</li>
 		</operations>
 	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RaidStrategyDef[defName="EmergeFromWater"]/selectionWeightCurvesPerFaction</xpath>
+				<value>
+					<li>
+						<faction>DrugCatsHMC</faction>
+						<selectionWeightPerPointsCurve>
+							<points>
+								<li>(500, 0)</li>
+								<li>(1000, 0.25)</li>
+							</points>
+						</selectionWeightPerPointsCurve>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
 </Patch>
