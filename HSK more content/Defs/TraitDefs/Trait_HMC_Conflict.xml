@@ -507,6 +507,8 @@
 			<li>Snipermasterrk</li>
 			<li>ShootingAccuracy</li>
 			<li>HMC_analyst</li>
+			<li>SpeedOffset</li>
+			<li>Slow</li>
 		</conflictingTraits>
 	</TraitDef>
 
