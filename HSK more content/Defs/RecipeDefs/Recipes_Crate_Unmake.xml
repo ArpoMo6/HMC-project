@@ -260,4 +260,37 @@
 		<researchPrerequisite>MicroTurrets_HMC</researchPrerequisite>
 	</RecipeDef>
 
+	<RecipeDef ParentName="AmmoRecipeUnmakeCrate">
+		<defName>Unmake_RobotParts</defName>
+		<label>unmake parts of robots</label>
+		<description>Unmake parts of robots.</description>
+		<jobString>Unmaking parts of robots.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RobotParts</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RobotParts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TitaniumBar>4</TitaniumBar>
+			<AdvMechanism>1</AdvMechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<workAmount>3600</workAmount>
+		<recipeUsers Inherit="false">
+			<li>TableElectronics</li>
+		</recipeUsers>
+	</RecipeDef>
+
 </Defs>
