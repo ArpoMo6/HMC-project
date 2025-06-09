@@ -522,7 +522,7 @@
 		<tradeability>None</tradeability>
 		<statBases>
 			<SightsEfficiency>1.5</SightsEfficiency>
-			<ShotSpread>0.025</ShotSpread>
+			<ShotSpread>0.019</ShotSpread>
 			<SwayFactor>1.0</SwayFactor>
 			<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
