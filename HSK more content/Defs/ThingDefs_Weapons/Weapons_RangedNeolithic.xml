@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- sling	-->
-	<ThingDef ParentName="RangedWeaponNeoliticBase">
+	<ThingDef ParentName="RangedWeaponNeolithicBase">
 		<defName>HMC_Sling</defName>
 		<label>sling</label>
 		<description>A simple sling from leathery or fabric stuff. It was made with skill from primitive technology.\nIgnores shield belts.</description>

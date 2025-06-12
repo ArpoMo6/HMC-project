@@ -26,4 +26,8 @@
     <Unmake_SentryTurretCrate.description>Разобрать детали автотурели. Основной компонент орудия также будет разобран в этом процессе.</Unmake_SentryTurretCrate.description>
     <Unmake_SentryTurretCrate.jobString>Разбирает детали автотурели.</Unmake_SentryTurretCrate.jobString>
 
+    <Unmake_RobotParts.label>Разобрать детали робота</Unmake_RobotParts.label>
+    <Unmake_RobotParts.description>Разобрать детали робота. Слава роботам!</Unmake_RobotParts.description>
+    <Unmake_RobotParts.jobString>Разбирает детали робота.</Unmake_RobotParts.jobString>
+
 </LanguageData>

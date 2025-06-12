@@ -423,15 +423,15 @@
 		<techLevel>Spacer</techLevel>
 		<tradeability>None</tradeability>
 		<statBases>
-			<SightsEfficiency>1.25</SightsEfficiency>
-			<ShotSpread>0.045</ShotSpread>
-			<SwayFactor>1.15</SwayFactor>
+			<SightsEfficiency>1.3</SightsEfficiency>
+			<ShotSpread>0.035</ShotSpread>
+			<SwayFactor>1.14</SwayFactor>
 			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>0.8</recoilAmount>
+				<recoilAmount>0.75</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_67x29mm_AP</defaultProjectile>
@@ -473,14 +473,14 @@
 		<tradeability>None</tradeability>
 		<statBases>
 			<SightsEfficiency>1.75</SightsEfficiency>
-			<ShotSpread>0.024</ShotSpread>
-			<SwayFactor>1.05</SwayFactor>
+			<ShotSpread>0.022</ShotSpread>
+			<SwayFactor>1.04</SwayFactor>
 			<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>0.9</recoilAmount>
+				<recoilAmount>0.85</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Blaster</defaultProjectile>
@@ -522,7 +522,7 @@
 		<tradeability>None</tradeability>
 		<statBases>
 			<SightsEfficiency>1.5</SightsEfficiency>
-			<ShotSpread>0.025</ShotSpread>
+			<ShotSpread>0.019</ShotSpread>
 			<SwayFactor>1.0</SwayFactor>
 			<RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>

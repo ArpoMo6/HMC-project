@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- Cannon -->
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>Crate_Cannon_HMC</defName>
 		<label>Cannon crate</label>
 		<description>Use this to build a manned cannon which can throw shells over enemy's head.</description>
@@ -32,7 +32,7 @@
 	</ThingDef>
 
 	<!-- NSV-12.7 «Utyos» -->
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>NSV_Crate_HMC</defName>
 		<label>12.7x108mm NSV «Utyos» MG crate</label>
 		<description>Use this to build a 12.7x108mm NSV «Utyos» MG, a type of stationary manned turret.</description>
@@ -62,7 +62,7 @@
 	</ThingDef>
 
 	<!-- LWMMG-mounted -->
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>LWMMGmounted_Crate_HMC</defName>
 		<label>.338 LWMMG GPMG crate</label>
 		<description>Use this to build a .338 LWMMG GPMG, a type of stationary manned turret.</description>
@@ -87,11 +87,11 @@
 			<li>WeaponCrate</li>
 		</thingCategories> 
 		<tradeTags>
-			<li>SimpleCrate</li>
+			<li>NormalCrate</li>
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>HMC_MicroTurret_Crate</defName>
 		<label>micro-turret crate</label>
 		<description>Use this to build a sentry light turret, a type of stationary automatic turret. It requires power to function.</description>
@@ -120,7 +120,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>HMC_MacroTurret_Crate</defName>
 		<label>macro-turret crate</label>
 		<description>Use this to build a sentry heavy turret, a type of stationary automatic turret. It requires power to function.</description>
@@ -145,12 +145,12 @@
 			<li>WeaponCrate</li>
 		</thingCategories> 
 		<tradeTags>
-			<li>SimpleCrate</li>
+			<li>NormalCrate</li>
 		</tradeTags>
 	</ThingDef>
 
 	<!-- Energy GPMG -->
-	<ThingDef ParentName="CrateBase">
+	<ThingDef ParentName="ItemCrateBase">
 		<defName>EnergyGPMG_Crate_HMC</defName>
 		<label>6x24 Energy GPMG</label>
 		<description>Use this to build a 6x24 Energy GPMG, a type of stationary manned turret.</description>
@@ -175,7 +175,7 @@
 			<li>WeaponCrate</li>
 		</thingCategories> 
 		<tradeTags>
-			<li>SimpleCrate</li>
+			<li>RareCrate</li>
 		</tradeTags>
 	</ThingDef>
 
