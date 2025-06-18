@@ -55,6 +55,7 @@
 					<li>HMC_analyst</li>
 					<li>HMC_stubborn</li>
 					<li>HMC_impatient</li>
+					<li>HMC_GrassSnake</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
