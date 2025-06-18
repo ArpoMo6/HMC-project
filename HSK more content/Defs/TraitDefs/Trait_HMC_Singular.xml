@@ -13,6 +13,7 @@
 					<ForagedNutritionPerDay>0.35</ForagedNutritionPerDay>
 					<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>					
 					<MoveSpeed>0.10</MoveSpeed>
+					<CrawlSpeed>0.40</CrawlSpeed>
 				</statOffsets>
 				<skillGains>
 					<Shooting>2</Shooting>
@@ -39,6 +40,28 @@
 			<li>SuperCCleaner</li>
 			<li>HMC_SeekerOfDeepSense</li>
 		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_GrassSnake</defName>
+		<commonality>0.8</commonality>
+		<degreeDatas>
+			<li>
+				<label>grass snake</label>
+				<description>{PAWN_nameDef} devoted his life to studying grass snakes and imitating their behavior.</description>
+				<statOffsets>
+					<CrawlSpeed>4.85</CrawlSpeed>
+				</statOffsets>
+				<statFactors>
+					<HuntingStealth>1.15</HuntingStealth>
+					<MeleeDodgeChance>1.3</MeleeDodgeChance>
+					<EatingSpeed>2</EatingSpeed>
+				</statFactors>
+				<skillGains>
+					<Social>-6</Social>
+				</skillGains>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 	
 	<TraitDef>
