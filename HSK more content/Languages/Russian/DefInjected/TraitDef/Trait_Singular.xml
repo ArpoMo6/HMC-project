@@ -5,7 +5,10 @@
   <SuperCCleaner.degreeDatas.0.description>{PAWN_nameDef} объект любви и восхищения в каждой колонии... восхищайся или будешь наказан!</SuperCCleaner.degreeDatas.0.description>
   
   <Huntman.degreeDatas.0.label>лесной охотник</Huntman.degreeDatas.0.label>
-  <Huntman.degreeDatas.0.description>{PAWN_nameDef} посвятил свою жизнь охотничьему ремеслу и без труда может свалить с ног даже мегабарсука!</Huntman.degreeDatas.0.description>
+  <Huntman.degreeDatas.0.description>{PAWN_nameDef} {PAWN_gender ? посвятил : посвятила} свою жизнь охотничьему ремеслу и без труда может свалить с ног даже мегабарсука!</Huntman.degreeDatas.0.description>
+  
+  <HMC_GrassSnake.degreeDatas.0.label>уж</HMC_GrassSnake.degreeDatas.0.label>
+  <HMC_GrassSnake.degreeDatas.0.description>{PAWN_nameDef} {PAWN_gender ? посвятил : посвятила} свою жизнь изучению ужей и имитированию их поведения.</HMC_GrassSnake.degreeDatas.0.description>
   
   <Radiomechanician.degreeDatas.0.label>радиомеханик</Radiomechanician.degreeDatas.0.label>
   <Radiomechanician.degreeDatas.0.description>{PAWN_nameDef} - радиомеханик и без труда может собрать вафельницу из старых процессоров! Главное не давайте готовить вафли самостоятельно!</Radiomechanician.degreeDatas.0.description>
