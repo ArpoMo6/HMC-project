@@ -63,6 +63,9 @@
             </li>
         </verbs>
 		<generateCommonality>0.35</generateCommonality>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+        </statBases>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -72,6 +75,17 @@
 		</costList>
 		<recipeMaker>
 		  <researchPrerequisite>HMC_TeljorArmament</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>6</Crafting>
+		  </skillRequirements>
+		  <recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+		  </recipeUsers>
+		  <workSkill>Crafting</workSkill>
+		  <workSpeedStat>SmithingSpeed</workSpeedStat>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Recipe_Smith</soundWorking>
 		</recipeMaker>
     </ThingDef>
 	
