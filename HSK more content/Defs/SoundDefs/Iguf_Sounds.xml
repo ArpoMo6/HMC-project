@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <SoundDef>
+    <defName>Iguf_Rifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/Mag_Generic</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>50</min>        
+          <max>55</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.00</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Iguf_Pistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/Mag_Pistol</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>35</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.90</min>        
+          <max>1.00</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Iguf_Shotgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/Mag_Shotgun</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>35</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.00</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Iguf_SniperRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/Mag_SniperRifle</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>35</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.00</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>Iguf_SMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/Mag_SMG</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>30</min>        
+          <max>35</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.95</min>        
+          <max>1.00</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!--Interact Sounds-->
+
+  <SoundDef>
+    <defName>Iguf_Interact_Pistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/interact/interact_pistol</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.9576087~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+    
+    <SoundDef>
+    <defName>Iguf_Interact_Rifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/interact/interact_rifle</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.9576087~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+    
+    <SoundDef>
+    <defName>Iguf_Interact_Shotgun</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>2</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/interact/interact_shotgun</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.9576087~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+    
+    <SoundDef>
+    <defName>Iguf_Interact_SMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/interact/interact_smg</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.9576087~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+    
+    <SoundDef>
+    <defName>Iguf_Interact_Sniper</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Iguf/interact/interact_sniper</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.9576087~1.042391</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+    
+</Defs>

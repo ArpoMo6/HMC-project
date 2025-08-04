@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="HitechLabStationBase">
+		<defName>Components_F1</defName>
+		<label>extraction of quantum foam fluctuations</label>
+		<description>Recent discoveries in the transformation of matter have allowed us to uncover the secrets of how the artifacts of the forerunners work. Now we can obtain, although a small, but still a part of their power.</description>
+		<baseCost>3600</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>Components_E1</li>
+			<li>Super_matter_E2</li>
+		</prerequisites>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>23.00</researchViewY>
+		<tab>Craft_SK</tab>
+	</ResearchProjectDef>
+
+</Defs>

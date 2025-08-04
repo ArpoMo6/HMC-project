@@ -81,8 +81,8 @@
 			<li>HMCIguf</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>4600</min>
-			<max>6000</max>
+			<min>6400</min>
+			<max>7800</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>IgufRifle</li>
@@ -132,8 +132,8 @@
 			<li>HMCIguf</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>4000</min>
-			<max>4500</max>
+			<min>7000</min>
+			<max>8500</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>IgufMG</li>
@@ -174,8 +174,8 @@
 			<li>HMCIguf</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>3700</min>
-			<max>4600</max>
+			<min>6700</min>
+			<max>8600</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>IgufSniper</li>
@@ -216,8 +216,8 @@
 			<li>HMCIgufIncendiary</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>3000</min>
-			<max>4000</max>
+			<min>7000</min>
+			<max>9000</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>IgufLaucnher</li>
@@ -260,8 +260,8 @@
 			<li>HMCIgufIncendiary</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>4500</min>
-			<max>5500</max>
+			<min>8500</min>
+			<max>9500</max>
 		</weaponMoney>
 		<weaponTags>
 			<li>IgufRifle</li>

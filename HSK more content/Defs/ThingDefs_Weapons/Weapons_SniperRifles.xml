@@ -870,7 +870,6 @@
             <li>ASN3</li>
             <li>ASN2</li>
             <li>AdvancedGun</li>
-			<li>IgufSniper</li>
             <li>TierTwoLow</li>
             <li>Futuristic</li>
             <li>CE_AI_Rifle</li>
@@ -921,7 +920,7 @@
         </graphicData>
         <soundInteract>Interaction_Item62_HMC</soundInteract>
         <statBases>
-            <MarketValue>3800</MarketValue>
+            <MarketValue>7800</MarketValue>
             <SightsEfficiency>2</SightsEfficiency>
             <ShotSpread>0.01</ShotSpread>
             <SwayFactor>0.75</SwayFactor>
@@ -929,9 +928,9 @@
             <Bulk>15</Bulk>
             <Mass>12</Mass>
         </statBases>
-		<generateCommonality>0.12</generateCommonality>
+		<generateCommonality>0.08</generateCommonality>
 		<equippedAngleOffset>45</equippedAngleOffset>
-		<techLevel>Spacer</techLevel>
+		<techLevel>Archotech</techLevel>
         <weaponTags>
             <li>ASN3</li>
             <li>AdvancedGun</li>
@@ -974,7 +973,6 @@
             <AdvSniper_Component>1</AdvSniper_Component>
             <Charged_Component>1</Charged_Component>
             <Weapon_Parts>4</Weapon_Parts>
-			<ComponentSpacer>5</ComponentSpacer>
 			<Plastic>10</Plastic>
         </smeltProducts>
     </ThingDef>

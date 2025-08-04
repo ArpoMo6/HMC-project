@@ -19,7 +19,7 @@
 			<AlphaPoly>15</AlphaPoly>
 			<BetaPoly>25</BetaPoly>
 			<ComponentAdvanced>20</ComponentAdvanced>
-			<ComponentUltra>20</ComponentUltra>
+			<ComponentArchotech_HMC>8</ComponentArchotech_HMC>
 			<MagneticMaterial>20</MagneticMaterial>
 			<Leather_Human>15</Leather_Human>
 			<Hexcell>5</Hexcell>
@@ -113,7 +113,7 @@
 			<AlphaPoly>5</AlphaPoly>
 			<BetaPoly>8</BetaPoly>
 			<ComponentAdvanced>8</ComponentAdvanced>
-			<ComponentUltra>7</ComponentUltra>
+			<ComponentArchotech_HMC>4</ComponentArchotech_HMC>
 			<MagneticMaterial>10</MagneticMaterial>
 			<Leather_Human>5</Leather_Human>
 			<Hexcell>2</Hexcell>
@@ -201,7 +201,7 @@
 			<AlphaPoly>8</AlphaPoly>
 			<BetaPoly>13</BetaPoly>
 			<ComponentAdvanced>9</ComponentAdvanced>
-			<ComponentUltra>9</ComponentUltra>
+			<ComponentArchotech_HMC>5</ComponentArchotech_HMC>
 			<MagneticMaterial>12</MagneticMaterial>
 			<Leather_Human>8</Leather_Human>
 			<Hexcell>3</Hexcell>
