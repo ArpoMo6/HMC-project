@@ -28,4 +28,7 @@
 	<MacroTurretsThree_HMC.label>Макро-турели III</MacroTurretsThree_HMC.label>
 	<MacroTurretsThree_HMC.description>Расширяет арсенал макро-турелей высокотехнологичными их версиями.</MacroTurretsThree_HMC.description>
 
+    <Weapon_F1_HMC.label>Технологии Э.У.М.</Weapon_F1_HMC.label>
+    <Weapon_F1_HMC.description>Технологии изготовления доведенного до ума электромагнитного ускорителя масс. Хотя оружие из данной категории все ещё не обладает высокой смертоносностью, его характеристики заметно превосходят обычные магнитные винтовки. Для исследования требуется чертёж.</Weapon_F1_HMC.description>
+
 </LanguageData>
