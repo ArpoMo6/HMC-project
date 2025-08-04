@@ -92,4 +92,21 @@
 		<tab>Weapon_SK</tab>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef ParentName="HitechLabStationBase">
+		<defName>Weapon_F1_HMC</defName>
+		<label>E.M.A. technologies</label>
+		<description>Technologies for manufacturing a perfected electromagnetic mass accelerator. Although weapons in this category are still not very lethal, their characteristics are significantly superior to conventional magnetic rifles. A techprint is required for research.</description>
+		<baseCost>4500</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>Charge_weapons_E</li>
+			<li>Droids_E1</li>
+			<li>Components_F1</li>
+			<li>Fortification_E1</li>
+		</prerequisites>
+		<researchViewX>26.00</researchViewX>
+		<researchViewY>33.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
 </Defs>

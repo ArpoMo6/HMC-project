@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- advanced magnetic rifle -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Iguf_MagRifle</defName>
+        <label>Sclopetum magneticum simplex</label>
+        <description>Precursor weapon. An extraordinary precision rifle capable of penetrating almost any armor.\n\nUses archotech components, making it virtually impossible to replicate.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Iguf/Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Iguf_Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>6000</MarketValue>
+            <SightsEfficiency>1.2</SightsEfficiency>
+            <ShotSpread>0.034</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
+            <Bulk>9.5</Bulk>
+            <Mass>4.4</Mass>
+			<WorkToMake>60000</WorkToMake>
+        </statBases>
+		<techLevel>Archotech</techLevel>
+		<generateCommonality>0.35</generateCommonality>
+        <weaponTags>
+			<li>IgufRifle</li>
+			<li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.0</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Iguf_67x29mm_AP</defaultProjectile>
+                <warmupTime>0.68</warmupTime>
+                <range>62</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>Iguf_Rifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>42</magazineSize>
+                <reloadTime>3.8</reloadTime>
+                <ammoSet>AmmoSet_Iguf_67x29mm</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <AdvRifle_Component>1</AdvRifle_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+            <Plastic>5</Plastic>
+			<MagneticMaterial>4</MagneticMaterial>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Weapon_F1_HMC</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>17</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Interact_Repair</soundWorking>
+		  <recipeUsers Inherit="False">
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGunArchotech_HMC</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>45</Plastic>
+		  <Weapon_Parts>15</Weapon_Parts>
+		  <MagneticMaterial>15</MagneticMaterial>
+		  <ComponentArchotech_HMC>2</ComponentArchotech_HMC>
+		  <AdvRifle_Component>1</AdvRifle_Component>
+		  <Shotgun_Component>1</Shotgun_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- advanced magnetic shotgun -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Iguf_MagShotgun</defName>
+        <label>sclopetum magneticum fragmentorum</label>
+        <description>Precursor weapon. Performs the same tactical role as a traditional shotgun, but with greater damage due to the greatly increased speed of the projectiles. Uses special ammunition that disintegrates into many small fragments during firing.\n\nUses archotech components, making it virtually impossible to replicate.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Iguf/Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Iguf_Interact_Shotgun</soundInteract>
+        <statBases>
+            <MarketValue>6400</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.14</ShotSpread>
+            <SwayFactor>1.25</SwayFactor>
+            <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+            <Bulk>7.7</Bulk>
+            <Mass>5</Mass>
+			<WorkToMake>63000</WorkToMake>
+        </statBases>
+		<techLevel>Archotech</techLevel>
+		<generateCommonality>0.2</generateCommonality>
+        <weaponTags>
+			<li>IgufShotgun</li>
+			<li>CE_AI_AssaultWeapon</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+				<recoilAmount>1.25</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_12Mag_Buck</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>21</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+                <soundCast>Iguf_Shotgun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>20</magazineSize>
+                <reloadTime>4.25</reloadTime>
+                <ammoSet>AmmoSet_12Mag</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <MagneticMaterial>4</MagneticMaterial>
+			<Shotgun_Component>1</Shotgun_Component>
+			<AdvRifle_Component>1</AdvRifle_Component>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Weapon_F1_HMC</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>18</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Interact_Repair</soundWorking>
+		  <recipeUsers Inherit="False">
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGunArchotech_HMC</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>45</Plastic>
+		  <Weapon_Parts>15</Weapon_Parts>
+		  <MagneticMaterial>15</MagneticMaterial>
+		  <ComponentArchotech_HMC>3</ComponentArchotech_HMC>
+		  <AdvRifle_Component>1</AdvRifle_Component>
+		  <Shotgun_Component>1</Shotgun_Component>
+		</costList>
+    </ThingDef>
+
+    <!-- advanced magnetic marksman rifle -->
+    <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>HMC_Iguf_MagMarksmanRifle</defName>
+        <label>sclopetum magneticum sagittarium</label>
+        <description>Precursor weapon. An extraordinary high-precision marksman rifle capable of penetrating virtually any armor.\n\nUses archotech components, making it virtually impossible to replicate.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Iguf/Sniper</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Iguf_Interact_Sniper</soundInteract>
+        <statBases>
+            <MarketValue>6800</MarketValue>
+            <SightsEfficiency>1.5</SightsEfficiency>
+            <ShotSpread>0.023</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+            <Bulk>10</Bulk>
+            <Mass>6.25</Mass>
+			<WorkToMake>63000</WorkToMake>
+        </statBases>
+		<techLevel>Archotech</techLevel>
+		<generateCommonality>0.2</generateCommonality>
+		<equippedAngleOffset>45</equippedAngleOffset>
+        <weaponTags>
+			<li>IgufSniper</li>
+			<li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.0</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_IgufSniper_67x29mm_AP</defaultProjectile>
+                <warmupTime>1.08</warmupTime>
+                <range>72</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                <soundCast>Iguf_SniperRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>21</magazineSize>
+                <reloadTime>4.2</reloadTime>
+                <ammoSet>AmmoSet_IgufSniper_67x29mm</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <AdvRifle_Component>1</AdvRifle_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+            <Plastic>5</Plastic>
+			<MagneticMaterial>4</MagneticMaterial>
+        </smeltProducts>
+		<recipeMaker>
+		  <researchPrerequisite>Weapon_F1_HMC</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>18</Crafting>
+		  </skillRequirements>
+		  <workSkill>Crafting</workSkill>
+		  <workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		  <effectWorking>Smith</effectWorking>
+		  <soundWorking>Interact_Repair</soundWorking>
+		  <recipeUsers Inherit="False">
+			<li>AdvToolBench</li>
+			<li>MechWeaponCraftingWorkTable</li>
+		  </recipeUsers>
+		  <unfinishedThingDef>UnfinishedGunArchotech_HMC</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+		  <Plastic>45</Plastic>
+		  <Weapon_Parts>15</Weapon_Parts>
+		  <MagneticMaterial>15</MagneticMaterial>
+		  <ComponentArchotech_HMC>3</ComponentArchotech_HMC>
+		  <AdvRifle_Component>1</AdvRifle_Component>
+		  <Shotgun_Component>1</Shotgun_Component>
+		</costList>
+    </ThingDef>
+
+</Defs>

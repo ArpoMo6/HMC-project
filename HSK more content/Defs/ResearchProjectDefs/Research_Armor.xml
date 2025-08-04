@@ -10,10 +10,10 @@
 		<prerequisites>
 			<li>Armor_E3</li>
 			<li>Droids_E1</li>
-			<li>Super_matter_E2</li>
+			<li>Components_F1</li>
 			<li>Fortification_E1</li>
 		</prerequisites>
-		<researchViewX>25.00</researchViewX>
+		<researchViewX>26.00</researchViewX>
 		<researchViewY>35.00</researchViewY>
 		<tab>Apparel_SK</tab>
 	</ResearchProjectDef>

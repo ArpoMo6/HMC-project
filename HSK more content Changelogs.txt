@@ -1,3 +1,38 @@
+– Changelog "HSK more content" v0.50 (1.5 version):
+
+
+- 1) Added very little thematic content for the I.G.U.F. faction, so little that it does not even require mentioning :).
+
+- 2) Added new trait "grass snake".
+
+- 3) Added a recipe for disassembling robot parts.
+
+- 4) Added the ability to attack from water to the Evil Cats with drugs faction.
+
+- 5) Adjusted accuracy of blaster sentry micro-turret (+~10%), plasma sentry micro-turret (+~20%) and magnetic sentry micro-turret (+~30%).
+
+- 6) R2 Lance sniper rifle has been moved to Charge weapons II technology.
+
+- 7) Sniper rifle "Item 62" has been moved to the new technology (see article 1).
+
+- 8) Slightly weakened magnetic shotgun and magnetic shotgun ammo.
+
+- 9) Updated golden eyes gene texture for female pawns.
+
+- 10) Fixed devil tail appearance.
+
+- 11) Fixed a bug in recipeMaker where weapons would not correctly take into account crafting parameters. This resulted in some weapons being very slow to craft (e.g. laser rifle) or completely impossible to craft (e.g. hand cannon).
+
+- 12) Fixed inability to start Legation scenario when Biotech dlc enabled.
+
+- 13) Fixed a bug where lions could start hunting their own pride.
+
+- 14) Fixed a bug where the Impatient trait would stack with the Slowpoke and Slow traits.
+
+- 15) Some minor edits and text updates.
+
+
+
 – Changelog "HSK more content" v0.49 (1.5 version):
 
 - 1) The modification has been updated to version 1.5.

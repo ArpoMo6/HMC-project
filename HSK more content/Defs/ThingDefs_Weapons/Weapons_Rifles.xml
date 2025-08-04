@@ -928,7 +928,6 @@
 		<generateCommonality>0.7</generateCommonality>
         <weaponTags>
             <li>ADR2</li>
-			<li>IgufRifle</li>
             <li>SpacerGun</li>
             <li>Futuristic</li>
             <li>CE_AI_Rifle</li>
