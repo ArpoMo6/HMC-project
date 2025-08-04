@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CropsBase">
+		<defName>ComponentArchotech_HMC</defName>
+		<label>archotech component</label>
+		<description>Advanced computing and energy-directing machinery, miniaturized and hardened for the most demanding applications.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ArchotechComponent</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Archotech</techLevel>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.3</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

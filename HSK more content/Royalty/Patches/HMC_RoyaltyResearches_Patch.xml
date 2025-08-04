@@ -4,7 +4,7 @@
 		<success>Normal</success>
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ResearchProjectDef[defName="Armor_F1_HMC"]</xpath>
+				<xpath>Defs/ResearchProjectDef[defName="Armor_F1_HMC" or defName="Weapon_F1_HMC"]</xpath>
 				<value>
 					<techprintCount>1</techprintCount>
 					<techprintCommonality>1</techprintCommonality>

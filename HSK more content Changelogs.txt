@@ -1,10 +1,45 @@
-– Changelog "HSK more content" v0.49 (1.5 version):
+â€“ Changelog "HSK more content" v0.50 (1.5 version):
+
+
+- 1) Added very little thematic content for the I.G.U.F. faction, so little that it does not even require mentioning :).
+
+- 2) Added new trait "grass snake".
+
+- 3) Added a recipe for disassembling robot parts.
+
+- 4) Added the ability to attack from water to the Evil Cats with drugs faction.
+
+- 5) Adjusted accuracy of blaster sentry micro-turret (+~10%), plasma sentry micro-turret (+~20%) and magnetic sentry micro-turret (+~30%).
+
+- 6) R2 Lance sniper rifle has been moved to Charge weapons II technology.
+
+- 7) Sniper rifle "Item 62" has been moved to the new technology (see article 1).
+
+- 8) Slightly weakened magnetic shotgun and magnetic shotgun ammo.
+
+- 9) Updated golden eyes gene texture for female pawns.
+
+- 10) Fixed devil tail appearance.
+
+- 11) Fixed a bug in recipeMaker where weapons would not correctly take into account crafting parameters. This resulted in some weapons being very slow to craft (e.g. laser rifle) or completely impossible to craft (e.g. hand cannon).
+
+- 12) Fixed inability to start Legation scenario when Biotech dlc enabled.
+
+- 13) Fixed a bug where lions could start hunting their own pride.
+
+- 14) Fixed a bug where the Impatient trait would stack with the Slowpoke and Slow traits.
+
+- 15) Some minor edits and text updates.
+
+
+
+â€“ Changelog "HSK more content" v0.49 (1.5 version):
 
 - 1) The modification has been updated to version 1.5.
 
 
 
-– Changelog "HSK more content" v0.48 (1.4 version):
+â€“ Changelog "HSK more content" v0.48 (1.4 version):
 
 - 1) fixed a bug due to which the gene for golden eye color was not used when the [NL] Facial Animation - WIP mod was enabled and the color was chosen randomly;
 
@@ -12,7 +47,7 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 
 
-– Changelog "HSK more content" v0.47 (1.4 version):
+â€“ Changelog "HSK more content" v0.47 (1.4 version):
 
 
 1) added Parabellum War Trophy modification ammo to ammo-unmaking recipes (please let me know if I missed some ammo from this mod);
@@ -45,7 +80,7 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 15) Uber Peka storyteller had been switched to use increased population and will more often trigger events to increase the number of colonists;
 
-16) fixed the bug of missing Biotech quests with "«KaRey» duet" storyteller;
+16) fixed the bug of missing Biotech quests with "Â«KaReyÂ» duet" storyteller;
 
 17) fixed a Parabellum ammo umaking bug that allowed more resources to be obtained from 37mm and 50mm shells when unmaking than were spent on their production (these shells were moved to the grenades section);
 
@@ -57,7 +92,7 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 
 
-– Changelog "HSK more content" v0.46 (1.4 version):
+â€“ Changelog "HSK more content" v0.46 (1.4 version):
 
 
 1) added Parabellum modification ammo to ammo-unmaking recipes (please let me know if I missed some ammo from this mod);
@@ -82,7 +117,7 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 11) fixed a bug with displaying the floor from primitive components when the Ideology dlc is disabled, now the floor will use a different texture in this case;
 
-12) fixed a bug due to which homunculus sometimes has the “Gene set incomplete” hediff when the Revia Race modification was enabled, which they should not have;
+12) fixed a bug due to which homunculus sometimes has the â€œGene set incompleteâ€ hediff when the Revia Race modification was enabled, which they should not have;
 
 13) fixed a bug due to which the cannoners of the knights of the round barrel sometimes had hand cannons spawned from high-tech materials;
 
@@ -90,14 +125,14 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 
 
-– Changelog "HSK more content" v0.45.1 (1.4 version):
+â€“ Changelog "HSK more content" v0.45.1 (1.4 version):
 
 
 1) fixed a critical bug due to which a new world could be generated incorrectly (lack of factions on the map, for example).
 
 
 
-– Changelog "HSK more content" v0.45 (1.4 version):
+â€“ Changelog "HSK more content" v0.45 (1.4 version):
 
 
 1) added github page https://github.com/ArpoMo6/HMC-project/tree/main;
@@ -122,7 +157,7 @@ P.S. This is the last minor update for HSK Rimworld ver1.4, the next one will be
 
 
 
-– Changelog "HSK more content" v0.44 (1.4 version):
+â€“ Changelog "HSK more content" v0.44 (1.4 version):
 
 1) "Sharknado" event was removed from the mod for technical reasons (in some cases it caused problems with the generation of the world or settlements on the world map);
 
@@ -149,21 +184,21 @@ P.S. A clean installation of the modification is strongly recommended (delete th
 
 
 
-– Changelog "HSK more content" v0.43.1 (1.4 version):
+â€“ Changelog "HSK more content" v0.43.1 (1.4 version):
 
 
 1) fixed a critical bug that deleted all the mod's ammunition, which occurred after updating Combat Extended to the current version.
 
 
 
-– Changelog "HSK more content" v0.43 (1.4 version):
+â€“ Changelog "HSK more content" v0.43 (1.4 version):
 
 
 1) added ten new traits (some of them were added in a non-standard way to work correctly with other traits and can be displayed as content from the core or core-sk);
 
 2) added 20% bonus of carried weight to "Long Jump" gene (according to the description, carriers of this gene have strong legs);
 
-3) the location of the mod in the list of mods in relation to other mods has been adjusted for better compatibility (don’t be alarmed if the mod suddenly turns red when updating - you just need to move it higher or lower);
+3) the location of the mod in the list of mods in relation to other mods has been adjusted for better compatibility (donâ€™t be alarmed if the mod suddenly turns red when updating - you just need to move it higher or lower);
 
 4) updated textures of 12.7x55mm ammunition;
 
@@ -184,7 +219,7 @@ P.S. WAAAAAAAAAAAAAAGH!!!!!11111
 
 
 
-– Changelog "HSK more content" v0.42 (1.4 version):
+â€“ Changelog "HSK more content" v0.42 (1.4 version):
 
 
 1) added a new hostile faction with an intermediate technological level (between medieval and industrial) with its own xenotype (if Biotech enabled) and some new weapons;
@@ -205,7 +240,7 @@ P.S. WAAAAAAAAAAAAAAGH!!!!!11111
 
 9) several tags have been added, due to which materials from the HMC bizarre materials mod will be found a little more often among raiders;
 
-10) fixed a bug due to which the “extra pain” gene always blocked the “extra pain lite” gene;
+10) fixed a bug due to which the â€œextra painâ€ gene always blocked the â€œextra pain liteâ€ gene;
 
 11) some minor edits and text updates.
 
@@ -218,7 +253,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 
 
-– Changelog "HSK more content" v0.41 (1.4 version):
+â€“ Changelog "HSK more content" v0.41 (1.4 version):
 
 
 1) fixed a serious bug due to which 25x40 mm incendiary shells had negative damage and destroyed any object upon impact;
@@ -235,7 +270,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 7) The probability of spawning Pike weapons for raiders has been reduced by 25%;
 
-8) added three new traits (I don’t mention the name on purpose :) );
+8) added three new traits (I donâ€™t mention the name on purpose :) );
 
 9) updated some old armor textures of high-tech norbals (topfhelm and armor);
 
@@ -250,7 +285,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 
 
-– Changelog "HSK more content" v0.40 (1.4 version):
+â€“ Changelog "HSK more content" v0.40 (1.4 version):
 
 
 1) modification has been updated to the current CE version;
@@ -282,7 +317,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 
 
-– Changelog "HSK more content" v0.39 (1.4 version):
+â€“ Changelog "HSK more content" v0.39 (1.4 version):
 
 
 1) modification has been updated to the current CE version;
@@ -312,7 +347,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 
 
-– Changelog "HSK more content" v0.38 (1.4 version):
+â€“ Changelog "HSK more content" v0.38 (1.4 version):
 
 
 1) modification has been updated to the current CE version;
@@ -327,7 +362,7 @@ You need to delete all three textures in this folder and restart the game - the 
 
 
 
-– Changelog "HSK more content" v0.37 (1.4 version):
+â€“ Changelog "HSK more content" v0.37 (1.4 version):
 
 
 1) fixed longstanding Architect error for Turret_MiniTurret (LMG sentry micro-turret appeared in two categories at the same time);
@@ -361,7 +396,7 @@ P.S. if you don't like the test changes of damage multiplier or max mining and h
 
 
 
-– Changelog "HSK more content" v0.36.1 (1.4 version):
+â€“ Changelog "HSK more content" v0.36.1 (1.4 version):
 
 
 1) fixed a bug with non-spawning factions and faction pawns after the recent Core SK and Biotech update;
@@ -370,7 +405,7 @@ P.S. if you don't like the test changes of damage multiplier or max mining and h
 
 
 
-– Changelog "HSK more content" v0.36 (1.4 version):
+â€“ Changelog "HSK more content" v0.36 (1.4 version):
 
 
 1) all advanced micro turrets now require separate "Advanced micro turret..." research similar to regular micro turrets;
@@ -397,7 +432,7 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.35 (1.4 version):
+â€“ Changelog "HSK more content" v0.35 (1.4 version):
 
 
 1) added "Sling" - Neolithic early ranged weapon. Added as a single copy to the tribal and Norbal start;
@@ -410,7 +445,7 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.34 (1.3 version):
+â€“ Changelog "HSK more content" v0.34 (1.3 version):
 
 
 1) added "Totem of the ancestors" (tab "Protection") - an automatic protective turret available in the neolithic;
@@ -427,7 +462,7 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.33 (1.3):
+â€“ Changelog "HSK more content" v0.33 (1.3):
 
 
 1) ironwood biome was removed from this mod and moved to a separate HMC Biomes mod. v0.32 and earlier versions may have some compatability problems with HMC Biomes mod (for example, the complete lack of vegetation in the temperate forest);
@@ -446,10 +481,10 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.32 (1.3):
+â€“ Changelog "HSK more content" v0.32 (1.3):
 
 
-1) fixed a bug due to which the archonexus quest did not spawn with «KaRey» duet storyteller;
+1) fixed a bug due to which the archonexus quest did not spawn with Â«KaReyÂ» duet storyteller;
 
 2) added new 90, 120 and 155 mm ammo;
 
@@ -467,7 +502,7 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.31 (1.3):
+â€“ Changelog "HSK more content" v0.31 (1.3):
 
 
 1) in the latest versions, the pawns of the faction I.G.U.F. special prostheses have stopped spawning. Fixed
@@ -476,14 +511,14 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.30 (1.3):
+â€“ Changelog "HSK more content" v0.30 (1.3):
 
 
 1) exosuit carcass's texture has been updated, its bonuses and penalties have been significantly increased, and exosuit carcass has been shifted to a later exploration and opens at the same time with spacer components (but require advanced ones);
 
-2) adjusted the weapon component's unmake – the number of useful materials dropped has been slightly reduced. The number of dropped industrial components and mechanisms has been greatly reduced. Also slightly increased unmaking time;
+2) adjusted the weapon component's unmake â€“ the number of useful materials dropped has been slightly reduced. The number of dropped industrial components and mechanisms has been greatly reduced. Also slightly increased unmaking time;
 
-3) adden new weapon – Colt CK-901;
+3) adden new weapon â€“ Colt CK-901;
 
 4) shark body can now be used as fish body in the fish roast recipe;
 
@@ -497,11 +532,11 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 9) adjusted damage and armor penetration of 12.7x108 and 12.7x55 mm calibers in accordance with recent adjustments to large caliber;
 
-10) slightly rebalanced high-tech Norbals power armors and weapons – their crafting now require a little ferrotitanium instead of the main material. Power Bascinet now requires fewer spacer components, but requires advanced components. Power Bascinet now also protects neck.
+10) slightly rebalanced high-tech Norbals power armors and weapons â€“ their crafting now require a little ferrotitanium instead of the main material. Power Bascinet now requires fewer spacer components, but requires advanced components. Power Bascinet now also protects neck.
 
 
 
-– Changelog "HSK more content" v0.29 (1.3):
+â€“ Changelog "HSK more content" v0.29 (1.3):
 
 
 1) mod has been updated to version 1.3. There is no compatibility with 1.2. To play on version 1.2, it is recommended to go back to version 0.28 or lower;
@@ -520,10 +555,10 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 
 
-– Changelog "HSK more content" v0.28 (1.2):
+â€“ Changelog "HSK more content" v0.28 (1.2):
 
 
-1) added new four micro-turrets – shotgun, sniper, grenade and advanced -micro-turrets;
+1) added new four micro-turrets â€“ shotgun, sniper, grenade and advanced -micro-turrets;
 
 2) added new mechanoid with mini siege weapon;
 
@@ -547,9 +582,9 @@ P.S. these changes affect the research tree, so I recommend installing the updat
 
 12) fixed high tech dvustvolka craft recipe (replaced plasma component to charged one);
 
-13) added new storyteller – Uber Peka (hybrid storyteller with huge number of almost random events);
+13) added new storyteller â€“ Uber Peka (hybrid storyteller with huge number of almost random events);
 
-14) added new edible plant – buckwheat. You can cook it, grind into flour or eat it raw;
+14) added new edible plant â€“ buckwheat. You can cook it, grind into flour or eat it raw;
 
 15) decreased explosion radius of 25x40 mm HE and EMP grenades from 2 to 1.8;
 
@@ -570,7 +605,7 @@ P.S. highly recommended update only with new colony and "clear install".
 
 
 
-– Changelog "HSK more content" v0.27:
+â€“ Changelog "HSK more content" v0.27:
 
 
 1) The mod has been updated to the new version CE 3.6 with support for the new research tree and will only work with the new research tree. For older versions of the tree, I recommend using the mod version 0.26.1 or lower;
@@ -585,7 +620,7 @@ P.S. highly recommended update only with new colony and "clear install".
 
 6) added a few new variations to name pool of the high-tech Norbal faction;
 
-7) added a new test biome – Iron wood forest (perhaps in the future I will continue to develop the idea of new biomes and put them in a separate mod);
+7) added a new test biome â€“ Iron wood forest (perhaps in the future I will continue to develop the idea of new biomes and put them in a separate mod);
 
 8) iguf items crafting now a bit complicated;
 
@@ -611,20 +646,20 @@ P.S. highly recommended update only with new colony and "clear install".
 
 
 
-– Changelog "HSK more content" v0.26:
+â€“ Changelog "HSK more content" v0.26:
 
 
 1) all mod's factions now hidden (testing for the sake the quests balance). Also moved first appearence of this factions to little bit later (~30 day);
 
 2) added new "Hybrid" storyteller;
 
-3) added new weapon – VTC-9m versatile 9 mm carbine;
+3) added new weapon â€“ VTC-9m versatile 9 mm carbine;
 
-4) added new stationary weapon – cannon. Also added simple powder craft recipe to blacksmith with half efficiency to allow craft cannon balls on early stages;
+4) added new stationary weapon â€“ cannon. Also added simple powder craft recipe to blacksmith with half efficiency to allow craft cannon balls on early stages;
 
 5) added weapon component's unmaking recipes (like ammo unmaking systems);
 
-6) lite NSV 12.7 param rebalance – increased range (62->71), min radius (2->3). Decreased RPM (720->600), burst length (full: 12->6, short: 4->3), market value (2300->2000);
+6) lite NSV 12.7 param rebalance â€“ increased range (62->71), min radius (2->3). Decreased RPM (720->600), burst length (full: 12->6, short: 4->3), market value (2300->2000);
 
 7) fixed 25x40 mm grenades. Incendiary ones didn't ingite the surface (but fuel filth spawn chance still not 100%!);
 
@@ -632,7 +667,7 @@ P.S. highly recommended update only with new colony and "clear install".
 
 9) little reduced spawn chance of all weapons of this mod (~10-15%);
 
-10) added new raid pawn to medieval kingdom faction – heavy knight with full plate armor and two-handed weapon;
+10) added new raid pawn to medieval kingdom faction â€“ heavy knight with full plate armor and two-handed weapon;
 
 11) added new plate helm (test only);
 

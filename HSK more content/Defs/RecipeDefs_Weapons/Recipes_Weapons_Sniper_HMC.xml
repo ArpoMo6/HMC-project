@@ -1173,7 +1173,7 @@
 		<jobString>Building R2 Lance.</jobString>
 		<workAmount>32100</workAmount>
 		<skillRequirements>
-			<Crafting>15</Crafting>
+			<Crafting>16</Crafting>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -1244,7 +1244,7 @@
 			<li>AdvToolBench</li>
 			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Charge_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Charge_weapons_E</researchPrerequisite>
 	</RecipeDef>
 
     <!-- Item 62 -->
@@ -1253,9 +1253,10 @@
 		<label>Build Item 62</label>
 		<description>Builds an ancient world advanced weapon. Majestic super-long-range gauss sniper rifle. Good accuracy and range, but low rate of fire.</description>
 		<jobString>Building Item 62.</jobString>
-		<workAmount>33000</workAmount>
+		<workAmount>72000</workAmount>
+		<unfinishedThingDef>UnfinishedGunArchotech_HMC</unfinishedThingDef>
 		<skillRequirements>
-			<Crafting>16</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -1285,10 +1286,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentUltra</li>
+						<li>ComponentArchotech_HMC</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -1339,7 +1340,7 @@
 				<li>AdvSniper_Component</li>
 				<li>Charged_Component</li>
 				<li>Weapon_Parts</li>
-				<li>ComponentUltra</li>
+				<li>ComponentArchotech_HMC</li>
 				<li>Plastic</li>
 				<li>FerrosiliconAlloy</li>
 				<li>AlnicoAlloy</li>
@@ -1355,7 +1356,7 @@
 		<recipeUsers>
 			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Charge_weapons_E</researchPrerequisite>
+		<researchPrerequisite>Weapon_F1_HMC</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>
