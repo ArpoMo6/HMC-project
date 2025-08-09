@@ -84,7 +84,6 @@
 		  <MagneticMaterial>15</MagneticMaterial>
 		  <ComponentArchotech_HMC>2</ComponentArchotech_HMC>
 		  <AdvRifle_Component>1</AdvRifle_Component>
-		  <Shotgun_Component>1</Shotgun_Component>
 		</costList>
     </ThingDef>
 
@@ -232,7 +231,7 @@
             </li>
         </comps>
         <smeltProducts>
-            <AdvRifle_Component>1</AdvRifle_Component>
+            <AdvSniper_Component>1</AdvSniper_Component>
             <Weapon_Parts>4</Weapon_Parts>
             <Plastic>5</Plastic>
 			<MagneticMaterial>4</MagneticMaterial>
@@ -258,7 +257,7 @@
 		  <MagneticMaterial>15</MagneticMaterial>
 		  <ComponentArchotech_HMC>3</ComponentArchotech_HMC>
 		  <AdvRifle_Component>1</AdvRifle_Component>
-		  <Shotgun_Component>1</Shotgun_Component>
+		  <AdvSniper_Component>1</AdvSniper_Component>
 		</costList>
     </ThingDef>
 
