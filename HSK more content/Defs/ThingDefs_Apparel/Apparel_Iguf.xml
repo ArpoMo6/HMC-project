@@ -40,7 +40,7 @@
 			<StuffEffectMultiplierArmor>14.5</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>9</ArmorRating_Sharp>
 			<ArmorRating_Blunt>80</ArmorRating_Blunt>
-			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<ArmorRating_Alignment MayRequire="Torann.ARimworldOfMagic">0.5</ArmorRating_Alignment>
 			<EnergyShieldRechargeRate>0.19</EnergyShieldRechargeRate>
@@ -134,7 +134,7 @@
 			<StuffEffectMultiplierArmor>11.5</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>7.5</ArmorRating_Sharp>
 			<ArmorRating_Blunt>38</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.97</ArmorRating_Heat>
+			<ArmorRating_Heat>0.76</ArmorRating_Heat>
 			<ArmorRating_Electric>0.16</ArmorRating_Electric>
 			<ArmorRating_Alignment MayRequire="Torann.ARimworldOfMagic">0.3</ArmorRating_Alignment>
 			<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
@@ -222,7 +222,7 @@
 			<StuffEffectMultiplierArmor>14.5</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>8.5</ArmorRating_Sharp>
 			<ArmorRating_Blunt>46</ArmorRating_Blunt>
-			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<ArmorRating_Heat>0.8</ArmorRating_Heat>
 			<ArmorRating_Electric>0.2</ArmorRating_Electric>
 			<ArmorRating_Alignment MayRequire="Torann.ARimworldOfMagic">0.3</ArmorRating_Alignment>
 			<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>

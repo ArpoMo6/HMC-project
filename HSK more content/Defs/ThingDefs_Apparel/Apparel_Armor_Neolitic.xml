@@ -32,7 +32,7 @@
 			<StuffEffectMultiplierArmor>2.4</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.8</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<ArmorRating_Heat>0.16</ArmorRating_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<CarryBulk>4</CarryBulk>
