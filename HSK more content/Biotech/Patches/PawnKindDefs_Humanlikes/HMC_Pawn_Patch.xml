@@ -252,7 +252,7 @@
 											<kindDefs>
 												<li>HMC_DirtmoleColonist</li>
 											</kindDefs>
-											<chance>5.0</chance>
+											<chance>2.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -265,7 +265,7 @@
 									<kindDefs>
 										<li>HMC_DirtmoleColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -273,7 +273,7 @@
 									<kindDefs>
 										<li>HMC_DirtmoleColonist</li>
 									</kindDefs>
-									<chance>6.0</chance>
+									<chance>3.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -283,7 +283,7 @@
 											<kindDefs>
 												<li>HMC_DirtmoleColonist</li>
 											</kindDefs>
-											<chance>6.0</chance>
+											<chance>3.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -304,7 +304,7 @@
 											<kindDefs>
 												<li>HMC_GenieColonist</li>
 											</kindDefs>
-											<chance>5.0</chance>
+											<chance>2.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -317,7 +317,7 @@
 									<kindDefs>
 										<li>HMC_GenieColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -325,7 +325,7 @@
 									<kindDefs>
 										<li>HMC_GenieColonist</li>
 									</kindDefs>
-									<chance>6.0</chance>
+									<chance>3.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -335,7 +335,7 @@
 											<kindDefs>
 												<li>HMC_GenieColonist</li>
 											</kindDefs>
-											<chance>6.0</chance>
+											<chance>3.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -356,7 +356,7 @@
 											<kindDefs>
 												<li>HMC_HussarColonist</li>
 											</kindDefs>
-											<chance>3.0</chance>
+											<chance>1.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -369,7 +369,7 @@
 									<kindDefs>
 										<li>HMC_HussarColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -377,7 +377,7 @@
 									<kindDefs>
 										<li>HMC_HussarColonist</li>
 									</kindDefs>
-									<chance>4.0</chance>
+									<chance>2.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -387,7 +387,7 @@
 											<kindDefs>
 												<li>HMC_HussarColonist</li>
 											</kindDefs>
-											<chance>4.0</chance>
+											<chance>2.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -397,59 +397,7 @@
 							</alienwandererkinds>
 						</pawnKindSettings>
 					</AlienRace.RaceSettings>
-															
-					<AlienRace.RaceSettings>
-						<defName>HMC_SanguophageRaceSettings</defName>
-						<pawnKindSettings>
-							<startingColonists>
-								<li>
-									<pawnKindEntries>
-										<li>
-											<kindDefs>
-												<li>HMC_SanguophageColonist</li>
-											</kindDefs>
-											<chance>1.0</chance>
-										</li>
-									</pawnKindEntries>
-									<factionDefs>
-										<li>PlayerColony</li> 
-									</factionDefs>
-								</li>
-							</startingColonists>
-							<alienslavekinds>
-								<li>
-									<kindDefs>
-										<li>HMC_SanguophageColonist</li>
-									</kindDefs>
-									<chance>1.0</chance>
-								</li>
-							</alienslavekinds>
-							<alienrefugeekinds>
-								<li>
-									<kindDefs>
-										<li>HMC_SanguophageColonist</li>
-									</kindDefs>
-									<chance>1.0</chance>
-								</li>
-							</alienrefugeekinds>
-							<alienwandererkinds>
-								<li>
-									<pawnKindEntries>
-										<li>
-											<kindDefs>
-												<li>HMC_SanguophageColonist</li>
-											</kindDefs>
-											<chance>1.0</chance>
-										</li>
-									</pawnKindEntries>
-									<factionDefs>
-										<li>PlayerColony</li> 
-									</factionDefs>
-								</li>
-							</alienwandererkinds>
-						</pawnKindSettings>
-					</AlienRace.RaceSettings>
-																				
+												
 					<AlienRace.RaceSettings>
 						<defName>HMC_NeanderthalRaceSettings</defName>
 						<pawnKindSettings>
@@ -460,7 +408,7 @@
 											<kindDefs>
 												<li>HMC_NeanderthalColonist</li>
 											</kindDefs>
-											<chance>9.0</chance>
+											<chance>4.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -473,7 +421,7 @@
 									<kindDefs>
 										<li>HMC_NeanderthalColonist</li>
 									</kindDefs>
-									<chance>3.0</chance>
+									<chance>1.5</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -481,7 +429,7 @@
 									<kindDefs>
 										<li>HMC_NeanderthalColonist</li>
 									</kindDefs>
-									<chance>7.0</chance>
+									<chance>3.5</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -491,7 +439,7 @@
 											<kindDefs>
 												<li>HMC_NeanderthalColonist</li>
 											</kindDefs>
-											<chance>7.0</chance>
+											<chance>3.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -512,7 +460,7 @@
 											<kindDefs>
 												<li>HMC_PigskinColonist</li>
 											</kindDefs>
-											<chance>8.0</chance>
+											<chance>4.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -525,7 +473,7 @@
 									<kindDefs>
 										<li>HMC_PigskinColonist</li>
 									</kindDefs>
-									<chance>3.0</chance>
+									<chance>1.5</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -533,7 +481,7 @@
 									<kindDefs>
 										<li>HMC_PigskinColonist</li>
 									</kindDefs>
-									<chance>6.0</chance>
+									<chance>3.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -543,7 +491,7 @@
 											<kindDefs>
 												<li>HMC_PigskinColonist</li>
 											</kindDefs>
-											<chance>6.0</chance>
+											<chance>3.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -564,7 +512,7 @@
 											<kindDefs>
 												<li>HMC_ImpidColonist</li>
 											</kindDefs>
-											<chance>6.0</chance>
+											<chance>3.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -577,7 +525,7 @@
 									<kindDefs>
 										<li>HMC_ImpidColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -585,7 +533,7 @@
 									<kindDefs>
 										<li>HMC_ImpidColonist</li>
 									</kindDefs>
-									<chance>4.0</chance>
+									<chance>2.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -595,7 +543,7 @@
 											<kindDefs>
 												<li>HMC_ImpidColonist</li>
 											</kindDefs>
-											<chance>4.0</chance>
+											<chance>2.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -616,7 +564,7 @@
 											<kindDefs>
 												<li>HMC_WasterColonist</li>
 											</kindDefs>
-											<chance>5.0</chance>
+											<chance>2.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -629,7 +577,7 @@
 									<kindDefs>
 										<li>HMC_WasterColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -637,7 +585,7 @@
 									<kindDefs>
 										<li>HMC_WasterColonist</li>
 									</kindDefs>
-									<chance>3.0</chance>
+									<chance>1.5</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -647,7 +595,7 @@
 											<kindDefs>
 												<li>HMC_WasterColonist</li>
 											</kindDefs>
-											<chance>3.0</chance>
+											<chance>1.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -668,7 +616,7 @@
 											<kindDefs>
 												<li>HMC_YttakinColonist</li>
 											</kindDefs>
-											<chance>5.0</chance>
+											<chance>2.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -681,7 +629,7 @@
 									<kindDefs>
 										<li>HMC_YttakinColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -689,7 +637,7 @@
 									<kindDefs>
 										<li>HMC_YttakinColonist</li>
 									</kindDefs>
-									<chance>3.0</chance>
+									<chance>1.5</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -699,7 +647,7 @@
 											<kindDefs>
 												<li>HMC_YttakinColonist</li>
 											</kindDefs>
-											<chance>3.0</chance>
+											<chance>1.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -720,7 +668,7 @@
 											<kindDefs>
 												<li>HMC_HighmateColonist</li>
 											</kindDefs>
-											<chance>3.0</chance>
+											<chance>1.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -733,7 +681,7 @@
 									<kindDefs>
 										<li>HMC_HighmateColonist</li>
 									</kindDefs>
-									<chance>1.0</chance>
+									<chance>0.5</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -741,7 +689,7 @@
 									<kindDefs>
 										<li>HMC_HighmateColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -751,7 +699,7 @@
 											<kindDefs>
 												<li>HMC_HighmateColonist</li>
 											</kindDefs>
-											<chance>2.0</chance>
+											<chance>1.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -772,7 +720,7 @@
 											<kindDefs>
 												<li>HMC_TeljorColonist</li>
 											</kindDefs>
-											<chance>3.0</chance>
+											<chance>1.5</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
@@ -785,7 +733,7 @@
 									<kindDefs>
 										<li>HMC_TeljorColonist</li>
 									</kindDefs>
-									<chance>1.0</chance>
+									<chance>0.5</chance>
 								</li>
 							</alienslavekinds>
 							<alienrefugeekinds>
@@ -793,7 +741,7 @@
 									<kindDefs>
 										<li>HMC_TeljorColonist</li>
 									</kindDefs>
-									<chance>2.0</chance>
+									<chance>1.0</chance>
 								</li>
 							</alienrefugeekinds>
 							<alienwandererkinds>
@@ -803,7 +751,7 @@
 											<kindDefs>
 												<li>HMC_TeljorColonist</li>
 											</kindDefs>
-											<chance>2.0</chance>
+											<chance>1.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
