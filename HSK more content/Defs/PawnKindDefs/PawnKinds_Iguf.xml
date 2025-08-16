@@ -99,6 +99,10 @@
 						<weaponTags>
 							<li>HMCIgufMelee</li>
 						</weaponTags>
+						<sidearmMoney>
+							<min>3250</min>
+							<max>5350</max>
+						</sidearmMoney>
 					</li>
 				</sidearms>
 			</li>
