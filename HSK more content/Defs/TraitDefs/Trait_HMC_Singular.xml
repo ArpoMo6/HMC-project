@@ -706,7 +706,7 @@
 
 	<TraitDef>
 		<defName>HMC_vietsensuality</defName>
-		<commonality>0.25</commonality>
+		<commonality>0.12</commonality>
 		<degreeDatas>
 			<li>
 				<label>vietsensuality</label>
@@ -729,7 +729,7 @@
 
 	<TraitDef>
 		<defName>HMC_pacifism</defName>
-		<commonality>1</commonality>
+		<commonality>0.4</commonality>
 		<degreeDatas>
 			<li>
 				<label>pacifism</label>
@@ -759,7 +759,7 @@
 
 	<TraitDef>
 		<defName>HMC_artillerist</defName>
-		<commonality>0.4</commonality>
+		<commonality>0.2</commonality>
 		<degreeDatas>
 			<li>
 				<label>artillerist</label>
@@ -784,7 +784,7 @@
 
 	<TraitDef>
 		<defName>HMC_analyst</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.3</commonality>
 		<degreeDatas>
 			<li>
 				<label>analyst</label>

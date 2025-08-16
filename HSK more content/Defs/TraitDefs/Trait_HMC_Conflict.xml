@@ -345,14 +345,14 @@
 
 	<TraitDef>
 		<defName>HMC_Lucks</defName>
-		<commonality>1</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		  <li>
 			<label>unlucky</label>
 			<description>A hard life, numerous drinking bouts and countless twisted little fingers - {PAWN_nameDef} has a truly spectacular failure, as if the deities themselves had cursed {PAWN_gender ? him : her}.\nThis trait has truly miraculous properties to meet the player's expectations regardless of his faith, alignment, shoe size, favorite football club and the number of turtles in {PAWN_gender ? his : her} aquarium (especially if there are zero).\n\n    Luck -50%</description>
 			<degree>-1</degree>
 			<socialFightChanceFactor>1.5</socialFightChanceFactor>
-			<commonality>0.5</commonality>
+			<commonality>0.25</commonality>
 		  </li>
 		  <li>
 			<label>lucky</label>
@@ -361,14 +361,14 @@
 \n\n    Luck +50%</description>
 			<degree>1</degree>
 			<socialFightChanceFactor>0.5</socialFightChanceFactor>
-			<commonality>0.5</commonality>
+			<commonality>0.25</commonality>
 		  </li>    
 		</degreeDatas>
 	</TraitDef>
 
 	<TraitDef>
 		<defName>HMC_Conservatism</defName>
-		<commonality>0.9</commonality>
+		<commonality>0.45</commonality>
 		<degreeDatas>
 		  <li>
 			<label>conservatism</label>
@@ -384,7 +384,7 @@
 			  <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.25</CertaintyLossFactor>
 			  <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">2</SocialIdeoSpreadFrequencyFactor>
 			</statFactors>
-			<commonality>0.4</commonality>
+			<commonality>0.2</commonality>
 		  </li>
 		  <li>
 			<label>cynicism</label>
@@ -400,7 +400,7 @@
 			  <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">4</CertaintyLossFactor>
 			  <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</SocialIdeoSpreadFrequencyFactor>
 			</statFactors>
-			<commonality>0.5</commonality>
+			<commonality>0.25</commonality>
 		  </li>    
 		</degreeDatas>
 		<conflictingTraits>
@@ -413,7 +413,7 @@
 
 	<TraitDef>
 		<defName>HMC_temperate</defName>
-		<commonality>0.7</commonality>
+		<commonality>0.35</commonality>
 		<degreeDatas>
 			<li>
 				<label>temperate</label>
@@ -438,7 +438,7 @@
 
 	<TraitDef>
 		<defName>HMC_stubborn</defName>
-		<commonality>0.9</commonality>
+		<commonality>0.45</commonality>
 		<degreeDatas>
 			<li>
 				<label>stubborn</label>
@@ -462,7 +462,7 @@
 
 	<TraitDef>
 		<defName>HMC_impatient</defName>
-		<commonality>0.7</commonality>
+		<commonality>0.35</commonality>
 		<degreeDatas>
 			<li>
 				<label>impatient</label>

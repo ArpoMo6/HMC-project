@@ -7,6 +7,7 @@
 	</supportedVersions>
 	<packageId>arpomo6.hmc.bizmat</packageId>
 	<description>Version 0.21. Added few new materials and recipes.</description>
+	<url>https://boosty.to/arpomo6</url>
 	<modDependencies>
 	</modDependencies>
 	<loadBefore>
@@ -18,6 +19,7 @@
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>UnlimitedHugs.HugsLib</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>CETeam.CombatExtended</li>
 		<li>skyarkhangel.HSK</li>
 		<li>skyarkhangel.SurvivalToolsLite</li>
