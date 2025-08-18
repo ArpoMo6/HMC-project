@@ -59,6 +59,7 @@
 				<statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
 					<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+					<PsychicSensitivity MayRequire="VanillaExpanded.VPsycastsE">0</PsychicSensitivity>
 				</statFactors>
 				<statOffsets>
 					<ArmorRating_Sharp>4</ArmorRating_Sharp>
