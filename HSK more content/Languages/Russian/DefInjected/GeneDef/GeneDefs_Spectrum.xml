@@ -86,4 +86,8 @@
   <HMC_HA_Nose_Orcoid.description>У носителей этого гена нос похож на орочий.</HMC_HA_Nose_Orcoid.description>
   <HMC_HA_Nose_Orcoid.labelShortAdj>орк</HMC_HA_Nose_Orcoid.labelShortAdj>
 
+  <HMC_LizardHead.label>ящерова голова</HMC_LizardHead.label>
+  <HMC_LizardHead.description>У носителей этого гена голова ящера, явно готового сражаться против руса.</HMC_LizardHead.description>
+  <HMC_LizardHead.labelShortAdj>ящер</HMC_LizardHead.labelShortAdj>
+
 </LanguageData>

@@ -218,4 +218,17 @@
 		<displayOrderInCategory>107</displayOrderInCategory>
 	</GeneDef>
 
+  <GeneDef ParentName="GeneJawBase">
+    <defName>HMC_LizardHead</defName>
+    <label>lizard head</label>
+    <description>Carriers of this gene have large lizard head.</description>
+    <iconPath>UI/Icons/Genes/Gene_LizardHead</iconPath>
+    <forcedHeadTypes>
+      <li>HMC_Male_LizardHead</li>
+      <li>HMC_Female_LizardHead</li>
+    </forcedHeadTypes>
+	<displayCategory>HMC_Genes</displayCategory>
+	<displayOrderInCategory>108</displayOrderInCategory>
+  </GeneDef>
+
 </Defs>
