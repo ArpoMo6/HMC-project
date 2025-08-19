@@ -59,6 +59,7 @@
 				<statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
 					<WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+					<MeleeDodgeChance>1.25</MeleeDodgeChance>
 					<PsychicSensitivity MayRequire="VanillaExpanded.VPsycastsE">0</PsychicSensitivity>
 				</statFactors>
 				<statOffsets>
