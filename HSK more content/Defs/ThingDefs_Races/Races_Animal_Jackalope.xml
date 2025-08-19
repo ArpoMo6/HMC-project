@@ -51,7 +51,7 @@
       <!-- <body>QuadrupedAnimalWithPawsAndTail</body> -->
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.23</baseHungerRate>
-      <baseHealthScale>0.55</baseHealthScale>
+      <baseHealthScale>0.7</baseHealthScale>
       <useMeatFrom>Elephant</useMeatFrom>
       <useLeatherFrom>Hare</useLeatherFrom>
       <foodType>VegetarianRoughAnimal</foodType>

@@ -262,11 +262,11 @@
 
   <XenotypeDef>
     <defName>HMC_HightechNorbal</defName>
-    <label>High Tech Norbal</label>
+    <label>high tech norbal</label>
     <description>This glorious people came to us from the distant depths of outer space with clearly good intentions to do good and bring justice!</description>
     <descriptionShort>High Tech Norbal.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Norbal</iconPath>
-	<combatPowerFactor>1.25</combatPowerFactor>
+	<!-- <combatPowerFactor>1.25</combatPowerFactor> -->
     <inheritable>true</inheritable>
     <genes>
 		<li>Immunity_SuperStrong</li>
@@ -302,6 +302,41 @@
 		<li>AptitudeRemarkable_Melee</li>
 		<li>AptitudeStrong_Animals</li>
 		<li>AptitudePoor_Social</li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>HMC_Lizardoggo</defName>
+    <label>lizardoggo</label>
+    <description>A mysterious creature. A product of fevered imagination and genomic genius, fused together. A rather cold-blooded and reasonable creature, capable of not only taking care of itself, but also moving our colony one step closer to the stars.</description>
+    <descriptionShort>lizzardoggo.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Lizzardoggo</iconPath>
+	<!-- <combatPowerFactor>1.1</combatPowerFactor> -->
+    <inheritable>true</inheritable>
+    <genes>
+		<li>Immunity_Strong</li>
+		<li>PsychicAbility_Improved</li>
+		<li>NakedSpeed</li>
+		<li>MinTemp_SmallIncrease</li>
+		<li>MaxTemp_TinyIncrease</li>
+		<li>Aggression_DeadCalm</li>
+		<li>Hair_BaldOnly</li>
+		<li>Beard_NoBeardOnly</li>
+		<li>Ears_Floppy</li>
+		<li>Skin_Orange</li>
+		<li>RobustDigestion</li>
+		<li>Learning_Better</li>
+		<li>MinorDarkVision</li>
+		<li>EfficientStomach</li>
+		<li>AptitudeRemarkable_Animals</li>
+		<li>AptitudeTerrible_Artistic</li>
+		<li>AptitudeTerrible_Social</li>
+		<li>AptitudeRemarkable_Intellectual</li>
+		<li>HMC_Pain_Reduced_Lite</li>
+		<li>HMC_Mood_Realist</li>
+		<li>HMC_LizardHead</li>
+		<li>HMC_BA_SpikedLizardTail</li>
+		<li>HMC_BA_SnakeTail</li>
     </genes>
   </XenotypeDef>
 

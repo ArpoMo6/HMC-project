@@ -131,6 +131,10 @@
 				<skill>Shooting</skill>
 				<range>10~16</range>
 			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>8~12</range>
+			</li>
 		</skills>
 		<apparelTags>
 			<li>HMCIguf</li>
@@ -173,6 +177,10 @@
 				<skill>Shooting</skill>
 				<range>10~20</range>
 			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>7~13</range>
+			</li>
 		</skills>
 		<apparelTags>
 			<li>HMCIguf</li>
@@ -214,6 +222,10 @@
 			<li>
 				<skill>Shooting</skill>
 				<range>10~18</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>9~11</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -258,6 +270,10 @@
 			<li>
 				<skill>Shooting</skill>
 				<range>11~19</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>10~18</range>
 			</li>
 		</skills>
 		<apparelTags>

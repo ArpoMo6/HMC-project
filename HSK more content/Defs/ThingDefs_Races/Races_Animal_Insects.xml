@@ -112,7 +112,7 @@
 		<defName>Hiveguardsman</defName>
 		<label>hive guardsman</label>
 		<race>Hiveguardsman</race>
-		<combatPower>440</combatPower>
+		<combatPower>480</combatPower>
 		<canArriveManhunter>true</canArriveManhunter>
 		<ecoSystemWeight>1.2</ecoSystemWeight>
 		<lifeStages>

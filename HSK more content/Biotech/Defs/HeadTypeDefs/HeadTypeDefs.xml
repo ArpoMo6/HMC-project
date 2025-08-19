@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HeadTypeDef Name="LizardHeadBase" Abstract="True">
+    <hairMeshSize>(1.5, 1.5)</hairMeshSize>
+    <beardMeshSize>(1.7, 1.5)</beardMeshSize>
+    <randomChosen>false</randomChosen>
+    <requiredGenes>
+      <li>HMC_LizardHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="LizardHeadBase">
+    <defName>HMC_Male_LizardHead</defName>
+    <graphicPath>Things/Pawn/Humanlike/HeadAttachments/LizardHeadMale/LizardHead_Male</graphicPath>
+    <gender>Male</gender>
+    <!-- <eyeOffsetEastWest>(0.16, 0, 0.175)</eyeOffsetEastWest> -->
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="LizardHeadBase">
+    <defName>HMC_Female_LizardHead</defName>
+    <graphicPath>Things/Pawn/Humanlike/HeadAttachments/LizardHeadFemale/LizardHead_Female</graphicPath>
+    <gender>Female</gender>
+    <!-- <eyeOffsetEastWest>(0.16, 0, 0.175)</eyeOffsetEastWest> -->
+  </HeadTypeDef>
+
+</Defs>

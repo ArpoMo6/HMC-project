@@ -236,6 +236,27 @@
 						  </xenotypeChances>
 						</xenotypeSet>
 					</PawnKindDef>
+										
+					<!-- Colonist lizardoggo -->
+					<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+						<defName>HMC_LizardoggoColonist</defName>
+						<label>colonist lizardoggo</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<chemicalAddictionChance>0.06</chemicalAddictionChance>
+						<apparelTags>
+							<li>CryptosleepSpacer</li>
+							<li>Apparel_Ushanka</li>
+						</apparelTags>
+						<apparelMoney>1800~2400</apparelMoney>
+						<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+						<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+						<initialResistanceRange>13~21</initialResistanceRange>
+						<xenotypeSet Inherit="False">
+						  <xenotypeChances>
+							<HMC_Lizardoggo MayRequire="Ludeon.RimWorld.Biotech">999</HMC_Lizardoggo>
+						  </xenotypeChances>
+						</xenotypeSet>
+					</PawnKindDef>
 				</value>
 			</li>
 			
@@ -752,6 +773,58 @@
 												<li>HMC_TeljorColonist</li>
 											</kindDefs>
 											<chance>1.0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</alienwandererkinds>
+						</pawnKindSettings>
+					</AlienRace.RaceSettings>
+																																																		
+					<AlienRace.RaceSettings>
+						<defName>HMC_LizardoggoRaceSettings</defName>
+						<pawnKindSettings>
+							<startingColonists>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_LizardoggoColonist</li>
+											</kindDefs>
+											<chance>0</chance>
+										</li>
+									</pawnKindEntries>
+									<factionDefs>
+										<li>PlayerColony</li> 
+									</factionDefs>
+								</li>
+							</startingColonists>
+							<alienslavekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_LizardoggoColonist</li>
+									</kindDefs>
+									<chance>1.0</chance>
+								</li>
+							</alienslavekinds>
+							<alienrefugeekinds>
+								<li>
+									<kindDefs>
+										<li>HMC_LizardoggoColonist</li>
+									</kindDefs>
+									<chance>2.0</chance>
+								</li>
+							</alienrefugeekinds>
+							<alienwandererkinds>
+								<li>
+									<pawnKindEntries>
+										<li>
+											<kindDefs>
+												<li>HMC_LizardoggoColonist</li>
+											</kindDefs>
+											<chance>2.0</chance>
 										</li>
 									</pawnKindEntries>
 									<factionDefs>
