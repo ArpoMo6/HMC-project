@@ -554,7 +554,7 @@
 
 	<TraitDef>
 		<defName>HMC_Barin</defName>
-		<commonality>0.1</commonality>
+		<commonality>0</commonality>
 		<degreeDatas>
 			<li>
 				<label>barin</label>
@@ -729,7 +729,7 @@
 
 	<TraitDef>
 		<defName>HMC_pacifism</defName>
-		<commonality>0.4</commonality>
+		<commonality>0.25</commonality>
 		<degreeDatas>
 			<li>
 				<label>pacifism</label>
