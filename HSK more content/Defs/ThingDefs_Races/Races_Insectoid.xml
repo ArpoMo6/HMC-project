@@ -100,6 +100,8 @@
 		<butcherProducts>
 			<Chitin>20</Chitin>
 			<PoisonGland>2</PoisonGland>
+			<FSX>1</FSX>
+			<Prometheum>1</Prometheum>
 		</butcherProducts>
 		<race>
 			<body>Antis</body>
@@ -108,7 +110,7 @@
 			</deathAction>
 			<baseBodySize>1</baseBodySize>
 			<baseHungerRate>0.8</baseHungerRate>
-			<baseHealthScale>1.4</baseHealthScale>
+			<baseHealthScale>1.75</baseHealthScale>
 			<maxPreyBodySize>2.2</maxPreyBodySize>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
