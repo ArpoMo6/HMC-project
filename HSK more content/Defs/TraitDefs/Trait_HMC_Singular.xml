@@ -606,7 +606,7 @@
 
 	<TraitDef>
 		<defName>HMC_jack_of_all_trades</defName>
-		<commonality>0.3</commonality>
+		<commonality>0.1</commonality>
 		<degreeDatas>
 			<li>
 				<label>handyman</label>
@@ -679,7 +679,7 @@
 
 	<TraitDef>
 		<defName>HMC_ambidextrous</defName>
-		<commonality>0.4</commonality>
+		<commonality>0.2</commonality>
 		<degreeDatas>
 			<li>
 				<label>ambidextrous</label>
