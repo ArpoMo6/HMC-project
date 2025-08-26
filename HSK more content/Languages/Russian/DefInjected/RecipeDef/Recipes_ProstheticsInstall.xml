@@ -12,5 +12,9 @@
 	<InstallHMC_HomunculusClaws.label>Имплантировать лапку гомункула</InstallHMC_HomunculusClaws.label>
 	<InstallHMC_HomunculusClaws.description>Имплантировать лапку гомункула в мозг.</InstallHMC_HomunculusClaws.description>
 	<InstallHMC_HomunculusClaws.jobString>лапку гомункула в мозг.</InstallHMC_HomunculusClaws.jobString>
-
+  
+	<InstallArchotechArm.label>вживить полисиловую архоруку</InstallArchotechArm.label>
+	<InstallArchotechArm.description>Вживить полисиловую архоруку.</InstallArchotechArm.description>
+	<InstallArchotechArm.jobString>Вживляет полисиловую архоруку</InstallArchotechArm.jobString>
+  
 </LanguageData>
