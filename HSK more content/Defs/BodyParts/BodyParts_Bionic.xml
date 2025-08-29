@@ -177,4 +177,115 @@
 		<researchPrerequisite>Prosthesis_install_E1</researchPrerequisite>
 	</RecipeDef>
 
+
+	<ThingDef ParentName="BodyPartBase_Cybernetic">
+		<defName>HMC_ArchotechCombatArm</defName>
+		<label>archotech combat arm</label>
+		<description>The third generation of bionic upgrades, using nano fibres to produce artificial muscles. Gives the owner incredible strength. You may destroy your opponents limbs in a fist fight...not recomended for wardens.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallHMC_ArchotechCombatArm</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/PolypowerArchotechArm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>5</Mass>
+			<MaxHitPoints>255</MaxHitPoints>
+		</statBases>
+		<costList>
+			<ComponentArchotech_HMC>4</ComponentArchotech_HMC>
+			<Biomatter>40</Biomatter>
+			<SyntheticFibers>12</SyntheticFibers>
+			<BioMicrochips>1</BioMicrochips>
+			<ArtificialBone>5</ArtificialBone>
+		</costList>
+		<techHediffsTags>
+			<li>Cybernetic</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<HediffDef ParentName="HediffBodyPartBase_Cybernetic">
+		<defName>HMC_ArchotechCombatArm</defName>
+		<label>archotech combat arm</label>
+		<description>An installed the third generation of bionic upgrades, using nano fibres to produce artificial muscles. Gives the owner incredible strength. You may destroy your opponents limbs in a fist fight...not recomended for wardens.</description>
+		<labelNoun>an archotech combat arm</labelNoun>
+		<defaultLabelColor>(0.79, 0.81, 0.46)</defaultLabelColor>
+		<descriptionHyperlinks>
+			<ThingDef>HMC_ArchotechCombatArm</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.1</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>27</power>
+						<cooldownTime>1</cooldownTime>
+						<armorPenetrationBlunt>45</armorPenetrationBlunt>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>HMC_ArchotechCombatArm</spawnThingOnRemoved>
+	</HediffDef>
+
+
+	<RecipeDef ParentName="SK_SurgeryFlesh">
+		<defName>InstallHMC_ArchotechCombatArm</defName>
+		<label>Install archotech combat arm</label>
+		<description>Installs archotech combat arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing archotech combat arm.</jobString>
+		<workAmount>3500</workAmount>
+		<descriptionHyperlinks>
+			<ThingDef>HMC_ArchotechCombatArm</ThingDef>
+		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HMC_ArchotechCombatArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HMC_ArchotechCombatArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HMC_ArchotechCombatArm</addsHediff>
+		<skillRequirements>
+			<Medicine>17</Medicine>
+		</skillRequirements>
+		<researchPrerequisite>Prosthesis_install_E2</researchPrerequisite>
+	</RecipeDef>
+
 </Defs>

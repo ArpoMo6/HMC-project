@@ -8,7 +8,7 @@
 			<success>Normal</success>
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="InstallArchotechArm"]/appliedOnFixedBodyParts</xpath>
+					<xpath>Defs/RecipeDef[defName="InstallHMC_ArchotechCombatArm"]/appliedOnFixedBodyParts</xpath>
 					<value>
 						<li>AndroidShoulder</li>
 					</value>
@@ -23,7 +23,7 @@
 					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/recipes</xpath>
 					<value>
 						<li>InstallDeathAcidifier</li>
-						<li>InstallArchotechArm</li>
+						<li>InstallHMC_ArchotechCombatArm</li>
 						<li>InstallIgufFirmware</li>
 						<li>RemoveIgufFirmware</li>
 					</value>

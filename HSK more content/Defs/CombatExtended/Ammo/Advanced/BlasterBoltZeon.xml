@@ -62,18 +62,18 @@
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Optic</damageDef>
-			<damageAmountBase>13</damageAmountBase>
-			<armorPenetrationSharp>30</armorPenetrationSharp>
-			<armorPenetrationBlunt>8.4</armorPenetrationBlunt>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationSharp>38</armorPenetrationSharp>
+			<armorPenetrationBlunt>10</armorPenetrationBlunt>
 			<speed>145</speed>
 			<secondaryDamage>
 				<li>
 					<def>EMP</def>
-					<amount>6</amount>
+					<amount>8</amount>
 				</li>
 				<li>
 					<def>Bomb_Secondary</def>
-					<amount>4</amount>
+					<amount>5</amount>
 				</li>
 			</secondaryDamage>
 		</projectile>

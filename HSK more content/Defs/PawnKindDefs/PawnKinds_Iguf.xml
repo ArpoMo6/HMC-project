@@ -37,7 +37,7 @@
 		<techHediffsRequired>
 			<li>DeathAcidifier</li>
 			<li>IgufFirmware</li>
-			<li>ArchotechArm</li>
+			<li>HMC_ArchotechCombatArm</li>
 		</techHediffsRequired>
 		<!-- <destroyGearOnDrop>true</destroyGearOnDrop> -->
 		<initialWillRange>10~11</initialWillRange>
