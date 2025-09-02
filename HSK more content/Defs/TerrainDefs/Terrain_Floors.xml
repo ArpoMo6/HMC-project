@@ -30,4 +30,33 @@
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </TerrainDef>
 
+  <TerrainDef ParentName="FloorBase">
+    <defName>HMC_LightPolishedPrimitiveComponentFloor</defName>
+    <label>light primitive component floor</label>
+    <renderPrecedence>249</renderPrecedence>
+    <description>Polished primitive component floor. It not so pretty, but the smooth surface gets a little bonus to cleanliness.</description>
+    <texturePath>Terrain/Surfaces/PavedTile</texturePath>
+    <color>(0.8, 0.74, 0.38)</color>
+    <statBases>
+      <WorkToBuild>480</WorkToBuild>
+	  <Flammability>0</Flammability>
+			<Beauty>0</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+	  <CleaningTimeFactor>0.5</CleaningTimeFactor>
+	  <FilthMultiplier>0.5</FilthMultiplier>
+    </statBases>
+	<isPaintable>true</isPaintable>
+    <costList>
+      <ComponentMedieval>2</ComponentMedieval>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <researchPrerequisites>
+      <li>Wooden_floor_A1</li>
+    </researchPrerequisites>
+	<designationCategory>OutsideFloors</designationCategory>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </TerrainDef>
+
 </Defs>

@@ -4,4 +4,7 @@
 	<HMC_PolishedPrimitiveComponentFloor.label>Пол из примитивных компонентов</HMC_PolishedPrimitiveComponentFloor.label>
 	<HMC_PolishedPrimitiveComponentFloor.description>Полированный пол из примитивных компонентов. Он не столь красив, но его гладкая полированная поверхность дает небольшой бонус к чистоте.</HMC_PolishedPrimitiveComponentFloor.description>
 
+	<HMC_LightPolishedPrimitiveComponentFloor.label>Светлый пол из примитивных компонентов</HMC_LightPolishedPrimitiveComponentFloor.label>
+	<HMC_LightPolishedPrimitiveComponentFloor.description>Светлый полированный пол из примитивных компонентов. Он не столь красив, но его гладкая полированная поверхность дает небольшой бонус к чистоте.</HMC_LightPolishedPrimitiveComponentFloor.description>
+
 </LanguageData>
