@@ -7,7 +7,7 @@
     <renderPrecedence>249</renderPrecedence>
     <description>Polished primitive component floor. It not so pretty, but the smooth surface gets a little bonus to cleanliness.</description>
     <texturePath>Terrain/Surfaces/PavedTile</texturePath>
-    <color>(0.439, 0.284, 0.145)</color>
+    <color>(0.44, 0.29, 0.15)</color>
     <statBases>
       <WorkToBuild>480</WorkToBuild>
 	  <Flammability>0</Flammability>
@@ -36,7 +36,7 @@
     <renderPrecedence>249</renderPrecedence>
     <description>Polished primitive component floor. It not so pretty, but the smooth surface gets a little bonus to cleanliness.</description>
     <texturePath>Terrain/Surfaces/PavedTile</texturePath>
-    <color>(0.8, 0.74, 0.38)</color>
+    <color>(0.85, 0.64, 0.48)</color>
     <statBases>
       <WorkToBuild>480</WorkToBuild>
 	  <Flammability>0</Flammability>
