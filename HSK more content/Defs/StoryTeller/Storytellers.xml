@@ -249,9 +249,9 @@
 				<allowedTargetTags>
 					<li>Map_PlayerHome</li>
 				</allowedTargetTags>
-				<minDaysPassed>0.3</minDaysPassed>
-				<mtbDays>0.3</mtbDays>
-				<maxThreatBigIntervalDays>7</maxThreatBigIntervalDays>
+				<minDaysPassed>0.39</minDaysPassed>
+				<mtbDays>0.33</mtbDays>
+				<maxThreatBigIntervalDays>8</maxThreatBigIntervalDays>
 				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
 				<randomPointsFactorRange>0.5~2</randomPointsFactorRange>
 				<skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
@@ -381,3 +381,4 @@
 	</StorytellerDef>
 
 </Defs>
+
