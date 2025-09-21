@@ -933,10 +933,7 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<techLevel>Archotech</techLevel>
         <weaponTags>
-            <li>ASN3</li>
-            <li>AdvancedGun</li>
 			<li>IgufSniper</li>
-            <li>Futuristic</li>
             <li>CE_AI_Rifle</li>
         </weaponTags>
         <thingCategories>
