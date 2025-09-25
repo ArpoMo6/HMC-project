@@ -248,7 +248,7 @@
 	<HMC_Iguf_MagShotgun.label>Sclopetum magneticum fragmentorum</HMC_Iguf_MagShotgun.label>
 	<HMC_Iguf_MagShotgun.description>Оружие предтеч. Выполняет ту же тактическую роль, что и традиционный дробовик, но с большим уроном за счет сильно повышенной скорости снарядов. Использует специальные боеприпасы, которые рассыпаются в процессе стрельбы на множество маленьких осколков.\n\nИспользует архотехнологичные компоненты, поэтому воспроизвести такое оружие практически невозможно.</HMC_Iguf_MagShotgun.description>
 
-	<HMC_Iguf_MagMarksmanRifle.label>Sclopetum magneticum sagittarium</HMC_Iguf_MagMarksmanRifle.label>
-	<HMC_Iguf_MagMarksmanRifle.description>Оружие предтеч. Необыкновенная высокоточная марксманская винтовка, способная пробить практически любую броню.\n\nИспользует архотехнологичные компоненты, поэтому воспроизвести такое оружие практически невозможно.</HMC_Iguf_MagMarksmanRifle.description>
+	<Arm6_Iguf_MagMarksmanRifle.label>Sclopetum magneticum sagittarium</Arm6_Iguf_MagMarksmanRifle.label>
+	<Arm6_Iguf_MagMarksmanRifle.description>Оружие предтеч. Необыкновенная высокоточная марксманская винтовка, способная пробить практически любую броню.\n\nИспользует архотехнологичные компоненты, поэтому воспроизвести такое оружие практически невозможно.</Arm6_Iguf_MagMarksmanRifle.description>
 
 </LanguageData>
