@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- ========== Modify bleed rates (reduced by around 10%) ========== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Torso" or defName="Shoulder" or defName="Arm" or defName="Hand" or defName="Waist"]/bleedRate</xpath>
+    <value>
+      <bleedRate>1.4</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Brain" or defName="Eye" or defName="Leg" or defName="Foot"]/bleedRate</xpath>
+    <value>
+      <bleedRate>1.4</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Neck"]/bleedRate</xpath>
+    <value>
+      <bleedRate>5.4</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Heart"]/bleedRate</xpath>
+    <value>
+      <bleedRate>17</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Lung"]/bleedRate</xpath>
+    <value>
+      <bleedRate>9.8</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Kidney"]/bleedRate</xpath>
+    <value>
+      <bleedRate>6.1</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Liver"]/bleedRate</xpath>
+    <value>
+      <bleedRate>13.3</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Stomach"]/bleedRate</xpath>
+    <value>
+      <bleedRate>4.1</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="Body" or defName="InsectHead" or defName="SnakeBody" or defName="SnakeHead" or defName="SnakeMouth" or defName="InsectNostril" or defName="InsectMouth" or defName="Jowl" or defName="Trunk" or defName="Hump" or defName="InsectLeg" or defName="Paw"]/bleedRate</xpath>
+    <value>
+      <bleedRate>1.4</bleedRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BodyPartDef[defName="InsectHeart"]/bleedRate</xpath>
+    <value>
+      <bleedRate>17</bleedRate>
+    </value>
+  </Operation>
+
+</Patch>

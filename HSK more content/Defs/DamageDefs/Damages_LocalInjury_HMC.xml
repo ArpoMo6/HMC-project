@@ -29,4 +29,11 @@
 			</li>
 		</modExtensions>
 	</DamageDef>
+	
+	<DamageDef ParentName="Bullet">
+		<defName>BulletHP_HMC</defName>
+		<label>bullet</label>
+		<hediff>GunshotHP_HMC</hediff>
+	</DamageDef>
+
 </Defs>
