@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_SculptureBase">
+		<defName>Strong_leader_HMC</defName>
+		<label>strong leader sculpture</label>
+		<uiIconPath>Things/Building/Art/strongleader</uiIconPath>
+		<description>This stunning statue of a strong leader and a tough manager will be a great motivator for any colony.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Art/strongleader</texPath>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Beauty>70</Beauty>
+			<WorkToMake>36000</WorkToMake>
+			<Bulk>80</Bulk>
+			<Mass>50</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">48</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>170</costStuffCount>
+		<recipeMaker>
+			<researchPrerequisite>Art_C1</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>
