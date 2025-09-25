@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef ParentName="GunshotBaseHMC">
+		<defName>GunshotHP_HMC</defName>
+		<injuryProps>
+		  <painPerSeverity>0.043</painPerSeverity>
+		</injuryProps>
+	</HediffDef>
+
+</Defs>

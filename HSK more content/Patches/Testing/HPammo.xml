@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Patch>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[
+		defName="Bullet_45ACP_HP" or 
+		defName="Bullet_9x19mmPara_HP" or
+		defName="Bullet_303British_HP" or
+		defName="Bullet_556x45mmNATO_HP" or
+		defName="Bullet_762x39mmSoviet_HP" or
+		defName="Bullet_762x51mmNATO_HP" or
+		defName="Bullet_762x25mmTT_HP" or
+		defName="Bullet_338LM_HP" or
+		defName="Bullet_408CT_HP" or
+		defName="Bullet_473x33mmCaseless_HP" or
+		defName="Bullet_545x39mmSoviet_HP" or
+		defName="Bullet_762x54mmR_HP" or
+		defName="Bullet_700NE_HP"
+		]/projectile</xpath>
+		<value>
+			<damageDef>BulletHP_HMC</damageDef>
+		</value>
+	</Operation>
+</Patch>
