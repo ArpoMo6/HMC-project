@@ -55,8 +55,8 @@
 			<max>1.33</max>
 		</gearHealthRange>
 		<apparelMoney>
-			<min>1800</min>
-			<max>2400</max>
+			<min>2000</min>
+			<max>2600</max>
 		</apparelMoney>
 		<skills>
 			<li>
@@ -119,8 +119,8 @@
 		<combatPower>175</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<apparelMoney>
-			<min>1800</min>
-			<max>2400</max>
+			<min>2000</min>
+			<max>2800</max>
 		</apparelMoney>
 		<skills>
 			<li>
@@ -185,8 +185,8 @@
 			</li>
 		</skills>
 		<apparelMoney>
-			<min>1800</min>
-			<max>2400</max>
+			<min>2000</min>
+			<max>2800</max>
 		</apparelMoney>
 		<apparelRequired>
 			<li>MedievalTimes_Shirt_Tunic</li>
@@ -241,8 +241,8 @@
 			</li>
 		</skills>
 		<apparelMoney>
-			<min>2000</min>
-			<max>3000</max>
+			<min>2300</min>
+			<max>3400</max>
 		</apparelMoney>
 		<apparelRequired>
 			<li>MedievalTimes_Shirt_Tunic</li>
@@ -317,8 +317,8 @@
 			</li>
 		</skills>
 		<apparelMoney>
-			<min>2400</min>
-			<max>4800</max>
+			<min>2800</min>
+			<max>5200</max>
 		</apparelMoney>
 		<apparelRequired>
 			<li>HMC_HighTechNorbal_Bascinet</li>
