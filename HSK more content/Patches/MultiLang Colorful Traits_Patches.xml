@@ -65,6 +65,7 @@
 					<li>CatInHead</li>
 					<li>HMC_NonWellEndowed</li>
 					<li>HMC_Conservatism#-1</li>
+					<li>HMC_Somnolentia</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -74,6 +75,7 @@
 					<li>HMC_3Dinsanity</li>
 					<li>HMC_Lucks#-1</li>
 					<li>Neurotic#3</li>
+					<li>HMC_Hysterical</li>
 				</value>
 			</li>
 		  </operations>
