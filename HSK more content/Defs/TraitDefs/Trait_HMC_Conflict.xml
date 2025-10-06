@@ -561,7 +561,7 @@
     <degreeDatas>
       <li>
         <label>somnolentia</label>
-        <description>{PAWN_nameDef} needs plenty of sleep. Whether {PAWN_pronoun} sleeps on the bed or on the ground, {PAWN_nameDef} will get his "five more minutes" of sleep.</description>
+        <description>{PAWN_nameDef} needs plenty of sleep. Whether {PAWN_pronoun} sleeps on the bed or on the ground, {PAWN_nameDef} will get his five more minutes of sleep.</description>
         <statOffsets>
           <RestRateMultiplier>-0.25</RestRateMultiplier>
         </statOffsets>
