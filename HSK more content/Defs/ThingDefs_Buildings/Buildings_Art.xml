@@ -4,7 +4,7 @@
 	<ThingDef ParentName="SK_SculptureBase">
 		<defName>Strong_leader_HMC</defName>
 		<label>strong leader sculpture</label>
-		<uiIconPath>Things/Building/Art/strongleader</uiIconPath>
+		<uiIconPath>Things/Building/Art/strongleaderIcon</uiIconPath>
 		<description>This stunning statue of a strong leader and a tough manager will be a great motivator for any colony.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>

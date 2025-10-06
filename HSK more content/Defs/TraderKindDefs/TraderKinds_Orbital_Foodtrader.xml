@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>ZaurTrader_HMC</defName>
+		<label>liquor seller Zaur</label>
+		<commonality>0.25</commonality>
+		<orbital>true</orbital>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>8500~10000</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Alcohol</categoryDef>
+				<thingDefCountRange>15~25</thingDefCountRange>
+				<price>Expensive</price>
+				<totalPriceRange>700~1200</totalPriceRange>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>
