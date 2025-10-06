@@ -31,6 +31,12 @@
 					<li>CE_OneHandedWeapon</li>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+				<value>
+					<li>IgufMG</li>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+		 <HMC_Teljor>0.01</HMC_Teljor>
+		 <HMC_Lizardoggo>0.01</HMC_Lizardoggo>
+		 <HMC_HightechNorbal>0.01</HMC_HightechNorbal>
+		 <HMC_Homunculus>0.01</HMC_Homunculus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="PirateBandBase"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+		 <HMC_Teljor>0.01</HMC_Teljor>
+		 <HMC_Lizardoggo>0.01</HMC_Lizardoggo>
+		 <HMC_HightechNorbal>0.01</HMC_HightechNorbal>
+		 <HMC_Homunculus>0.01</HMC_Homunculus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="AncientsBase"]</xpath>
+		<value>
+                 <xenotypeSet>
+                  <xenotypeChances>
+					<HMC_Teljor>0.02</HMC_Teljor>
+					<HMC_Lizardoggo>0.02</HMC_Lizardoggo>
+					 <HMC_HightechNorbal>0.01</HMC_HightechNorbal>
+					 <HMC_Homunculus>0.01</HMC_Homunculus>
+                  </xenotypeChances>
+                 </xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[@Name="SpaceRefugeeBase" or defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+		 <HMC_Teljor>0.02</HMC_Teljor>
+		 <HMC_Lizardoggo>0.02</HMC_Lizardoggo>
+		 <HMC_HightechNorbal>0.01</HMC_HightechNorbal>
+		 <HMC_Homunculus>0.01</HMC_Homunculus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="Beggars" or defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
+					<value>
+					 <HMC_Teljor>0.03</HMC_Teljor>
+					 <HMC_Lizardoggo>0.02</HMC_Lizardoggo>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

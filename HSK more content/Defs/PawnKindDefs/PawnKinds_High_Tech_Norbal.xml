@@ -76,6 +76,7 @@
 			<li>BionicHand</li>
 			<li>BionicArm</li>
 			<li>BionicLiver</li>
+			<li>BionicNeck</li>
 		</techHediffsRequired>
 	</PawnKindDef>
 
@@ -133,6 +134,7 @@
 			<li>BionicEye</li>
 			<li>BionicKidney</li>
 			<li>BionicHeart</li>
+			<li>BionicNeck</li>
 		</techHediffsRequired>
 	</PawnKindDef>
 
@@ -201,6 +203,7 @@
 			<li>BionicEye</li>
 			<li>BionicLung</li>
 			<li>BionicStomach</li>
+			<li>BionicNeck</li>
 		</techHediffsRequired>
 	</PawnKindDef>
 
@@ -245,6 +248,7 @@
 			<li>BionicJaw</li>
 			<li>ArchotechArm</li>
 			<li>BionicLiver</li>
+			<li>BionicNeck</li>
 		</techHediffsRequired>
 		<initialWillRange>6~9</initialWillRange>
 		<initialResistanceRange>39~60</initialResistanceRange>
@@ -294,6 +298,7 @@
 			<li>GTLiver</li>
 			<li>CoagulatorRib</li>
 			<li>PainkillerRib</li>
+			<li>GTNeck</li>
 		</techHediffsRequired>
 		<initialWillRange>4~5</initialWillRange>
 		<initialResistanceRange>25~39</initialResistanceRange>
@@ -351,6 +356,7 @@
 			<li>BionicKidney</li>
 			<li>BionicHeart</li>
 			<li>Painstopper</li>
+			<li>BionicNeck</li>
 		</techHediffsRequired>
 		<initialWillRange>5~6</initialWillRange>
 		<initialResistanceRange>29~45</initialResistanceRange>

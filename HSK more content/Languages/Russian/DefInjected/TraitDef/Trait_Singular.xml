@@ -115,4 +115,10 @@
   <HMC_impatient.degreeDatas.0.label>торопливость</HMC_impatient.degreeDatas.0.label>
   <HMC_impatient.degreeDatas.0.description>{PAWN_nameDef} {PAWN_gender ? уверен : уверена}, что все должно происходить быстрее, еще быстрее, немедленно!! Остальные факторы происходящего, впрочем, мало {PAWN_gender ? его : её} интересуют.</HMC_impatient.degreeDatas.0.description>
 
+  <HMC_Hysterical.degreeDatas.0.label>истеричность</HMC_Hysterical.degreeDatas.0.label>
+  <HMC_Hysterical.degreeDatas.0.description>{PAWN_nameDef} время от времени теряет контроль над эмоциями.</HMC_Hysterical.degreeDatas.0.description>
+
+  <HMC_Somnolentia.degreeDatas.0.label>соня</HMC_Somnolentia.degreeDatas.0.label>
+  <HMC_Somnolentia.degreeDatas.0.description>{PAWN_nameDef} нуждается в большом количестве времени для сна. Независимо от того, спит {PAWN_pronoun} на кровати или на земле, {PAWN_nameDef} свои "ещё пять минут" {PAWN_gender ? он : она} доспит.</HMC_Somnolentia.degreeDatas.0.description>
+
 </LanguageData>

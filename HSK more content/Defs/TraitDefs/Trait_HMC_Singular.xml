@@ -44,7 +44,7 @@
 
 	<TraitDef>
 		<defName>HMC_GrassSnake</defName>
-		<commonality>0.8</commonality>
+		<commonality>0.4</commonality>
 		<degreeDatas>
 			<li>
 				<label>grass snake</label>

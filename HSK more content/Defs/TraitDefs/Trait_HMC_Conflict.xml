@@ -454,6 +454,7 @@
 				</statOffsets>
 				<statFactors>
 					<IncomingDamageFactor>0.97</IncomingDamageFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.9</CertaintyLossFactor>
 				</statFactors>
 				<socialFightChanceFactor>1.15</socialFightChanceFactor>
 			</li>
@@ -511,5 +512,64 @@
 			<li>Slow</li>
 		</conflictingTraits>
 	</TraitDef>
+
+	<TraitDef>
+		<defName>HMC_Hysterical</defName>
+		<commonality>0.25</commonality>
+		<degreeDatas>
+			<li>
+				<label>hysterical</label>
+				<description>{PAWN_nameDef} loses control of his emotions from time to time.</description>
+                <marketValueFactorOffset>0.5</marketValueFactorOffset>
+				<randomMentalState>Tantrum</randomMentalState>
+                <randomMentalStateMtbDaysMoodCurve>
+                    <points>
+                        <li>(0, 50)</li>
+                    </points>
+                </randomMentalStateMtbDaysMoodCurve>
+				<statOffsets>
+					<NegotiationAbility>-0.1</NegotiationAbility>
+					<SocialImpact>0.1</SocialImpact>
+				</statOffsets>
+				<statFactors>
+				  <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">2</CertaintyLossFactor>
+				  <SocialIdeoSpreadFrequencyFactor MayRequire="Ludeon.RimWorld.Ideology">2</SocialIdeoSpreadFrequencyFactor>
+				</statFactors>
+				<socialFightChanceFactor>2</socialFightChanceFactor>
+				<skillGains>
+					<Artistic>2</Artistic>
+					<Social>-2</Social>
+				</skillGains>
+				<allowedMeditationFocusTypes>
+					<li>Artistic</li>
+				</allowedMeditationFocusTypes>
+			</li>
+		</degreeDatas>
+		<requiredWorkTags>
+			<li>Artistic</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>Neurotic</li>
+			<li>NaturalMood</li>
+			<li>Nerves</li>
+			<li>HMC_analyst</li>
+		</conflictingTraits>
+	</TraitDef>
+
+  <TraitDef>
+    <defName>HMC_Somnolentia</defName>
+    <degreeDatas>
+      <li>
+        <label>somnolentia</label>
+        <description>{PAWN_nameDef} needs plenty of sleep. Whether {PAWN_pronoun} sleeps on the bed or on the ground, {PAWN_nameDef} will get his five more minutes of sleep.</description>
+        <statOffsets>
+          <RestRateMultiplier>-0.25</RestRateMultiplier>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+		<li>QuickSleeper</li>
+	</conflictingTraits>
+  </TraitDef>
 
 </Defs>
