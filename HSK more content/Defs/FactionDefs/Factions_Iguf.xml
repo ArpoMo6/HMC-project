@@ -25,6 +25,7 @@
 				<li>(14000, 0.3)</li>
 				<li>(15250, 0.6)</li>
 				<li>(16500, 0.9)</li>
+				<li>(18000, 1.0)</li>
 				<li>(20000, 1.15)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
