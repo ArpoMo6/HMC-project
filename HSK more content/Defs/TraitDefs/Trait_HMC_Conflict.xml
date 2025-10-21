@@ -252,6 +252,7 @@
 		</requiredWorkTags>
 		<conflictingTraits>
 			<li>Tough</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 

@@ -39,6 +39,7 @@
 			<li>ChaoticGenius</li>			
 			<li>SuperCCleaner</li>
 			<li>HMC_SeekerOfDeepSense</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -160,7 +161,8 @@
 		<conflictingTraits>
 			<li>Aptitude</li>
 			<li>Industriousness</li>
-			<li>Perfectionist</li>			
+			<li>Perfectionist</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -208,6 +210,9 @@
 		<requiredWorkTags>
 			<li>Violent</li>
 		</requiredWorkTags>
+		<conflictingTraits>
+			<li>HMC_pacifism</li>
+		</conflictingTraits>
 	</TraitDef>
 
 	<TraitDef>
@@ -305,6 +310,7 @@
 			<li>Reaver</li>	
 			<li>Naive</li>
 			<li>SuperCCleaner</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -340,6 +346,7 @@
 		<conflictingTraits>
 			<li>SuperCCleaner</li>
 			<li>Morbid</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -379,6 +386,7 @@
 			<li>HMC_Architect</li>
 			<li>SuperCCleaner</li>
 			<li>HMC_impatient</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -401,6 +409,7 @@
 		<conflictingTraits>
 			<li>Pyrophobia</li>
 			<li>Pyromaniac</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -483,6 +492,7 @@
 			<li>HMC_Architect</li>
 			<li>Radiomechanician</li>
 			<li>HMC_SeekerOfDeepSense</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -674,6 +684,7 @@
 			<li>Inventor</li>
 			<li>DIY</li>
 			<li>HMC_IronFist</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -702,6 +713,9 @@
 			<li>ManualDumb</li>
 			<li>Violent</li>
 		</requiredWorkTags>
+		<conflictingTraits>
+			<li>HMC_pacifism</li>
+		</conflictingTraits>
 	</TraitDef>
 
 	<TraitDef>
@@ -754,6 +768,22 @@
 		  <li>CloseCombatSpecialist</li>
 		  <li>Snipermasterrk</li>
 		  <li>HMC_IronFist</li>
+		  <li>Dodging</li>
+		  <li>Nimble</li>
+		  <li>Strong</li>
+		  <li>Weak</li>
+		  <li>ShootingAccuracy</li>
+		  <li>HMC_artillerist</li>
+		  <li>HMC_ambidextrous</li>
+		  <li>HMC_jack_of_all_trades</li>
+		  <li>HMC_IncombustibleEmber</li>
+		  <li>CatInHead</li>
+		  <li>BlueNivaWorker</li>
+		  <li>Efficaciousness</li>
+		  <li>HMC_Glasspawnon</li>
+		  <li>Reaver</li>
+		  <li>Butcher</li>
+		  <li>Pyromaniac</li>
 		</conflictingTraits>
 	</TraitDef>
 
@@ -779,6 +809,7 @@
 		</requiredWorkTags>
 		<conflictingTraits>
 			<li>HMC_3Dinsanity</li>
+			<li>HMC_pacifism</li>
 		</conflictingTraits>
 	</TraitDef>
 

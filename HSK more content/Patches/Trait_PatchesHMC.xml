@@ -40,6 +40,7 @@
 			<li>Huntman</li>
 			<li>CloseCombatSpecialist</li>
 			<li>Snipermasterrk</li>
+			<li>HMC_pacifism</li>
 		</value>
 	</Operation>
 
@@ -276,6 +277,7 @@
 			<li>Huntman</li>
 			<li>CloseCombatSpecialist</li>
 			<li>Snipermasterrk</li>
+			<li>HMC_pacifism</li>
 		</value>
 	</Operation>
 
@@ -301,6 +303,7 @@
 			<li>Huntman</li>
 			<li>CloseCombatSpecialist</li>
 			<li>Snipermasterrk</li>
+			<li>HMC_pacifism</li>
 		</value>
 	</Operation>
 	
@@ -350,6 +353,7 @@
 		<value>
 			<li>Radiomechanician</li>
 			<li>HMC_SeekerOfDeepSense</li>
+			<li>HMC_pacifism</li>
 		</value>
 	</Operation>
 
@@ -514,7 +518,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/TraitDef[defName = "Pyromaniac"]/conflictingTraits</xpath>
 		<value>
-			<li>HMC_IncombustibleEmber</li>			
+			<li>HMC_IncombustibleEmber</li>
+			<li>HMC_pacifism</li>
 		</value>
 	</Operation>
 
