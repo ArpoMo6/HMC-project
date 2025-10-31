@@ -84,6 +84,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<thingCategories>
 			<li>HeavyFullArmorCat</li>
@@ -167,6 +168,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<thingCategories>
 			<li>HeaddressCat</li>
@@ -255,6 +257,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<thingCategories>
 			<li>HeaddressCat</li>

@@ -1,0 +1,12 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Gun_M79GL" or defName="Gun_MilkorMGL" or defName="Gun_IncendiaryLauncher" or defName="Gun_XM25_HMC"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/onlyManualCast</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
