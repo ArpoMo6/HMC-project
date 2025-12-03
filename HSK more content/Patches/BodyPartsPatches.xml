@@ -40,6 +40,7 @@
 				<value>
 					<li>InstallIgufFirmware</li>
 					<li>RemoveIgufFirmware</li>
+					<li>InstallHMC_ArchotechCombatArm</li>
 				</value>
 			</li>
 		</operations>
