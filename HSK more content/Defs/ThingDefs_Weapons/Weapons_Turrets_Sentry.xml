@@ -252,7 +252,7 @@
 				<minRange>2.5</minRange>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
-				<soundCast>Shot_M24SR</soundCast>
+				<soundCast>Shot_SV98SR</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
