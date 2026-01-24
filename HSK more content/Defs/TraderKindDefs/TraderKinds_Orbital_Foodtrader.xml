@@ -4,7 +4,7 @@
 	<TraderKindDef>
 		<defName>ZaurTrader_HMC</defName>
 		<label>liquor seller Zaur</label>
-		<commonality>0.25</commonality>
+		<commonality>0.15</commonality>
 		<orbital>true</orbital>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">

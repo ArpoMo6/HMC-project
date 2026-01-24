@@ -45,7 +45,7 @@
 
 	<TraitDef>
 		<defName>HMC_GrassSnake</defName>
-		<commonality>0.4</commonality>
+		<commonality>0.2</commonality>
 		<degreeDatas>
 			<li>
 				<label>grass snake</label>
@@ -154,7 +154,16 @@
 				<label>efficaciousness</label>
 				<description>{PAWN_nameDef} - perfection itself.</description>
 				<statOffsets>
-					<WorkSpeedGlobal>0.40</WorkSpeedGlobal>
+					<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+					<MoveSpeed>0.1</MoveSpeed>
+					<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+					<GlobalLearningFactor>0.1</GlobalLearningFactor>
+					<CarryBulk>10</CarryBulk>
+					<CarryWeight>10</CarryWeight>
+					<CarryingCapacity>10</CarryingCapacity>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+					<Suppressability>-0.1</Suppressability>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -415,7 +424,7 @@
 
 	<TraitDef>
 		<defName>HMC_SeekerOfDeepSense</defName>
-		<commonality>0.5</commonality>
+		<commonality>0.45</commonality>
 		<degreeDatas>
 			<li>
 				<label>seeker of the deep sense</label>
