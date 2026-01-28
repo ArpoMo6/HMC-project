@@ -21,7 +21,7 @@
   
   <!-- EN: conservatism -->
   <HMC_Conservatism.degreeDatas.conservatism.label>консерватизм</HMC_Conservatism.degreeDatas.conservatism.label>
-  <HMC_Conservatism.degreeDatas.conservatism.description>"Раньше было лучше! Не нужна нам эта консоль связи, голубиная почта надежднее! Нынешние норбалы совсем не те, исхудали. А вот в наше время-то..." – {PAWN_nameDef} не доверяет любым проявлениям новизны, предпочитая старые и проверенные временем вещи, не забывая поделиться при этом своим мнением с остальными.</HMC_Conservatism.degreeDatas.conservatism.description>
+  <HMC_Conservatism.degreeDatas.conservatism.description>Раньше было лучше! Не нужна нам эта консоль связи, голубиная почта надежднее! Нынешние норбалы совсем не те, исхудали. А вот в наше время-то... – {PAWN_nameDef} не доверяет любым проявлениям новизны, предпочитая старые и проверенные временем вещи, не забывая поделиться при этом своим мнением с остальными.</HMC_Conservatism.degreeDatas.conservatism.description>
   <!-- EN: cynicism -->
   <HMC_Conservatism.degreeDatas.cynicism.label>цинизм</HMC_Conservatism.degreeDatas.cynicism.label>
   <HMC_Conservatism.degreeDatas.cynicism.description>{PAWN_nameDef} пренебрежительно относится к любым догматическим проявлениям и {PAWN_possessive} совершенно не заботит мировоззрение окружающих. {PAWN_gender ? Он : Она} без зазрения совести сменит свое мнение на доминирующее в социуме ради достижения своих целей.</HMC_Conservatism.degreeDatas.cynicism.description>
