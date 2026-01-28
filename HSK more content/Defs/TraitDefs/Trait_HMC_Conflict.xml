@@ -373,7 +373,7 @@
 		<degreeDatas>
 		  <li>
 			<label>conservatism</label>
-			<description>“It was better before! We don’t need this communications console, pigeon mail is more reliable! Today’s Norbals are not at all the same, they are emaciated. But in our time...” – {PAWN_nameDef} does not trust any manifestations of novelty, preferring the old and proven time things, not forgetting to share your opinion with others.</description>
+			<description>It was better before! We don’t need this communications console, pigeon mail is more reliable! Today’s Norbals are not at all the same, they are emaciated. But in our time... – {PAWN_nameDef} does not trust any manifestations of novelty, preferring the old and proven time things, not forgetting to share your opinion with others.</description>
 			<degree>-1</degree>
 			<socialFightChanceFactor>1.25</socialFightChanceFactor>
 			<statOffsets>
