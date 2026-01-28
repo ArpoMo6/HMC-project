@@ -196,7 +196,7 @@
 			<SightsEfficiency>1.5</SightsEfficiency>
 			<ShotSpread>0.045</ShotSpread>
 			<SwayFactor>1</SwayFactor>
-			<RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<verbs>
@@ -204,7 +204,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
-				<warmupTime>0.7</warmupTime>
+				<warmupTime>0.95</warmupTime>
 				<range>44</range>
 				<minRange>3.5</minRange>
 				<soundCast>Shot_SniperRifle</soundCast>
@@ -238,7 +238,7 @@
 			<SightsEfficiency>1.65</SightsEfficiency>
 			<ShotSpread>0.03</ShotSpread>
 			<SwayFactor>1.1</SwayFactor>
-			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<verbs>
@@ -247,7 +247,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_338LM_FMJ</defaultProjectile>
-				<warmupTime>0.95</warmupTime>
+				<warmupTime>1.2</warmupTime>
 				<range>48</range>
 				<minRange>2.5</minRange>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -334,7 +334,7 @@
 			<SightsEfficiency>2</SightsEfficiency>
 			<ShotSpread>0.03</ShotSpread>
 			<SwayFactor>0.8</SwayFactor>
-			<RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<verbs>
@@ -342,7 +342,7 @@
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_408CT_FMJ</defaultProjectile>
-				<warmupTime>1.25</warmupTime>
+				<warmupTime>1.45</warmupTime>
 				<range>59</range>
 				<minRange>4</minRange>
 				<soundCast>Shot_SVLK14C</soundCast>
@@ -543,7 +543,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>50</magazineSize>
+				<magazineSize>250</magazineSize>
 				<reloadTime>4.8</reloadTime>
 				<ammoSet>AmmoSet_PlasmaBolt</ammoSet>
 			</li>

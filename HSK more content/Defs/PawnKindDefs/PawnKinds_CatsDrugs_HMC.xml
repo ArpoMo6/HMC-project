@@ -26,8 +26,8 @@
 		<minGenerationAge>20</minGenerationAge>
 		<maxGenerationAge>50</maxGenerationAge>
 		<gearHealthRange>
-			<min>0.7</min>
-			<max>1.2</max>
+			<min>0.8</min>
+			<max>1.3</max>
 		</gearHealthRange>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>
@@ -58,15 +58,15 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>6~8</range>
+				<range>3~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>6~8</range>
+				<range>3~8</range>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<range>6~8</range>
+				<range>5~8</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -98,7 +98,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>9~12</range>
+				<range>7~9</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -137,11 +137,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~10</range>
+				<range>6~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>6~11</range>
+				<range>5~10</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -182,7 +182,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~9</range>
+				<range>6~7</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -255,11 +255,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>10~20</range>
+				<range>8~16</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~16</range>
+				<range>7~14</range>
 			</li>
 			<li>
 				<skill>Social</skill>

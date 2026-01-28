@@ -13,6 +13,9 @@
 						<race>ChjAndroid</race>
 					</value>
 				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="ChjAndroidLike"]/stages/li[1]/capMods/li[2]</xpath>
+				</li>
 			</operations>
 		</match>
 	</Operation>
