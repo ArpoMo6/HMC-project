@@ -543,7 +543,7 @@
 		</verbs>
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
-				<magazineSize>50</magazineSize>
+				<magazineSize>250</magazineSize>
 				<reloadTime>4.8</reloadTime>
 				<ammoSet>AmmoSet_PlasmaBolt</ammoSet>
 			</li>
