@@ -233,7 +233,7 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>9~11</range>
+				<range>8~10</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -309,11 +309,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>11~14</range>
+				<range>9~11</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>10~12</range>
+				<range>9~11</range>
 			</li>
 		</skills>
 		<apparelMoney>
