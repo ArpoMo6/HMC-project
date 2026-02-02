@@ -7,4 +7,19 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Honey"]/tradeTags</xpath>
+		<value>
+			<li>ExoticMisc</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Honey"]</xpath>
+		<value>
+			<generateCommonality>0.5</generateCommonality>
+			<thingSetMakerTags><li>RewardStandardLowFreq</li><li>RewardStandardCore</li></thingSetMakerTags>
+		</value>
+	</Operation>
+
 </Patch>
