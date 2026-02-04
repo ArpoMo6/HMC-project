@@ -87,4 +87,24 @@
     </symbolPack>
   </GeneDef>
 
+  <GeneDef>
+    <defName>HMC_ReversedBiologicalEntropy</defName>
+    <label>reversed biological entropy</label>
+    <labelShortAdj>rbe</labelShortAdj>
+    <description>The carrier of this gene has a stable metabolism of hemogen, which allows it to partially or completely neutralize its biological entropy, or even produce hemogen, however, the carrier's body does not accept foreign hemogen well.</description>
+    <resourceLabel>hemogen</resourceLabel>
+    <geneClass>Gene_HemogenDrain</geneClass>
+    <iconPath>UI/Icons/Genes/Gene_RBE</iconPath>
+    <prerequisite>Hemogenic</prerequisite>
+    <resourceLossPerDay>-0.03</resourceLossPerDay>
+    <displayCategory>Hemogen</displayCategory>
+    <displayOrderInCategory>-2</displayOrderInCategory>
+    <minAgeActive>3</minAgeActive>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+	<statFactors>
+		<HemogenGainFactor>0.1</HemogenGainFactor>
+	</statFactors>
+  </GeneDef>
+
 </Defs>
