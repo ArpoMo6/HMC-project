@@ -1,0 +1,26 @@
+﻿<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		  <VSEWW.RewardDef MayRequire="Ludeon.Rimworld.Biotech">
+			<defName>HMC_TeljorJoins</defName>
+			<texPath>UI/Rewards/RewardPawnJoins_Good</texPath>
+			<label>Teljor join</label>
+			<description>Teljor knight with hand cannon join</description>
+			<category>Good</category>
+			<type>Combat</type>
+			<pawns>
+			  <li>
+				<pawnkind>HMC_KotRB_Cannoner</pawnkind>
+				<randomXenotypeFrom>
+					<li>HMC_Teljor</li>
+				</randomXenotypeFrom>
+				<count>1</count>
+			  </li>
+			</pawns>
+		  </VSEWW.RewardDef>
+		</value>
+	</Operation>
+
+</Patch>

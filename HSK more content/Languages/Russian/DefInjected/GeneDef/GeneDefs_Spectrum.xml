@@ -89,5 +89,10 @@
   <HMC_LizardHead.label>ящерова голова</HMC_LizardHead.label>
   <HMC_LizardHead.description>У носителей этого гена голова ящера, явно готового сражаться против руса.</HMC_LizardHead.description>
   <HMC_LizardHead.labelShortAdj>ящер</HMC_LizardHead.labelShortAdj>
-
+  
+  <HMC_ReversedBiologicalEntropy.label>гемогенная разборчивость</HMC_ReversedBiologicalEntropy.label>
+  <HMC_ReversedBiologicalEntropy.description>Носители этого гена обладают устойчивым метаболизмом гемогена, который позволяет нивелировать его естественный распад частично, полностью или даже вырабатывать его, однако, организм носителей плохо воспринимает чужой гемоген.</HMC_ReversedBiologicalEntropy.description>
+  <HMC_ReversedBiologicalEntropy.labelShortAdj>геморазборчивость</HMC_ReversedBiologicalEntropy.labelShortAdj>
+  <HMC_ReversedBiologicalEntropy.resourceLabel>гемоген</HMC_ReversedBiologicalEntropy.resourceLabel>
+  
 </LanguageData>
