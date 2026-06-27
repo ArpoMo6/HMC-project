@@ -7,7 +7,7 @@
 		<uiIconPath>Things/Building/Art/strongleaderIcon</uiIconPath>
 		<description>This stunning statue of a strong leader and a tough manager will be a great motivator for any colony.</description>
 		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Building/Art/strongleader</texPath>
 			<drawSize>(2.5,2.5)</drawSize>
 		</graphicData>
