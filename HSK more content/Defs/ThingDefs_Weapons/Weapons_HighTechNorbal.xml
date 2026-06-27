@@ -53,7 +53,13 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>19</power>
+				<power>12</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>12</amount>
+					</li>
+				</extraMeleeDamages>
 				<cooldownTime>1.8</cooldownTime>
 				<!-- <chanceFactor>1.33</chanceFactor> -->
 				<armorPenetrationBlunt>28</armorPenetrationBlunt>
@@ -233,9 +239,15 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>18</power>
+				<power>11</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>11</amount>
+					</li>
+				</extraMeleeDamages>
 				<cooldownTime>2.2</cooldownTime>
-				<chanceFactor>0.6</chanceFactor>
+				<chanceFactor>1.25</chanceFactor>
 				<armorPenetrationSharp>14</armorPenetrationSharp>
 				<armorPenetrationBlunt>22</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
@@ -394,11 +406,11 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>16</power>
+				<power>15</power>
 				<extraMeleeDamages>
 					<li>
 						<def>EMP</def>
-						<amount>16</amount>
+						<amount>17</amount>
 					</li>
 				</extraMeleeDamages>
 				<cooldownTime>2.0</cooldownTime>
