@@ -54,7 +54,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>19</power>
-				<cooldownTime>1.55</cooldownTime>
+				<cooldownTime>1.8</cooldownTime>
 				<!-- <chanceFactor>1.33</chanceFactor> -->
 				<armorPenetrationBlunt>28</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
