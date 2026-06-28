@@ -752,7 +752,7 @@
 
 	<TraitDef>
 		<defName>HMC_pacifism</defName>
-		<commonality>0.25</commonality>
+		<commonality>0.05</commonality>
 		<degreeDatas>
 			<li>
 				<label>pacifism</label>
