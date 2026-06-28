@@ -36,7 +36,6 @@
 					<li>HMC_Lucks#1</li>
 					<li>HMC_ambidextrous</li>
 					<li>HMC_temperate</li>
-					<li>HMC_pacifism</li>
 					<li>HMC_artillerist</li>
 				</value>
 			</li>
@@ -76,6 +75,7 @@
 					<li>HMC_Lucks#-1</li>
 					<li>Neurotic#3</li>
 					<li>HMC_Hysterical</li>
+					<li>HMC_pacifism</li>
 				</value>
 			</li>
 		  </operations>
