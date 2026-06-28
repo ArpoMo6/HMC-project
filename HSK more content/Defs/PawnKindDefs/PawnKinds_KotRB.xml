@@ -61,11 +61,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>7~9</range>
+				<range>6~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>6~8</range>
+				<range>5~7</range>
 			</li>
 		</skills>
 		<apparelRequired>
@@ -125,11 +125,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>7~9</range>
+				<range>6~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~10</range>
+				<range>7~9</range>
 			</li>
 		</skills>
 		<apparelRequired>
@@ -177,11 +177,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~10</range>
+				<range>7~9</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~10</range>
+				<range>7~9</range>
 			</li>
 		</skills>
 		<apparelMoney>
@@ -233,11 +233,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~10</range>
+				<range>7~9</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~10</range>
+				<range>7~9</range>
 			</li>
 		</skills>
 		<apparelMoney>
@@ -309,11 +309,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>9~11</range>
+				<range>8~10</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>9~11</range>
+				<range>8~10</range>
 			</li>
 		</skills>
 		<apparelMoney>

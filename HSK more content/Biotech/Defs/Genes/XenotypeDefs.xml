@@ -34,8 +34,8 @@
 		<li>Skin_SheerWhite</li>
 		<li>MinorDarkVision</li>
 		<li>ElongatedFingers</li>
-		<li>AptitudeAboveAverage_Shooting</li>
-		<li>AptitudeStrong_Melee</li>
+		<!-- <li>AptitudeAboveAverage_Shooting</li> -->
+		<!-- <li>AptitudeStrong_Melee</li> -->
 		<li>AptitudePoor_Construction</li>
 		<li>AptitudePoor_Mining</li>
 		<li>AptitudePoor_Cooking</li>
@@ -271,11 +271,11 @@
     <genes>
 		<li>Immunity_SuperStrong</li>
 		<li>WoundHealing_Fast</li>
-		<li>PsychicAbility_Deaf</li>
+		<li>PsychicAbility_Dull</li>
 		<li>MoveSpeed_Slow</li>
 		<li>MinTemp_LargeDecrease</li>
 		<li>GermResist_Strong</li>
-		<li>Aggression_Aggressive</li>
+		<!-- <li>Aggression_Aggressive</li> -->
 		<li>MeleeDamage_Strong</li>
 		<li>MeleePrecise</li>
 		<li>MeleeFencer</li>
@@ -298,8 +298,8 @@
 		<li>Learning_Slow</li>
 		<li>Nearsighted</li>
 		<li>VeryEfficientStomach</li>
-		<li>AptitudePoor_Shooting</li>
-		<li>AptitudeRemarkable_Melee</li>
+		<!-- <li>AptitudePoor_Shooting</li> -->
+		<!-- <li>AptitudeRemarkable_Melee</li> -->
 		<li>AptitudeStrong_Animals</li>
 		<li>AptitudePoor_Social</li>
     </genes>

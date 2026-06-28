@@ -66,15 +66,15 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~12</range>
+				<range>6~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~10</range>
+				<range>5~7</range>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<range>8~11</range>
+				<range>7~10</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -90,8 +90,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>6</min>
-					<max>8</max>
+					<min>7</min>
+					<max>9</max>
 				</primaryMagazineCount>
 				<sidearms>
 					<li>
@@ -129,11 +129,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~14</range>
+				<range>6~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~9</range>
+				<range>5~7</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -149,8 +149,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>4</min>
-					<max>6</max>
+					<min>5</min>
+					<max>7</max>
 				</primaryMagazineCount>
 			</li>
 		</modExtensions>
@@ -175,11 +175,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~17</range>
+				<range>7~9</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>7~9</range>
+				<range>5~7</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -195,8 +195,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>5</min>
-					<max>7</max>
+					<min>6</min>
+					<max>8</max>
 				</primaryMagazineCount>
 			</li>
 		</modExtensions>
@@ -221,11 +221,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>7~15</range>
+				<range>7~8</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~9</range>
+				<range>6~7</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -241,8 +241,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>5</min>
-					<max>7</max>
+					<min>6</min>
+					<max>8</max>
 				</primaryMagazineCount>
 			</li>
 		</modExtensions>
@@ -269,11 +269,11 @@
 		<skills>
 			<li>
 				<skill>Shooting</skill>
-				<range>9~18</range>
+				<range>8~9</range>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<range>8~17</range>
+				<range>7~8</range>
 			</li>
 		</skills>
 		<apparelTags>
@@ -293,8 +293,8 @@
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>
-					<min>5</min>
-					<max>9</max>
+					<min>6</min>
+					<max>10</max>
 				</primaryMagazineCount>
 			</li>
 		</modExtensions>

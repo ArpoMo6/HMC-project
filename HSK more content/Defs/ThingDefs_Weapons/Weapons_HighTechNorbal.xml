@@ -32,7 +32,7 @@
 		</statBases>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<equippedStatOffsets>
-			<MeleeCritChance>0.44</MeleeCritChance>
+			<MeleeCritChance>0.05</MeleeCritChance>
 			<MeleeParryChance>0.35</MeleeParryChance>
 			<MeleeDodgeChance>0.22</MeleeDodgeChance>
 		</equippedStatOffsets>
@@ -44,7 +44,7 @@
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
-				<chanceFactor>0.33</chanceFactor>
+				<chanceFactor>0.5</chanceFactor>
 				<armorPenetrationBlunt>5.65</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
@@ -53,10 +53,16 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>29</power>
-				<cooldownTime>2.1</cooldownTime>
-				<chanceFactor>1.33</chanceFactor>
-				<armorPenetrationBlunt>24.4</armorPenetrationBlunt>
+				<power>12</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>12</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>1.8</cooldownTime>
+				<!-- <chanceFactor>1.33</chanceFactor> -->
+				<armorPenetrationBlunt>28</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -64,11 +70,11 @@
 				<capacities>
 					<li>ElectricShock</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>2.05</cooldownTime>
-				<chanceFactor>0.45</chanceFactor>
-				<armorPenetrationSharp>13.6</armorPenetrationSharp>
-				<armorPenetrationBlunt>13.6</armorPenetrationBlunt>
+				<power>13</power>
+				<cooldownTime>1.9</cooldownTime>
+				<chanceFactor>1.25</chanceFactor>
+				<armorPenetrationSharp>14</armorPenetrationSharp>
+				<armorPenetrationBlunt>14</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 			</li>
 		</tools>
@@ -123,7 +129,7 @@
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.2</cooldownTime>
-				<chanceFactor>0.1</chanceFactor>
+				<chanceFactor>0.5</chanceFactor>
 				<armorPenetrationBlunt>6.0</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
@@ -132,10 +138,10 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>18</power>
-				<cooldownTime>1.3</cooldownTime>
-				<armorPenetrationSharp>7.7</armorPenetrationSharp>
-				<armorPenetrationBlunt>9.6</armorPenetrationBlunt>
+				<power>13</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetrationSharp>10</armorPenetrationSharp>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -143,11 +149,11 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>21</power>
-				<cooldownTime>1.4</cooldownTime>
-				<chanceFactor>1.33</chanceFactor>
-				<armorPenetrationSharp>8.9</armorPenetrationSharp>
-				<armorPenetrationBlunt>11.1</armorPenetrationBlunt>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>0.8</chanceFactor>
+				<armorPenetrationSharp>9</armorPenetrationSharp>
+				<armorPenetrationBlunt>13</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -155,11 +161,11 @@
 				<capacities>
 					<li>ElectricShock</li>
 				</capacities>
-				<power>10</power>
+				<power>9</power>
 				<cooldownTime>1.25</cooldownTime>
-				<chanceFactor>0.28</chanceFactor>
-				<armorPenetrationBlunt>10.2</armorPenetrationBlunt>
-				<armorPenetrationSharp>10.2</armorPenetrationSharp>
+				<chanceFactor>0.75</chanceFactor>
+				<armorPenetrationBlunt>11</armorPenetrationBlunt>
+				<armorPenetrationSharp>11</armorPenetrationSharp>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
@@ -201,7 +207,7 @@
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
 		<equippedStatOffsets>
-			<MeleeCritChance>0.4</MeleeCritChance>
+			<MeleeCritChance>0.1</MeleeCritChance>
 			<MeleeParryChance>0.3</MeleeParryChance>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 		</equippedStatOffsets>
@@ -213,7 +219,7 @@
 				</capacities>
 				<power>9</power>
 				<cooldownTime>1.6</cooldownTime>
-				<chanceFactor>0.33</chanceFactor>
+				<chanceFactor>0.5</chanceFactor>
 				<armorPenetrationBlunt>5.5</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
@@ -222,10 +228,10 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>1.5</cooldownTime>
-				<armorPenetrationSharp>9.5</armorPenetrationSharp>
-				<armorPenetrationBlunt>14.3</armorPenetrationBlunt>
+				<power>12</power>
+				<cooldownTime>1.3</cooldownTime>
+				<armorPenetrationSharp>10</armorPenetrationSharp>
+				<armorPenetrationBlunt>14</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -233,11 +239,17 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30</power>
-				<cooldownTime>2.5</cooldownTime>
-				<chanceFactor>1.33</chanceFactor>
-				<armorPenetrationSharp>14.5</armorPenetrationSharp>
-				<armorPenetrationBlunt>21.8</armorPenetrationBlunt>
+				<power>11</power>
+				<extraMeleeDamages>
+					<li>
+						<def>EMP</def>
+						<amount>11</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>2.2</cooldownTime>
+				<chanceFactor>1.25</chanceFactor>
+				<armorPenetrationSharp>14</armorPenetrationSharp>
+				<armorPenetrationBlunt>22</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -245,11 +257,11 @@
 				<capacities>
 					<li>ElectricShock</li>
 				</capacities>
-				<power>12</power>
+				<power>10</power>
 				<cooldownTime>2.0</cooldownTime>
-				<chanceFactor>0.35</chanceFactor>
-				<armorPenetrationSharp>18.4</armorPenetrationSharp>
-				<armorPenetrationBlunt>18.4</armorPenetrationBlunt>
+				<chanceFactor>1.1</chanceFactor>
+				<armorPenetrationSharp>20</armorPenetrationSharp>
+				<armorPenetrationBlunt>20</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
@@ -352,7 +364,7 @@
 		</statBases>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<equippedStatOffsets>
-			<MeleeCritChance>0.65</MeleeCritChance>
+			<MeleeCritChance>0.12</MeleeCritChance>
 			<MeleeParryChance>0.75</MeleeParryChance>
 			<MeleeDodgeChance>0.45</MeleeDodgeChance>
 			<Suppressability>-0.8</Suppressability>
@@ -368,7 +380,7 @@
 				</capacities>
 				<power>12</power>
 				<cooldownTime>1.5</cooldownTime>
-				<chanceFactor>0.1</chanceFactor>
+				<chanceFactor>0.5</chanceFactor>
 				<armorPenetrationBlunt>9.5</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
@@ -377,16 +389,16 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>25</power>
+				<power>16</power>
 				<extraMeleeDamages>
 					<li>
 						<def>EMP</def>
 						<amount>8</amount>
 					</li>
 				</extraMeleeDamages>
-				<cooldownTime>2.1</cooldownTime>
-				<armorPenetrationSharp>10</armorPenetrationSharp>
-				<armorPenetrationBlunt>15</armorPenetrationBlunt>
+				<cooldownTime>1.8</cooldownTime>
+				<armorPenetrationSharp>15</armorPenetrationSharp>
+				<armorPenetrationBlunt>11</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -394,17 +406,17 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>30</power>
+				<power>15</power>
 				<extraMeleeDamages>
 					<li>
 						<def>EMP</def>
-						<amount>10</amount>
+						<amount>17</amount>
 					</li>
 				</extraMeleeDamages>
-				<cooldownTime>2.2</cooldownTime>
-				<chanceFactor>1.33</chanceFactor>
-				<armorPenetrationSharp>11.5</armorPenetrationSharp>
-				<armorPenetrationBlunt>18</armorPenetrationBlunt>
+				<cooldownTime>2.0</cooldownTime>
+				<chanceFactor>0.7</chanceFactor>
+				<armorPenetrationSharp>13</armorPenetrationSharp>
+				<armorPenetrationBlunt>19</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>
 		</tools>
@@ -454,7 +466,7 @@
 			<MeleeCounterParryBonus>0.55</MeleeCounterParryBonus>
 		</statBases>
 		<equippedStatOffsets>
-			<MeleeCritChance>0.55</MeleeCritChance>
+			<MeleeCritChance>0.05</MeleeCritChance>
 			<MeleeParryChance>0.44</MeleeParryChance>
 			<MeleeDodgeChance>0.33</MeleeDodgeChance>
 			<Suppressability>-0.22</Suppressability>
@@ -465,10 +477,10 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
+				<power>7</power>
 				<cooldownTime>0.3</cooldownTime>
 				<chanceFactor>1.33</chanceFactor>
-				<armorPenetrationBlunt>16.4</armorPenetrationBlunt>
+				<armorPenetrationBlunt>16</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -476,17 +488,17 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
+				<power>9</power>
 				<extraMeleeDamages>
 					<li>
 						<def>EMP</def>
-						<amount>10</amount>
+						<amount>9</amount>
 					</li>
 				</extraMeleeDamages>
 				<cooldownTime>0.7</cooldownTime>
 				<chanceFactor>0.67</chanceFactor>
-				<armorPenetrationSharp>14.6</armorPenetrationSharp>
-				<armorPenetrationBlunt>14.6</armorPenetrationBlunt>
+				<armorPenetrationSharp>14</armorPenetrationSharp>
+				<armorPenetrationBlunt>14</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 			</li>
 		</tools>

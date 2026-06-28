@@ -1,3 +1,30 @@
+– Changelog "HSK more content" v0.54 (1.5 version):
+
+
+- 1) The parameters (including weapons and implants) of the Iguf and High-Tech Norbal factions have been adjusted to try and address their insatiable love of severing heads from bodies. High-Tech Norbal weapons (except the gladius) now also deal EMP damage (at the expense of their primary damage).
+
+- 2) Added one new reward for the Winstone Wave HSK mod – Teljor colonist with a hand cannon.
+
+- 3) Added new gene "Reversed biological entropy", which allows for gradual restoration of hemogen in passive mode, but reduces its restoration from external sources.
+
+- 4) Teljor xenotype: added "Reversed biological entropy", all genes for melee and ranged combat aptitude were removed, removed gene for restoring hemogen through a bite.
+
+- 5) Hi-Tech Norbal xenotype: all genes for melee and ranged combat aptitude and excessive aggressiveness were removed, Psychic Deaf gene was replaced with Psychic Dull gene.
+
+- 6) The "Innate Bloodthirstiness" gene now costs 0 metabolism efficiency instead of +1.
+
+- 7) Honey tags have been updated – it can now appear at merchants and in quests as a reward.
+
+- 8) Removed an unnecessary publisherfield file that could sometimes cause the game to crash when using third-party modifications to sort the mod list (this requires a clean installation).
+
+- 9) Trait "Pacifism": generation frequency has been reduced (weight has been reduced by 5 times, it is difficult to calculate exactly how much the frequency has been reduced), color has been changed to a more appropriate one.
+
+- 10) Beavers (non alpha ones) will no longer eat special trees.
+
+- 11) Some minor edits and text updates.
+
+
+
 – Changelog "HSK more content" v0.53 (1.5 version):
 
 

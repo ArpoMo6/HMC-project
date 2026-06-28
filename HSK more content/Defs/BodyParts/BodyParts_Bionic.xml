@@ -217,7 +217,7 @@
 		</descriptionHyperlinks>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 		<comps>
@@ -228,9 +228,9 @@
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
-						<power>27</power>
+						<power>11</power>
 						<cooldownTime>1</cooldownTime>
-						<armorPenetrationBlunt>45</armorPenetrationBlunt>
+						<armorPenetrationBlunt>33</armorPenetrationBlunt>
 						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
 						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
 					</li>

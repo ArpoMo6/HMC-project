@@ -121,7 +121,7 @@
         <def>Bloodlust</def>
       </li>
     </forcedTraits>
-    <biostatMet>1</biostatMet>
+    <biostatMet>0</biostatMet>
 	<minAgeActive>13</minAgeActive>
     <symbolPack>
       <prefixSymbols>
